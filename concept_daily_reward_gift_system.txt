@@ -1,0 +1,144 @@
+KONSEP SISTEM DAILY LOGIN, GIFTING, INVENTORY & LIVING COMPANION
+================================================================
+VERSION: V8 (Technical Reality Check - Feasible MVP)
+
+TUJUAN UTAMA:
+Mengubah Character AI menjadi "Living Companion" dengan ekonomi in-game (Inventory) dan sistem retensi (Daily Login) yang realistis dijalankan di server Python & Android saat ini.
+
+1. SISTEM INVENTORY (TAS PENYIMPANAN)
+-------------------------------------
+User kini memiliki MENU INVENTORY untuk melihat semua aset yang dimiliki.
+Item tidak langsung terpakai saat didapat, tapi masuk k sini dulu.
+
+A. Kategori Tab Inventory:
+   1. **Consumables** (Makanan/Hadiah sekali pakai: Candy, Rose)
+   2. **Special/Tools** (Item Fungsi Permanen: Ring, Freeze Streak)
+   3. **Tickets/Passes** (Outfit Ticket, Pro Plan 3 Hari)
+
+B. Daftar Item & Efek (Revised):
+   [DIHAPUS: Memory Lock - High Token Cost]
+   [DISEDERHANAKAN: Alarm & Smartphone -> Local Notification Logic]
+
+   - `candy`      : Affection +2 (Common) - Max 3/day use
+   - `coffee`     : Affection +3 (Common)
+   - `rose`       : Affection +10 (Rare)
+   - `chocolate`  : Affection +15 (Rare)
+   - `ring`       : Status Partner (Legendary) - Syarat Affection Lvl 50
+   - `streak_ice` : Mencegah reset streak jika absen 1 hari (Auto-use)
+   - `outfit_tkt` : Tiket ganti baju (Future Update)
+   - `pro_pass_3d`: Akses Pro 3 Hari (Convert to 300 Gold if already Pro)
+
+   **Note Teknis:**
+   Fitur "Initiative Chat" & "Morning Call" diubah menjadi **Local Push Notification** standar (misal: "Selamat pagi!" atau "Kangen nih!") yang dipicu oleh Android AlarmManager, bukan Server Cron Job, untuk menghemat resource server.
+
+2. GAMBARAN UMUM EKONOMI (GEM VS PRO PLAN)
+------------------------------------------
+A. PRO PLAN (Subscription) -> "FUNCTIONAL"
+   - Fokus: Utilitas Generator.
+   - Benefit: Unlimited Generation, Fast Queue, No Ads.
+
+B. GEM (Premium Currency) -> "EMOTIONAL & TIME"
+   - Fokus: Hubungan dengan Karakter & Percepatan.
+   - **Time Saver**: Bayar Gem untuk `Repair Streak`.
+   - **Exclusive Gifts**: Hadiah super mahal (Cincin).
+   - **Cosmetics**: Skin/Baju.
+
+3. DYNAMIC DAILY LOGIN CONFIGURATION
+------------------------------------
+Sistem login harian menggunakan logic rotasi otomatis Mingguan.
+
+A. Logic Reset & Protection:
+   - Cycle: 7 Hari.
+   - **Streak Freeze System**: Item `streak_ice` auto-consumed saat telat login.
+
+B. Rotasi Reward Otomatis (Client-Side Logic):
+   - **Week A (Ganjil):** Resource Focus (Gold/Candy).
+   - **Week B (Genap):** Item Focus (Fragments/Tickets).
+   
+   *Note: Idealnya config ini di-fetch dari endpoint `/api/config/daily-rewards` agar bisa diubah tanpa update app. Untuk MVP, hardcode di client acceptable.*
+
+4. MEKANISME PENGGUNAAN ITEM (GIFTING & FATIGUE)
+------------------------------------------------
+A. Satiety System (Kekenyangan):
+   - Gift 1-3: 100% Poin.
+   - Gift 4+: 10% Poin.
+   - Reset: 00:00 local time (Client Check + Server Validation).
+
+B. Respons Kontekstual:
+   - Karakter merespon sesuai jenis item.
+   - Respon penolakan halus jika sudah kenyang.
+
+5. HALL OF FAME (SOCIAL RANKING)
+--------------------------------
+- Leaderboard Global Top 100 Couples.
+- Privacy: "Hide Username" checkbox.
+
+6. TECHNICAL BLUEPRINT (KOTLIN IMPLEMENTATION)
+----------------------------------------------
+Updated for Feasibility:
+
+```kotlin
+// 1. Definisi Tipe Item
+enum class ItemType { CONSUMABLE, PERMANENT, TICKET }
+
+data class InventoryItem(
+    val id: String,
+    val name: String,
+    val description: String,
+    val type: ItemType,
+    val iconRes: Int,
+    val affectionPoints: Int = 0,
+    val gemPrice: Int? = null,
+    val maxDailyUse: Int = 99
+)
+
+// 2. Database Item Global
+object ItemDatabase {
+    val items = mapOf(
+        "candy" to InventoryItem("candy", "Sweet Candy", "Manis dan murah.", ItemType.CONSUMABLE, R.drawable.ic_candy, 2, null, 3),
+        "rose" to InventoryItem("rose", "Red Rose", "Romantis.", ItemType.CONSUMABLE, R.drawable.ic_rose, 10, 50, 3),
+        "streak_ice" to InventoryItem("streak_ice", "Streak Freeze", "Aman jika lupa login.", ItemType.SPECIAL, R.drawable.ic_ice, 0, 100),
+        "pro_pass_3d" to InventoryItem("pro_pass_3d", "Pro 3 Days", "Akses Pro gratis.", ItemType.TICKET, R.drawable.ic_ticket)
+    )
+    // Note: Alarm & Smartphone removed from MVP items.
+}
+
+// 3. Konfigurasi Daily Login (Cycle A/B)
+data class DailyRewardConfig(val dayIndex: Int, val itemId: String, val quantity: Int, val isSpecial: Boolean = false)
+
+object RewardSchedule {
+    val CYCLE_A = listOf(
+        DailyRewardConfig(1, "candy", 2),
+        DailyRewardConfig(2, "gold", 100),
+        DailyRewardConfig(3, "coffee", 1),
+        DailyRewardConfig(4, "gold", 200),
+        DailyRewardConfig(5, "rose", 1),
+        DailyRewardConfig(6, "gold", 500),
+        DailyRewardConfig(7, "pro_pass_3d", 1, true)
+    )
+    
+    val CYCLE_B = listOf(
+        DailyRewardConfig(1, "coffee", 2),
+        DailyRewardConfig(2, "gold", 100),
+        DailyRewardConfig(3, "chocolate", 1),
+        DailyRewardConfig(4, "gold", 200),
+        DailyRewardConfig(5, "outfit_tkt", 1),
+        DailyRewardConfig(6, "gold", 500),
+        DailyRewardConfig(7, "streak_ice", 1, true) // Changed Alarm to Streak Ice
+    )
+
+    fun getCurrentRewards(): List<DailyRewardConfig> {
+        val weekOfYear = java.util.Calendar.getInstance().get(java.util.Calendar.WEEK_OF_YEAR)
+        return if (weekOfYear % 2 == 0) CYCLE_B else CYCLE_A
+    }
+}
+```
+
+7. DATABASE SCHEMA (FIRESTORE)
+------------------------------
+`users/{uid}/inventory/{itemId}`: { amount: 5 }
+`users/{uid}/daily_login/status`: { 
+    lastClaim: Timestamp, 
+    streak: 5,
+    streakFreezeUsed: Boolean 
+}

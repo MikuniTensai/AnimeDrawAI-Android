@@ -1,0 +1,20 @@
+{
+  "name": "drawai-firebase-seed",
+  "version": "1.0.0",
+  "description": "Firebase data seeding for DrawAI",
+  "main": "seed_visions.js",
+  "scripts": {
+    "seed": "node seed_visions.js"
+  },
+  "dependencies": {
+    "firebase": "^10.7.1",
+    "firebase-admin": "^12.7.0"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "seed"
+  ],
+  "author": "",
+  "license": "ISC"
+}

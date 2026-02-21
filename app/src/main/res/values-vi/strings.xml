@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draw AI</string>
+    
+    <!-- Content Moderation Messages -->
+    <string name="content_moderation_error">Lời nhắc bạn nhập có chứa các từ không phù hợp. Vui lòng sử dụng các từ khác.</string>
+    <string name="content_moderation_error_indonesian">Lời nhắc bạn nhập có chứa các từ không phù hợp. Vui lòng sử dụng các từ khác.</string>
+    <string name="content_moderation_title">Cảnh báo Nội dung</string>
+    <string name="content_moderation_title_indonesian">Cảnh báo Nội dung</string>
+    <string name="content_moderation_description">Lời nhắc của bạn chứa các từ không được phép. Vui lòng sửa đổi lời nhắc và thử lại.</string>
+    <string name="content_moderation_description_indonesian">Lời nhắc của bạn chứa các từ không được phép. Vui lòng sửa đổi lời nhắc và thử lại.</string>
+    <string name="content_moderation_positive_words">Lời nhắc tích cực chứa: %1$s</string>
+    <string name="content_moderation_positive_words_indonesian">Lời nhắc tích cực chứa: %1$s</string>
+    <string name="content_moderation_negative_words">Lời nhắc tiêu cực chứa: %1$s</string>
+    <string name="content_moderation_negative_words_indonesian">Lời nhắc tiêu cực chứa: %1$s</string>
+    <string name="content_moderation_okay">Được, tôi đã hiểu</string>
+    <string name="content_moderation_okay_indonesian">Được, tôi đã hiểu</string>
+    
+    <!-- Rating System Messages -->
+    <string name="rating_too_low_error">Xếp hạng cho lời nhắc của bạn là %1$d%%, thấp hơn ngưỡng tối thiểu 50%%. Vui lòng cải thiện lời nhắc để có kết quả tốt hơn.</string>
+    <string name="rating_too_low_error_indonesian">Xếp hạng cho lời nhắc của bạn là %1$d%%, thấp hơn ngưỡng tối thiểu 50%%. Vui lòng cải thiện lời nhắc để có kết quả tốt hơn.</string>
+
+    <!-- Server Maintenance -->
+    <string name="server_maintenance">Bảo trì Máy chủ</string>
+    <string name="server_maintenance_description">Máy chủ hiện đang được bảo trì. Vui lòng đợi trong giây lát và thử lại.</string>
+    <string name="go_to_gallery">Đi tới Bộ sưu tập</string>
+    
+    <!-- Sidebar Menu Items -->
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_vision">Tầm nhìn</string>
+    <string name="menu_explore">Khám phá</string>
+    <string name="menu_chat">Trò chuyện</string>
+    <string name="menu_gallery">Bộ sưu tập</string>
+    <string name="menu_favorites">Yêu thích</string>
+    <string name="menu_subscription">Đăng ký</string>
+    <string name="menu_leaderboard">Bảng xếp hạng</string>
+    <string name="menu_settings">Cài đặt</string>
+    <string name="menu_events_updates">Sự kiện &amp; Cập nhật</string>
+    
+    <!-- Discovered Workflows -->
+    <string name="workflows_most_viewed">🔥 Xem nhiều nhất</string>
+    <string name="workflows_newest">✨ Mới nhất</string>
+    <string name="workflows_most_popular">⭐ Phổ biến nhất</string>
+    <string name="workflows_see_all">Xem tất cả →</string>
+    
+    <!-- Language Selector -->
+    <string name="language_selector_title">Chọn Ngôn ngữ</string>
+    <string name="current_language">Tiếng Việt</string>
+    
+    <!-- HomeScreen -->
+    <string name="discover_workflows_title">Khám phá Quy trình</string>
+    <string name="discover_workflows_subtitle">Chọn một quy trình để bắt đầu sáng tạo</string>
+    <string name="search_workflows">Tìm kiếm quy trình</string>
+    <string name="search_placeholder">Nhập để tìm kiếm…</string>
+    
+    <!-- Workflow Sections -->
+    <string name="latest_additions">Mới thêm vào</string>
+    <string name="community_favorites">Cộng đồng yêu thích</string>
+    
+    <!-- Filter Chips -->
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_favorites">Yêu thích</string>
+    <string name="filter_anime">Anime</string>
+    <string name="filter_general">Chung</string>
+    <string name="filter_animal">Động vật</string>
+    <string name="filter_flower">Hoa</string>
+    <string name="filter_food">Đồ ăn</string>
+    <string name="filter_background">Hình nền</string>
+    
+    <!-- Time Units -->
+    <string name="time_seconds">giây</string>
+    
+    <!-- Category Names -->
+    <string name="category_anime">Anime</string>
+    <string name="category_general">Chung</string>
+    <string name="category_animal">Động vật</string>
+    <string name="category_flower">Hoa</string>
+    <string name="category_food">Đồ ăn</string>
+    <string name="category_background">Hình nền</string>
+    
+    <!-- CategoryDetailScreen -->
+    <string name="category_most_viewed_subtitle">Quy trình hàng đầu theo lượt xem</string>
+    <string name="category_newest_subtitle">Mới thêm vào bộ sưu tập</string>
+    <string name="category_most_popular_subtitle">Cộng đồng yêu thích</string>
+    <string name="category_browse_all">Duyệt tất cả quy trình</string>
+    <string name="search_in_category">Tìm kiếm trong danh mục này…</string>
+    <string name="workflows_count">%1$d quy trình</string>
+    
+    <!-- VisionScreen -->
+    <string name="vision_prompts_title">Gợi ý Tầm nhìn</string>
+    <string name="vision_prompts_subtitle">Lời nhắc để tạo hình ảnh AI</string>
+    <string name="vision_shuffle">Ngẫu nhiên</string>
+    <string name="vision_failed_to_load">Tải thất bại</string>
+    <string name="vision_tap_to_retry">Chạm để thử lại</string>
+    <string name="vision_retry">Thử lại</string>
+    <string name="vision_no_visions">Không có tầm nhìn nào</string>
+    <string name="vision_next_page">Trang tiếp theo</string>
+    <string name="vision_copy">Sao chép</string>
+    <string name="vision_avoid">Tránh</string>
+    <string name="vision_use">Sử dụng</string>
+    <string name="vision_copied">Đã sao chép!</string>
+    
+    <!-- GenerateScreen -->
+    <string name="generate_category">Danh mục</string>
+    <string name="generate_describe_vision">Mô tả tầm nhìn của bạn</string>
+    <string name="generate_describe_subtitle">Hãy cho chúng tôi biết bạn muốn tạo gì</string>
+    <string name="generate_prompt_placeholder">vd: cô gái anime xinh đẹp tóc bạc dài, mắt chi tiết, nền hoa anh đào, chất lượng tuyệt tác</string>
+    <string name="generate_quick_suggestions">Gợi ý nhanh</string>
+    <string name="generate_suggest_more">Gợi ý thêm →</string>
+    <string name="generate_things_to_avoid">Những điều cần tránh</string>
+    <string name="generate_avoid_subtitle">Tùy chọn - Những gì bạn không muốn thấy</string>
+    <string name="generate_avoid_placeholder">vd: mờ, chất lượng thấp, giải phẫu xấu, mặt xấu, tay méo mó</string>
+    <string name="generate_common_negatives">Tiêu cực phổ biến</string>
+    <string name="generate_image">Tạo Hình Ảnh</string>
+    
+    <!-- ExploreScreen -->
+    <string name="explore_title">Khám phá</string>
+    <string name="explore_subtitle">Tác phẩm Cộng đồng</string>
+    <string name="explore_popular">🔥 Phổ biến</string>
+    <string name="explore_recent">⏰ Gần đây</string>
+    <string name="explore_trending">📈 Thịnh hành</string>
+    <string name="explore_mine">👤 Của tôi</string>
+    <string name="explore_refresh">Làm mới</string>
+    <string name="explore_no_posts">Chưa có bài đăng nào</string>
+    <string name="explore_be_first">Hãy là người đầu tiên chia sẻ!</string>
+    <string name="explore_error_oops">Rất tiếc!</string>
+    <string name="explore_retry">Thử lại</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet">Không có kết nối internet</string>
+    <string name="error_prompt_empty">Lời nhắc không được để trống</string>
+    <string name="error_user_not_authenticated">Người dùng chưa xác thực. Vui lòng đăng nhập trước.</string>
+    <string name="error_server_busy">Máy chủ đang bận. Vui lòng thử lại sau.</string>
+    <string name="error_process_timeout">Quá trình mất quá nhiều thời gian. Hãy thử lời nhắc đơn giản hơn.</string>
+    <string name="error_connection_issue">Vấn đề kết nối. Kiểm tra internet của bạn.</string>
+    <string name="error_processing_failed">Xử lý hình ảnh thất bại. Thử lại.</string>
+    <string name="error_title">Lỗi</string>
+    <string name="error_generic_message">Đã xảy ra lỗi khi xử lý hình ảnh. Thử lại.</string>
+    <string name="error_retry">Thử lại</string>
+    <string name="error_back">Quay lại</string>
+    
+    <!-- ChatScreen -->
+    <string name="chat_title">Trò chuyện Nhân vật</string>
+    <string name="chat_select_character">💬 Chọn nhân vật của bạn ▼</string>
+    <string name="chat_menu">Menu</string>
+    <string name="chat_new_chat">Cuộc trò chuyện mới</string>
+    <string name="chat_clear_history">Xóa lịch sử</string>
+    <string name="chat_type_message">Nhập tin nhắn...</string>
+    <string name="chat_send">Gửi</string>
+    <string name="chat_close">Đóng</string>
+    <string name="chat_start_conversation">Bắt đầu trò chuyện</string>
+    <string name="chat_ask_anything">Hỏi tôi bất cứ điều gì! Tôi ở đây để giúp đỡ.</string>
+    <string name="chat_try_asking">Thử hỏi:</string>
+    <string name="chat_suggestion_1">Bạn có thể giúp gì cho tôi?</string>
+    <string name="chat_suggestion_2">Kể cho tôi một sự thật thú vị</string>
+    <string name="chat_suggestion_3">AI hoạt động như thế nào?</string>
+    
+    <!-- CharacterListScreen -->
+    <string name="character_list_title">Tin nhắn</string>
+    <string name="character_list_search">Tìm kiếm</string>
+    <string name="character_list_new_character">Nhân vật Mới</string>
+    <string name="character_list_retry">Thử lại kết nối</string>
+    <string name="character_list_unknown_error">Lỗi không xác định</string>
+    <string name="character_list_delete_title">Xóa Nhân vật?</string>
+    <string name="character_list_delete_message">Bạn có chắc chắn muốn xóa nhân vật này không? Nếu có, nhân vật sẽ bị xóa, nhưng giới hạn nhân vật của bạn sẽ KHÔNG giảm.</string>
+    <string name="character_list_delete">Xóa</string>
+    <string name="character_list_cancel">Hủy</string>
+    <string name="character_list_empty_title">Chưa có cuộc trò chuyện nào</string>
+    <string name="character_list_empty_subtitle">Bắt đầu trò chuyện với nhân vật AI của bạn!</string>
+    <string name="character_list_create_new">Tạo Nhân vật Mới</string>
+    
+    <!-- CharacterChatScreen -->
+    <string name="character_chat_go_back">Quay lại</string>
+    <string name="character_chat_character_not_found">Không tìm thấy nhân vật</string>
+    <string name="character_chat_start_chatting">Bắt đầu trò chuyện với %1$s!</string>
+    <string name="character_chat_deadly_sins">Họ có %1$d tội lỗi chết người</string>
+    <string name="character_chat_message_not_sent">Tin nhắn không gửi được</string>
+    <string name="character_chat_inappropriate">Tin nhắn của bạn chứa ngôn ngữ không phù hợp. Vui lòng tôn trọng các nhân vật AI.</string>
+    <string name="character_chat_ok">OK</string>
+    <string name="character_chat_type_message_placeholder">Nhập tin nhắn...</string>
+    <string name="character_chat_connection_error">Lỗi kết nối</string>
+    <string name="character_chat_sins">tội lỗi</string>
+    <string name="character_chat_back">Quay lại</string>
+    <string name="character_chat_close">Đóng</string>
+
+    <!-- Gallery Screen -->
+    <string name="gallery_title">Bộ sưu tập</string>
+    <string name="gallery_subtitle_count">%1$d hình ảnh</string>
+    <string name="gallery_filter_all">Tất cả</string>
+    <string name="gallery_filter_favorites">Yêu thích</string>
+    <string name="gallery_empty_title">Chưa có hình ảnh nào</string>
+    <string name="gallery_empty_subtitle">Bắt đầu tạo để thấy các sáng tạo của bạn ở đây</string>
+    <string name="gallery_generate_now">Tạo Ngay</string>
+    <string name="gallery_msg_select_character">Chọn một hình ảnh để tạo nhân vật của bạn</string>
+    <string name="gallery_msg_limit_reached">Đã đạt giới hạn nhân vật!</string>
+    <string name="gallery_content_desc_select_char">Chọn Nhân vật</string>
+    <string name="gallery_content_desc_create_char">Tạo Nhân vật</string>
+    <string name="gallery_report_title">Báo cáo Hình ảnh</string>
+    <string name="gallery_report_desc">Vui lòng mô tả lý do bạn báo cáo hình ảnh này:</string>
+    <string name="gallery_report_reason_label">Lý do báo cáo</string>
+    <string name="gallery_report_reason_placeholder">Mô tả vấn đề...</string>
+    <string name="gallery_report_button">Báo cáo</string>
+    <string name="gallery_cancel">Hủy</string>
+    <string name="gallery_delete_title">Xóa Hình ảnh?</string>
+    <string name="gallery_delete_message">Hành động này không thể hoàn tác. Hình ảnh sẽ bị xóa vĩnh viễn.</string>
+    <string name="gallery_delete_button">Xóa</string>
+    <string name="gallery_share_premium_only">🔒 Chia sẻ với cộng đồng dành cho người đăng ký Basic và Pro</string>
+    <string name="gallery_share_duplicate">⚠️ Hình ảnh/lời nhắc này đã được chia sẻ với cộng đồng.</string>
+    <string name="gallery_share_success">✅ Đã chia sẻ thành công với Cộng đồng!</string>
+    <string name="gallery_share_failed">Chia sẻ thất bại: %1$s</string>
+    <string name="gallery_share_file_not_found">Không tìm thấy tệp hình ảnh</string>
+    <string name="gallery_share_error">Lỗi: %1$s</string>
+    <string name="gallery_create_char_title">Tạo Nhân vật?</string>
+    <string name="gallery_create_char_message">Điều này sẽ biến hình ảnh này thành người bạn đồng hành AI độc đáo của bạn.</string>
+    <string name="gallery_create_char_warning">⚠️ Bạn chỉ có thể chọn MỘT nhân vật. Điều này không thể thay đổi sau này.</string>
+    <string name="gallery_char_name_label">Tên Nhân vật (Tùy chọn)</string>
+    <string name="gallery_char_name_placeholder">Để trống để lấy tên ngẫu nhiên</string>
+    <string name="gallery_select_language_title">Chọn Ngôn ngữ:</string>
+    <string name="gallery_select_gender_title">Chọn Giới tính:</string>
+    <string name="gallery_gender_male">Nam ♂️</string>
+    <string name="gallery_gender_female">Nữ ♀️</string>
+    <string name="gallery_analyzing_personality">Đang phân tích tính cách...</string>
+    <string name="gallery_summoning_soul">Đang triệu hồi linh hồn...</string>
+    <string name="gallery_character_created">Nhân vật đã được tạo!</string>
+    <string name="gallery_create_and_chat">Tạo và Trò chuyện</string>
+    <string name="gallery_guidelines_title">Nguyên tắc Cộng đồng</string>
+    <string name="gallery_guidelines_intro">Trước khi chia sẻ hình ảnh với cộng đồng, xin lưu ý:</string>
+    <string name="gallery_guideline_nsfw">🚫 Không nội dung khiêu dâm/NSFW</string>
+    <string name="gallery_guideline_violence">🚫 Không bạo lực hoặc máu me</string>
+    <string name="gallery_guideline_illegal">🚫 Không nội dung bất hợp pháp</string>
+    <string name="gallery_guideline_hate">🚫 Không ngôn từ kích động thù địch hoặc phân biệt đối xử</string>
+    <string name="gallery_guidelines_warning_title">⚠️ CẢNH BÁO:</string>
+    <string name="gallery_guidelines_warning_text">Vi phạm sẽ dẫn đến việc KHÓA TÀI KHOẢN VĨNH VIỄN và XÓA TẤT CẢ NỘI DUNG mà không cần báo trước!</string>
+    <string name="gallery_guidelines_agree">Tôi Hiểu và Đồng ý</string>
+    <string name="gallery_share_already_shared">⚠️ Lời nhắc này đã được chia sẻ!</string>
+    <string name="gallery_share_success_full">✅ Đã chia sẻ thành công với Cộng đồng!</string>
+    <string name="gallery_chat_button">💬 Trò chuyện</string>
+    <string name="gallery_your_character_badge">🌟 Nhân vật của bạn</string>
+    
+    <!-- Tabs -->
+    <string name="character_chat_tab_relationship">Mối quan hệ</string>
+    <string name="character_chat_tab_status">Trạng thái</string>
+    <string name="character_chat_tab_profile">Hồ sơ</string>
+    <string name="character_chat_tab_stats">Thống kê</string>
+    
+    <!-- Relationship Tab -->
+    <string name="character_chat_affection_points">Điểm Tình cảm</string>
+    <string name="character_chat_max">TỐI ĐA ❤️</string>
+    <string name="character_chat_ap_to">%1$d ĐTC với %2$s</string>
+    <string name="character_chat_soulmate_forever">Tri kỷ mãi mãi 💍</string>
+    <string name="character_chat_confess_feelings">💌 Thổ lộ Tình cảm</string>
+    <string name="character_chat_propose_marriage">💍 Cầu hôn</string>
+    
+    <!-- Status Tab -->
+    <string name="character_chat_current_mood">Tâm trạng Hiện tại</string>
+    <string name="character_chat_energy_level">Mức Năng lượng</string>
+    <string name="character_chat_energy_high">Cao</string>
+    <string name="character_chat_energy_normal">Bình thường</string>
+    <string name="character_chat_energy_tired">Mệt mỏi</string>
+    
+    <!-- Profile Tab -->
+    <string name="character_chat_archetype">Nguyên mẫu</string>
+    <string name="character_chat_traits">Đặc điểm</string>
+    <string name="character_chat_interests">Sở thích</string>
+    <string name="character_chat_deadly_sins_title">Bảy Tội lỗi Chết người</string>
+    <string name="character_chat_sins_hidden">%1$d Tội lỗi (Ẩn)</string>
+    
+    <!-- Stats Tab -->
+    <string name="character_chat_interaction_stats">Thống kê Tương tác</string>
+    <string name="character_chat_total_messages">Tổng tin nhắn</string>
+    <string name="character_chat_last_chat">Trò chuyện cuối</string>
+    <string name="character_chat_chat_frequency">Tần suất trò chuyện</string>
+    <string name="character_chat_ghosting_record">Kỷ lục Ghosting</string>
+    <string name="character_chat_ghosted_times">Bạn đã ghost nhân vật này %1$d lần.</string>
+    
+    <!-- Favorites Screen -->
+    <string name="favorites_title">Yêu thích</string>
+    <string name="favorites_saved_count">%1$d đã lưu</string>
+    <string name="favorites_empty_title">Chưa có mục yêu thích nào</string>
+    <string name="favorites_empty_message">Đánh dấu quy trình là yêu thích để xem chúng ở đây</string>
+    <string name="favorites_remove_content_desc">Xóa khỏi yêu thích</string>
+    <string name="favorites_pro_badge">⭐ PRO</string>
+
+    <!-- Leaderboard Screen -->
+    <string name="leaderboard_title">Bảng xếp hạng</string>
+    <string name="leaderboard_tab_architect">Kiến trúc sư</string>
+    <string name="leaderboard_tab_romancer">Lãng mạn</string>
+    <string name="leaderboard_tab_mvp">MVP</string>
+    <string name="leaderboard_tab_fame">Đại sảnh Danh vọng</string>
+    <string name="leaderboard_tab_rising">Ngôi sao đang lên</string>
+    <string name="leaderboard_filter_all_time">Mọi lúc</string>
+    <string name="leaderboard_filter_weekly">Hàng tuần</string>
+    <string name="leaderboard_filter_monthly">Hàng tháng</string>
+    <string name="leaderboard_architect_title">Đại Kiến trúc sư</string>
+    <string name="leaderboard_architect_desc">Những người có tầm nhìn tạo ra nhiều kiệt tác nhất.</string>
+    <string name="leaderboard_metric_generations">Lượt tạo</string>
+    <string name="leaderboard_romancer_title">Người lãng mạn hàng đầu</string>
+    <string name="leaderboard_romancer_desc">Người dùng có mối liên kết sâu sắc nhất. Điểm tình cảm kiếm được qua tương tác chân thành.</string>
+    <string name="leaderboard_metric_affection">Điểm tình cảm</string>
+    <string name="leaderboard_mvp_title">MVP Cộng đồng</string>
+    <string name="leaderboard_mvp_desc">Những người trụ cột của cộng đồng chia sẻ nhiều gợi ý/tác phẩm nhất.</string>
+    <string name="leaderboard_metric_shares">Chia sẻ</string>
+    <string name="leaderboard_fame_title">Đại sảnh Danh vọng</string>
+    <string name="leaderboard_fame_desc">Tác phẩm nghệ thuật huyền thoại được sắp xếp theo danh mục.</string>
+    <string name="leaderboard_filter_most_liked">Được thích nhiều nhất</string>
+    <string name="leaderboard_filter_most_downloaded">Được tải xuống nhiều nhất</string>
+    <string name="leaderboard_metric_likes">Lượt thích</string>
+    <string name="leaderboard_metric_downloads">Lượt tải</string>
+    <string name="leaderboard_rising_title">Ngôi sao đang lên</string>
+    <string name="leaderboard_rising_desc">Những người sáng tạo mới nổi đang lấy đà gần đây.</string>
+    <string name="leaderboard_metric_recent_likes">Lượt thích gần đây</string>
+    <string name="leaderboard_no_rankings">Chưa có xếp hạng nào</string>
+    <string name="leaderboard_error_prefix">Lỗi: %1$s</string>
+
+    <!-- News Screen (Events & Updates) -->
+    <string name="news_title">Sự kiện &amp; Cập nhật</string>
+    <string name="news_badge_event">SỰ KIỆN</string>
+    <string name="news_badge_update">CẬP NHẬT</string>
+    <string name="news_action_view_details">Xem Chi tiết</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_subtitle">Tùy chỉnh trải nghiệm của bạn</string>
+
+    <!-- Preferences Section -->
+    <string name="settings_section_preferences">Tùy chọn</string>
+    <string name="settings_dark_mode">Chế độ tối</string>
+    <string name="settings_dark_mode_desc">Chuyển sang giao diện tối</string>
+    <string name="settings_notifications">Thông báo</string>
+    <string name="settings_notifications_desc">Nhận thông báo khi tạo xong</string>
+    <string name="settings_auto_save">Tự động lưu</string>
+    <string name="settings_auto_save_desc">Tự động lưu vào thư viện hoặc hiển thị hộp thoại lưu</string>
+    <string name="settings_gallery_lock">Khóa bộ sưu tập</string>
+    <string name="settings_gallery_lock_desc">Bảo vệ bộ sưu tập bằng mã PIN</string>
+    <string name="settings_restricted_content">Nội dung hạn chế</string>
+    <string name="settings_restricted_content_desc">Bật nội dung người lớn (Yêu cầu xác minh độ tuổi)</string>
+    <string name="settings_more">Thêm</string>
+    <string name="settings_more_desc">Yêu cầu quyền truy cập nội dung bổ sung (Yêu cầu: Basic/Pro + Phê duyệt)</string>
+
+    <!-- Storage Section -->
+    <string name="settings_section_storage">Lưu trữ</string>
+    <string name="settings_clear_cache">Xóa bộ nhớ đệm</string>
+    <string name="settings_clear_cache_desc">Giải phóng dung lượng lưu trữ</string>
+    <string name="settings_cache_cleared">Đã xóa bộ nhớ đệm!</string>
+    <string name="settings_export_gallery">Xuất bộ sưu tập</string>
+    <string name="settings_export_gallery_locked">Xuất bộ sưu tập 🔒</string>
+    <string name="settings_export_gallery_desc">Lưu tất cả hình ảnh của bạn</string>
+    <string name="settings_export_gallery_premium">Tính năng cao cấp</string>
+    <string name="settings_upgrade_toast">Vui lòng nâng cấp lên Premium từ Hồ sơ</string>
+
+    <!-- About & Legal Section -->
+    <string name="settings_section_about">Giới thiệu &amp; Pháp lý</string>
+    <string name="settings_privacy_policy">Chính sách quyền riêng tư</string>
+    <string name="settings_privacy_policy_desc">Xem chính sách quyền riêng tư của chúng tôi</string>
+    <string name="settings_terms_service">Điều khoản dịch vụ</string>
+    <string name="settings_terms_service_desc">Đọc các điều khoản và điều kiện của chúng tôi</string>
+
+    <!-- Support Section -->
+    <string name="settings_section_support">Hỗ trợ</string>
+    <string name="settings_help_support">Trợ giúp &amp; Hỗ trợ</string>
+    <string name="settings_help_support_desc">Liên hệ với chúng tôi qua email</string>
+    <string name="settings_rate_app">Đánh giá ứng dụng</string>
+    <string name="settings_rate_app_desc">Chia sẻ phản hồi của bạn trên Play Store</string>
+    <string name="settings_app_version">Phiên bản ứng dụng</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="settings_clear_cache_title">Xóa bộ nhớ đệm?</string>
+    <string name="settings_clear_cache_message">Điều này sẽ xóa tất cả hình ảnh đã lưu trong bộ nhớ đệm và các tệp tạm thời. Hành động này không thể hoàn tác.</string>
+    <string name="settings_btn_clear">Xóa</string>
+    <string name="settings_btn_cancel">Hủy</string>
+
+    <string name="settings_export_dialog_title">Xuất tất cả sang Bộ sưu tập</string>
+    <string name="settings_export_warning_1">⚠️ Điều này sẽ di chuyển tất cả hình ảnh đã tạo sang bộ sưu tập chính.</string>
+    <string name="settings_export_warning_2">• Tất cả hình ảnh trong thư mục generated sẽ được di chuyển</string>
+    <string name="settings_export_warning_3">• Hình ảnh sẽ bị xóa khỏi vị trí hiện tại của chúng</string>
+    <string name="settings_export_warning_4">• Hành động này không thể hoàn tác</string>
+    <string name="settings_export_confirm">Tiếp tục xuất?</string>
+    <string name="settings_btn_export_all">Xuất tất cả</string>
+
+    <string name="settings_upgrade_required_title">Yêu cầu nâng cấp</string>
+    <string name="settings_upgrade_required_msg">Truy cập vào nội dung \'Thêm\' yêu cầu gói đăng ký Basic hoặc Pro.</string>
+    <string name="settings_btn_ok">OK</string>
+
+    <string name="settings_request_access_title">Yêu cầu quyền truy cập</string>
+    <string name="settings_request_access_msg">Truy cập vào nội dung \'Thêm\' yêu cầu sự chấp thuận của Quản trị viên. Bạn có muốn gửi yêu cầu không?</string>
+    <string name="settings_btn_send_request">Gửi yêu cầu</string>
+    <string name="settings_request_sent">Đã gửi yêu cầu</string>
+    <string name="settings_request_pending">Yêu cầu đang chờ phê duyệt của Quản trị viên</string>
+    <string name="settings_cannot_disable">Không thể vô hiệu hóa. Liên hệ hỗ trợ để thay đổi.</string>
+
+    <string name="settings_pin_setup_title">Thiết lập PIN bộ sưu tập</string>
+    <string name="settings_pin_setup_msg">Tạo mã PIN 4 chữ số để bảo vệ bộ sưu tập của bạn</string>
+    <string name="settings_pin_enter">Nhập PIN</string>
+    <string name="settings_pin_confirm">Xác nhận PIN</string>
+    <string name="settings_pin_error">Mã PIN không khớp hoặc không hợp lệ</string>
+    <string name="settings_btn_set_pin">Thiết lập PIN</string>
+
+    <string name="settings_export_empty">Không có hình ảnh để xuất</string>
+    <string name="settings_export_success">Đã xuất thành công %1$d hình ảnh sang bộ sưu tập</string>
+    <string name="settings_export_partial">Đã xuất %1$d hình ảnh sang bộ sưu tập (%2$d thất bại)</string>
+    <string name="settings_export_failed">Xuất thất bại: %1$s</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Hồ sơ</string>
+    <string name="profile_guest">Khách</string>
+    <string name="profile_guest_account">Tài khoản Khách</string>
+    <string name="profile_edit_name">Đổi tên</string>
+    <string name="profile_section_subscription">Đăng ký &amp; Sử dụng</string>
+    <string name="profile_daily_generations">Lượt tạo hàng ngày</string>
+    <string name="profile_used_today">Đã dùng hôm nay: %1$d</string>
+    <string name="profile_generations">Lượt tạo: </string>
+    <string name="profile_chat_limit">Giới hạn trò chuyện: </string>
+    <string name="profile_expires">Hết hạn: %1$s</string>
+    <string name="profile_plan">Gói đăng ký</string>
+    <string name="profile_plan_desc">Quản lý đăng ký của bạn</string>
+    <string name="profile_usage_stats">Thống kê sử dụng</string>
+    <string name="profile_usage_stats_desc">Xem lịch sử tạo của bạn</string>
+    <string name="profile_section_account">Hành động tài khoản</string>
+    <string name="profile_link_account">Liên kết tài khoản</string>
+    <string name="profile_link_account_desc">Liên kết với Google để lưu dữ liệu của bạn</string>
+    <string name="profile_sign_out">Đăng xuất</string>
+    <string name="profile_sign_out_desc">Đăng xuất khỏi tài khoản của bạn</string>
+    <string name="profile_delete_account">Xóa tài khoản</string>
+    <string name="profile_delete_account_desc">Xóa vĩnh viễn tài khoản và dữ liệu của bạn</string>
+    <string name="profile_dialog_edit_name">Thay đổi tên hiển thị</string>
+    <string name="profile_enter_name">Nhập tên mới của bạn:</string>
+    <string name="profile_btn_save">Lưu</string>
+    <string name="profile_dialog_delete_title">Xóa tài khoản?</string>
+    <string name="profile_delete_warning_list">Điều này sẽ xóa vĩnh viễn:</string>
+    <string name="profile_delete_item_1">• Tài khoản và hồ sơ của bạn</string>
+    <string name="profile_delete_item_2">• Tất cả hình ảnh đã tạo</string>
+    <string name="profile_delete_item_3">• Thống kê sử dụng</string>
+    <string name="profile_delete_item_4">• Mục yêu thích và bộ sưu tập</string>
+    <string name="profile_delete_item_5">• Dữ liệu đăng ký</string>
+    <string name="profile_delete_warning_final">⚠️ Hành động này không thể hoàn tác!</string>
+    <string name="profile_delete_instruction">Để tiếp tục, vui lòng gửi yêu cầu xóa:</string>
+    <string name="profile_btn_submit_request">Gửi yêu cầu</string>
+
+    <!-- Subscription Screen -->
+    <string name="subscription_title">Cửa hàng Đăng ký</string>
+    <string name="subscription_status_user">Trạng thái Người dùng</string>
+    <string name="subscription_status_pro">PRO</string>
+    <string name="subscription_status_basic">CƠ BẢN</string>
+    <string name="subscription_status_free">MIỄN PHÍ</string>
+    <string name="subscription_limit_format">Giới hạn: %1$s/%2$s</string>
+    <string name="subscription_exp_format">Hết hạn: %1$s</string>
+    <string name="subscription_chat_format">Trò chuyện: %1$s</string>
+    <string name="subscription_loading_limits">Đang tải giới hạn...</string>
+    <string name="subscription_choose_plan">Chọn gói</string>
+    <string name="subscription_chat_addons">Gói bổ sung Giới hạn Trò chuyện</string>
+
+    <string name="subscription_gacha_title">🎲 Gacha</string>
+    <string name="subscription_gacha_desc">Giới hạn 1-9</string>
+    <string name="subscription_single_limit_title">💬 +1 Giới hạn</string>
+    <string name="subscription_single_limit_desc">Tức thì</string>
+    <string name="subscription_toast_added_chat">Đã thêm +1 giới hạn trò chuyện!</string>
+
+    <string name="subscription_gacha_result_jackpot">🎉 ĐỘC ĐẮC! 🎉</string>
+    <string name="subscription_gacha_result_normal">Kết quả Gacha</string>
+    <string name="subscription_gacha_result_msg">Đã thêm giới hạn trò chuyện!</string>
+    <string name="subscription_btn_awesome">Tuyệt vời!</string>
+
+    <string name="subscription_upgrade_title">Nâng cấp lên %1$s?</string>
+    <string name="subscription_price_format">Giá: %1$s</string>
+    <string name="subscription_feature_ad_free">• Không quảng cáo</string>
+    <string name="subscription_btn_confirm">Xác nhận</string>
+    <string name="subscription_btn_buy">Mua</string>
+    <string name="subscription_current_plan">Hiện tại</string>
+
+
+    <!-- App Drawer -->
+    <string name="drawer_guest">Khách</string>
+    <string name="drawer_login_to_chat">Vui lòng đăng nhập để truy cập Trò chuyện</string>
+    <string name="drawer_current_language">Ngôn ngữ</string>
+    <string name="drawer_promo_title">Sự kiện &amp; Phần thưởng</string>
+    <string name="drawer_promo_desc">Kiểm tra các sự kiện đang diễn ra, cập nhật và nhận phần thưởng của bạn!</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Chào mừng trở lại</string>
+    <string name="login_subtitle">Tạo nghệ thuật anime tuyệt đẹp với AI</string>
+    <string name="login_email_label">Email hoặc Tên người dùng</string>
+    <string name="login_email_placeholder">Nhập email của bạn</string>
+    <string name="login_password_label">Mật khẩu</string>
+    <string name="login_password_placeholder">Nhập mật khẩu của bạn</string>
+    <string name="login_btn_signin">Đăng nhập</string>
+    <string name="login_continue_google">Tiếp tục với Google</string>
+    <string name="login_continue_guest">Tiếp tục với tư cách Khách</string>
+    <string name="login_no_account">Chưa có tài khoản? </string>
+    <string name="login_signup_link">Đăng ký</string>
+    <string name="login_or">hoặc</string>
+    <string name="login_app_name">Draw AI</string>
+    <string name="login_logo_text">AI</string>
+
+    <!-- Sign Up Screen -->
+    <string name="signup_title">Tạo Tài khoản</string>
+    <string name="signup_subtitle">Tham gia với chúng tôi để sáng tạo nghệ thuật anime tuyệt vời</string>
+    <string name="signup_fullname_label">Họ và tên</string>
+    <string name="signup_fullname_placeholder">Nhập họ và tên của bạn</string>
+    <string name="signup_email_label">Email</string>
+    <string name="signup_email_placeholder">Nhập email của bạn</string>
+    <string name="signup_password_label">Mật khẩu</string>
+    <string name="signup_password_placeholder">Tạo mật khẩu</string>
+    <string name="signup_confirm_password_label">Xác nhận mật khẩu</string>
+    <string name="signup_confirm_password_placeholder">Nhập lại mật khẩu</string>
+    <string name="signup_btn_create">Tạo tài khoản</string>
+    <string name="signup_google">Đăng ký với Google</string>
+    <string name="signup_have_account">Đã có tài khoản? </string>
+    <string name="signup_signin_link">Đăng nhập</string>
+    <string name="signup_terms">Bằng cách đăng ký, bạn đồng ý với Điều khoản dịch vụ và Chính sách quyền riêng tư của chúng tôi</string>
+    <string name="signup_error_fullname">Vui lòng nhập họ và tên của bạn</string>
+    <string name="signup_error_email">Vui lòng nhập email của bạn</string>
+    <string name="signup_error_email_invalid">Vui lòng nhập email hợp lệ</string>
+    <string name="signup_error_password">Vui lòng nhập mật khẩu</string>
+    <string name="signup_error_password_length">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="signup_error_password_match">Mật khẩu không khớp</string>
+
+    <!-- Onboarding Screen -->
+    <string name="onboarding_skip">Bỏ qua</string>
+    <string name="onboarding_next">Tiếp theo</string>
+    <string name="onboarding_get_started">Bắt đầu</string>
+    <string name="onboarding_page1_title">Chào mừng đến với AnimeDraw AI</string>
+    <string name="onboarding_page1_desc">Tạo nghệ thuật anime tuyệt đẹp với sức mạnh của AI. Chỉ cần mô tả những gì bạn muốn thấy!</string>
+    <string name="onboarding_page2_title">Trò chuyện với Nhân vật AI</string>
+    <string name="onboarding_page2_desc">Tương tác với các tính cách AI độc đáo. Họ có thể giúp bạn lên ý tưởng hoặc chỉ đơn giản là trò chuyện vui vẻ.</string>
+    <string name="onboarding_page3_title">Tham gia Cộng đồng</string>
+    <string name="onboarding_page3_desc">Chia sẻ sáng tạo của bạn, lấy cảm hứng từ những người khác và leo lên bảng xếp hạng.</string>
+
+    <!-- Post Detail Screen -->
+    <string name="post_anonymous">Ẩn danh</string>
+    <string name="post_downloaded_already">Đã tải xuống trong phiên này</string>
+    <string name="post_sharing">Đang chia sẻ...</string>
+    <string name="post_prompt">Lời nhắc</string>
+    <string name="post_negative_prompt">Lời nhắc tiêu cực</string>
+    <string name="post_workflow_model">Quy trình / Mô hình</string>
+    <string name="post_unknown">Không xác định</string>
+    <string name="post_report_title">Báo cáo Nội dung</string>
+    <string name="post_report_desc">Tại sao bạn báo cáo nội dung này?</string>
+    <string name="post_report_reason">Lý do</string>
+    <string name="post_report_success">Báo cáo đã gửi thành công</string>
+    <string name="post_report_failed">Gửi báo cáo thất bại</string>
+    <string name="post_report_provide_reason">Vui lòng cung cấp lý do</string>
+    <string name="post_report_submit">Gửi báo cáo</string>
+    <string name="post_report_cancel">Hủy</string>
+    <string name="post_saved_gallery">Hình ảnh đã lưu vào Bộ sưu tập</string>
+    <string name="post_download_failed">Tải hình ảnh thất bại</string>
+    <string name="post_share">Chia sẻ</string>
+    <string name="post_content_desc_back">Quay lại</string>
+    <string name="post_content_desc_info">Thông tin</string>
+    <string name="post_content_desc_like">Thích</string>
+    <string name="post_content_desc_download">Tải xuống</string>
+
+    <!-- Gallery Pin Screen -->
+    <string name="pin_title">Bộ sưu tập được bảo vệ</string>
+    <string name="pin_subtitle">Nhập mã PIN 4 chữ số của bạn để truy cập bộ sưu tập</string>
+    <string name="pin_label">Nhập PIN</string>
+    <string name="pin_error_too_many">Quá nhiều lần thử thất bại. Mã PIN không chính xác.</string>
+    <string name="pin_error_incorrect">Mã PIN không chính xác. Thử lại.</string>
+    <string name="pin_back">Quay lại</string>
+    <string name="pin_forgot_hint">Nếu bạn quên mã PIN, bạn có thể tắt Khóa Bộ sưu tập trong Cài đặt.</string>
+    <string name="pin_content_desc_lock">Khóa Bộ sưu tập</string>
+
+    <!-- Usage Statistics Screen -->
+    <string name="stats_title">Thống kê Sử dụng</string>
+    <string name="stats_total_generations">Tổng lượt tạo</string>
+    <string name="stats_last_generation">Lần cuối: %1$s</string>
+    <string name="stats_no_generations">Chưa có lượt tạo nào</string>
+    <string name="stats_total_saves">Tổng lượt lưu</string>
+    <string name="stats_saves_desc">Hình ảnh đã lưu vào bộ sưu tập</string>
+    <string name="stats_total_favorites">Tổng mục yêu thích</string>
+    <string name="stats_favorites_desc">Quy trình được đánh dấu là yêu thích</string>
+    <string name="stats_member_since">Thành viên từ</string>
+    <string name="stats_member_desc">Ngày tạo đầu tiên</string>
+    <string name="stats_about_title">ℹ️ Về Thống kê</string>
+    <string name="stats_about_desc">Thống kê sử dụng của bạn được lưu trữ an toàn trên Firebase và đồng bộ hóa trên tất cả các thiết bị của bạn. Những thống kê này giúp bạn theo dõi hành trình sáng tạo của mình với Draw AI.</string>
+    <string name="stats_content_desc_back">Quay lại</string>
+
+    <!-- Summoning Screen -->
+    <string name="summon_deadly_sins">Tội lỗi Chết người</string>
+    <string name="summon_content_desc_character">Nhân vật</string>
+
+    <!-- Category Detail Extras -->
+    <string name="category_content_desc_back">Quay lại</string>
+    <string name="category_content_desc_grid">Thay đổi Lưới</string>
+    <string name="category_upgrade_title">Nâng cấp lên Premium</string>
+    <string name="category_upgrade_desc">Mở khóa quy trình và tính năng cao cấp</string>
+    <string name="category_upgrade_btn">Nâng cấp Ngay</string>
+    <string name="category_upgrade_cancel">Hủy</string>
+    <!-- Gem Store & Daily Reward -->
+    <string name="gem_store_title">Cửa hàng đá quý</string>
+    <string name="daily_reward_title">Phần thưởng hàng ngày</string>
+    <string name="daily_reward_description">Nhận phần thưởng hàng ngày của bạn!</string>
+    <string name="daily_reward_claim">Nhận</string>
+    <string name="daily_reward_claimed">Đã nhận</string>
+    <string name="daily_reward_day">Ngày %1$d</string>
+    <string name="daily_reward_gems">%1$d Đá quý</string>
+    <string name="shop_item_candy">Kẹo ngọt</string>
+    <string name="shop_item_coffee">Cà phê nóng</string>
+    <string name="shop_item_rose">Hoa hồng đỏ</string>
+    <string name="shop_buy_button">Mua</string>
+    <string name="shop_insufficient_gems">Không đủ đá quý</string>
+    <string name="shop_purchase_success">Mua thành công!</string>
+</resources>

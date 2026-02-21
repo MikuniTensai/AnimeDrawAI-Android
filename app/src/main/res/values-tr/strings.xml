@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draw AI</string>
+    
+    <!-- Content Moderation Messages -->
+    <string name="content_moderation_error">Girdiğiniz istem uygunsuz kelimeler içeriyor. Lütfen başka kelimeler kullanın.</string>
+    <string name="content_moderation_error_indonesian">Girdiğiniz istem uygunsuz kelimeler içeriyor. Lütfen başka kelimeler kullanın.</string>
+    <string name="content_moderation_title">İçerik Uyarısı</string>
+    <string name="content_moderation_title_indonesian">İçerik Uyarısı</string>
+    <string name="content_moderation_description">İsteminiz izin verilmeyen kelimeler içeriyor. Lütfen isteminizi değiştirin ve tekrar deneyin.</string>
+    <string name="content_moderation_description_indonesian">İsteminiz izin verilmeyen kelimeler içeriyor. Lütfen isteminizi değiştirin ve tekrar deneyin.</string>
+    <string name="content_moderation_positive_words">Olumlu İstem şunları içerir: %1$s</string>
+    <string name="content_moderation_positive_words_indonesian">Olumlu İstem şunları içerir: %1$s</string>
+    <string name="content_moderation_negative_words">Olumsuz İstem şunları içerir: %1$s</string>
+    <string name="content_moderation_negative_words_indonesian">Olumsuz İstem şunları içerir: %1$s</string>
+    <string name="content_moderation_okay">Tamam, Anladım</string>
+    <string name="content_moderation_okay_indonesian">Tamam, Anladım</string>
+    
+    <!-- Rating System Messages -->
+    <string name="rating_too_low_error">İsteminizin derecelendirmesi %% %1$d; bu, %% 50 olan minimum eşiğin altındadır. Daha iyi sonuçlar için lütfen isteminizi geliştirin.</string>
+    <string name="rating_too_low_error_indonesian">İsteminizin derecelendirmesi %% %1$d; bu, %% 50 olan minimum eşiğin altındadır. Daha iyi sonuçlar için lütfen isteminizi geliştirin.</string>
+
+    <!-- Server Maintenance -->
+    <string name="server_maintenance">Sunucu Bakımı</string>
+    <string name="server_maintenance_description">Sunucu şu anda bakımda. Lütfen bir süre bekleyin ve tekrar deneyin.</string>
+    <string name="go_to_gallery">Galeriye Git</string>
+    
+    <!-- Sidebar Menu Items -->
+    <string name="menu_home">Ana Sayfa</string>
+    <string name="menu_vision">Vizyon</string>
+    <string name="menu_explore">Keşfet</string>
+    <string name="menu_chat">Sohbet</string>
+    <string name="menu_gallery">Galeri</string>
+    <string name="menu_favorites">Favoriler</string>
+    <string name="menu_subscription">Abonelik</string>
+    <string name="menu_leaderboard">Liderlik Tablosu</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="menu_events_updates">Etkinlikler ve Güncellemeler</string>
+    
+    <!-- Discovered Workflows -->
+    <string name="workflows_most_viewed">🔥 En Çok Görüntülenenler</string>
+    <string name="workflows_newest">✨ En Yeniler</string>
+    <string name="workflows_most_popular">⭐ En Popüler</string>
+    <string name="workflows_see_all">Tümünü Gör →</string>
+    
+    <!-- Language Selector -->
+    <string name="language_selector_title">Dil Seçin</string>
+    <string name="current_language">Türkçe</string>
+    
+    <!-- HomeScreen -->
+    <string name="discover_workflows_title">İş Akışlarını Keşfet</string>
+    <string name="discover_workflows_subtitle">Oluşturmaya başlamak için bir iş akışı seçin</string>
+    <string name="search_workflows">İş akışlarını ara</string>
+    <string name="search_placeholder">Aramak için yazın…</string>
+    
+    <!-- Workflow Sections -->
+    <string name="latest_additions">Son eklenenler</string>
+    <string name="community_favorites">Topluluk favorileri</string>
+    
+    <!-- Filter Chips -->
+    <string name="filter_all">Tümü</string>
+    <string name="filter_favorites">Favoriler</string>
+    <string name="filter_anime">Anime</string>
+    <string name="filter_general">Genel</string>
+    <string name="filter_animal">Hayvan</string>
+    <string name="filter_flower">Çiçek</string>
+    <string name="filter_food">Yiyecek</string>
+    <string name="filter_background">Arka Plan</string>
+    
+    <!-- Time Units -->
+    <string name="time_seconds">saniye</string>
+    
+    <!-- Category Names -->
+    <string name="category_anime">Anime</string>
+    <string name="category_general">Genel</string>
+    <string name="category_animal">Hayvan</string>
+    <string name="category_flower">Çiçek</string>
+    <string name="category_food">Yiyecek</string>
+    <string name="category_background">Arka Plan</string>
+    
+    <!-- CategoryDetailScreen -->
+    <string name="category_most_viewed_subtitle">Görüntülemeye göre en iyi iş akışları</string>
+    <string name="category_newest_subtitle">Koleksiyonumuza son eklenenler</string>
+    <string name="category_most_popular_subtitle">Topluluk favorileri</string>
+    <string name="category_browse_all">Tüm iş akışlarına göz atın</string>
+    <string name="search_in_category">Bu kategoride ara…</string>
+    <string name="workflows_count">%1$d iş akışı</string>
+    
+    <!-- VisionScreen -->
+    <string name="vision_prompts_title">Vizyon İstemleri</string>
+    <string name="vision_prompts_subtitle">AI Sanat Üretimi İstemleri</string>
+    <string name="vision_shuffle">Karıştır</string>
+    <string name="vision_failed_to_load">Yüklenemedi</string>
+    <string name="vision_tap_to_retry">Tekrar denemek için dokunun</string>
+    <string name="vision_retry">Tekrar Dene</string>
+    <string name="vision_no_visions">Vizyon yok</string>
+    <string name="vision_next_page">Sonraki Sayfa</string>
+    <string name="vision_copy">Kopyala</string>
+    <string name="vision_avoid">Kaçın</string>
+    <string name="vision_use">Kullan</string>
+    <string name="vision_copied">Kopyalandı!</string>
+    
+    <!-- GenerateScreen -->
+    <string name="generate_category">Kategori</string>
+    <string name="generate_describe_vision">Vizyonunuzu Tanımlayın</string>
+    <string name="generate_describe_subtitle">Ne oluşturmak istediğinizi bize söyleyin</string>
+    <string name="generate_prompt_placeholder">ör. uzun gümüş saçlı güzel anime kızı, ayrıntılı gözler, kiraz çiçeği arka planı, şaheser kalitesinde</string>
+    <string name="generate_quick_suggestions">Hızlı öneriler</string>
+    <string name="generate_suggest_more">Daha Fazla Öner →</string>
+    <string name="generate_things_to_avoid">Kaçınılması Gereken Şeyler</string>
+    <string name="generate_avoid_subtitle">İsteğe bağlı - Görmek istemediğiniz şeyler</string>
+    <string name="generate_avoid_placeholder">ör. bulanık, düşük kalite, kötü anatomi, çirkin yüz, çarpık eller</string>
+    <string name="generate_common_negatives">Yaygın olumsuzluklar</string>
+    <string name="generate_image">Resim Oluştur</string>
+    
+    <!-- ExploreScreen -->
+    <string name="explore_title">Keşfet</string>
+    <string name="explore_subtitle">Topluluk Oluşturdukları</string>
+    <string name="explore_popular">🔥 Popüler</string>
+    <string name="explore_recent">⏰ En Son</string>
+    <string name="explore_trending">📈 Trend Olanlar</string>
+    <string name="explore_mine">👤 Benimkiler</string>
+    <string name="explore_refresh">Yenile</string>
+    <string name="explore_no_posts">Henüz gönderi yok</string>
+    <string name="explore_be_first">Paylaşan ilk kişi olun!</string>
+    <string name="explore_error_oops">Hata!</string>
+    <string name="explore_retry">Tekrar Dene</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet">İnternet bağlantısı yok</string>
+    <string name="error_prompt_empty">İstem boş olamaz</string>
+    <string name="error_user_not_authenticated">Kullanıcı kimliği doğrulanmadı. Lütfen önce giriş yapın.</string>
+    <string name="error_server_busy">Sunucu meşgul. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="error_process_timeout">İşlem çok uzun sürdü. Daha basit bir istem deneyin.</string>
+    <string name="error_connection_issue">Bağlantı sorunu. İnternetinizi kontrol edin.</string>
+    <string name="error_processing_failed">Resim işlenemedi. Tekrar deneyin.</string>
+    <string name="error_title">Hata</string>
+    <string name="error_generic_message">Resim işlenirken bir hata oluştu. Tekrar deneyin.</string>
+    <string name="error_retry">Tekrar Dene</string>
+    <string name="error_back">Geri</string>
+    
+    <!-- ChatScreen -->
+    <string name="chat_title">Karakter Sohbeti</string>
+    <string name="chat_select_character">💬 Karakterinizi seçin ▼</string>
+    <string name="chat_menu">Menü</string>
+    <string name="chat_new_chat">Yeni Sohbet</string>
+    <string name="chat_clear_history">Geçmişi Temizle</string>
+    <string name="chat_type_message">Mesaj yazın...</string>
+    <string name="chat_send">Gönder</string>
+    <string name="chat_close">Kapat</string>
+    <string name="chat_start_conversation">Sohbeti Başlat</string>
+    <string name="chat_ask_anything">Bana herhangi bir şey sor! Yardım etmek için buradayım.</string>
+    <string name="chat_try_asking">Şunu sormayı dene:</string>
+    <string name="chat_suggestion_1">Bana nasıl yardımcı olabilirsin?</string>
+    <string name="chat_suggestion_2">Eğlenceli bir gerçek söyle</string>
+    <string name="chat_suggestion_3">AI nasıl çalışır?</string>
+    
+    <!-- CharacterListScreen -->
+    <string name="character_list_title">Mesajlar</string>
+    <string name="character_list_search">Ara</string>
+    <string name="character_list_new_character">Yeni Karakter</string>
+    <string name="character_list_retry">Bağlantıyı Tekrar Dene</string>
+    <string name="character_list_unknown_error">Bilinmeyen hata</string>
+    <string name="character_list_delete_title">Karakteri Sil?</string>
+    <string name="character_list_delete_message">Bu karakteri silmek istediğinizden emin misiniz? Evet derseniz karakter silinecek ancak karakter sınırınız AZALMAYACAKTIR.</string>
+    <string name="character_list_delete">Sil</string>
+    <string name="character_list_cancel">İptal</string>
+    <string name="character_list_empty_title">Henüz Sohbet Yok</string>
+    <string name="character_list_empty_subtitle">AI karakterlerinizle sohbet etmeye başlayın!</string>
+    <string name="character_list_create_new">Yeni Karakter Oluştur</string>
+    
+    <!-- CharacterChatScreen -->
+    <string name="character_chat_go_back">Geri Git</string>
+    <string name="character_chat_character_not_found">Karakter bulunamadı</string>
+    <string name="character_chat_start_chatting">%1$s ile sohbet etmeye başla!</string>
+    <string name="character_chat_deadly_sins">%1$d ölümcül günahları var</string>
+    <string name="character_chat_message_not_sent">Mesaj Gönderilemedi</string>
+    <string name="character_chat_inappropriate">Mesajınız uygunsuz dil içeriyor. Lütfen AI karakterlere saygılı olun.</string>
+    <string name="character_chat_ok">Tamam</string>
+    <string name="character_chat_type_message_placeholder">Bir mesaj yazın...</string>
+    <string name="character_chat_connection_error">Bağlantı Hatası</string>
+    <string name="character_chat_sins">günah</string>
+    <string name="character_chat_back">Geri</string>
+    <string name="character_chat_close">Kapat</string>
+
+    <!-- Gallery Screen -->
+    <string name="gallery_title">Galeri</string>
+    <string name="gallery_subtitle_count">%1$d resim</string>
+    <string name="gallery_filter_all">Tümü</string>
+    <string name="gallery_filter_favorites">Favoriler</string>
+    <string name="gallery_empty_title">Henüz resim yok</string>
+    <string name="gallery_empty_subtitle">Yaratımlarınızı burada görmek için oluşturmaya başlayın</string>
+    <string name="gallery_generate_now">Şimdi Oluştur</string>
+    <string name="gallery_msg_select_character">Karakterinizi oluşturmak için bir resim seçin</string>
+    <string name="gallery_msg_limit_reached">Karakter sınırına ulaşıldı!</string>
+    <string name="gallery_content_desc_select_char">Karakter Seç</string>
+    <string name="gallery_content_desc_create_char">Karakter Oluştur</string>
+    <string name="gallery_report_title">Resmi Bildir</string>
+    <string name="gallery_report_desc">Lütfen bu resmi neden bildirdiğinizi açıklayın:</string>
+    <string name="gallery_report_reason_label">Bildirme sebebi</string>
+    <string name="gallery_report_reason_placeholder">Sorunu açıklayın...</string>
+    <string name="gallery_report_button">Bildir</string>
+    <string name="gallery_cancel">İptal</string>
+    <string name="gallery_delete_title">Resmi Sil?</string>
+    <string name="gallery_delete_message">Bu işlem geri alınamaz. Resim kalıcı olarak silinecektir.</string>
+    <string name="gallery_delete_button">Sil</string>
+    <string name="gallery_share_premium_only">🔒 Toplulukla paylaşım Basic ve Pro aboneleri içindir</string>
+    <string name="gallery_share_duplicate">⚠️ Bu resim/istem zaten toplulukla paylaşılmış.</string>
+    <string name="gallery_share_success">✅ Toplulukla başarıyla paylaşıldı!</string>
+    <string name="gallery_share_failed">Paylaşım başarısız: %1$s</string>
+    <string name="gallery_share_file_not_found">Resim dosyası bulunamadı</string>
+    <string name="gallery_share_error">Hata: %1$s</string>
+    <string name="gallery_create_char_title">Karakter Oluştur?</string>
+    <string name="gallery_create_char_message">Bu, bu resmi benzersiz AI arkadaşınıza dönüştürecektir.</string>
+    <string name="gallery_create_char_warning">⚠️ Sadece ONE karakter seçebilirsiniz. Bu daha sonra değiştirilemez.</string>
+    <string name="gallery_char_name_label">Karakter Adı (İsteğe Bağlı)</string>
+    <string name="gallery_char_name_placeholder">Rastgele bir isim için boş bırakın</string>
+    <string name="gallery_select_language_title">Dil Seçin:</string>
+    <string name="gallery_select_gender_title">Cinsiyet Seçin:</string>
+    <string name="gallery_gender_male">Erkek ♂️</string>
+    <string name="gallery_gender_female">Kadın ♀️</string>
+    <string name="gallery_analyzing_personality">Kişilik analiz ediliyor...</string>
+    <string name="gallery_summoning_soul">Ruh çağrılıyor...</string>
+    <string name="gallery_character_created">Karakter oluşturuldu!</string>
+    <string name="gallery_create_and_chat">Oluştur ve Sohbet Et</string>
+    <string name="gallery_guidelines_title">Topluluk Kuralları</string>
+    <string name="gallery_guidelines_intro">Resimleri toplulukla paylaşmadan önce lütfen dikkat edin:</string>
+    <string name="gallery_guideline_nsfw">🚫 Uygunsuz/NSFW içerik yasaktır</string>
+    <string name="gallery_guideline_violence">🚫 Şiddet veya kan yasaktır</string>
+    <string name="gallery_guideline_illegal">🚫 Yasa dışı içerik yasaktır</string>
+    <string name="gallery_guideline_hate">🚫 Nefret söylemi veya ayrımcılık yasaktır</string>
+    <string name="gallery_guidelines_warning_title">⚠️ UYARI:</string>
+    <string name="gallery_guidelines_warning_text">İhlaller HESABIN KALICI OLARAK YASAKLANMASINA ve TÜM İÇERİĞİN SİLİNMESİNE önceden haber verilmeksizin neden olacaktır!</string>
+    <string name="gallery_guidelines_agree">Anlıyorum ve Kabul Ediyorum</string>
+    <string name="gallery_share_already_shared">⚠️ Bu istem zaten paylaşılmış!</string>
+    <string name="gallery_share_success_full">✅ Toplulukla başarıyla paylaşıldı!</string>
+    <string name="gallery_chat_button">💬 Sohbet</string>
+    <string name="gallery_your_character_badge">🌟 Karakteriniz</string>
+    
+    <!-- Tabs -->
+    <string name="character_chat_tab_relationship">İlişki</string>
+    <string name="character_chat_tab_status">Durum</string>
+    <string name="character_chat_tab_profile">Profil</string>
+    <string name="character_chat_tab_stats">İstatistikler</string>
+    
+    <!-- Relationship Tab -->
+    <string name="character_chat_affection_points">Sevgi Puanları</string>
+    <string name="character_chat_max">MAKS ❤️</string>
+    <string name="character_chat_ap_to">%1$d SP, %2$s için</string>
+    <string name="character_chat_soulmate_forever">Sonsuza Dek Ruh Eşi 💍</string>
+    <string name="character_chat_confess_feelings">💌 Duygularını İtiraf Et</string>
+    <string name="character_chat_propose_marriage">💍 Evlenme Teklif Et</string>
+    
+    <!-- Status Tab -->
+    <string name="character_chat_current_mood">Mevcut Ruh Hali</string>
+    <string name="character_chat_energy_level">Enerji Seviyesi</string>
+    <string name="character_chat_energy_high">Yüksek</string>
+    <string name="character_chat_energy_normal">Normal</string>
+    <string name="character_chat_energy_tired">Yorgun</string>
+    
+    <!-- Profile Tab -->
+    <string name="character_chat_archetype">Arketip</string>
+    <string name="character_chat_traits">Özellikler</string>
+    <string name="character_chat_interests">İlgi Alanları</string>
+    <string name="character_chat_deadly_sins_title">Ölümcül Günahlar</string>
+    <string name="character_chat_sins_hidden">%1$d Günah (Gizli)</string>
+    
+    <!-- Stats Tab -->
+    <string name="character_chat_interaction_stats">Etkileşim İstatistikleri</string>
+    <string name="character_chat_total_messages">Toplam Mesajlar</string>
+    <string name="character_chat_last_chat">Son Sohbet</string>
+    <string name="character_chat_chat_frequency">Sohbet Sıklığı</string>
+    <string name="character_chat_ghosting_record">Ghosting Kaydı</string>
+    <string name="character_chat_ghosted_times">Bu karakteri %1$d kez ghostladınız.</string>
+    
+    <!-- Favorites Screen -->
+    <string name="favorites_title">Favoriler</string>
+    <string name="favorites_saved_count">%1$d kaydedildi</string>
+    <string name="favorites_empty_title">Henüz favori yok</string>
+    <string name="favorites_empty_message">Burada görmek için iş akışlarını favori olarak işaretleyin</string>
+    <string name="favorites_remove_content_desc">Favorilerden kaldır</string>
+    <string name="favorites_pro_badge">⭐ PRO</string>
+
+    <!-- Leaderboard Screen -->
+    <string name="leaderboard_title">Liderlik Tablosu</string>
+    <string name="leaderboard_tab_architect">Mimar</string>
+    <string name="leaderboard_tab_romancer">Romantik</string>
+    <string name="leaderboard_tab_mvp">MVP</string>
+    <string name="leaderboard_tab_fame">Onur Listesi</string>
+    <string name="leaderboard_tab_rising">Yükselen</string>
+    <string name="leaderboard_filter_all_time">Tüm Zamanlar</string>
+    <string name="leaderboard_filter_weekly">Haftalık</string>
+    <string name="leaderboard_filter_monthly">Aylık</string>
+    <string name="leaderboard_architect_title">Usta Mimar</string>
+    <string name="leaderboard_architect_desc">En fazla şaheser üreten vizyonerler.</string>
+    <string name="leaderboard_metric_generations">Üretimler</string>
+    <string name="leaderboard_romancer_title">En İyi Romantikler</string>
+    <string name="leaderboard_romancer_desc">En derin bağlara sahip kullanıcılar. İçten etkileşimlerle kazanılan sevgi puanları.</string>
+    <string name="leaderboard_metric_affection">Sevgi Puanları</string>
+    <string name="leaderboard_mvp_title">Topluluk MVP\'leri</string>
+    <string name="leaderboard_mvp_desc">Topluluğumuzun en çok istem/yaratım paylaşan temel taşları.</string>
+    <string name="leaderboard_metric_shares">Paylaşımlar</string>
+    <string name="leaderboard_fame_title">Onur Listesi</string>
+    <string name="leaderboard_fame_desc">Kategoriye göre sınıflandırılmış efsanevi sanat eserleri.</string>
+    <string name="leaderboard_filter_most_liked">En Çok Beğenilen</string>
+    <string name="leaderboard_filter_most_downloaded">En Çok İndirilen</string>
+    <string name="leaderboard_metric_likes">Beğeniler</string>
+    <string name="leaderboard_metric_downloads">İndirmeler</string>
+    <string name="leaderboard_rising_title">Yükselen Yıldızlar</string>
+    <string name="leaderboard_rising_desc">Son zamanlarda ivme kazanan yeni yaratıcılar.</string>
+    <string name="leaderboard_metric_recent_likes">Son Beğeniler</string>
+    <string name="leaderboard_no_rankings">Henüz sıralama yok</string>
+    <string name="leaderboard_error_prefix">Hata: %1$s</string>
+
+    <!-- News Screen (Events & Updates) -->
+    <string name="news_title">Etkinlikler ve Güncellemeler</string>
+    <string name="news_badge_event">ETKİNLİK</string>
+    <string name="news_badge_update">GÜNCELLEME</string>
+    <string name="news_action_view_details">Detayları Gör</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_subtitle">Deneyiminizi özelleştirin</string>
+
+    <!-- Preferences Section -->
+    <string name="settings_section_preferences">Tercihler</string>
+    <string name="settings_dark_mode">Karanlık Mod</string>
+    <string name="settings_dark_mode_desc">Karanlık temaya geç</string>
+    <string name="settings_notifications">Bildirimler</string>
+    <string name="settings_notifications_desc">Üretim tamamlandığında bildirim al</string>
+    <string name="settings_auto_save">Otomatik Kaydet</string>
+    <string name="settings_auto_save_desc">Galeriye otomatik kaydet veya kaydetme iletişim kutusunu göster</string>
+    <string name="settings_gallery_lock">Galeri Kilidi</string>
+    <string name="settings_gallery_lock_desc">Galeriyi PIN kodu ile koru</string>
+    <string name="settings_restricted_content">Kısıtlı İçerik</string>
+    <string name="settings_restricted_content_desc">Yetişkin içeriğini etkinleştir (Yaş doğrulaması gerektirir)</string>
+    <string name="settings_more">Daha Fazla</string>
+    <string name="settings_more_desc">Ek içeriğe erişim iste (Gereksinimler: Basic/Pro + Onay)</string>
+
+    <!-- Storage Section -->
+    <string name="settings_section_storage">Depolama</string>
+    <string name="settings_clear_cache">Önbelleği Temizle</string>
+    <string name="settings_clear_cache_desc">Depolama alanını boşalt</string>
+    <string name="settings_cache_cleared">Önbellek temizlendi!</string>
+    <string name="settings_export_gallery">Galeriyi Dışa Aktar</string>
+    <string name="settings_export_gallery_locked">Galeriyi Dışa Aktar 🔒</string>
+    <string name="settings_export_gallery_desc">Tüm resimlerinizi kaydedin</string>
+    <string name="settings_export_gallery_premium">Premium Özellik</string>
+    <string name="settings_upgrade_toast">Lütfen Profilden Premium\'a yükseltin</string>
+
+    <!-- About & Legal Section -->
+    <string name="settings_section_about">Hakkında ve Yasal</string>
+    <string name="settings_privacy_policy">Gizlilik Politikası</string>
+    <string name="settings_privacy_policy_desc">Gizlilik politikamızı görüntüleyin</string>
+    <string name="settings_terms_service">Hizmet Şartları</string>
+    <string name="settings_terms_service_desc">Şartlar ve koşullarımızı okuyun</string>
+
+    <!-- Support Section -->
+    <string name="settings_section_support">Destek</string>
+    <string name="settings_help_support">Yardım ve Destek</string>
+    <string name="settings_help_support_desc">Bize e-posta ile ulaşın</string>
+    <string name="settings_rate_app">Uygulamayı Puanla</string>
+    <string name="settings_rate_app_desc">Play Store\'da geri bildiriminizi paylaşın</string>
+    <string name="settings_app_version">Uygulama Sürümü</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="settings_clear_cache_title">Önbellek Temizlensin mi?</string>
+    <string name="settings_clear_cache_message">Bu, tüm önbelleğe alınmış resimleri ve geçici dosyaları silecektir. Bu işlem geri alınamaz.</string>
+    <string name="settings_btn_clear">Temizle</string>
+    <string name="settings_btn_cancel">İptal</string>
+
+    <string name="settings_export_dialog_title">Tümünü Galeriye Aktar</string>
+    <string name="settings_export_warning_1">⚠️ Bu, oluşturulan tüm resimleri ana galeriye taşıyacaktır.</string>
+    <string name="settings_export_warning_2">• Oluşturulan klasördeki tüm resimler taşınacaktır</string>
+    <string name="settings_export_warning_3">• Resimler mevcut konumlarından silinecektir</string>
+    <string name="settings_export_warning_4">• Bu işlem geri alınamaz</string>
+    <string name="settings_export_confirm">Dışa aktarmaya devam edilsin mi?</string>
+    <string name="settings_btn_export_all">Tümünü Dışa Aktar</string>
+
+    <string name="settings_upgrade_required_title">Yükseltme Gerekli</string>
+    <string name="settings_upgrade_required_msg">\'Daha Fazla\' içeriğe erişim Basic veya Pro abonelik gerektirir.</string>
+    <string name="settings_btn_ok">Tamam</string>
+
+    <string name="settings_request_access_title">Erişim İste</string>
+    <string name="settings_request_access_msg">\'Daha Fazla\' içeriğe erişim Yönetici onayı gerektirir. İstek göndermek istiyor musunuz?</string>
+    <string name="settings_btn_send_request">İstek Gönder</string>
+    <string name="settings_request_sent">İstek Gönderildi</string>
+    <string name="settings_request_pending">İstek Yönetici Onayı Bekliyor</string>
+    <string name="settings_cannot_disable">Devre dışı bırakılamaz. Değişiklik için destekle iletişime geçin.</string>
+
+    <string name="settings_pin_setup_title">Galeri PIN\'ini Ayarla</string>
+    <string name="settings_pin_setup_msg">Galerinizi korumak için 4 haneli bir PIN oluşturun</string>
+    <string name="settings_pin_enter">PIN Girin</string>
+    <string name="settings_pin_confirm">PIN\'i Onayla</string>
+    <string name="settings_pin_error">PIN\'ler eşleşmiyor veya geçersiz</string>
+    <string name="settings_btn_set_pin">PIN\'i Ayarla</string>
+
+    <string name="settings_export_empty">Dışa aktarılacak resim yok</string>
+    <string name="settings_export_success">%1$d resim başarıyla galeriye aktarıldı</string>
+    <string name="settings_export_partial">%1$d resim galeriye aktarıldı (%2$d başarısız)</string>
+    <string name="settings_export_failed">Dışa aktarma başarısız: %1$s</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Profil</string>
+    <string name="profile_guest">Misafir</string>
+    <string name="profile_guest_account">Misafir Hesabı</string>
+    <string name="profile_edit_name">Adı Değiştir</string>
+    <string name="profile_section_subscription">Abonelik ve Kullanım</string>
+    <string name="profile_daily_generations">Günlük Üretimler</string>
+    <string name="profile_used_today">Bugün kullanılan: %1$d</string>
+    <string name="profile_generations">Üretimler: </string>
+    <string name="profile_chat_limit">Sohbet Sınırı: </string>
+    <string name="profile_expires">Bitiş: %1$s</string>
+    <string name="profile_plan">Abonelik Planı</string>
+    <string name="profile_plan_desc">Aboneliğinizi yönetin</string>
+    <string name="profile_usage_stats">Kullanım İstatistikleri</string>
+    <string name="profile_usage_stats_desc">Üretim geçmişinizi görüntüleyin</string>
+    <string name="profile_section_account">Hesap İşlemleri</string>
+    <string name="profile_link_account">Hesabı Bağla</string>
+    <string name="profile_link_account_desc">Verilerinizi kaydetmek için Google ile bağlayın</string>
+    <string name="profile_sign_out">Oturumu Kapat</string>
+    <string name="profile_sign_out_desc">Hesabınızdan çıkış yapın</string>
+    <string name="profile_delete_account">Hesabı Sil</string>
+    <string name="profile_delete_account_desc">Hesabınızı ve verilerinizi kalıcı olarak silin</string>
+    <string name="profile_dialog_edit_name">Görünen Adı Değiştir</string>
+    <string name="profile_enter_name">Yeni adınızı girin:</string>
+    <string name="profile_btn_save">Kaydet</string>
+    <string name="profile_dialog_delete_title">Hesabı Sil?</string>
+    <string name="profile_delete_warning_list">Bu işlem şunları kalıcı olarak silecektir:</string>
+    <string name="profile_delete_item_1">• Hesabınız ve profiliniz</string>
+    <string name="profile_delete_item_2">• Oluşturulan tüm resimler</string>
+    <string name="profile_delete_item_3">• Kullanım istatistikleri</string>
+    <string name="profile_delete_item_4">• Favoriler ve koleksiyonlar</string>
+    <string name="profile_delete_item_5">• Abonelik verileri</string>
+    <string name="profile_delete_warning_final">⚠️ Bu işlem geri alınamaz!</string>
+    <string name="profile_delete_instruction">Devam etmek için lütfen bir silme isteği gönderin:</string>
+    <string name="profile_btn_submit_request">İstek Gönder</string>
+
+    <!-- Subscription Screen -->
+    <string name="subscription_title">Abonelik Mağazası</string>
+    <string name="subscription_status_user">Kullanıcı Durumu</string>
+    <string name="subscription_status_pro">PRO</string>
+    <string name="subscription_status_basic">BASIC</string>
+    <string name="subscription_status_free">ÜCRETSİZ</string>
+    <string name="subscription_limit_format">Sınır: %1$s/%2$s</string>
+    <string name="subscription_exp_format">Bitiş: %1$s</string>
+    <string name="subscription_chat_format">Sohbet: %1$s</string>
+    <string name="subscription_loading_limits">Sınırlar yükleniyor...</string>
+    <string name="subscription_choose_plan">Plan Seç</string>
+    <string name="subscription_chat_addons">Sohbet Sınırı Eklentileri</string>
+
+    <string name="subscription_gacha_title">🎲 Gacha</string>
+    <string name="subscription_gacha_desc">1-9 Sınır</string>
+    <string name="subscription_single_limit_title">💬 +1 Sınır</string>
+    <string name="subscription_single_limit_desc">Anında</string>
+    <string name="subscription_toast_added_chat">+1 Sohbet Sınırı Eklendi!</string>
+
+    <string name="subscription_gacha_result_jackpot">🎉 BÜYÜK İKRAMİYE! 🎉</string>
+    <string name="subscription_gacha_result_normal">Gacha Sonucu</string>
+    <string name="subscription_gacha_result_msg">Sohbet Sınırı Eklendi!</string>
+    <string name="subscription_btn_awesome">Harika!</string>
+
+    <string name="subscription_upgrade_title">%1$s Planına Yükselt?</string>
+    <string name="subscription_price_format">Fiyat: %1$s</string>
+    <string name="subscription_feature_ad_free">• Reklamsız</string>
+    <string name="subscription_btn_confirm">Onayla</string>
+    <string name="subscription_btn_buy">Satın Al</string>
+    <string name="subscription_current_plan">Mevcut</string>
+
+
+    <!-- App Drawer -->
+    <string name="drawer_guest">Misafir</string>
+    <string name="drawer_login_to_chat">Sohbete erişmek için lütfen giriş yapın</string>
+    <string name="drawer_current_language">Dil</string>
+    <string name="drawer_promo_title">Etkinlikler ve Ödüller</string>
+    <string name="drawer_promo_desc">Devam eden etkinlikleri, güncellemeleri kontrol edin ve ödüllerinizi alın!</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Tekrar Hoş Geldiniz</string>
+    <string name="login_subtitle">AI ile çarpıcı anime sanatı oluşturun</string>
+    <string name="login_email_label">E-posta veya Kullanıcı Adı</string>
+    <string name="login_email_placeholder">E-postanızı girin</string>
+    <string name="login_password_label">Şifre</string>
+    <string name="login_password_placeholder">Şifrenizi girin</string>
+    <string name="login_btn_signin">Giriş Yap</string>
+    <string name="login_continue_google">Google ile Devam Et</string>
+    <string name="login_continue_guest">Misafir Olarak Devam Et</string>
+    <string name="login_no_account">Hesabınız yok mu? </string>
+    <string name="login_signup_link">Kaydol</string>
+    <string name="login_or">veya</string>
+    <string name="login_app_name">Draw AI</string>
+    <string name="login_logo_text">AI</string>
+
+    <!-- Sign Up Screen -->
+    <string name="signup_title">Hesap Oluştur</string>
+    <string name="signup_subtitle">İnanılmaz anime sanatı oluşturmak için bize katılın</string>
+    <string name="signup_fullname_label">Tam Ad</string>
+    <string name="signup_fullname_placeholder">Tam adınızı girin</string>
+    <string name="signup_email_label">E-posta</string>
+    <string name="signup_email_placeholder">E-postanızı girin</string>
+    <string name="signup_password_label">Şifre</string>
+    <string name="signup_password_placeholder">Bir şifre oluşturun</string>
+    <string name="signup_confirm_password_label">Şifreyi Onayla</string>
+    <string name="signup_confirm_password_placeholder">Şifreyi tekrar girin</string>
+    <string name="signup_btn_create">Hesap Oluştur</string>
+    <string name="signup_google">Google ile Kaydol</string>
+    <string name="signup_have_account">Zaten bir hesabınız var mı? </string>
+    <string name="signup_signin_link">Giriş Yap</string>
+    <string name="signup_terms">Kaydolarak Hizmet Şartlarımızı ve Gizlilik Politikamızı kabul etmiş olursunuz</string>
+    <string name="signup_error_fullname">Lütfen tam adınızı girin</string>
+    <string name="signup_error_email">Lütfen e-postanızı girin</string>
+    <string name="signup_error_email_invalid">Lütfen geçerli bir e-posta girin</string>
+    <string name="signup_error_password">Lütfen bir şifre girin</string>
+    <string name="signup_error_password_length">Şifre en az 6 karakter olmalıdır</string>
+    <string name="signup_error_password_match">Şifreler eşleşmiyor</string>
+
+    <!-- Onboarding Screen -->
+    <string name="onboarding_skip">Atla</string>
+    <string name="onboarding_next">İleri</string>
+    <string name="onboarding_get_started">Başlayın</string>
+    <string name="onboarding_page1_title">AnimeDraw AI\'ya Hoş Geldiniz</string>
+    <string name="onboarding_page1_desc">AI\'nın gücüyle çarpıcı anime sanatı oluşturun. Sadece görmek istediğiniz şeyi tarif edin!</string>
+    <string name="onboarding_page2_title">AI Karakterlerle Sohbet Edin</string>
+    <string name="onboarding_page2_desc">Benzersiz AI kişiliklerle etkileşime girin. Fikir üretmenize yardımcı olabilirler veya sadece eğlenceli bir sohbet yapabilirsiniz.</string>
+    <string name="onboarding_page3_title">Topluluğa Katılın</string>
+    <string name="onboarding_page3_desc">Yaratımlarınızı paylaşın, başkalarından ilham alın ve liderlik tablosunda tırmanın.</string>
+
+    <!-- Post Detail Screen -->
+    <string name="post_anonymous">Anonim</string>
+    <string name="post_downloaded_already">Bu oturumda zaten indirildi</string>
+    <string name="post_sharing">Paylaşılıyor...</string>
+    <string name="post_prompt">İstem</string>
+    <string name="post_negative_prompt">Olumsuz İstem</string>
+    <string name="post_workflow_model">İş Akışı / Model</string>
+    <string name="post_unknown">Bilinmiyor</string>
+    <string name="post_report_title">İçeriği Bildir</string>
+    <string name="post_report_desc">Neden bu içeriği bildiriyorsunuz?</string>
+    <string name="post_report_reason">Sebep</string>
+    <string name="post_report_success">Rapor başarıyla gönderildi</string>
+    <string name="post_report_failed">Rapor gönderilemedi</string>
+    <string name="post_report_provide_reason">Lütfen bir sebep belirtin</string>
+    <string name="post_report_submit">Rapor Gönder</string>
+    <string name="post_report_cancel">İptal</string>
+    <string name="post_saved_gallery">Resim Galeriye kaydedildi</string>
+    <string name="post_download_failed">Resim indirilemedi</string>
+    <string name="post_share">Paylaş</string>
+    <string name="post_content_desc_back">Geri</string>
+    <string name="post_content_desc_info">Bilgi</string>
+    <string name="post_content_desc_like">Beğen</string>
+    <string name="post_content_desc_download">İndir</string>
+
+    <!-- Gallery Pin Screen -->
+    <string name="pin_title">Galeri Korumalı</string>
+    <string name="pin_subtitle">Galeriye erişmek için 4 haneli PIN kodunuzu girin</string>
+    <string name="pin_label">PIN Girin</string>
+    <string name="pin_error_too_many">Çok fazla başarısız deneme. PIN yanlış.</string>
+    <string name="pin_error_incorrect">PIN yanlış. Tekrar deneyin.</string>
+    <string name="pin_back">Geri</string>
+    <string name="pin_forgot_hint">PIN\'inizi unuttuysanız, Ayarlar\'dan Galeri Kilidi\'ni devre dışı bırakabilirsiniz.</string>
+    <string name="pin_content_desc_lock">Galeri Kilidi</string>
+
+    <!-- Usage Statistics Screen -->
+    <string name="stats_title">Kullanım İstatistikleri</string>
+    <string name="stats_total_generations">Toplam Üretim</string>
+    <string name="stats_last_generation">Son: %1$s</string>
+    <string name="stats_no_generations">Henüz üretim yok</string>
+    <string name="stats_total_saves">Toplam Kaydedilen</string>
+    <string name="stats_saves_desc">Galeriye kaydedilen resimler</string>
+    <string name="stats_total_favorites">Toplam Favoriler</string>
+    <string name="stats_favorites_desc">Favori olarak işaretlenen iş akışları</string>
+    <string name="stats_member_since">Üyelik Tarihi</string>
+    <string name="stats_member_desc">İlk üretim tarihi</string>
+    <string name="stats_about_title">ℹ️ İstatistikler Hakkında</string>
+    <string name="stats_about_desc">Kullanım istatistikleriniz Firebase\'de güvenli bir şekilde saklanır ve tüm cihazlarınızda senkronize edilir. Bu istatistikler, Draw AI ile yaratıcı yolculuğunuzu izlemenize yardımcı olur.</string>
+    <string name="stats_content_desc_back">Geri</string>
+
+    <!-- Summoning Screen -->
+    <string name="summon_deadly_sins">Ölümcül Günahlar</string>
+    <string name="summon_content_desc_character">Karakter</string>
+
+    <!-- Category Detail Extras -->
+    <string name="category_content_desc_back">Geri</string>
+    <string name="category_content_desc_grid">Izgarayı Değiştir</string>
+    <string name="category_upgrade_title">Premium\'a Yükselt</string>
+    <string name="category_upgrade_desc">Premium iş akışlarını ve özellikleri aç</string>
+    <string name="category_upgrade_btn">Şimdi Yükselt</string>
+    <string name="category_upgrade_cancel">İptal</string>
+    <!-- Gem Store & Daily Reward -->
+    <string name="gem_store_title">Mücevher Mağazası</string>
+    <string name="daily_reward_title">Günlük Ödül</string>
+    <string name="daily_reward_description">Günlük ödülünü al!</string>
+    <string name="daily_reward_claim">Al</string>
+    <string name="daily_reward_claimed">Alındı</string>
+    <string name="daily_reward_day">%1$d. Gün</string>
+    <string name="daily_reward_gems">%1$d Mücevher</string>
+    <string name="shop_item_candy">Tatlı Şeker</string>
+    <string name="shop_item_coffee">Sıcak Kahve</string>
+    <string name="shop_item_rose">Kırmızı Gül</string>
+    <string name="shop_buy_button">Satın Al</string>
+    <string name="shop_insufficient_gems">Yetersiz mücevher</string>
+    <string name="shop_purchase_success">Satın alma başarılı!</string>
+</resources>

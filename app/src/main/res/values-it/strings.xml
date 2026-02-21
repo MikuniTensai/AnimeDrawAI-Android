@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draw AI</string>
+    
+    <!-- Content Moderation Messages -->
+    <string name="content_moderation_error">Il prompt inserito contiene parole inappropriate. Si prega di utilizzare altre parole.</string>
+    <string name="content_moderation_error_indonesian">Il prompt inserito contiene parole inappropriate. Si prega di utilizzare altre parole.</string>
+    <string name="content_moderation_title">Avviso sui contenuti</string>
+    <string name="content_moderation_title_indonesian">Avviso sui contenuti</string>
+    <string name="content_moderation_description">Il tuo prompt contiene parole non consentite. Modifica il prompt e riprova.</string>
+    <string name="content_moderation_description_indonesian">Il tuo prompt contiene parole non consentite. Modifica il prompt e riprova.</string>
+    <string name="content_moderation_positive_words">Il prompt positivo contiene: %1$s</string>
+    <string name="content_moderation_positive_words_indonesian">Il prompt positivo contiene: %1$s</string>
+    <string name="content_moderation_negative_words">Il prompt negativo contiene: %1$s</string>
+    <string name="content_moderation_negative_words_indonesian">Il prompt negativo contiene: %1$s</string>
+    <string name="content_moderation_okay">OK, ho capito</string>
+    <string name="content_moderation_okay_indonesian">OK, ho capito</string>
+    
+    <!-- Rating System Messages -->
+    <string name="rating_too_low_error">Il tuo prompt ha un punteggio del %1$d%% che è inferiore alla soglia minima del 50%%. Migliora il tuo prompt per ottenere risultati migliori.</string>
+    <string name="rating_too_low_error_indonesian">Il tuo prompt ha un punteggio del %1$d%% che è inferiore alla soglia minima del 50%%. Migliora il tuo prompt per ottenere risultati migliori.</string>
+
+    <!-- Server Maintenance -->
+    <string name="server_maintenance">Manutenzione Server</string>
+    <string name="server_maintenance_description">Il server è attualmente in manutenzione. Si prega di attendere un po\' e riprovare.</string>
+    <string name="go_to_gallery">Vai alla Galleria</string>
+    
+    <!-- Sidebar Menu Items -->
+    <string name="menu_home">Home</string>
+    <string name="menu_vision">Visione</string>
+    <string name="menu_explore">Esplora</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_gallery">Galleria</string>
+    <string name="menu_favorites">Preferiti</string>
+    <string name="menu_subscription">Abbonamento</string>
+    <string name="menu_leaderboard">Classifica</string>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="menu_events_updates">Eventi e Aggiornamenti</string>
+    
+    <!-- Discovered Workflows -->
+    <string name="workflows_most_viewed">🔥 Più visti</string>
+    <string name="workflows_newest">✨ Più recenti</string>
+    <string name="workflows_most_popular">⭐ Più popolari</string>
+    <string name="workflows_see_all">Vedi tutti →</string>
+    
+    <!-- Language Selector -->
+    <string name="language_selector_title">Seleziona la lingua</string>
+    <string name="current_language">Italiano</string>
+    
+    <!-- HomeScreen -->
+    <string name="discover_workflows_title">Scopri Workflow</string>
+    <string name="discover_workflows_subtitle">Scegli un workflow per iniziare a creare</string>
+    <string name="search_workflows">Cerca workflow</string>
+    <string name="search_placeholder">Scrivi per cercare…</string>
+    
+    <!-- Workflow Sections -->
+    <string name="latest_additions">Ultime aggiunte</string>
+    <string name="community_favorites">Preferiti dalla community</string>
+    
+    <!-- Filter Chips -->
+    <string name="filter_all">Tutti</string>
+    <string name="filter_favorites">Preferiti</string>
+    <string name="filter_anime">Anime</string>
+    <string name="filter_general">Generale</string>
+    <string name="filter_animal">Animale</string>
+    <string name="filter_flower">Fiore</string>
+    <string name="filter_food">Cibo</string>
+    <string name="filter_background">Sfondo</string>
+    
+    <!-- Time Units -->
+    <string name="time_seconds">secondi</string>
+    
+    <!-- Category Names -->
+    <string name="category_anime">Anime</string>
+    <string name="category_general">Generale</string>
+    <string name="category_animal">Animale</string>
+    <string name="category_flower">Fiore</string>
+    <string name="category_food">Cibo</string>
+    <string name="category_background">Sfondo</string>
+    
+    <!-- CategoryDetailScreen -->
+    <string name="category_most_viewed_subtitle">I migliori workflow per visualizzazioni</string>
+    <string name="category_newest_subtitle">Ultime aggiunte alla nostra collezione</string>
+    <string name="category_most_popular_subtitle">Preferiti dalla community</string>
+    <string name="category_browse_all">Sfoglia tutti i workflow</string>
+    <string name="search_in_category">Cerca in questa categoria…</string>
+    <string name="workflows_count">%1$d workflow</string>
+    
+    <!-- VisionScreen -->
+    <string name="vision_prompts_title">Prompt Visione</string>
+    <string name="vision_prompts_subtitle">Prompt per generazione arte IA</string>
+    <string name="vision_shuffle">Casuale</string>
+    <string name="vision_failed_to_load">Caricamento fallito</string>
+    <string name="vision_tap_to_retry">Tocca per riprovare</string>
+    <string name="vision_retry">Riprova</string>
+    <string name="vision_no_visions">Nessuna visione disponibile</string>
+    <string name="vision_next_page">Pagina successiva</string>
+    <string name="vision_copy">Copia</string>
+    <string name="vision_avoid">Evita</string>
+    <string name="vision_use">Usa</string>
+    <string name="vision_copied">Copiato!</string>
+    
+    <!-- GenerateScreen -->
+    <string name="generate_category">Categoria</string>
+    <string name="generate_describe_vision">Descrivi la tua visione</string>
+    <string name="generate_describe_subtitle">Dicci cosa vuoi creare</string>
+    <string name="generate_prompt_placeholder">es. bella ragazza anime con lunghi capelli argento, occhi dettagliati, sfondo fiori di ciliegio, qualità capolavoro</string>
+    <string name="generate_quick_suggestions">Suggerimenti rapidi</string>
+    <string name="generate_suggest_more">Suggerisci altro →</string>
+    <string name="generate_things_to_avoid">Cose da evitare</string>
+    <string name="generate_avoid_subtitle">Opzionale - Cosa non vuoi vedere</string>
+    <string name="generate_avoid_placeholder">es. sfocato, bassa qualità, brutta anatomia, brutto viso, mani distorte</string>
+    <string name="generate_common_negatives">Negativi comuni</string>
+    <string name="generate_image">Genera Immagine</string>
+    
+    <!-- ExploreScreen -->
+    <string name="explore_title">Esplora</string>
+    <string name="explore_subtitle">Creazioni Community</string>
+    <string name="explore_popular">🔥 Popolari</string>
+    <string name="explore_recent">⏰ Recenti</string>
+    <string name="explore_trending">📈 Di Tendenza</string>
+    <string name="explore_mine">👤 Le Mie</string>
+    <string name="explore_refresh">Aggiorna</string>
+    <string name="explore_no_posts">Ancora nessun post</string>
+    <string name="explore_be_first">Sii il primo a condividere!</string>
+    <string name="explore_error_oops">Ops!</string>
+    <string name="explore_retry">Riprova</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet">Nessuna connessione internet</string>
+    <string name="error_prompt_empty">Il prompt non può essere vuoto</string>
+    <string name="error_user_not_authenticated">Utente non autenticato. Accedi prima.</string>
+    <string name="error_server_busy">Server occupato. Riprova più tardi.</string>
+    <string name="error_process_timeout">Il processo ha richiesto troppo tempo. Prova un prompt più semplice.</string>
+    <string name="error_connection_issue">Problema di connessione. Controlla internet.</string>
+    <string name="error_processing_failed">Impossibile elaborare l\'immagine. Riprova.</string>
+    <string name="error_title">Errore</string>
+    <string name="error_generic_message">Si è verificato un errore durante l\'elaborazione dell\'immagine. Riprova.</string>
+    <string name="error_retry">Riprova</string>
+    <string name="error_back">Indietro</string>
+    
+    <!-- ChatScreen -->
+    <string name="chat_title">Chat Personaggio</string>
+    <string name="chat_select_character">💬 Seleziona il tuo personaggio ▼</string>
+    <string name="chat_menu">Menu</string>
+    <string name="chat_new_chat">Nuova Chat</string>
+    <string name="chat_clear_history">Cancella Cronologia</string>
+    <string name="chat_type_message">Scrivi un messaggio...</string>
+    <string name="chat_send">Invia</string>
+    <string name="chat_close">Chiudi</string>
+    <string name="chat_start_conversation">Inizia Conversazione</string>
+    <string name="chat_ask_anything">Chiedimi qualsiasi cosa! Sono qui per aiutare.</string>
+    <string name="chat_try_asking">Prova a chiedere:</string>
+    <string name="chat_suggestion_1">Come puoi aiutarmi?</string>
+    <string name="chat_suggestion_2">Dimmi un fatto divertente</string>
+    <string name="chat_suggestion_3">Come funziona l\'IA?</string>
+    
+    <!-- CharacterListScreen -->
+    <string name="character_list_title">Messaggi</string>
+    <string name="character_list_search">Cerca</string>
+    <string name="character_list_new_character">Nuovo Personaggio</string>
+    <string name="character_list_retry">Riprova Connessione</string>
+    <string name="character_list_unknown_error">Errore sconosciuto</string>
+    <string name="character_list_delete_title">Eliminare Personaggio?</string>
+    <string name="character_list_delete_message">Sei sicuro di voler eliminare questo personaggio? Se sì, il personaggio verrà eliminato, ma il tuo limite di personaggi NON diminuirà.</string>
+    <string name="character_list_delete">Elimina</string>
+    <string name="character_list_cancel">Annulla</string>
+    <string name="character_list_empty_title">Nessuna chat ancora</string>
+    <string name="character_list_empty_subtitle">Inizia a chattare con i tuoi personaggi IA!</string>
+    <string name="character_list_create_new">Crea Nuovo Personaggio</string>
+    
+    <!-- CharacterChatScreen -->
+    <string name="character_chat_go_back">Indietro</string>
+    <string name="character_chat_character_not_found">Personaggio non trovato</string>
+    <string name="character_chat_start_chatting">Inizia a chattare con %1$s!</string>
+    <string name="character_chat_deadly_sins">Hanno %1$d peccati capitali</string>
+    <string name="character_chat_message_not_sent">Messaggio non inviato</string>
+    <string name="character_chat_inappropriate">Il tuo messaggio contiene linguaggio inappropriato. Si prega di rispettare i personaggi IA.</string>
+    <string name="character_chat_ok">OK</string>
+    <string name="character_chat_type_message_placeholder">Scrivi un messaggio...</string>
+    <string name="character_chat_connection_error">Errore di Connessione</string>
+    <string name="character_chat_sins">peccati</string>
+    <string name="character_chat_back">Indietro</string>
+    <string name="character_chat_close">Chiudi</string>
+
+    <!-- Gallery Screen -->
+    <string name="gallery_title">Galleria</string>
+    <string name="gallery_subtitle_count">%1$d immagini</string>
+    <string name="gallery_filter_all">Tutti</string>
+    <string name="gallery_filter_favorites">Preferiti</string>
+    <string name="gallery_empty_title">Nessuna immagine ancora</string>
+    <string name="gallery_empty_subtitle">Inizia a generare per vedere le tue creazioni qui</string>
+    <string name="gallery_generate_now">Genera Ora</string>
+    <string name="gallery_msg_select_character">Seleziona un\'immagine per creare il tuo personaggio</string>
+    <string name="gallery_msg_limit_reached">Limite personaggi raggiunto!</string>
+    <string name="gallery_content_desc_select_char">Seleziona Personaggio</string>
+    <string name="gallery_content_desc_create_char">Crea Personaggio</string>
+    <string name="gallery_report_title">Segnala Immagine</string>
+    <string name="gallery_report_desc">Descrivi perché stai segnalando questa immagine:</string>
+    <string name="gallery_report_reason_label">Motivo della segnalazione</string>
+    <string name="gallery_report_reason_placeholder">Descrivi il problema...</string>
+    <string name="gallery_report_button">Segnala</string>
+    <string name="gallery_cancel">Annulla</string>
+    <string name="gallery_delete_title">Eliminare Immagine?</string>
+    <string name="gallery_delete_message">Questa azione non può essere annullata. L\'immagine verrà eliminata permanentemente.</string>
+    <string name="gallery_delete_button">Elimina</string>
+    <string name="gallery_share_premium_only">🔒 La condivisione con la community è disponibile per gli abbonati Basic e Pro</string>
+    <string name="gallery_share_duplicate">⚠️ Questa immagine/prompt è già stata condivisa con la community.</string>
+    <string name="gallery_share_success">✅ Condiviso con successo con la Community!</string>
+    <string name="gallery_share_failed">Condivisione fallita: %1$s</string>
+    <string name="gallery_share_file_not_found">File immagine non trovato</string>
+    <string name="gallery_share_error">Errore: %1$s</string>
+    <string name="gallery_create_char_title">Creare Personaggio?</string>
+    <string name="gallery_create_char_message">Questo trasformerà questa immagine nel tuo compagno IA unico.</string>
+    <string name="gallery_create_char_warning">⚠️ Puoi scegliere solo UN personaggio. Non può essere cambiato in seguito.</string>
+    <string name="gallery_char_name_label">Nome Personaggio (Opzionale)</string>
+    <string name="gallery_char_name_placeholder">Lascia vuoto per un nome casuale</string>
+    <string name="gallery_select_language_title">Seleziona Lingua:</string>
+    <string name="gallery_select_gender_title">Seleziona Genere:</string>
+    <string name="gallery_gender_male">Maschio ♂️</string>
+    <string name="gallery_gender_female">Femmina ♀️</string>
+    <string name="gallery_analyzing_personality">Analisi personalità in corso...</string>
+    <string name="gallery_summoning_soul">Evocazione anima in corso...</string>
+    <string name="gallery_character_created">Personaggio creato!</string>
+    <string name="gallery_create_and_chat">Crea e Chatta</string>
+    <string name="gallery_guidelines_title">Linee Guida della Community</string>
+    <string name="gallery_guidelines_intro">Prima di condividere immagini con la community, nota:</string>
+    <string name="gallery_guideline_nsfw">🚫 Niente contenuti inappropriati/NSFW</string>
+    <string name="gallery_guideline_violence">🚫 Niente violenza o spargimento di sangue</string>
+    <string name="gallery_guideline_illegal">🚫 Niente contenuti illegali</string>
+    <string name="gallery_guideline_hate">🚫 Niente incitamento all\'odio o discriminazione</string>
+    <string name="gallery_guidelines_warning_title">⚠️ AVVISO:</string>
+    <string name="gallery_guidelines_warning_text">Le violazioni comporteranno il BAN PERMANENTE DELL\'ACCOUNT e l\'ELIMINAZIONE DI TUTTI I CONTENUTI senza preavviso!</string>
+    <string name="gallery_guidelines_agree">Capisco e Accetto</string>
+    <string name="gallery_share_already_shared">⚠️ Questo prompt è già stato condiviso!</string>
+    <string name="gallery_share_success_full">✅ Condiviso con successo con la Community!</string>
+    <string name="gallery_chat_button">💬 Chat</string>
+    <string name="gallery_your_character_badge">🌟 Il Tuo Personaggio</string>
+    
+    <!-- Tabs -->
+    <string name="character_chat_tab_relationship">Relazione</string>
+    <string name="character_chat_tab_status">Stato</string>
+    <string name="character_chat_tab_profile">Profilo</string>
+    <string name="character_chat_tab_stats">Statistiche</string>
+    
+    <!-- Relationship Tab -->
+    <string name="character_chat_affection_points">Punti Affetto</string>
+    <string name="character_chat_max">MAX ❤️</string>
+    <string name="character_chat_ap_to">%1$d PA a %2$s</string>
+    <string name="character_chat_soulmate_forever">Anima Gemella per Sempre 💍</string>
+    <string name="character_chat_confess_feelings">💌 Confessa Sentimenti</string>
+    <string name="character_chat_propose_marriage">💍 Proposta di Matrimonio</string>
+    
+    <!-- Status Tab -->
+    <string name="character_chat_current_mood">Umore Attuale</string>
+    <string name="character_chat_energy_level">Livello Energia</string>
+    <string name="character_chat_energy_high">Alto</string>
+    <string name="character_chat_energy_normal">Normale</string>
+    <string name="character_chat_energy_tired">Stanco</string>
+    
+    <!-- Profile Tab -->
+    <string name="character_chat_archetype">Archetipo</string>
+    <string name="character_chat_traits">Tratti</string>
+    <string name="character_chat_interests">Interessi</string>
+    <string name="character_chat_deadly_sins_title">Peccati Capitali</string>
+    <string name="character_chat_sins_hidden">%1$d Peccati (Nascosti)</string>
+    
+    <!-- Stats Tab -->
+    <string name="character_chat_interaction_stats">Statistiche Interazione</string>
+    <string name="character_chat_total_messages">Totale Messaggi</string>
+    <string name="character_chat_last_chat">Ultima Chat</string>
+    <string name="character_chat_chat_frequency">Frequenza Chat</string>
+    <string name="character_chat_ghosting_record">Record Ghosting</string>
+    <string name="character_chat_ghosted_times">Hai ghostato questo personaggio %1$d volte.</string>
+    
+    <!-- Favorites Screen -->
+    <string name="favorites_title">Preferiti</string>
+    <string name="favorites_saved_count">%1$d salvati</string>
+    <string name="favorites_empty_title">Nessun preferito ancora</string>
+    <string name="favorites_empty_message">Segna i workflow come preferiti per vederli qui</string>
+    <string name="favorites_remove_content_desc">Rimuovi dai preferiti</string>
+    <string name="favorites_pro_badge">⭐ PRO</string>
+
+    <!-- Leaderboard Screen -->
+    <string name="leaderboard_title">Classifica</string>
+    <string name="leaderboard_tab_architect">Architetto</string>
+    <string name="leaderboard_tab_romancer">Romantico</string>
+    <string name="leaderboard_tab_mvp">MVP</string>
+    <string name="leaderboard_tab_fame">Hall of Fame</string>
+    <string name="leaderboard_tab_rising">Emergente</string>
+    <string name="leaderboard_filter_all_time">Tutto il Tempo</string>
+    <string name="leaderboard_filter_weekly">Settimanale</string>
+    <string name="leaderboard_filter_monthly">Mensile</string>
+    <string name="leaderboard_architect_title">Mastro Architetto</string>
+    <string name="leaderboard_architect_desc">I visionari che generano più capolavori.</string>
+    <string name="leaderboard_metric_generations">Generazioni</string>
+    <string name="leaderboard_romancer_title">Migliori Romantici</string>
+    <string name="leaderboard_romancer_desc">Utenti con i legami più profondi. Punti affetto guadagnati attraverso interazioni genuine.</string>
+    <string name="leaderboard_metric_affection">Punti Affetto</string>
+    <string name="leaderboard_mvp_title">MVP della Community</string>
+    <string name="leaderboard_mvp_desc">I pilastri della nostra community che condividono più prompt/creazioni.</string>
+    <string name="leaderboard_metric_shares">Condivisioni</string>
+    <string name="leaderboard_fame_title">Hall of Fame</string>
+    <string name="leaderboard_fame_desc">Opere d\'arte leggendarie classificate per categoria.</string>
+    <string name="leaderboard_filter_most_liked">Più Piaciuti</string>
+    <string name="leaderboard_filter_most_downloaded">Più Scaricati</string>
+    <string name="leaderboard_metric_likes">Mi Piace</string>
+    <string name="leaderboard_metric_downloads">Download</string>
+    <string name="leaderboard_rising_title">Stelle Nascenti</string>
+    <string name="leaderboard_rising_desc">Nuovi creatori che stanno guadagnando popolarità ultimamente.</string>
+    <string name="leaderboard_metric_recent_likes">Mi Piace Recenti</string>
+    <string name="leaderboard_no_rankings">Ancora nessuna classifica</string>
+    <string name="leaderboard_error_prefix">Errore: %1$s</string>
+
+    <!-- News Screen (Events & Updates) -->
+    <string name="news_title">Eventi e Aggiornamenti</string>
+    <string name="news_badge_event">EVENTO</string>
+    <string name="news_badge_update">AGGIORNAMENTO</string>
+    <string name="news_action_view_details">Vedi Dettagli</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Impostazioni</string>
+    <string name="settings_subtitle">Personalizza la tua esperienza</string>
+
+    <!-- Preferences Section -->
+    <string name="settings_section_preferences">Preferenze</string>
+    <string name="settings_dark_mode">Modalità Scura</string>
+    <string name="settings_dark_mode_desc">Passa al tema scuro</string>
+    <string name="settings_notifications">Notifiche</string>
+    <string name="settings_notifications_desc">Ricevi una notifica quando la generazione è completa</string>
+    <string name="settings_auto_save">Salvataggio Automatico</string>
+    <string name="settings_auto_save_desc">Salva automaticamente nella galleria o mostra la finestra di salvataggio</string>
+    <string name="settings_gallery_lock">Blocco Galleria</string>
+    <string name="settings_gallery_lock_desc">Proteggi la galleria con un codice PIN</string>
+    <string name="settings_restricted_content">Contenuto Limitato</string>
+    <string name="settings_restricted_content_desc">Abilita contenuti per adulti (Richiede verifica età)</string>
+    <string name="settings_more">Altro</string>
+    <string name="settings_more_desc">Richiedi accesso a contenuti aggiuntivi (Requisiti: Basic/Pro + Approvazione)</string>
+
+    <!-- Storage Section -->
+    <string name="settings_section_storage">Archiviazione</string>
+    <string name="settings_clear_cache">Svuota Cache</string>
+    <string name="settings_clear_cache_desc">Libera spazio di archiviazione</string>
+    <string name="settings_cache_cleared">Cache svuotata!</string>
+    <string name="settings_export_gallery">Esporta Galleria</string>
+    <string name="settings_export_gallery_locked">Esporta Galleria 🔒</string>
+    <string name="settings_export_gallery_desc">Salva tutte le tue immagini</string>
+    <string name="settings_export_gallery_premium">Funzione Premium</string>
+    <string name="settings_upgrade_toast">Per favore aggiorna a Premium dal Profilo</string>
+
+    <!-- About & Legal Section -->
+    <string name="settings_section_about">Informazioni e Legale</string>
+    <string name="settings_privacy_policy">Informativa sulla Privacy</string>
+    <string name="settings_privacy_policy_desc">Visualizza la nostra politica sulla privacy</string>
+    <string name="settings_terms_service">Termini di Servizio</string>
+    <string name="settings_terms_service_desc">Leggi i nostri termini e condizioni</string>
+
+    <!-- Support Section -->
+    <string name="settings_section_support">Supporto</string>
+    <string name="settings_help_support">Aiuto e Supporto</string>
+    <string name="settings_help_support_desc">Contattaci via email</string>
+    <string name="settings_rate_app">Valuta l\'App</string>
+    <string name="settings_rate_app_desc">Condividi il tuo feedback sul Play Store</string>
+    <string name="settings_app_version">Versione App</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="settings_clear_cache_title">Svuotare la cache?</string>
+    <string name="settings_clear_cache_message">Questo cancellerà tutte le immagini memorizzate nella cache e i file temporanei. Questa azione non può essere annullata.</string>
+    <string name="settings_btn_clear">Svuota</string>
+    <string name="settings_btn_cancel">Annulla</string>
+
+    <string name="settings_export_dialog_title">Esporta tutto nella Galleria</string>
+    <string name="settings_export_warning_1">⚠️ Questo sposterà tutte le immagini generate nella galleria principale.</string>
+    <string name="settings_export_warning_2">• Tutte le immagini nella cartella generated verranno spostate</string>
+    <string name="settings_export_warning_3">• Le immagini verranno rimosse dalla loro posizione attuale</string>
+    <string name="settings_export_warning_4">• Questa azione non può essere annullata</string>
+    <string name="settings_export_confirm">Continuare l\'esportazione?</string>
+    <string name="settings_btn_export_all">Esporta Tutto</string>
+
+    <string name="settings_upgrade_required_title">Aggiornamento Richiesto</string>
+    <string name="settings_upgrade_required_msg">L\'accesso ai contenuti \'Altro\' richiede un abbonamento Basic o Pro.</string>
+    <string name="settings_btn_ok">OK</string>
+
+    <string name="settings_request_access_title">Richiedi Accesso</string>
+    <string name="settings_request_access_msg">L\'accesso ai contenuti \'Altro\' richiede l\'approvazione dell\'Admin. Vuoi inviare una richiesta?</string>
+    <string name="settings_btn_send_request">Invia Richiesta</string>
+    <string name="settings_request_sent">Richiesta Inviata</string>
+    <string name="settings_request_pending">Richiesta in attesa di approvazione Admin</string>
+    <string name="settings_cannot_disable">Impossibile disabilitare. Contatta il supporto per modifiche.</string>
+
+    <string name="settings_pin_setup_title">Imposta PIN Galleria</string>
+    <string name="settings_pin_setup_msg">Crea un PIN a 4 cifre per proteggere la tua galleria</string>
+    <string name="settings_pin_enter">Inserisci PIN</string>
+    <string name="settings_pin_confirm">Conferma PIN</string>
+    <string name="settings_pin_error">I PIN non corrispondono o non sono validi</string>
+    <string name="settings_btn_set_pin">Imposta PIN</string>
+
+    <string name="settings_export_empty">Nessuna immagine da esportare</string>
+    <string name="settings_export_success">Esportate con successo %1$d immagini nella galleria</string>
+    <string name="settings_export_partial">Esportate %1$d immagini nella galleria (%2$d fallite)</string>
+    <string name="settings_export_failed">Esportazione fallita: %1$s</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Profilo</string>
+    <string name="profile_guest">Ospite</string>
+    <string name="profile_guest_account">Account Ospite</string>
+    <string name="profile_edit_name">Cambia Nome</string>
+    <string name="profile_section_subscription">Abbonamento e Utilizzo</string>
+    <string name="profile_daily_generations">Generazioni Giornaliere</string>
+    <string name="profile_used_today">Usate oggi: %1$d</string>
+    <string name="profile_generations">Generazioni: </string>
+    <string name="profile_chat_limit">Limite Chat: </string>
+    <string name="profile_expires">Scade: %1$s</string>
+    <string name="profile_plan">Piano di Abbonamento</string>
+    <string name="profile_plan_desc">Gestisci il tuo abbonamento</string>
+    <string name="profile_usage_stats">Statistiche Utilizzo</string>
+    <string name="profile_usage_stats_desc">Visualizza la tua cronologia di generazione</string>
+    <string name="profile_section_account">Azioni Account</string>
+    <string name="profile_link_account">Collega Account</string>
+    <string name="profile_link_account_desc">Collega con Google per salvare i tuoi dati</string>
+    <string name="profile_sign_out">Esci</string>
+    <string name="profile_sign_out_desc">Esci dal tuo account</string>
+    <string name="profile_delete_account">Elimina Account</string>
+    <string name="profile_delete_account_desc">Elimina permanentemente il tuo account e i dati</string>
+    <string name="profile_dialog_edit_name">Cambia Nome Visualizzato</string>
+    <string name="profile_enter_name">Inserisci il tuo nuovo nome:</string>
+    <string name="profile_btn_save">Salva</string>
+    <string name="profile_dialog_delete_title">Eliminare Account?</string>
+    <string name="profile_delete_warning_list">Questo eliminerà permanentemente:</string>
+    <string name="profile_delete_item_1">• Il tuo account e profilo</string>
+    <string name="profile_delete_item_2">• Tutte le immagini generate</string>
+    <string name="profile_delete_item_3">• Statistiche di utilizzo</string>
+    <string name="profile_delete_item_4">• Preferiti e raccolte</string>
+    <string name="profile_delete_item_5">• Dati dell\'abbonamento</string>
+    <string name="profile_delete_warning_final">⚠️ Questa azione non può essere annullata!</string>
+    <string name="profile_delete_instruction">Per procedere, invia una richiesta di eliminazione:</string>
+    <string name="profile_btn_submit_request">Invia Richiesta</string>
+
+    <!-- Subscription Screen -->
+    <string name="subscription_title">Negozio Abbonamenti</string>
+    <string name="subscription_status_user">Stato Utente</string>
+    <string name="subscription_status_pro">PRO</string>
+    <string name="subscription_status_basic">BASE</string>
+    <string name="subscription_status_free">GRATUITO</string>
+    <string name="subscription_limit_format">Limite: %1$s/%2$s</string>
+    <string name="subscription_exp_format">Scad: %1$s</string>
+    <string name="subscription_chat_format">Chat: %1$s</string>
+    <string name="subscription_loading_limits">Caricamento limiti...</string>
+    <string name="subscription_choose_plan">Scegli Piano</string>
+    <string name="subscription_chat_addons">Componenti Aggiuntivi Limite Chat</string>
+
+    <string name="subscription_gacha_title">🎲 Gacha</string>
+    <string name="subscription_gacha_desc">1-9 Limite</string>
+    <string name="subscription_single_limit_title">💬 +1 Limite</string>
+    <string name="subscription_single_limit_desc">Istantaneo</string>
+    <string name="subscription_toast_added_chat">Aggiunto +1 Limite Chat!</string>
+
+    <string name="subscription_gacha_result_jackpot">🎉 JACKPOT! 🎉</string>
+    <string name="subscription_gacha_result_normal">Risultato Gacha</string>
+    <string name="subscription_gacha_result_msg">Limite Chat Aggiunto!</string>
+    <string name="subscription_btn_awesome">Fantastico!</string>
+
+    <string name="subscription_upgrade_title">Aggiorna a %1$s?</string>
+    <string name="subscription_price_format">Prezzo: %1$s</string>
+    <string name="subscription_feature_ad_free">• Senza Pubblicità</string>
+    <string name="subscription_btn_confirm">Conferma</string>
+    <string name="subscription_btn_buy">Acquista</string>
+    <string name="subscription_current_plan">Attuale</string>
+
+
+    <!-- App Drawer -->
+    <string name="drawer_guest">Ospite</string>
+    <string name="drawer_login_to_chat">Accedi per utilizzare la chat</string>
+    <string name="drawer_current_language">Lingua</string>
+    <string name="drawer_promo_title">Eventi e Ricompense</string>
+    <string name="drawer_promo_desc">Scopri gli eventi in corso, gli aggiornamenti e ritira le tue ricompense!</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Bentornato</string>
+    <string name="login_subtitle">Crea fantastici anime art con l\'IA</string>
+    <string name="login_email_label">Email o Username</string>
+    <string name="login_email_placeholder">Inserisci la tua email</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_password_placeholder">Inserisci la tua password</string>
+    <string name="login_btn_signin">Accedi</string>
+    <string name="login_continue_google">Continua con Google</string>
+    <string name="login_continue_guest">Continua come Ospite</string>
+    <string name="login_no_account">Non hai un account? </string>
+    <string name="login_signup_link">Iscriviti</string>
+    <string name="login_or">o</string>
+    <string name="login_app_name">Draw AI</string>
+    <string name="login_logo_text">IA</string>
+
+    <!-- Sign Up Screen -->
+    <string name="signup_title">Crea Account</string>
+    <string name="signup_subtitle">Unisciti a noi per creare incredibili anime art</string>
+    <string name="signup_fullname_label">Nome Completo</string>
+    <string name="signup_fullname_placeholder">Inserisci il tuo nome completo</string>
+    <string name="signup_email_label">Email</string>
+    <string name="signup_email_placeholder">Inserisci la tua email</string>
+    <string name="signup_password_label">Password</string>
+    <string name="signup_password_placeholder">Crea una password</string>
+    <string name="signup_confirm_password_label">Conferma Password</string>
+    <string name="signup_confirm_password_placeholder">Inserisci nuovamente la password</string>
+    <string name="signup_btn_create">Crea Account</string>
+    <string name="signup_google">Iscriviti con Google</string>
+    <string name="signup_have_account">Hai già un account? </string>
+    <string name="signup_signin_link">Accedi</string>
+    <string name="signup_terms">Iscrivendoti, accetti i nostri Termini di Servizio e l\'Informativa sulla Privacy</string>
+    <string name="signup_error_fullname">Per favore inserisci il tuo nome completo</string>
+    <string name="signup_error_email">Per favore inserisci la tua email</string>
+    <string name="signup_error_email_invalid">Per favore inserisci un\'email valida</string>
+    <string name="signup_error_password">Per favore inserisci una password</string>
+    <string name="signup_error_password_length">La password deve essere di almeno 6 caratteri</string>
+    <string name="signup_error_password_match">Le password non corrispondono</string>
+
+    <!-- Onboarding Screen -->
+    <string name="onboarding_skip">Salta</string>
+    <string name="onboarding_next">Avanti</string>
+    <string name="onboarding_get_started">Inizia</string>
+    <string name="onboarding_page1_title">Benvenuto su AnimeDraw AI</string>
+    <string name="onboarding_page1_desc">Crea fantastici anime art con la potenza dell\'IA. Descrivi semplicemente ciò che vuoi vedere!</string>
+    <string name="onboarding_page2_title">Chatta con Personaggi IA</string>
+    <string name="onboarding_page2_desc">Interagisci con personalità IA uniche. Possono aiutarti a generare idee o semplicemente fare una conversazione divertente.</string>
+    <string name="onboarding_page3_title">Unisciti alla Community</string>
+    <string name="onboarding_page3_desc">Condividi le tue creazioni, lasciati ispirare dagli altri e scala la classifica.</string>
+
+    <!-- Post Detail Screen -->
+    <string name="post_anonymous">Anonimo</string>
+    <string name="post_downloaded_already">Già scaricato in questa sessione</string>
+    <string name="post_sharing">Condivisione in corso...</string>
+    <string name="post_prompt">Prompt</string>
+    <string name="post_negative_prompt">Prompt Negativo</string>
+    <string name="post_workflow_model">Workflow / Modello</string>
+    <string name="post_unknown">Sconosciuto</string>
+    <string name="post_report_title">Segnala Contenuto</string>
+    <string name="post_report_desc">Perché stai segnalando questo contenuto?</string>
+    <string name="post_report_reason">Motivo</string>
+    <string name="post_report_success">Segnalazione inviata con successo</string>
+    <string name="post_report_failed">Impossibile inviare la segnalazione</string>
+    <string name="post_report_provide_reason">Per favore fornisci un motivo</string>
+    <string name="post_report_submit">Invia Segnalazione</string>
+    <string name="post_report_cancel">Annulla</string>
+    <string name="post_saved_gallery">Immagine salvata nella Galleria</string>
+    <string name="post_download_failed">Impossibile scaricare l\'immagine</string>
+    <string name="post_share">Condividi</string>
+    <string name="post_content_desc_back">Indietro</string>
+    <string name="post_content_desc_info">Info</string>
+    <string name="post_content_desc_like">Mi Piace</string>
+    <string name="post_content_desc_download">Scarica</string>
+
+    <!-- Gallery Pin Screen -->
+    <string name="pin_title">Galleria Protetta</string>
+    <string name="pin_subtitle">Inserisci il tuo PIN a 4 cifre per accedere alla galleria</string>
+    <string name="pin_label">Inserisci PIN</string>
+    <string name="pin_error_too_many">Troppi tentativi falliti. PIN errato.</string>
+    <string name="pin_error_incorrect">PIN errato. Riprova.</string>
+    <string name="pin_back">Indietro</string>
+    <string name="pin_forgot_hint">Se hai dimenticato il PIN, puoi disattivare il Blocco Galleria nelle Impostazioni.</string>
+    <string name="pin_content_desc_lock">Blocco Galleria</string>
+
+    <!-- Usage Statistics Screen -->
+    <string name="stats_title">Statistiche Utilizzo</string>
+    <string name="stats_total_generations">Totale Generazioni</string>
+    <string name="stats_last_generation">Ultima: %1$s</string>
+    <string name="stats_no_generations">Nessuna generazione ancora</string>
+    <string name="stats_total_saves">Totale Salvati</string>
+    <string name="stats_saves_desc">Immagini salvate nella galleria</string>
+    <string name="stats_total_favorites">Totale Preferiti</string>
+    <string name="stats_favorites_desc">Workflow segnati come preferiti</string>
+    <string name="stats_member_since">Membro Dal</string>
+    <string name="stats_member_desc">Data della prima generazione</string>
+    <string name="stats_about_title">ℹ️ Informazioni sulle Statistiche</string>
+    <string name="stats_about_desc">Le tue statistiche di utilizzo sono archiviate in modo sicuro su Firebase e sincronizzate su tutti i tuoi dispositivi. Queste statistiche ti aiutano a tracciare il tuo viaggio creativo con Draw AI.</string>
+    <string name="stats_content_desc_back">Indietro</string>
+
+    <!-- Summoning Screen -->
+    <string name="summon_deadly_sins">Peccati Capitali</string>
+    <string name="summon_content_desc_character">Personaggio</string>
+
+    <!-- Category Detail Extras -->
+    <string name="category_content_desc_back">Indietro</string>
+    <string name="category_content_desc_grid">Cambia Griglia</string>
+    <string name="category_upgrade_title">Passa a Premium</string>
+    <string name="category_upgrade_desc">Sblocca workflow e funzionalità premium</string>
+    <string name="category_upgrade_btn">Aggiorna Ora</string>
+    <string name="category_upgrade_cancel">Annulla</string>
+    <!-- Gem Store & Daily Reward -->
+    <string name="gem_store_title">Negozio di Gemme</string>
+    <string name="daily_reward_title">Ricompensa Giornaliera</string>
+    <string name="daily_reward_description">Riscuoti la tua ricompensa giornaliera!</string>
+    <string name="daily_reward_claim">Riscuoti</string>
+    <string name="daily_reward_claimed">Riscattato</string>
+    <string name="daily_reward_day">Giorno %1$d</string>
+    <string name="daily_reward_gems">%1$d Gemme</string>
+    <string name="shop_item_candy">Caramella Dolce</string>
+    <string name="shop_item_coffee">Caffè Caldo</string>
+    <string name="shop_item_rose">Rosa Rossa</string>
+    <string name="shop_buy_button">Acquista</string>
+    <string name="shop_insufficient_gems">Gemme insufficienti</string>
+    <string name="shop_purchase_success">Acquisto riuscito!</string>
+</resources>

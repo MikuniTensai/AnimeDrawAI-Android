@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draw AI</string>
+    
+    <!-- Sidebar Menu Items -->
+    <string name="menu_home">होम</string>
+    <string name="menu_vision">दृष्टि</string>
+    <string name="menu_explore">अन्वेषण करें</string>
+    <string name="menu_chat">चैट</string>
+    <string name="menu_gallery">गैलरी</string>
+    <string name="menu_favorites">पसंदीदा</string>
+    <string name="menu_subscription">सदस्यता</string>
+    <string name="menu_leaderboard">लीडरबोर्ड</string>
+    <string name="menu_settings">सेटिंग्स</string>
+    <string name="menu_events_updates">इवेंट और अपडेट</string>
+    
+    <!-- Discovered Workflows -->
+    <string name="workflows_most_viewed">🔥 सबसे अधिक देखा गया</string>
+    <string name="workflows_newest">✨ नवीनतम</string>
+    <string name="workflows_most_popular">⭐ सबसे लोकप्रिय</string>
+    <string name="workflows_see_all">सभी देखें →</string>
+    
+    <!-- Language Selector -->
+    <string name="language_selector_title">भाषा चुनें</string>
+    <string name="current_language">हिन्दी</string>
+    
+    <!-- HomeScreen -->
+    <string name="discover_workflows_title">वर्कफ़्लो खोजें</string>
+    <string name="discover_workflows_subtitle">बनाना शुरू करने के लिए एक वर्कफ़्लो चुनें</string>
+    <string name="search_workflows">वर्कफ़्लो खोजें</string>
+    <string name="search_placeholder">खोजने के लिए टाइप करें…</string>
+    
+    <!-- Workflow Sections -->
+    <string name="latest_additions">नवीनतम जोड़</string>
+    <string name="community_favorites">समुदाय पसंदीदा</string>
+    
+    <!-- Filter Chips -->
+    <string name="filter_all">सभी</string>
+    <string name="filter_favorites">पसंदीदा</string>
+    <string name="filter_anime">एनीमे</string>
+    <string name="filter_general">सामान्य</string>
+    <string name="filter_animal">जानवर</string>
+    <string name="filter_flower">फूल</string>
+    <string name="filter_food">भोजन</string>
+    <string name="filter_background">पृष्ठभूमि</string>
+    
+    <!-- Time Units -->
+    <string name="time_seconds">सेकंड</string>
+    
+    <!-- Category Names -->
+    <string name="category_anime">एनीमे</string>
+    <string name="category_general">सामान्य</string>
+    <string name="category_animal">जानवर</string>
+    <string name="category_flower">फूल</string>
+    <string name="category_food">भोजन</string>
+    <string name="category_background">पृष्ठभूमि</string>
+    
+    <!-- CategoryDetailScreen -->
+    <string name="category_most_viewed_subtitle">दृश्यों के अनुसार शीर्ष वर्कफ़्लो</string>
+    <string name="category_newest_subtitle">हमारे संग्रह में नवीनतम जोड़</string>
+    <string name="category_most_popular_subtitle">समुदाय पसंदीदा</string>
+    <string name="category_browse_all">सभी वर्कफ़्लो ब्राउज़ करें</string>
+    <string name="search_in_category">इस श्रेणी में खोजें…</string>
+    <string name="workflows_count">%1$d वर्कफ़्लो</string>
+    
+    <!-- VisionScreen -->
+    <string name="vision_prompts_title">विज़न प्रॉम्प्ट</string>
+    <string name="vision_prompts_subtitle">AI कला निर्माण प्रॉम्प्ट</string>
+    <string name="vision_shuffle">फेरबदल</string>
+    <string name="vision_failed_to_load">लोड करने में विफल</string>
+    <string name="vision_tap_to_retry">पुनः प्रयास के लिए टैप करें</string>
+    <string name="vision_retry">पुनः प्रयास करें</string>
+    <string name="vision_no_visions">कोई विज़न उपलब्ध नहीं</string>
+    <string name="vision_next_page">अगला पृष्ठ</string>
+    <string name="vision_copy">कॉपी करें</string>
+    <string name="vision_avoid">बचें</string>
+    <string name="vision_use">उपयोग करें</string>
+    <string name="vision_copied">कॉपी किया गया!</string>
+    
+    <!-- GenerateScreen -->
+    <string name="generate_category">श्रेणी</string>
+    <string name="generate_describe_vision">अपनी दृष्टि का वर्णन करें</string>
+    <string name="generate_describe_subtitle">हमें बताएं कि आप क्या बनाना चाहते हैं</string>
+    <string name="generate_prompt_placeholder">उदा., लंबे चांदी के बालों वाली सुंदर एनीमे लड़की, विस्तृत आंखें, चेरी ब्लॉसम पृष्ठभूमि, उत्कृष्ट कृति गुणवत्ता</string>
+    <string name="generate_quick_suggestions">त्वरित सुझाव</string>
+    <string name="generate_suggest_more">अधिक सुझाव दें →</string>
+    <string name="generate_things_to_avoid">बचने योग्य चीजें</string>
+    <string name="generate_avoid_subtitle">वैकल्पिक - आप क्या नहीं देखना चाहते</string>
+    <string name="generate_avoid_placeholder">उदा., धुंधला, कम गुणवत्ता, खराब शरीर रचना, बदसूरत चेहरा, विकृत हाथ</string>
+    <string name="generate_common_negatives">सामान्य नकारात्मक</string>
+    <string name="generate_image">छवि उत्पन्न करें</string>
+    
+    <!-- ExploreScreen -->
+    <string name="explore_title">अन्वेषण करें</string>
+    <string name="explore_subtitle">समुदाय रचनाएँ</string>
+    <string name="explore_popular">🔥 लोकप्रिय</string>
+    <string name="explore_recent">⏰ हाल का</string>
+    <string name="explore_trending">📈 ट्रेंडिंग</string>
+    <string name="explore_mine">👤 मेरा</string>
+    <string name="explore_refresh">रीफ्रेश करें</string>
+    <string name="explore_no_posts">अभी तक कोई पोस्ट नहीं</string>
+    <string name="explore_be_first">साझा करने वाले पहले व्यक्ति बनें!</string>
+    <string name="explore_error_oops">उफ़!</string>
+    <string name="explore_retry">पुनः प्रयास करें</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="error_prompt_empty">प्रॉम्ट खाली नहीं हो सकता</string>
+    <string name="error_user_not_authenticated">उपयोगकर्ता प्रमाणीकृत नहीं है। कृपया पहले लॉगिन करें।</string>
+    <string name="error_server_busy">सर्वर व्यस्त है। कृपया बाद में पुनः प्रयास करें।</string>
+    <string name="error_process_timeout">प्रक्रिया में बहुत अधिक समय लगा। कृपया एक सरल प्रॉम्ट आज़माएं।</string>
+    <string name="error_connection_issue">कनेक्शन समस्या। अपना इंटरनेट जांचें।</string>
+    <string name="error_processing_failed">छवि संसाधित करने में विफल। पुनः प्रयास करें।</string>
+    <string name="error_title">त्रुटि</string>
+    <string name="error_generic_message">छवि संसाधित करते समय एक त्रुटि हुई। पुनः प्रयास करें।</string>
+    <string name="error_retry">पुनः प्रयास करें</string>
+    <string name="error_back">वापस</string>
+    
+    <!-- ChatScreen -->
+    <string name="chat_title">कैरेक्टर चैट</string>
+    <string name="chat_select_character">💬 अपना कैरेक्टर चुनें ▼</string>
+    <string name="chat_menu">मेनू</string>
+    <string name="chat_new_chat">नई चैट</string>
+    <string name="chat_clear_history">इतिहास साफ़ करें</string>
+    <string name="chat_type_message">संदेश टाइप करें...</string>
+    <string name="chat_send">भेजें</string>
+    <string name="chat_close">बंद करें</string>
+    <string name="chat_start_conversation">बातचीत शुरू करें</string>
+    <string name="chat_ask_anything">मुझसे कुछ भी पूछें! मैं मदद के लिए यहाँ हूँ।</string>
+    <string name="chat_try_asking">पूछने का प्रयास करें:</string>
+    <string name="chat_suggestion_1">आप मेरी किस चीज़ में मदद कर सकते हैं?</string>
+    <string name="chat_suggestion_2">मुझे एक मज़ेदार तथ्य बताएं</string>
+    <string name="chat_suggestion_3">AI कैसे काम करता है?</string>
+    
+    <!-- CharacterListScreen -->
+    <string name="character_list_title">संदेश</string>
+    <string name="character_list_search">खोजें</string>
+    <string name="character_list_new_character">नया कैरेक्टर</string>
+    <string name="character_list_retry">कनेक्शन पुनः प्रयास करें</string>
+    <string name="character_list_unknown_error">अज्ञात त्रुटि</string>
+    <string name="character_list_delete_title">कैरेक्टर हटाएं?</string>
+    <string name="character_list_delete_message">क्या आप वाकई इस कैरेक्टर को हटाना चाहते हैं? यदि हां, तो कैरेक्टर हटा दिया जाएगा, लेकिन आपकी कैरेक्टर सीमा संख्या कम नहीं होगी।</string>
+    <string name="character_list_delete">हटाएं</string>
+    <string name="character_list_cancel">रद्द करें</string>
+    <string name="character_list_empty_title">अभी तक कोई बातचीत नहीं</string>
+    <string name="character_list_empty_subtitle">अपने AI कैरेक्टर के साथ चैट करना शुरू करें!</string>
+    <string name="character_list_create_new">नया कैरेक्टर बनाएं</string>
+    
+    <!-- CharacterChatScreen -->
+    <string name="character_chat_go_back">वापस जाएं</string>
+    <string name="character_chat_character_not_found">कैरेक्टर नहीं मिला</string>
+    <string name="character_chat_start_chatting">%1$s के साथ चैट करना शुरू करें!</string>
+    <string name="character_chat_deadly_sins">उनके पास %1$d घातक पाप हैं</string>
+    <string name="character_chat_message_not_sent">संदेश नहीं भेजा गया</string>
+    <string name="character_chat_inappropriate">आपके संदेश में अनुचित भाषा है। कृपया AI कैरेक्टर का सम्मान करें।</string>
+    <string name="character_chat_ok">ठीक है</string>
+    <string name="character_chat_type_message_placeholder">संदेश टाइप करें...</string>
+    <string name="character_chat_connection_error">कनेक्शन त्रुटि</string>
+    <string name="character_chat_sins">पाप</string>
+    <string name="character_chat_back">वापस</string>
+    <string name="character_chat_close">बंद करें</string>
+
+    <!-- Gallery Screen -->
+    <string name="gallery_title">गैलरी</string>
+    <string name="gallery_subtitle_count">%1$d छवियां</string>
+    <string name="gallery_filter_all">सभी</string>
+    <string name="gallery_filter_favorites">पसंदीदा</string>
+    <string name="gallery_empty_title">कोई छवि नहीं</string>
+    <string name="gallery_empty_subtitle">अपनी रचनाएं यहां देखने के लिए उत्पन्न करना शुरू करें</string>
+    <string name="gallery_generate_now">अभी उत्पन्न करें</string>
+    <string name="gallery_msg_select_character">अपना पात्र बनाने के लिए एक छवि चुनें</string>
+    <string name="gallery_msg_limit_reached">पात्र सीमा समाप्त!</string>
+    <string name="gallery_content_desc_select_char">पात्र चुनें</string>
+    <string name="gallery_content_desc_create_char">पात्र बनाएं</string>
+    <string name="gallery_report_title">छवि रिपोर्ट करें</string>
+    <string name="gallery_report_desc">कृपया बताएं कि आप इस छवि की रिपोर्ट क्यों कर रहे हैं:</string>
+    <string name="gallery_report_reason_label">रिपोर्ट का कारण</string>
+    <string name="gallery_report_reason_placeholder">समस्या का वर्णन करें...</string>
+    <string name="gallery_report_button">रिपोर्ट</string>
+    <string name="gallery_cancel">रद्द करें</string>
+    <string name="gallery_delete_title">छवि हटाएं?</string>
+    <string name="gallery_delete_message">यह कार्रवाई पूर्ववत नहीं की जा सकती। छवि स्थायी रूप से हटा दी जाएगी।</string>
+    <string name="gallery_delete_button">हटाएं</string>
+    <string name="gallery_share_premium_only">🔒 समुदाय साझाकरण बेसिक और प्रो ग्राहकों के लिए उपलब्ध है</string>
+    <string name="gallery_share_duplicate">⚠️ यह छवि/प्रॉम्प्ट पहले ही समुदाय में साझा किया जा चुका है।</string>
+    <string name="gallery_share_success">✅ समुदाय में साझा किया गया!</string>
+    <string name="gallery_share_failed">साझा करने में विफल: %1$s</string>
+    <string name="gallery_share_file_not_found">छवि फ़ाइल नहीं मिली</string>
+    <string name="gallery_share_error">त्रुटि: %1$s</string>
+    <string name="gallery_create_char_title">पात्र बनाएं?</string>
+    <string name="gallery_create_char_message">यह इस छवि को आपके अद्वितीय AI साथी में बदल देगा।</string>
+    <string name="gallery_create_char_warning">⚠️ आप केवल एक पात्र चुन सकते हैं। इसे बाद में बदला नहीं जा सकता।</string>
+    <string name="gallery_char_name_label">पात्र का नाम (वैकल्पिक)</string>
+    <string name="gallery_char_name_placeholder">यादृच्छिक नाम के लिए खाली छोड़ दें</string>
+    <string name="gallery_select_language_title">भाषा चुनें:</string>
+    <string name="gallery_select_gender_title">लिंग चुनें:</string>
+    <string name="gallery_gender_male">पुरुष ♂️</string>
+    <string name="gallery_gender_female">महिला ♀️</string>
+    <string name="gallery_analyzing_personality">व्यक्तित्व का विश्लेषण...</string>
+    <string name="gallery_summoning_soul">आत्मा को बुला रहा है...</string>
+    <string name="gallery_character_created">पात्र बनाया गया!</string>
+    <string name="gallery_create_and_chat">बनाएं और चैट करें</string>
+    <string name="gallery_guidelines_title">समुदाय दिशानिर्देश</string>
+    <string name="gallery_guidelines_intro">समुदाय में छवियां साझा करने से पहले, कृपया ध्यान दें:</string>
+    <string name="gallery_guideline_nsfw">🚫 कोई अनुचित/NSFW सामग्री नहीं</string>
+    <string name="gallery_guideline_violence">🚫 कोई हिंसा या गोर नहीं</string>
+    <string name="gallery_guideline_illegal">🚫 कोई अवैध सामग्री नहीं</string>
+    <string name="gallery_guideline_hate">🚫 कोई घृणास्पद भाषण या भेदभाव नहीं</string>
+    <string name="gallery_guidelines_warning_title">⚠️ चेतावनी:</string>
+    <string name="gallery_guidelines_warning_text">उल्लंघन के परिणामस्वरूप स्थायी खाता प्रतिबंध और सभी सामग्री को बिना किसी पूर्व सूचना के हटा दिया जाएगा!</string>
+    <string name="gallery_guidelines_agree">मैं समझता हूं और सहमत हूं</string>
+    <string name="gallery_share_already_shared">⚠️ यह प्रॉम्प्ट पहले ही साझा किया जा चुका है!</string>
+    <string name="gallery_share_success_full">✅ समुदाय में सफलतापूर्वक साझा किया गया!</string>
+    <string name="gallery_chat_button">💬 चैट</string>
+    <string name="gallery_your_character_badge">🌟 आपका पात्र</string>
+    
+    <!-- Tabs -->
+    <string name="character_chat_tab_relationship">संबंध</string>
+    <string name="character_chat_tab_status">स्थिति</string>
+    <string name="character_chat_tab_profile">प्रोफ़ाइल</string>
+    <string name="character_chat_tab_stats">आंकड़े</string>
+    
+    <!-- Relationship Tab -->
+    <string name="character_chat_affection_points">स्नेह अंक</string>
+    <string name="character_chat_max">अधिकतम ❤️</string>
+    <string name="character_chat_ap_to">%1$d AP से %2$s तक</string>
+    <string name="character_chat_soulmate_forever">हमेशा के लिए आत्मा साथी 💍</string>
+    <string name="character_chat_confess_feelings">💌 भावनाओं का इज़हार करें</string>
+    <string name="character_chat_propose_marriage">💍 शादी का प्रस्ताव दें</string>
+    
+    <!-- Status Tab -->
+    <string name="character_chat_current_mood">वर्तमान मूड</string>
+    <string name="character_chat_energy_level">ऊर्जा स्तर</string>
+    <string name="character_chat_energy_high">उच्च</string>
+    <string name="character_chat_energy_normal">सामान्य</string>
+    <string name="character_chat_energy_tired">थका हुआ</string>
+    
+    <!-- Profile Tab -->
+    <string name="character_chat_archetype">आर्किटाइप</string>
+    <string name="character_chat_traits">लक्षण</string>
+    <string name="character_chat_interests">रुचियां</string>
+    <string name="character_chat_deadly_sins_title">घातक पाप</string>
+    <string name="character_chat_sins_hidden">%1$d पाप (छिपे हुए)</string>
+    
+    <!-- Stats Tab -->
+    <string name="character_chat_interaction_stats">इंटरैक्शन आंकड़े</string>
+    <string name="character_chat_total_messages">कुल संदेश</string>
+    <string name="character_chat_last_chat">अंतिम चैट</string>
+    <string name="character_chat_chat_frequency">चैट आवृत्ति</string>
+    <string name="character_chat_ghosting_record">घोस्टिंग रिकॉर्ड</string>
+    <string name="character_chat_ghosted_times">आपने इस कैरेक्टर को %1$d बार घोस्ट किया है।</string>
+    
+    <!-- Favorites Screen -->
+    <string name="favorites_title">पसंदीदा</string>
+    <string name="favorites_saved_count">%1$d सहेजे गए</string>
+    <string name="favorites_empty_title">अभी तक कोई पसंदीदा नहीं</string>
+    <string name="favorites_empty_message">उन्हें यहाँ देखने के लिए वर्कफ़्लो को पसंदीदा के रूप में चिह्नित करें</string>
+    <string name="favorites_remove_content_desc">पसंदीदा से हटाएं</string>
+    <string name="favorites_pro_badge">⭐ PRO</string>
+
+    <!-- Leaderboard Screen -->
+    <string name="leaderboard_title">लीडरबोर्ड</string>
+    <string name="leaderboard_tab_architect">वास्तुकार</string>
+    <string name="leaderboard_tab_romancer">रोमांस करने वाला</string>
+    <string name="leaderboard_tab_mvp">एमवीपी</string>
+    <string name="leaderboard_tab_fame">हॉल ऑफ फेम</string>
+    <string name="leaderboard_tab_rising">उभरता हुआ</string>
+    <string name="leaderboard_filter_all_time">हर समय</string>
+    <string name="leaderboard_filter_weekly">साप्ताहिक</string>
+    <string name="leaderboard_filter_monthly">मासिक</string>
+    <string name="leaderboard_architect_title">मास्टर आर्किटेक्ट</string>
+    <string name="leaderboard_architect_desc">दूरदर्शी जो सबसे उत्कृष्ट कृतियाँ बनाते हैं।</string>
+    <string name="leaderboard_metric_generations">पीढ़ियां</string>
+    <string name="leaderboard_romancer_title">शीर्ष रोमांस करने वाले</string>
+    <string name="leaderboard_romancer_desc">सबसे गहरा बंधन रखने वाले उपयोगकर्ता। स्नेह अंक जो हार्दिक बातचीत के माध्यम से अर्जित किए जाते हैं।</string>
+    <string name="leaderboard_metric_affection">स्नेह अंक</string>
+    <string name="leaderboard_mvp_title">समुदाय एमवीपी</string>
+    <string name="leaderboard_mvp_desc">हमारे समुदाय के स्तंभ जो सबसे अधिक प्रॉम्प्ट/रचनाएं साझा करते हैं।</string>
+    <string name="leaderboard_metric_shares">शेयर</string>
+    <string name="leaderboard_fame_title">हॉल ऑफ फेम</string>
+    <string name="leaderboard_fame_desc">श्रेणी के अनुसार वर्गीकृत पौराणिक कलाकृतियाँ।</string>
+    <string name="leaderboard_filter_most_liked">सर्वाधिक पसंद किया गया</string>
+    <string name="leaderboard_filter_most_downloaded">सर्वाधिक डाउनलोड किया गया</string>
+    <string name="leaderboard_metric_likes">पसंद</string>
+    <string name="leaderboard_metric_downloads">डाउनलोड</string>
+    <string name="leaderboard_rising_title">उभरते सितारे</string>
+    <string name="leaderboard_rising_desc">होतिहार रचनाकार जो हाल ही में लोकप्रियता प्राप्त कर रहे हैं।</string>
+    <string name="leaderboard_metric_recent_likes">हाल की पसंद</string>
+    <string name="leaderboard_no_rankings">अभी तक कोई रैंकिंग नहीं</string>
+    <string name="leaderboard_error_prefix">त्रुटि: %1$s</string>
+
+    <!-- News Screen (Events & Updates) -->
+    <string name="news_title">इवेंट और अपडेट</string>
+    <string name="news_badge_event">इवेंट</string>
+    <string name="news_badge_update">अपडेट</string>
+    <string name="news_action_view_details">विवरण देखें</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="settings_subtitle">अपना अनुभव अनुकूलित करें</string>
+
+    <!-- Preferences Section -->
+    <string name="settings_section_preferences">प्राथमिकताएं</string>
+    <string name="settings_dark_mode">डार्क मोड</string>
+    <string name="settings_dark_mode_desc">डार्क थीम पर स्विच करें</string>
+    <string name="settings_notifications">सूचनाएं</string>
+    <string name="settings_notifications_desc">जनरेशन पूरा होने पर सूचना प्राप्त करें</string>
+    <string name="settings_auto_save">स्वतः सहेजें</string>
+    <string name="settings_auto_save_desc">गैलरी में स्वतः सहेजें या सहेजें संवाद दिखाएं</string>
+    <string name="settings_gallery_lock">गैलरी लॉक</string>
+    <string name="settings_gallery_lock_desc">पिन कोड के साथ गैलरी को सुरक्षित करें</string>
+    <string name="settings_restricted_content">प्रतिबंधित सामग्री</string>
+    <string name="settings_restricted_content_desc">वयस्क सामग्री सक्षम करें (आयु सत्यापन आवश्यक)</string>
+    <string name="settings_more">अधिक</string>
+    <string name="settings_more_desc">अतिरिक्त सामग्री तक पहुंच का अनुरोध करें (आवश्यकता: बेसिक/प्रो + अनुमोदन)</string>
+
+    <!-- Storage Section -->
+    <string name="settings_section_storage">भंडारण</string>
+    <string name="settings_clear_cache">कैश साफ़ करें</string>
+    <string name="settings_clear_cache_desc">भंडारण स्थान खाली करें</string>
+    <string name="settings_cache_cleared">कैश साफ़ हो गया!</string>
+    <string name="settings_export_gallery">गैलरी निर्यात करें</string>
+    <string name="settings_export_gallery_locked">गैलरी निर्यात करें 🔒</string>
+    <string name="settings_export_gallery_desc">अपनी सभी छवियां सहेजें</string>
+    <string name="settings_export_gallery_premium">प्रीमियम सुविधा</string>
+    <string name="settings_upgrade_toast">कृपया प्रोफ़ाइल में प्रीमियम में अपग्रेड करें</string>
+
+    <!-- About & Legal Section -->
+    <string name="settings_section_about">के बारे में और कानूनी</string>
+    <string name="settings_privacy_policy">गोपनीयता नीति</string>
+    <string name="settings_privacy_policy_desc">हमारी गोपनीयता नीति देखें</string>
+    <string name="settings_terms_service">सेवा की शर्तें</string>
+    <string name="settings_terms_service_desc">हमारे नियम और शर्तें पढ़ें</string>
+
+    <!-- Support Section -->
+    <string name="settings_section_support">सहयोग</string>
+    <string name="settings_help_support">मदद और सहयोग</string>
+    <string name="settings_help_support_desc">ईमेल के माध्यम से हमसे संपर्क करें</string>
+    <string name="settings_rate_app">ऐप को रेट करें</string>
+    <string name="settings_rate_app_desc">प्ले स्टोर पर अपनी प्रतिक्रिया साझा करें</string>
+    <string name="settings_app_version">ऐप संस्करण</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="settings_clear_cache_title">कैश साफ़ करें?</string>
+    <string name="settings_clear_cache_message">यह सभी कैश की गई छवियों और अस्थायी फ़ाइलों को साफ़ कर देगा। इस क्रिया को पूर्ववत नहीं किया जा सकता है।</string>
+    <string name="settings_btn_clear">साफ़ करें</string>
+    <string name="settings_btn_cancel">रद्द करें</string>
+
+    <string name="settings_export_dialog_title">सभी को गैलरी में निर्यात करें</string>
+    <string name="settings_export_warning_1">⚠️ यह सभी उत्पन्न छवियों को मुख्य गैलरी में ले जाएगा।</string>
+    <string name="settings_export_warning_2">• generated फ़ोल्डर की सभी छवियां स्थानांतरित कर दी जाएंगी</string>
+    <string name="settings_export_warning_3">• छवियां उनके वर्तमान स्थान से हटा दी जाएंगी</string>
+    <string name="settings_export_warning_4">• इस क्रिया को पूर्ववत नहीं किया जा सकता है</string>
+    <string name="settings_export_confirm">निर्यात जारी रखें?</string>
+    <string name="settings_btn_export_all">सभी निर्यात करें</string>
+
+    <string name="settings_upgrade_required_title">अपग्रेड आवश्यक</string>
+    <string name="settings_upgrade_required_msg">\'अधिक\' सामग्री तक पहुंचने के लिए बेसिक या प्रो सदस्यता की आवश्यकता है।</string>
+    <string name="settings_btn_ok">ठीक है</string>
+
+    <string name="settings_request_access_title">पहुंच का अनुरोध करें</string>
+    <string name="settings_request_access_msg">\'अधिक\' सामग्री तक पहुंच के लिए व्यवस्थापक अनुमोदन की आवश्यकता है। क्या आप अनुरोध भेजना चाहते हैं?</string>
+    <string name="settings_btn_send_request">अनुरोध भेजें</string>
+    <string name="settings_request_sent">अनुरोध भेजा गया</string>
+    <string name="settings_request_pending">अनुरोध अनुमोदन की प्रतीक्षा में है</string>
+    <string name="settings_cannot_disable">अक्षम नहीं किया जा सकता। बदलने के लिए समर्थन से संपर्क करें।</string>
+
+    <string name="settings_pin_setup_title">गैलरी पिन सेट करें</string>
+    <string name="settings_pin_setup_msg">अपनी गैलरी की सुरक्षा के लिए 4-अंकीय पिन बनाएं</string>
+    <string name="settings_pin_enter">पिन दर्ज करें</string>
+    <string name="settings_pin_confirm">पिन की पुष्टि करें</string>
+    <string name="settings_pin_error">पिन मेल नहीं खाते या अमान्य हैं</string>
+    <string name="settings_btn_set_pin">पिन सेट करें</string>
+
+    <string name="settings_export_empty">निर्यात करने के लिए कोई छवियां नहीं</string>
+    <string name="settings_export_success">सभी %1$d छवियों को गैलरी में सफलतापूर्वक निर्यात किया गया</string>
+    <string name="settings_export_partial">%1$d छवियों को गैलरी में निर्यात किया गया (%2$d विफल)</string>
+    <string name="settings_export_failed">निर्यात विफल: %1$s</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">प्रोफ़ाइल</string>
+    <string name="profile_guest">अतिथि</string>
+    <string name="profile_guest_account">अतिथि खाता</string>
+    <string name="profile_edit_name">नाम संपादित करें</string>
+    <string name="profile_section_subscription">सदस्यता और उपयोग</string>
+    <string name="profile_daily_generations">दैनिक निर्माण</string>
+    <string name="profile_used_today">आज उपयोग किया गया: %1$d</string>
+    <string name="profile_generations">निर्माण: </string>
+    <string name="profile_chat_limit">चैट सीमा: </string>
+    <string name="profile_expires">समाप्त: %1$s</string>
+    <string name="profile_plan">सदस्यता योजना</string>
+    <string name="profile_plan_desc">अपनी सदस्यता प्रबंधित करें</string>
+    <string name="profile_usage_stats">उपयोग आंकड़े</string>
+    <string name="profile_usage_stats_desc">निर्माण इतिहास देखें</string>
+    <string name="profile_section_account">खाता क्रियाएं</string>
+    <string name="profile_link_account">खाता लिंक करें</string>
+    <string name="profile_link_account_desc">अपना डेटा सहेजने के लिए Google से कनेक्ट करें</string>
+    <string name="profile_sign_out">साइन आउट</string>
+    <string name="profile_sign_out_desc">अपने खाते से लॉग आउट करें</string>
+    <string name="profile_delete_account">खाता हटाएं</string>
+    <string name="profile_delete_account_desc">अपना खाता और डेटा स्थायी रूप से हटाएं</string>
+    <string name="profile_dialog_edit_name">प्रदर्शन नाम बदलें</string>
+    <string name="profile_enter_name">अपना नया नाम दर्ज करें:</string>
+    <string name="profile_btn_save">सहेजें</string>
+    <string name="profile_dialog_delete_title">क्या खाता हटाएं?</string>
+    <string name="profile_delete_warning_list">यह स्थायी रूप से हटा देगा:</string>
+    <string name="profile_delete_item_1">• आपका खाता और प्रोफ़ाइल</string>
+    <string name="profile_delete_item_2">• सभी निर्मित चित्र</string>
+    <string name="profile_delete_item_3">• उपयोग आंकड़े</string>
+    <string name="profile_delete_item_4">• पसंदीदा और संग्रह</string>
+    <string name="profile_delete_item_5">• सदस्यता डेटा</string>
+    <string name="profile_delete_warning_final">⚠️ इस कार्रवाई को पूर्ववत नहीं किया जा सकता है!</string>
+    <string name="profile_delete_instruction">आगे बढ़ने के लिए, कृपया हटाने का अनुरोध भेजें:</string>
+    <string name="profile_btn_submit_request">अनुरोध भेजें</string>
+
+
+
+    <!-- Subscription Screen -->
+    <string name="subscription_title">सदस्यता स्टोर</string>
+    <string name="subscription_status_user">उपयोगकर्ता की स्थिति</string>
+    <string name="subscription_status_pro">प्रो</string>
+    <string name="subscription_status_basic">बेसिक</string>
+    <string name="subscription_status_free">नि:शुल्क</string>
+    <string name="subscription_limit_format">सीमा: %1$s/%2$s</string>
+    <string name="subscription_exp_format">समाप्त: %1$s</string>
+    <string name="subscription_chat_format">चैट: %1$s</string>
+    <string name="subscription_loading_limits">सीमाएं लोड हो रही हैं...</string>
+    <string name="subscription_choose_plan">योजना चुनें</string>
+    <string name="subscription_chat_addons">चैट सीमा ऐड-ऑन</string>
+
+    <string name="subscription_gacha_title">🎲 गचा</string>
+    <string name="subscription_gacha_desc">1-9 सीमा</string>
+    <string name="subscription_single_limit_title">💬 +1 सीमा</string>
+    <string name="subscription_single_limit_desc">तत्काल</string>
+    <string name="subscription_toast_added_chat">+1 चैट सीमा जोड़ी गई!</string>
+
+    <string name="subscription_gacha_result_jackpot">🎉 जैकपॉट! 🎉</string>
+    <string name="subscription_gacha_result_normal">गचा परिणाम</string>
+    <string name="subscription_gacha_result_msg">चैट सीमा जोड़ी गई!</string>
+    <string name="subscription_btn_awesome">बहुत बढ़िया!</string>
+
+    <string name="subscription_upgrade_title">%1$s में अपग्रेड करें?</string>
+    <string name="subscription_price_format">मूल्य: %1$s</string>
+    <string name="subscription_feature_ad_free">• विज्ञापन मुक्त</string>
+    <string name="subscription_btn_confirm">पुष्टि करें</string>
+    <string name="subscription_btn_buy">खरीदें</string>
+    <string name="subscription_current_plan">वर्तमान</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">वापसी पर स्वागत है</string>
+    <string name="login_subtitle">AI के साथ शानदार एनीमे कला बनाएं</string>
+    <string name="login_email_label">ईमेल या उपयोगकर्ता नाम</string>
+    <string name="login_email_placeholder">अपना ईमेल दर्ज करें</string>
+    <string name="login_password_label">पासवर्ड</string>
+    <string name="login_password_placeholder">अपना पासवर्ड दर्ज करें</string>
+    <string name="login_btn_signin">साइन इन करें</string>
+    <string name="login_continue_google">Google के साथ जारी रखें</string>
+    <string name="login_continue_guest">अतिथि के रूप में जारी रखें</string>
+    <string name="login_no_account">क्या आपका खाता नहीं है? </string>
+    <string name="login_signup_link">साइन अप करें</string>
+    <string name="login_or">या</string>
+    <string name="login_app_name">Draw AI</string>
+    <string name="login_logo_text">AI</string>
+
+    <!-- Sign Up Screen -->
+    <string name="signup_title">खाता बनाएं</string>
+    <string name="signup_subtitle">अद्भुत एनीमे कला बनाने के लिए हमसे जुड़ें</string>
+    <string name="signup_fullname_label">पूरा नाम</string>
+    <string name="signup_fullname_placeholder">अपना पूरा नाम दर्ज करें</string>
+    <string name="signup_email_label">ईमेल</string>
+    <string name="signup_email_placeholder">अपना ईमेल दर्ज करें</string>
+    <string name="signup_password_label">पासवर्ड</string>
+    <string name="signup_password_placeholder">एक पासवर्ड बनाएं</string>
+    <string name="signup_confirm_password_label">पासवर्ड की पुष्टि करें</string>
+    <string name="signup_confirm_password_placeholder">अपना पासवर्ड दोबारा दर्ज करें</string>
+    <string name="signup_btn_create">खाता बनाएं</string>
+    <string name="signup_google">Google के साथ साइन अप करें</string>
+    <string name="signup_have_account">क्या आपके पास पहले से एक खाता है? </string>
+    <string name="signup_signin_link">साइन इन करें</string>
+    <string name="signup_terms">साइन अप करके, आप हमारी सेवा की शर्तों और गोपनीयता नीति से सहमत होते हैं</string>
+    <string name="signup_error_fullname">कृपया अपना पूरा नाम दर्ज करें</string>
+    <string name="signup_error_email">कृपया अपना ईमेल दर्ज करें</string>
+    <string name="signup_error_email_invalid">कृपया एक मान्य ईमेल दर्ज करें</string>
+    <string name="signup_error_password">कृपया एक पासवर्ड दर्ज करें</string>
+    <string name="signup_error_password_length">पासवर्ड कम से कम 6 अक्षरों का होना चाहिए</string>
+    <string name="signup_error_password_match">पासवर्ड मेल नहीं खाते</string>
+
+    <!-- Onboarding Screen -->
+    <string name="onboarding_skip">छोड़ें</string>
+    <string name="onboarding_next">अगला</string>
+    <string name="onboarding_get_started">शुरू करें</string>
+    <string name="onboarding_page1_title">AnimeDraw AI में आपका स्वागत है</string>
+    <string name="onboarding_page1_desc">AI की शक्ति के साथ शानदार एनीमे कला बनाएं। बस वर्णन करें कि आप क्या देखना चाहते हैं!</string>
+    <string name="onboarding_page2_title">AI पात्रों के साथ चैट करें</string>
+    <string name="onboarding_page2_desc">अद्वितीय AI व्यक्तित्वों के साथ बातचीत करें। वे आपको विचार उत्पन्न करने या बस एक मजेदार चैट करने में मदद कर सकते हैं।</string>
+    <string name="onboarding_page3_title">समुदाय में शामिल हों</string>
+    <string name="onboarding_page3_desc">अपनी रचनाएँ साझा करें, दूसरों से प्रेरणा लें, और लीडरबोर्ड पर चढ़ें।</string>
+
+    <!-- App Drawer -->
+    <string name="drawer_guest">अतिथि</string>
+    <string name="drawer_login_to_chat">चैट का उपयोग करने के लिए कृपया लॉगिन करें</string>
+    <string name="drawer_current_language">भाषा</string>
+    <string name="drawer_promo_title">इवेंट और पुरस्कार</string>
+    <string name="drawer_promo_desc">चल रहे इवेंट, अपडेट देखें और अपने पुरस्कारों का दावा करें!</string>
+
+    <!-- Post Detail Screen -->
+    <string name="post_anonymous">अज्ञात</string>
+    <string name="post_downloaded_already">इस सत्र में पहले ही डाउनलोड किया जा चुका है</string>
+    <string name="post_sharing">साझा किया जा रहा है...</string>
+    <string name="post_prompt">प्रॉम्प्ट</string>
+    <string name="post_negative_prompt">नेगेटिव प्रॉम्प्ट</string>
+    <string name="post_workflow_model">वर्कफ़्लो / मॉडल</string>
+    <string name="post_unknown">अज्ञात</string>
+    <string name="post_report_title">सामग्री की रिपोर्ट करें</string>
+    <string name="post_report_desc">आप इस सामग्री की रिपोर्ट क्यों कर रहे हैं?</string>
+    <string name="post_report_reason">कारण</string>
+    <string name="post_report_success">रिपोर्ट सफलतापूर्वक सबमिट की गई</string>
+    <string name="post_report_failed">रिपोर्ट सबमिट करने में विफल</string>
+    <string name="post_report_provide_reason">कृपया कोई कारण बताएं</string>
+    <string name="post_report_submit">रिपोर्ट सबमिट करें</string>
+    <string name="post_report_cancel">रद्द करें</string>
+    <string name="post_saved_gallery">छवि गैलरी में सहेजी गई</string>
+    <string name="post_download_failed">छवि डाउनलोड करने में विफल</string>
+    <string name="post_share">साझा करें</string>
+    <string name="post_content_desc_back">वापस</string>
+    <string name="post_content_desc_info">जानकारी</string>
+    <string name="post_content_desc_like">पसंद करें</string>
+    <string name="post_content_desc_download">डाउनलोड करें</string>
+
+    <!-- Gallery Pin Screen -->
+    <string name="pin_title">गैलरी सुरक्षित</string>
+    <string name="pin_subtitle">पहुंचने के लिए अपना 4-अंकीय पिन दर्ज करें</string>
+    <string name="pin_label">पिन दर्ज करें</string>
+    <string name="pin_error_too_many">बहुत अधिक विफल प्रयास। पिन गलत है।</string>
+    <string name="pin_error_incorrect">गलत पिन। पुनः प्रयास करें।</string>
+    <string name="pin_back">वापस</string>
+    <string name="pin_forgot_hint">यदि आप अपना पिन भूल गए हैं, तो आप सेटिंग्स में गैलरी लॉक को अक्षम कर सकते हैं।</string>
+    <string name="pin_content_desc_lock">गैलरी लॉक</string>
+
+    <!-- Usage Statistics Screen -->
+    <string name="stats_title">उपयोग के आँकड़े</string>
+    <string name="stats_total_generations">कुल जनरेशन</string>
+    <string name="stats_last_generation">अंतिम: %1$s</string>
+    <string name="stats_no_generations">अभी तक कोई जनरेशन नहीं</string>
+    <string name="stats_total_saves">कुल सहेजे गए</string>
+    <string name="stats_saves_desc">गैलरी में सहेजी गई छवियां</string>
+    <string name="stats_total_favorites">कुल पसंदीदा</string>
+    <string name="stats_favorites_desc">पसंदीदा के रूप में चिह्नित वर्कफ़्लो</string>
+    <string name="stats_member_since">सदस्य के बाद से</string>
+    <string name="stats_member_desc">पहली जनरेशन की तारीख</string>
+    <string name="stats_about_title">ℹ️ आँकड़ों के बारे में</string>
+    <string name="stats_about_desc">आपके उपयोग के आँकड़े फ़ायरबेस में सुरक्षित रूप से संग्रहीत हैं और आपके सभी उपकरणों में सिंक किए गए हैं। ये आँकड़े आपको Draw AI के साथ अपनी रचनात्मक यात्रा को ट्रैक करने में मदद करते हैं।</string>
+    <string name="stats_content_desc_back">वापस</string>
+    <!-- Gem Store & Daily Reward -->
+    <string name="gem_store_title">रत्न स्टोर</string>
+    <string name="daily_reward_title">दैनिक पुरस्कार</string>
+    <string name="daily_reward_description">अपना दैनिक पुरस्कार प्राप्त करें!</string>
+    <string name="daily_reward_claim">प्राप्त करें</string>
+    <string name="daily_reward_claimed">प्राप्त किया</string>
+    <string name="daily_reward_day">दिन %1$d</string>
+    <string name="daily_reward_gems">%1$d रत्न</string>
+    <string name="shop_item_candy">मीठी कैंडी</string>
+    <string name="shop_item_coffee">गर्म कॉफी</string>
+    <string name="shop_item_rose">लाल गुलाब</string>
+    <string name="shop_buy_button">खरीदें</string>
+    <string name="shop_insufficient_gems">अपर्याप्त रत्न</string>
+    <string name="shop_purchase_success">खरीदारी सफल!</string>
+</resources>

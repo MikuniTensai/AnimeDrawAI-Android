@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draw AI</string>
+    
+    <!-- Content Moderation Messages -->
+    <string name="content_moderation_error">您輸入的提示詞包含不當詞彙。請使用其他詞彙。</string>
+    <string name="content_moderation_error_indonesian">您輸入的提示詞包含不當詞彙。請使用其他詞彙。</string>
+    <string name="content_moderation_title">內容警告</string>
+    <string name="content_moderation_title_indonesian">內容警告</string>
+    <string name="content_moderation_description">您的提示詞包含不允許的詞彙。請修改提示詞並重試。</string>
+    <string name="content_moderation_description_indonesian">您的提示詞包含不允許的詞彙。請修改提示詞並重試。</string>
+    <string name="content_moderation_positive_words">正面提示詞包含：%1$s</string>
+    <string name="content_moderation_positive_words_indonesian">正面提示詞包含：%1$s</string>
+    <string name="content_moderation_negative_words">負面提示詞包含：%1$s</string>
+    <string name="content_moderation_negative_words_indonesian">負面提示詞包含：%1$s</string>
+    <string name="content_moderation_okay">好的，我明白了</string>
+    <string name="content_moderation_okay_indonesian">好的，我明白了</string>
+    
+    <!-- Rating System Messages -->
+    <string name="rating_too_low_error">您的提示詞評分為 %1$d%%，低於最低門檻 50%%。請改進您的提示詞以獲得更好的結果。</string>
+    <string name="rating_too_low_error_indonesian">您的提示詞評分為 %1$d%%，低於最低門檻 50%%。請改進您的提示詞以獲得更好的結果。</string>
+
+    <!-- Server Maintenance -->
+    <string name="server_maintenance">伺服器維護</string>
+    <string name="server_maintenance_description">伺服器正在維護中。請稍候再試。</string>
+    <string name="go_to_gallery">前往畫廊</string>
+
+    <!-- Sidebar Menu Items -->
+    <string name="menu_home">主頁</string>
+    <string name="menu_vision">願景</string>
+    <string name="menu_explore">探索</string>
+    <string name="menu_chat">聊天</string>
+    <string name="menu_gallery">畫廊</string>
+    <string name="menu_favorites">收藏</string>
+    <string name="menu_subscription">訂閱</string>
+    <string name="menu_leaderboard">排行榜</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_events_updates">活動與更新</string>
+    
+    <!-- Discovered Workflows -->
+    <string name="workflows_most_viewed">🔥 最多瀏覽</string>
+    <string name="workflows_newest">✨ 最新</string>
+    <string name="workflows_most_popular">⭐ 最受歡迎</string>
+    <string name="workflows_see_all">查看全部 →</string>
+    
+    <!-- Language Selector -->
+    <string name="language_selector_title">選擇語言</string>
+    <string name="current_language">繁體中文</string>
+    
+    <!-- HomeScreen -->
+    <string name="discover_workflows_title">發現工作流</string>
+    <string name="discover_workflows_subtitle">選擇工作流開始創作</string>
+    <string name="search_workflows">搜尋工作流</string>
+    <string name="search_placeholder">輸入搜尋…</string>
+    
+    <!-- Workflow Sections -->
+    <string name="latest_additions">最新添加</string>
+    <string name="community_favorites">社群最愛</string>
+    
+    <!-- Filter Chips -->
+    <string name="filter_all">全部</string>
+    <string name="filter_favorites">收藏</string>
+    <string name="filter_anime">動漫</string>
+    <string name="filter_general">通用</string>
+    <string name="filter_animal">動物</string>
+    <string name="filter_flower">花卉</string>
+    <string name="filter_food">食物</string>
+    <string name="filter_background">背景</string>
+    
+    <!-- Time Units -->
+    <string name="time_seconds">秒</string>
+    
+    <!-- Category Names -->
+    <string name="category_anime">動漫</string>
+    <string name="category_general">通用</string>
+    <string name="category_animal">動物</string>
+    <string name="category_flower">花卉</string>
+    <string name="category_food">食物</string>
+    <string name="category_background">背景</string>
+    
+    <!-- CategoryDetailScreen -->
+    <string name="category_most_viewed_subtitle">按瀏覽量排名的頂級工作流</string>
+    <string name="category_newest_subtitle">我們收藏的最新添加</string>
+    <string name="category_most_popular_subtitle">社群最愛</string>
+    <string name="category_browse_all">瀏覽所有工作流</string>
+    <string name="search_in_category">在此類別中搜尋…</string>
+    <string name="workflows_count">%1$d 個工作流</string>
+    
+    <!-- VisionScreen -->
+    <string name="vision_prompts_title">視覺提示詞</string>
+    <string name="vision_prompts_subtitle">AI藝術生成提示詞</string>
+    <string name="vision_shuffle">隨機</string>
+    <string name="vision_failed_to_load">載入失敗</string>
+    <string name="vision_tap_to_retry">點擊重試</string>
+    <string name="vision_retry">重試</string>
+    <string name="vision_no_visions">沒有可用的視覺</string>
+    <string name="vision_next_page">下一頁</string>
+    <string name="vision_copy">複製</string>
+    <string name="vision_avoid">避免</string>
+    <string name="vision_use">使用</string>
+    <string name="vision_copied">已複製！</string>
+    
+    <!-- GenerateScreen -->
+    <string name="generate_category">類別</string>
+    <string name="generate_describe_vision">描述您的願景</string>
+    <string name="generate_describe_subtitle">告訴我們您想創建什麼</string>
+    <string name="generate_prompt_placeholder">例如，美麗的動漫女孩，長銀髮，細緻的眼睛，櫻花背景，傑作品質</string>
+    <string name="generate_quick_suggestions">快速建議</string>
+    <string name="generate_suggest_more">更多建議 →</string>
+    <string name="generate_things_to_avoid">要避免的事項</string>
+    <string name="generate_avoid_subtitle">可選 - 您不想看到的內容</string>
+    <string name="generate_avoid_placeholder">例如，模糊，低品質，糟糕的解剖結構，醜陋的臉，扭曲的手</string>
+    <string name="generate_common_negatives">常見負面</string>
+    <string name="generate_image">生成圖像</string>
+    
+    <!-- ExploreScreen -->
+    <string name="explore_title">探索</string>
+    <string name="explore_subtitle">社群創作</string>
+    <string name="explore_popular">🔥 熱門</string>
+    <string name="explore_recent">⏰ 最新</string>
+    <string name="explore_trending">📈 趨勢</string>
+    <string name="explore_mine">👤 我的</string>
+    <string name="explore_refresh">重新整理</string>
+    <string name="explore_no_posts">暫無貼文</string>
+    <string name="explore_be_first">成為第一個分享的人！</string>
+    <string name="explore_error_oops">哎呀！</string>
+    <string name="explore_retry">重試</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet">無網路連線</string>
+    <string name="error_prompt_empty">提示詞不能為空</string>
+    <string name="error_user_not_authenticated">用戶未驗證，請先登錄。</string>
+    <string name="error_server_busy">伺服器繁忙，請稍後再試。</string>
+    <string name="error_process_timeout">處理超時，請嘗試更簡單的提示詞。</string>
+    <string name="error_connection_issue">連線問題，請檢查您的網路。</string>
+    <string name="error_processing_failed">圖像處理失敗，請重試。</string>
+    <string name="error_title">錯誤</string>
+    <string name="error_generic_message">處理圖像時發生錯誤，請重試。</string>
+    <string name="error_retry">重試</string>
+    <string name="error_back">返回</string>
+    
+    <!-- ChatScreen -->
+    <string name="chat_title">角色聊天</string>
+    <string name="chat_select_character">💬 選擇您的角色 ▼</string>
+    <string name="chat_menu">選單</string>
+    <string name="chat_new_chat">新聊天</string>
+    <string name="chat_clear_history">清除歷史</string>
+    <string name="chat_type_message">輸入訊息...</string>
+    <string name="chat_send">發送</string>
+    <string name="chat_close">關閉</string>
+    <string name="chat_start_conversation">開始對話</string>
+    <string name="chat_ask_anything">問我任何問題！我在這裡幫助您。</string>
+    <string name="chat_try_asking">試著問：</string>
+    <string name="chat_suggestion_1">你能幫我什麼？</string>
+    <string name="chat_suggestion_2">告訴我一個有趣的事實</string>
+    <string name="chat_suggestion_3">AI是如何工作的？</string>
+    
+    <!-- CharacterListScreen -->
+    <string name="character_list_title">訊息</string>
+    <string name="character_list_search">搜尋</string>
+    <string name="character_list_new_character">新角色</string>
+    <string name="character_list_retry">重試連線</string>
+    <string name="character_list_unknown_error">未知錯誤</string>
+    <string name="character_list_delete_title">刪除角色？</string>
+    <string name="character_list_delete_message">您確定要刪除此角色嗎？如果是，角色將被刪除，但您的角色限制數量不會減少。</string>
+    <string name="character_list_delete">刪除</string>
+    <string name="character_list_cancel">取消</string>
+    <string name="character_list_empty_title">還沒有對話</string>
+    <string name="character_list_empty_subtitle">開始與您的AI角色聊天！</string>
+    <string name="character_list_create_new">創建新角色</string>
+    
+    <!-- CharacterChatScreen -->
+    <string name="character_chat_go_back">返回</string>
+    <string name="character_chat_character_not_found">未找到角色</string>
+    <string name="character_chat_start_chatting">開始與%1$s聊天！</string>
+    <string name="character_chat_deadly_sins">他們有%1$d個致命罪</string>
+    <string name="character_chat_message_not_sent">訊息未發送</string>
+    <string name="character_chat_inappropriate">您的訊息包含不當語言。請尊重AI角色。</string>
+    <string name="character_chat_ok">確定</string>
+    <string name="character_chat_type_message_placeholder">輸入訊息...</string>
+    <string name="character_chat_connection_error">連線錯誤</string>
+    <string name="character_chat_sins">罪</string>
+    <string name="character_chat_back">返回</string>
+    <string name="character_chat_close">關閉</string>
+    
+    <!-- Gallery Screen -->
+    <string name="gallery_title">畫廊</string>
+    <string name="gallery_subtitle_count">%1$d 張圖片</string>
+    <string name="gallery_filter_all">全部</string>
+    <string name="gallery_filter_favorites">收藏</string>
+    <string name="gallery_empty_title">暫無圖片</string>
+    <string name="gallery_empty_subtitle">開始生成以在此處查看您的創作</string>
+    <string name="gallery_generate_now">立即生成</string>
+    <string name="gallery_msg_select_character">選擇一張圖片來創建您的角色</string>
+    <string name="gallery_msg_limit_reached">角色數量已達上限！</string>
+    <string name="gallery_content_desc_select_char">選擇角色</string>
+    <string name="gallery_content_desc_create_char">創建角色</string>
+    <string name="gallery_report_title">舉報圖片</string>
+    <string name="gallery_report_desc">請描述您舉報此圖片的原因：</string>
+    <string name="gallery_report_reason_label">舉報原因</string>
+    <string name="gallery_report_reason_placeholder">描述問題...</string>
+    <string name="gallery_report_button">舉報</string>
+    <string name="gallery_cancel">取消</string>
+    <string name="gallery_delete_title">刪除圖片？</string>
+    <string name="gallery_delete_message">此操作無法撤銷。圖片將被永久刪除。</string>
+    <string name="gallery_delete_button">刪除</string>
+    <string name="gallery_share_premium_only">🔒 社群分享功能僅供基礎版和專業版訂閱者使用</string>
+    <string name="gallery_share_duplicate">⚠️ 此圖片/提示詞已分享至社群。</string>
+    <string name="gallery_share_success">✅ 已分享至社群！</string>
+    <string name="gallery_share_failed">分享失敗：%1$s</string>
+    <string name="gallery_share_file_not_found">未找到圖片檔案</string>
+    <string name="gallery_share_error">錯誤：%1$s</string>
+    <string name="gallery_create_char_title">創建角色？</string>
+    <string name="gallery_create_char_message">這將把此圖片變成您獨特的AI伴侶。</string>
+    <string name="gallery_create_char_warning">⚠️ 您只能選擇一個角色。以後無法更改。</string>
+    <string name="gallery_char_name_label">角色名稱（可選）</string>
+    <string name="gallery_char_name_placeholder">留空以生成隨機名稱</string>
+    <string name="gallery_select_language_title">選擇語言：</string>
+    <string name="gallery_select_gender_title">選擇性別：</string>
+    <string name="gallery_gender_male">男性 ♂️</string>
+    <string name="gallery_gender_female">女性 ♀️</string>
+    <string name="gallery_analyzing_personality">正在分析個性...</string>
+    <string name="gallery_summoning_soul">正在召喚靈魂...</string>
+    <string name="gallery_character_created">角色已創建！</string>
+    <string name="gallery_create_and_chat">創建並聊天</string>
+    <string name="gallery_guidelines_title">社群準則</string>
+    <string name="gallery_guidelines_intro">在分享圖片至社群前，請注意：</string>
+    <string name="gallery_guideline_nsfw">🚫 禁止不當/NSFW內容</string>
+    <string name="gallery_guideline_violence">🚫 禁止暴力或血腥</string>
+    <string name="gallery_guideline_illegal">🚫 禁止非法內容</string>
+    <string name="gallery_guideline_hate">🚫 禁止仇恨言論或歧視</string>
+    <string name="gallery_guidelines_warning_title">⚠️ 警告：</string>
+    <string name="gallery_guidelines_warning_text">違規將導致永久封號並刪除所有內容，恕不另行通知！</string>
+    <string name="gallery_guidelines_agree">我明白並同意</string>
+    <string name="gallery_share_already_shared">⚠️ 此提示詞已分享！</string>
+    <string name="gallery_share_success_full">✅ 已成功分享至社群！</string>
+    <string name="gallery_chat_button">💬 聊天</string>
+    <string name="gallery_your_character_badge">🌟 您的角色</string>
+    
+    <!-- Tabs -->
+    <string name="character_chat_tab_relationship">關係</string>
+    <string name="character_chat_tab_status">狀態</string>
+    <string name="character_chat_tab_profile">資料</string>
+    <string name="character_chat_tab_stats">統計</string>
+    
+    <!-- Relationship Tab -->
+    <string name="character_chat_affection_points">好感度</string>
+    <string name="character_chat_max">最大 ❤️</string>
+    <string name="character_chat_ap_to">%1$d好感度到%2$s</string>
+    <string name="character_chat_soulmate_forever">永遠的靈魂伴侶 💍</string>
+    <string name="character_chat_confess_feelings">💌 表白</string>
+    <string name="character_chat_propose_marriage">💍 求婚</string>
+    
+    <!-- Status Tab -->
+    <string name="character_chat_current_mood">當前心情</string>
+    <string name="character_chat_energy_level">能量等級</string>
+    <string name="character_chat_energy_high">高</string>
+    <string name="character_chat_energy_normal">正常</string>
+    <string name="character_chat_energy_tired">疲憊</string>
+    
+    <!-- Profile Tab -->
+    <string name="character_chat_archetype">原型</string>
+    <string name="character_chat_traits">特質</string>
+    <string name="character_chat_interests">興趣</string>
+    <string name="character_chat_deadly_sins_title">致命罪</string>
+    <string name="character_chat_sins_hidden">%1$d個罪（隱藏）</string>
+    
+    <!-- Stats Tab -->
+    <string name="character_chat_interaction_stats">互動統計</string>
+    <string name="character_chat_total_messages">總訊息數</string>
+    <string name="character_chat_last_chat">最後聊天</string>
+    <string name="character_chat_chat_frequency">聊天頻率</string>
+    <string name="character_chat_ghosting_record">冷落記錄</string>
+    <string name="character_chat_ghosted_times">您已冷落此角色%1$d次。</string>
+    
+    <!-- Favorites Screen -->
+    <string name="favorites_title">收藏</string>
+    <string name="favorites_saved_count">已保存 %1$d 個</string>
+    <string name="favorites_empty_title">尚無收藏</string>
+    <string name="favorites_empty_message">將工作流標記為收藏以在此處查看</string>
+    <string name="favorites_remove_content_desc">從收藏中移除</string>
+    <string name="favorites_pro_badge">⭐ PRO</string>
+
+    <!-- Leaderboard Screen -->
+    <string name="leaderboard_title">排行榜</string>
+    <string name="leaderboard_tab_architect">建築師</string>
+    <string name="leaderboard_tab_romancer">浪漫者</string>
+    <string name="leaderboard_tab_mvp">MVP</string>
+    <string name="leaderboard_tab_fame">名人堂</string>
+    <string name="leaderboard_tab_rising">新星</string>
+    <string name="leaderboard_filter_all_time">總榜</string>
+    <string name="leaderboard_filter_weekly">週榜</string>
+    <string name="leaderboard_filter_monthly">月榜</string>
+    <string name="leaderboard_architect_title">建築大師</string>
+    <string name="leaderboard_architect_desc">創作最多傑作的遠見者。</string>
+    <string name="leaderboard_metric_generations">生成數</string>
+    <string name="leaderboard_romancer_title">浪漫達人</string>
+    <string name="leaderboard_romancer_desc">擁有最深羈絆的用戶。通過真摯互動獲得的好感度。</string>
+    <string name="leaderboard_metric_affection">好感度</string>
+    <string name="leaderboard_mvp_title">社群MVP</string>
+    <string name="leaderboard_mvp_desc">分享最多提示詞/作品的社群支柱。</string>
+    <string name="leaderboard_metric_shares">分享數</string>
+    <string name="leaderboard_fame_title">名人堂</string>
+    <string name="leaderboard_fame_desc">按分類歸檔的傳奇藝術品。</string>
+    <string name="leaderboard_filter_most_liked">最多點讚</string>
+    <string name="leaderboard_filter_most_downloaded">最多下載</string>
+    <string name="leaderboard_metric_likes">點讚</string>
+    <string name="leaderboard_metric_downloads">下載</string>
+    <string name="leaderboard_rising_title">明日之星</string>
+    <string name="leaderboard_rising_desc">近期獲得關注的潛力創作者。</string>
+    <string name="leaderboard_metric_recent_likes">近期點讚</string>
+    <string name="leaderboard_no_rankings">暫無排名</string>
+    <string name="leaderboard_error_prefix">錯誤：%1$s</string>
+
+    <!-- News Screen (Events & Updates) -->
+    <string name="news_title">活動與更新</string>
+    <string name="news_badge_event">活動</string>
+    <string name="news_badge_update">更新</string>
+    <string name="news_action_view_details">查看詳情</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">設定</string>
+    <string name="settings_subtitle">自定義您的體驗</string>
+
+    <!-- Preferences Section -->
+    <string name="settings_section_preferences">偏好設定</string>
+    <string name="settings_dark_mode">深色模式</string>
+    <string name="settings_dark_mode_desc">切換到深色主題</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_notifications_desc">生成完成時接收通知</string>
+    <string name="settings_auto_save">自動保存</string>
+    <string name="settings_auto_save_desc">自動保存到相冊或顯示保存對話框</string>
+    <string name="settings_gallery_lock">圖庫鎖定</string>
+    <string name="settings_gallery_lock_desc">使用 PIN 碼保護圖庫</string>
+    <string name="settings_restricted_content">受限內容</string>
+    <string name="settings_restricted_content_desc">啟用成人內容（需要年齡驗證）</string>
+    <string name="settings_more">更多</string>
+    <string name="settings_more_desc">請求訪問更多內容（要求：基礎/專業版 + 批准）</string>
+
+    <!-- Storage Section -->
+    <string name="settings_section_storage">存儲</string>
+    <string name="settings_clear_cache">清除緩存</string>
+    <string name="settings_clear_cache_desc">釋放存儲空間</string>
+    <string name="settings_cache_cleared">緩存已清除！</string>
+    <string name="settings_export_gallery">導出圖庫</string>
+    <string name="settings_export_gallery_locked">導出圖庫 🔒</string>
+    <string name="settings_export_gallery_desc">保存所有圖片</string>
+    <string name="settings_export_gallery_premium">高級功能</string>
+    <string name="settings_upgrade_toast">請在個人資料中升級到高級版</string>
+
+    <!-- About & Legal Section -->
+    <string name="settings_section_about">關於與法律</string>
+    <string name="settings_privacy_policy">隱私政策</string>
+    <string name="settings_privacy_policy_desc">查看我們的隱私政策</string>
+    <string name="settings_terms_service">服務條款</string>
+    <string name="settings_terms_service_desc">閱讀我們的條款和條件</string>
+
+    <!-- Support Section -->
+    <string name="settings_section_support">支援</string>
+    <string name="settings_help_support">幫助與支援</string>
+    <string name="settings_help_support_desc">通過電子郵件聯繫我們</string>
+    <string name="settings_rate_app">評價應用</string>
+    <string name="settings_rate_app_desc">在 Play 商店分享您的反饋</string>
+    <string name="settings_app_version">應用版本</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="settings_clear_cache_title">清除緩存？</string>
+    <string name="settings_clear_cache_message">這將清除所有緩存的圖片和臨時檔案。此操作無法撤銷。</string>
+    <string name="settings_btn_clear">清除</string>
+    <string name="settings_btn_cancel">取消</string>
+
+    <string name="settings_export_dialog_title">導出全部到圖庫</string>
+    <string name="settings_export_warning_1">⚠️ 這將把所有生成的圖片移動到主相冊。</string>
+    <string name="settings_export_warning_2">• generated 文件夾中的所有圖片將被移動</string>
+    <string name="settings_export_warning_3">• 圖片將從當前位置刪除</string>
+    <string name="settings_export_warning_4">• 此操作無法撤銷</string>
+    <string name="settings_export_confirm">繼續導出？</string>
+    <string name="settings_btn_export_all">全部導出</string>
+
+    <string name="settings_upgrade_required_title">需要升級</string>
+    <string name="settings_upgrade_required_msg">訪問“更多”內容需要基礎版或專業版訂閱。</string>
+    <string name="settings_btn_ok">確定</string>
+
+    <string name="settings_request_access_title">請求訪問</string>
+    <string name="settings_request_access_msg">訪問“更多”內容需要管理員批准。您要發送請求嗎？</string>
+    <string name="settings_btn_send_request">發送請求</string>
+    <string name="settings_request_sent">請求已發送</string>
+    <string name="settings_request_pending">請求等待批准</string>
+    <string name="settings_cannot_disable">無法禁用。請聯繫支持進行更改。</string>
+
+    <string name="settings_pin_setup_title">設定圖庫 PIN</string>
+    <string name="settings_pin_setup_msg">創建一個 4 位 PIN 碼以保護您的圖庫</string>
+    <string name="settings_pin_enter">輸入 PIN</string>
+    <string name="settings_pin_confirm">確認 PIN</string>
+    <string name="settings_pin_error">PIN 不匹配或無效</string>
+    <string name="settings_btn_set_pin">設定 PIN</string>
+
+    <string name="settings_export_empty">沒有圖片可導出</string>
+    <string name="settings_export_success">成功導出所有 %1$d 張圖片到圖庫</string>
+    <string name="settings_export_partial">導出 %1$d 張圖片到圖庫（%2$d 張失敗）</string>
+    <string name="settings_export_failed">導出失敗：%1$s</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">個人資料</string>
+    <string name="profile_guest">訪客</string>
+    <string name="profile_guest_account">訪客帳戶</string>
+    <string name="profile_edit_name">編輯姓名</string>
+    <string name="profile_section_subscription">訂閱與使用</string>
+    <string name="profile_daily_generations">每日生成</string>
+    <string name="profile_used_today">今日已用：%1$d</string>
+    <string name="profile_generations">生成次數： </string>
+    <string name="profile_chat_limit">聊天限制： </string>
+    <string name="profile_expires">到期時間：%1$s</string>
+    <string name="profile_plan">訂閱方案</string>
+    <string name="profile_plan_desc">管理您的訂閱</string>
+    <string name="profile_usage_stats">使用統計</string>
+    <string name="profile_usage_stats_desc">查看生成歷史</string>
+    <string name="profile_section_account">帳戶操作</string>
+    <string name="profile_link_account">關聯帳戶</string>
+    <string name="profile_link_account_desc">連接 Google 以保存數據</string>
+    <string name="profile_sign_out">退出登錄</string>
+    <string name="profile_sign_out_desc">退出當前帳戶</string>
+    <string name="profile_delete_account">刪除帳戶</string>
+    <string name="profile_delete_account_desc">永久刪除您的帳戶和數據</string>
+    <string name="profile_dialog_edit_name">修改顯示名稱</string>
+    <string name="profile_enter_name">輸入新名稱：</string>
+    <string name="profile_btn_save">保存</string>
+    <string name="profile_dialog_delete_title">刪除帳戶？</string>
+    <string name="profile_delete_warning_list">這將永久刪除：</string>
+    <string name="profile_delete_item_1">• 您的帳戶和個人資料</string>
+    <string name="profile_delete_item_2">• 所有生成的圖片</string>
+    <string name="profile_delete_item_3">• 使用統計數據</string>
+    <string name="profile_delete_item_4">• 收藏夾和合集</string>
+    <string name="profile_delete_item_5">• 訂閱數據</string>
+    <string name="profile_delete_warning_final">⚠️ 此操作無法撤銷！</string>
+    <string name="profile_delete_instruction">如需繼續，請提交刪除申請：</string>
+    <string name="profile_btn_submit_request">提交申請</string>
+
+    <!-- Subscription Screen -->
+    <string name="subscription_title">訂閱商店</string>
+    <string name="subscription_status_user">用戶狀態</string>
+    <string name="subscription_status_pro">高級版</string>
+    <string name="subscription_status_basic">基礎版</string>
+    <string name="subscription_status_free">免費版</string>
+    <string name="subscription_limit_format">限制：%1$s/%2$s</string>
+    <string name="subscription_exp_format">到期：%1$s</string>
+    <string name="subscription_chat_format">聊天：%1$s</string>
+    <string name="subscription_loading_limits">載入限制中...</string>
+    <string name="subscription_choose_plan">選擇方案</string>
+    <string name="subscription_chat_addons">聊天限制附加包</string>
+
+    <string name="subscription_gacha_title">🎲 扭蛋</string>
+    <string name="subscription_gacha_desc">1-9 次限制</string>
+    <string name="subscription_single_limit_title">💬 +1 次限制</string>
+    <string name="subscription_single_limit_desc">即時生效</string>
+    <string name="subscription_toast_added_chat">已添加 +1 聊天限制！</string>
+
+    <string name="subscription_gacha_result_jackpot">🎉 大獎！ 🎉</string>
+    <string name="subscription_gacha_result_normal">扭蛋結果</string>
+    <string name="subscription_gacha_result_msg">聊天限制已添加！</string>
+    <string name="subscription_btn_awesome">太棒了！</string>
+
+    <string name="subscription_upgrade_title">升級到 %1$s？</string>
+    <string name="subscription_price_format">價格：%1$s</string>
+    <string name="subscription_feature_ad_free">• 無廣告</string>
+    <string name="subscription_btn_confirm">確認</string>
+    <string name="subscription_btn_buy">購買</string>
+    <string name="subscription_current_plan">當前</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">歡迎回來</string>
+    <string name="login_subtitle">用 AI 創作令人驚嘆的動漫藝術</string>
+    <string name="login_email_label">郵箱或用戶名</string>
+    <string name="login_email_placeholder">輸入你的郵箱</string>
+    <string name="login_password_label">密碼</string>
+    <string name="login_password_placeholder">輸入你的密碼</string>
+    <string name="login_btn_signin">登錄</string>
+    <string name="login_continue_google">通過 Google 繼續</string>
+    <string name="login_continue_guest">以訪客身份繼續</string>
+    <string name="login_no_account">沒有帳號？</string>
+    <string name="login_signup_link">註冊</string>
+    <string name="login_or">或</string>
+    <string name="login_app_name">Draw AI</string>
+    <string name="login_logo_text">AI</string>
+
+    <!-- Sign Up Screen -->
+    <string name="signup_title">創建帳號</string>
+    <string name="signup_subtitle">加入我們，創作精彩的動漫藝術</string>
+    <string name="signup_fullname_label">全名</string>
+    <string name="signup_fullname_placeholder">輸入你的全名</string>
+    <string name="signup_email_label">郵箱</string>
+    <string name="signup_email_placeholder">輸入你的郵箱</string>
+    <string name="signup_password_label">密碼</string>
+    <string name="signup_password_placeholder">創建密碼</string>
+    <string name="signup_confirm_password_label">確認密碼</string>
+    <string name="signup_confirm_password_placeholder">再次輸入密碼</string>
+    <string name="signup_btn_create">創建帳號</string>
+    <string name="signup_google">通過 Google 註冊</string>
+    <string name="signup_have_account">已有帳號？</string>
+    <string name="signup_signin_link">登錄</string>
+    <string name="signup_terms">註冊即表示你同意我們的服務條款和隱私政策</string>
+    <string name="signup_error_fullname">請輸入你的全名</string>
+    <string name="signup_error_email">請輸入你的郵箱</string>
+    <string name="signup_error_email_invalid">請輸入有效的郵箱</string>
+    <string name="signup_error_password">請輸入密碼</string>
+    <string name="signup_error_password_length">密碼至少需要 6 個字符</string>
+    <string name="signup_error_password_match">密碼不匹配</string>
+
+    <!-- Onboarding Screen -->
+    <string name="onboarding_skip">跳過</string>
+    <string name="onboarding_next">下一步</string>
+    <string name="onboarding_get_started">開始使用</string>
+    <string name="onboarding_page1_title">歡迎來到 AnimeDraw AI</string>
+    <string name="onboarding_page1_desc">利用 AI 的力量創作令人驚嘆的動漫藝術。只需描述你想看到的！</string>
+    <string name="onboarding_page2_title">與 AI 角色聊天</string>
+    <string name="onboarding_page2_desc">與獨特的 AI 個性互動。他們可以幫助你產生想法或只是閒聊。</string>
+    <string name="onboarding_page3_title">加入社群</string>
+    <string name="onboarding_page3_desc">分享你的作品，從他人那裡獲取靈感，並攀登排行榜。</string>
+
+    <!-- App Drawer -->
+    <string name="drawer_guest">訪客</string>
+    <string name="drawer_login_to_chat">請登錄以訪問聊天</string>
+    <string name="drawer_current_language">語言</string>
+    <string name="drawer_promo_title">活動與獎勵</string>
+    <string name="drawer_promo_desc">查看正在進行的活動、更新並領取您的獎勵！</string>
+
+    <!-- Post Detail Screen -->
+    <string name="post_anonymous">匿名</string>
+    <string name="post_downloaded_already">本次會話已下載</string>
+    <string name="post_sharing">分享中...</string>
+    <string name="post_prompt">提示詞</string>
+    <string name="post_negative_prompt">反向提示詞</string>
+    <string name="post_workflow_model">工作流 / 模型</string>
+    <string name="post_unknown">未知</string>
+    <string name="post_report_title">舉報內容</string>
+    <string name="post_report_desc">為什麼要舉報此內容？</string>
+    <string name="post_report_reason">原因</string>
+    <string name="post_report_success">舉報提交成功</string>
+    <string name="post_report_failed">提交舉報失敗</string>
+    <string name="post_report_provide_reason">請提供原因</string>
+    <string name="post_report_submit">提交舉報</string>
+    <string name="post_report_cancel">取消</string>
+    <string name="post_saved_gallery">圖片已保存到相冊</string>
+    <string name="post_download_failed">下載圖片失敗</string>
+    <string name="post_share">分享</string>
+    <string name="post_content_desc_back">返回</string>
+    <string name="post_content_desc_info">信息</string>
+    <string name="post_content_desc_like">讚</string>
+    <string name="post_content_desc_download">下載</string>
+
+    <!-- Gallery Pin Screen -->
+    <string name="pin_title">相冊受保護</string>
+    <string name="pin_subtitle">輸入 4 位 PIN 碼以訪問</string>
+    <string name="pin_label">輸入 PIN 碼</string>
+    <string name="pin_error_too_many">嘗試失敗次數過多。PIN 碼錯誤。</string>
+    <string name="pin_error_incorrect">PIN 碼錯誤。請重試。</string>
+    <string name="pin_back">返回</string>
+    <string name="pin_forgot_hint">如果你忘記了 PIN 碼，可以在設定中禁用相冊鎖。</string>
+    <string name="pin_content_desc_lock">相冊鎖</string>
+
+    <!-- Usage Statistics Screen -->
+    <string name="stats_title">使用統計</string>
+    <string name="stats_total_generations">總生成數</string>
+    <string name="stats_last_generation">上次：%1$s</string>
+    <string name="stats_no_generations">暫無生成</string>
+    <string name="stats_total_saves">總保存數</string>
+    <string name="stats_saves_desc">保存到相冊的圖片</string>
+    <string name="stats_total_favorites">總收藏數</string>
+    <string name="stats_favorites_desc">標記為收藏的工作流</string>
+    <string name="stats_member_since">加入時間</string>
+    <string name="stats_member_desc">首次生成日期</string>
+    <string name="stats_about_title">ℹ️ 關於統計</string>
+    <string name="stats_about_desc">你的使用統計數據安全地存儲在 Firebase 中，並在所有設備上同步。這些統計數據有助於你跟踪使用 Draw AI 的創作歷程。</string>
+    <string name="stats_content_desc_back">返回</string>
+
+    <!-- Summoning Screen -->
+    <string name="summon_deadly_sins">七宗罪</string>
+    <string name="summon_content_desc_character">角色</string>
+
+    <!-- Category Detail Extras -->
+    <string name="category_content_desc_back">返回</string>
+    <string name="category_content_desc_grid">切換網格</string>
+    <string name="category_upgrade_title">升級到高級版</string>
+    <string name="category_upgrade_desc">解鎖高級工作流和功能</string>
+    <string name="category_upgrade_btn">立即升級</string>
+    <string name="category_upgrade_cancel">取消</string>
+    <!-- Gem Store & Daily Reward -->
+    <string name="gem_store_title">寶石商店</string>
+    <string name="daily_reward_title">每日獎勵</string>
+    <string name="daily_reward_description">領取您的每日獎勵！</string>
+    <string name="daily_reward_claim">領取</string>
+    <string name="daily_reward_claimed">已領取</string>
+    <string name="daily_reward_day">第 %1$d 天</string>
+    <string name="daily_reward_gems">%1$d 寶石</string>
+    <string name="shop_item_candy">甜糖果</string>
+    <string name="shop_item_coffee">熱咖啡</string>
+    <string name="shop_item_rose">紅玫瑰</string>
+    <string name="shop_buy_button">購買</string>
+    <string name="shop_insufficient_gems">寶石不足</string>
+    <string name="shop_purchase_success">購買成功！</string>
+</resources>

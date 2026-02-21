@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draw AI</string>
+    
+    <!-- Content Moderation Messages -->
+    <string name="content_moderation_error">Введенный запрос содержит недопустимые слова. Пожалуйста, используйте другие слова.</string>
+    <string name="content_moderation_error_indonesian">Введенный запрос содержит недопустимые слова. Пожалуйста, используйте другие слова.</string>
+    <string name="content_moderation_title">Предупреждение о контенте</string>
+    <string name="content_moderation_title_indonesian">Предупреждение о контенте</string>
+    <string name="content_moderation_description">Ваш запрос содержит запрещенные слова. Пожалуйста, измените запрос и попробуйте снова.</string>
+    <string name="content_moderation_description_indonesian">Ваш запрос содержит запрещенные слова. Пожалуйста, измените запрос и попробуйте снова.</string>
+    <string name="content_moderation_positive_words">Позитивный запрос содержит: %1$s</string>
+    <string name="content_moderation_positive_words_indonesian">Позитивный запрос содержит: %1$s</string>
+    <string name="content_moderation_negative_words">Негативный запрос содержит: %1$s</string>
+    <string name="content_moderation_negative_words_indonesian">Негативный запрос содержит: %1$s</string>
+    <string name="content_moderation_okay">Хорошо, понятно</string>
+    <string name="content_moderation_okay_indonesian">Хорошо, понятно</string>
+    
+    <!-- Rating System Messages -->
+    <string name="rating_too_low_error">Рейтинг вашего запроса %1$d%%, что ниже минимального порога в 50%%. Пожалуйста, улучшите ваш запрос для получения лучших результатов.</string>
+    <string name="rating_too_low_error_indonesian">Рейтинг вашего запроса %1$d%%, что ниже минимального порога в 50%%. Пожалуйста, улучшите ваш запрос для получения лучших результатов.</string>
+
+    <!-- Server Maintenance -->
+    <string name="server_maintenance">Обслуживание сервера</string>
+    <string name="server_maintenance_description">Сервер в настоящее время на обслуживании. Пожалуйста, подождите немного и попробуйте снова.</string>
+    <string name="go_to_gallery">Перейти в галерею</string>
+    
+    <!-- Sidebar Menu Items -->
+    <string name="menu_home">Главная</string>
+    <string name="menu_vision">Видение</string>
+    <string name="menu_explore">Обзор</string>
+    <string name="menu_chat">Чат</string>
+    <string name="menu_gallery">Галерея</string>
+    <string name="menu_favorites">Избранное</string>
+    <string name="menu_subscription">Подписка</string>
+    <string name="menu_leaderboard">Таблица лидеров</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_events_updates">События и обновления</string>
+    
+    <!-- Discovered Workflows -->
+    <string name="workflows_most_viewed">🔥 Самые просматриваемые</string>
+    <string name="workflows_newest">✨ Новейшие</string>
+    <string name="workflows_most_popular">⭐ Самые популярные</string>
+    <string name="workflows_see_all">Показать все →</string>
+    
+    <!-- Language Selector -->
+    <string name="language_selector_title">Выберите язык</string>
+    <string name="current_language">Русский</string>
+    
+    <!-- HomeScreen -->
+    <string name="discover_workflows_title">Исследуйте рабочие процессы</string>
+    <string name="discover_workflows_subtitle">Выберите рабочий процесс, чтобы начать творить</string>
+    <string name="search_workflows">Поиск рабочих процессов</string>
+    <string name="search_placeholder">Введите для поиска…</string>
+    
+    <!-- Workflow Sections -->
+    <string name="latest_additions">Последние добавления</string>
+    <string name="community_favorites">Избранное сообщества</string>
+    
+    <!-- Filter Chips -->
+    <string name="filter_all">Все</string>
+    <string name="filter_favorites">Избранное</string>
+    <string name="filter_anime">Аниме</string>
+    <string name="filter_general">Общее</string>
+    <string name="filter_animal">Животное</string>
+    <string name="filter_flower">Цветок</string>
+    <string name="filter_food">Еда</string>
+    <string name="filter_background">Фон</string>
+    
+    <!-- Time Units -->
+    <string name="time_seconds">секунд</string>
+    
+    <!-- Category Names -->
+    <string name="category_anime">Аниме</string>
+    <string name="category_general">Общее</string>
+    <string name="category_animal">Животное</string>
+    <string name="category_flower">Цветок</string>
+    <string name="category_food">Еда</string>
+    <string name="category_background">Фон</string>
+    
+    <!-- CategoryDetailScreen -->
+    <string name="category_most_viewed_subtitle">Лучшие рабочие процессы по просмотрам</string>
+    <string name="category_newest_subtitle">Последние добавления в нашу коллекцию</string>
+    <string name="category_most_popular_subtitle">Избранное сообщества</string>
+    <string name="category_browse_all">Просмотреть все рабочие процессы</string>
+    <string name="search_in_category">Поиск в этой категории…</string>
+    <string name="workflows_count">%1$d рабочих процессов</string>
+    
+    <!-- VisionScreen -->
+    <string name="vision_prompts_title">Промо-видение</string>
+    <string name="vision_prompts_subtitle">Промты для генерации ИИ-арта</string>
+    <string name="vision_shuffle">Перемешать</string>
+    <string name="vision_failed_to_load">Не удалось загрузить</string>
+    <string name="vision_tap_to_retry">Нажмите, чтобы повторить</string>
+    <string name="vision_retry">Повторить</string>
+    <string name="vision_no_visions">Нет доступных видений</string>
+    <string name="vision_next_page">Следующая страница</string>
+    <string name="vision_copy">Копировать</string>
+    <string name="vision_avoid">Избегать</string>
+    <string name="vision_use">Использовать</string>
+    <string name="vision_copied">Скопировано!</string>
+    
+    <!-- GenerateScreen -->
+    <string name="generate_category">Категория</string>
+    <string name="generate_describe_vision">Опишите ваше видение</string>
+    <string name="generate_describe_subtitle">Расскажите нам, что вы хотите создать</string>
+    <string name="generate_prompt_placeholder">например, красивая аниме девушка с длинными серебряными волосами, детальные глаза, фон цветущей вишни, шедевральное качество</string>
+    <string name="generate_quick_suggestions">Быстрые предложения</string>
+    <string name="generate_suggest_more">Предложить еще →</string>
+    <string name="generate_things_to_avoid">Что избегать</string>
+    <string name="generate_avoid_subtitle">Необязательно - Что вы не хотите видеть</string>
+    <string name="generate_avoid_placeholder">например, размыто, низкое качество, плохая анатомия, уродливое лицо, искаженные руки</string>
+    <string name="generate_common_negatives">Обычные негативы</string>
+    <string name="generate_image">Создать изображение</string>
+    
+    <!-- ExploreScreen -->
+    <string name="explore_title">Обзор</string>
+    <string name="explore_subtitle">Творения сообщества</string>
+    <string name="explore_popular">🔥 Популярное</string>
+    <string name="explore_recent">⏰ Недавнее</string>
+    <string name="explore_trending">📈 В тренде</string>
+    <string name="explore_mine">👤 Мое</string>
+    <string name="explore_refresh">Обновить</string>
+    <string name="explore_no_posts">Пока нет постов</string>
+    <string name="explore_be_first">Будьте первым, кто поделится!</string>
+    <string name="explore_error_oops">Упс!</string>
+    <string name="explore_retry">Повторить</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet">Нет подключения к интернету</string>
+    <string name="error_prompt_empty">Промпт не может быть пустым</string>
+    <string name="error_user_not_authenticated">Пользователь не аутентифицирован. Пожалуйста, войдите.</string>
+    <string name="error_server_busy">Сервер занят. Пожалуйста, попробуйте позже.</string>
+    <string name="error_process_timeout">Процесс занял слишком много времени. Попробуйте более простой промпт.</string>
+    <string name="error_connection_issue">Проблема с подключением. Проверьте интернет.</string>
+    <string name="error_processing_failed">Не удалось обработать изображение. Попробуйте снова.</string>
+    <string name="error_title">Ошибка</string>
+    <string name="error_generic_message">Произошла ошибка при обработке изображения. Попробуйте снова.</string>
+    <string name="error_retry">Повторить</string>
+    <string name="error_back">Назад</string>
+    
+    <!-- ChatScreen -->
+    <string name="chat_title">Чат с персонажем</string>
+    <string name="chat_select_character">💬 Выберите персонажа ▼</string>
+    <string name="chat_menu">Меню</string>
+    <string name="chat_new_chat">Новый чат</string>
+    <string name="chat_clear_history">Очистить историю</string>
+    <string name="chat_type_message">Введите сообщение...</string>
+    <string name="chat_send">Отправить</string>
+    <string name="chat_close">Закрыть</string>
+    <string name="chat_start_conversation">Начать разговор</string>
+    <string name="chat_ask_anything">Спросите меня о чем угодно! Я здесь, чтобы помочь.</string>
+    <string name="chat_try_asking">Попробуйте спросить:</string>
+    <string name="chat_suggestion_1">Как ты можешь мне помочь?</string>
+    <string name="chat_suggestion_2">Расскажи интересный факт</string>
+    <string name="chat_suggestion_3">Как работает ИИ?</string>
+    
+    <!-- CharacterListScreen -->
+    <string name="character_list_title">Сообщения</string>
+    <string name="character_list_search">Поиск</string>
+    <string name="character_list_new_character">Новый персонаж</string>
+    <string name="character_list_retry">Повторить соединение</string>
+    <string name="character_list_unknown_error">Неизвестная ошибка</string>
+    <string name="character_list_delete_title">Удалить персонажа?</string>
+    <string name="character_list_delete_message">Вы уверены, что хотите удалить этого персонажа? Если да, персонаж будет удален, но ваш лимит персонажей НЕ уменьшится.</string>
+    <string name="character_list_delete">Удалить</string>
+    <string name="character_list_cancel">Отмена</string>
+    <string name="character_list_empty_title">Пока нет чатов</string>
+    <string name="character_list_empty_subtitle">Начните общаться с вашими ИИ персонажами!</string>
+    <string name="character_list_create_new">Создать нового персонажа</string>
+    
+    <!-- CharacterChatScreen -->
+    <string name="character_chat_go_back">Назад</string>
+    <string name="character_chat_character_not_found">Персонаж не найден</string>
+    <string name="character_chat_start_chatting">Начните общаться с %1$s!</string>
+    <string name="character_chat_deadly_sins">У них %1$d смертных грехов</string>
+    <string name="character_chat_message_not_sent">Сообщение не отправлено</string>
+    <string name="character_chat_inappropriate">Ваше сообщение содержит неподобающий язык. Пожалуйста, уважайте ИИ персонажей.</string>
+    <string name="character_chat_ok">ОК</string>
+    <string name="character_chat_type_message_placeholder">Введите сообщение...</string>
+    <string name="character_chat_connection_error">Ошибка соединения</string>
+    <string name="character_chat_sins">грехи</string>
+    <string name="character_chat_back">Назад</string>
+    <string name="character_chat_close">Закрыть</string>
+
+    <!-- Gallery Screen -->
+    <string name="gallery_title">Галерея</string>
+    <string name="gallery_subtitle_count">%1$d изображений</string>
+    <string name="gallery_filter_all">Все</string>
+    <string name="gallery_filter_favorites">Избранное</string>
+    <string name="gallery_empty_title">Пока нет изображений</string>
+    <string name="gallery_empty_subtitle">Начните создавать, чтобы увидеть свои творения здесь</string>
+    <string name="gallery_generate_now">Создать сейчас</string>
+    <string name="gallery_msg_select_character">Выберите изображение для создания персонажа</string>
+    <string name="gallery_msg_limit_reached">Достигнут лимит персонажей!</string>
+    <string name="gallery_content_desc_select_char">Выбрать персонажа</string>
+    <string name="gallery_content_desc_create_char">Создать персонажа</string>
+    <string name="gallery_report_title">Пожаловаться на изображение</string>
+    <string name="gallery_report_desc">Пожалуйста, опишите, почему вы жалуетесь на это изображение:</string>
+    <string name="gallery_report_reason_label">Причина жалобы</string>
+    <string name="gallery_report_reason_placeholder">Опишите проблему...</string>
+    <string name="gallery_report_button">Пожаловаться</string>
+    <string name="gallery_cancel">Отмена</string>
+    <string name="gallery_delete_title">Удалить изображение?</string>
+    <string name="gallery_delete_message">Это действие нельзя отменить. Изображение будет удалено навсегда.</string>
+    <string name="gallery_delete_button">Удалить</string>
+    <string name="gallery_share_premium_only">🔒 Обмен с сообществом доступен для подписчиков Basic и Pro</string>
+    <string name="gallery_share_duplicate">⚠️ Это изображение/промт уже было опубликовано в сообществе.</string>
+    <string name="gallery_share_success">✅ Успешно опубликовано в сообществе!</string>
+    <string name="gallery_share_failed">Не удалось опубликовать: %1$s</string>
+    <string name="gallery_share_file_not_found">Файл изображения не найден</string>
+    <string name="gallery_share_error">Ошибка: %1$s</string>
+    <string name="gallery_create_char_title">Создать персонажа?</string>
+    <string name="gallery_create_char_message">Это превратит данное изображение в вашего уникального ИИ-компаньона.</string>
+    <string name="gallery_create_char_warning">⚠️ Вы можете выбрать только ОДНОГО персонажа. Это нельзя будет изменить позже.</string>
+    <string name="gallery_char_name_label">Имя персонажа (Необязательно)</string>
+    <string name="gallery_char_name_placeholder">Оставьте пустым для случайного имени</string>
+    <string name="gallery_select_language_title">Выберите язык:</string>
+    <string name="gallery_select_gender_title">Выберите пол:</string>
+    <string name="gallery_gender_male">Мужской ♂️</string>
+    <string name="gallery_gender_female">Женский ♀️</string>
+    <string name="gallery_analyzing_personality">Анализ личности...</string>
+    <string name="gallery_summoning_soul">Призыв души...</string>
+    <string name="gallery_character_created">Персонаж создан!</string>
+    <string name="gallery_create_and_chat">Создать и общаться</string>
+    <string name="gallery_guidelines_title">Правила сообщества</string>
+    <string name="gallery_guidelines_intro">Перед публикацией изображений в сообществе, обратите внимание:</string>
+    <string name="gallery_guideline_nsfw">🚫 Запрещен непристойный/NSFW контент</string>
+    <string name="gallery_guideline_violence">🚫 Запрещено насилие или жестокость</string>
+    <string name="gallery_guideline_illegal">🚫 Запрещен незаконный контент</string>
+    <string name="gallery_guideline_hate">🚫 Запрещены язык вражды или дискриминация</string>
+    <string name="gallery_guidelines_warning_title">⚠️ ПРЕДУПРЕЖДЕНИЕ:</string>
+    <string name="gallery_guidelines_warning_text">Нарушения приведут к ПОСТОЯННОЙ БЛОКИРОВКЕ АККАУНТА и УДАЛЕНИЮ ВСЕГО КОНТЕНТА без предварительного уведомления!</string>
+    <string name="gallery_guidelines_agree">Я понимаю и соглашаюсь</string>
+    <string name="gallery_share_already_shared">⚠️ Этот промт уже опубликован!</string>
+    <string name="gallery_share_success_full">✅ Успешно опубликовано в сообществе!</string>
+    <string name="gallery_chat_button">💬 Чат</string>
+    <string name="gallery_your_character_badge">🌟 Ваш персонаж</string>
+    
+    <!-- Tabs -->
+    <string name="character_chat_tab_relationship">Отношения</string>
+    <string name="character_chat_tab_status">Статус</string>
+    <string name="character_chat_tab_profile">Профиль</string>
+    <string name="character_chat_tab_stats">Статистика</string>
+    
+    <!-- Relationship Tab -->
+    <string name="character_chat_affection_points">Очки привязанности</string>
+    <string name="character_chat_max">МАКС ❤️</string>
+    <string name="character_chat_ap_to">%1$d ОП к %2$s</string>
+    <string name="character_chat_soulmate_forever">Родственная душа навсегда 💍</string>
+    <string name="character_chat_confess_feelings">💌 Признаться в чувствах</string>
+    <string name="character_chat_propose_marriage">💍 Предложить брак</string>
+    
+    <!-- Status Tab -->
+    <string name="character_chat_current_mood">Текущее настроение</string>
+    <string name="character_chat_energy_level">Уровень энергии</string>
+    <string name="character_chat_energy_high">Высокий</string>
+    <string name="character_chat_energy_normal">Нормальный</string>
+    <string name="character_chat_energy_tired">Усталый</string>
+    
+    <!-- Profile Tab -->
+    <string name="character_chat_archetype">Архетип</string>
+    <string name="character_chat_traits">Черты</string>
+    <string name="character_chat_interests">Интересы</string>
+    <string name="character_chat_deadly_sins_title">Смертные грехи</string>
+    <string name="character_chat_sins_hidden">%1$d Грехов (Скрыто)</string>
+    
+    <!-- Stats Tab -->
+    <string name="character_chat_interaction_stats">Статистика взаимодействия</string>
+    <string name="character_chat_total_messages">Всего сообщений</string>
+    <string name="character_chat_last_chat">Последний чат</string>
+    <string name="character_chat_chat_frequency">Частота чата</string>
+    <string name="character_chat_ghosting_record">Запись игнорирования</string>
+    <string name="character_chat_ghosted_times">Вы игнорировали этого персонажа %1$d раз.</string>
+    
+    <!-- Favorites Screen -->
+    <string name="favorites_title">Избранное</string>
+    <string name="favorites_saved_count">%1$d сохранено</string>
+    <string name="favorites_empty_title">Пока нет избранного</string>
+    <string name="favorites_empty_message">Отметьте рабочие процессы как избранные, чтобы увидеть их здесь</string>
+    <string name="favorites_remove_content_desc">Удалить из избранного</string>
+    <string name="favorites_pro_badge">⭐ PRO</string>
+
+    <!-- Leaderboard Screen -->
+    <string name="leaderboard_title">Таблица лидеров</string>
+    <string name="leaderboard_tab_architect">Архитектор</string>
+    <string name="leaderboard_tab_romancer">Романтик</string>
+    <string name="leaderboard_tab_mvp">MVP</string>
+    <string name="leaderboard_tab_fame">Зал славы</string>
+    <string name="leaderboard_tab_rising">Восходящий</string>
+    <string name="leaderboard_filter_all_time">Все время</string>
+    <string name="leaderboard_filter_weekly">Еженедельно</string>
+    <string name="leaderboard_filter_monthly">Ежемесячно</string>
+    <string name="leaderboard_architect_title">Мастер Архитектор</string>
+    <string name="leaderboard_architect_desc">Визионеры, создающие наибольшее количество шедевров.</string>
+    <string name="leaderboard_metric_generations">Генерации</string>
+    <string name="leaderboard_romancer_title">Топ Романтики</string>
+    <string name="leaderboard_romancer_desc">Пользователи с самыми глубокими связями. Очки привязанности заработаны искренним общением.</string>
+    <string name="leaderboard_metric_affection">Очки привязанности</string>
+    <string name="leaderboard_mvp_title">MVP Сообщества</string>
+    <string name="leaderboard_mvp_desc">Опоры нашего сообщества, которые делятся наибольшим количеством промтов/творений.</string>
+    <string name="leaderboard_metric_shares">Публикации</string>
+    <string name="leaderboard_fame_title">Зал славы</string>
+    <string name="leaderboard_fame_desc">Легендарные произведения искусства, отсортированные по категориям.</string>
+    <string name="leaderboard_filter_most_liked">Самые популярные</string>
+    <string name="leaderboard_filter_most_downloaded">Самые скачиваемые</string>
+    <string name="leaderboard_metric_likes">Лайки</string>
+    <string name="leaderboard_metric_downloads">Скачивания</string>
+    <string name="leaderboard_rising_title">Восходящие звезды</string>
+    <string name="leaderboard_rising_desc">Новые авторы, набирающие популярность в последнее время.</string>
+    <string name="leaderboard_metric_recent_likes">Недавние лайки</string>
+    <string name="leaderboard_no_rankings">Пока нет рейтингов</string>
+    <string name="leaderboard_error_prefix">Ошибка: %1$s</string>
+
+    <!-- News Screen (Events & Updates) -->
+    <string name="news_title">События и обновления</string>
+    <string name="news_badge_event">СОБЫТИЕ</string>
+    <string name="news_badge_update">ОБНОВЛЕНИЕ</string>
+    <string name="news_action_view_details">Посмотреть детали</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_subtitle">Настройте свой опыт</string>
+
+    <!-- Preferences Section -->
+    <string name="settings_section_preferences">Предпочтения</string>
+    <string name="settings_dark_mode">Темный режим</string>
+    <string name="settings_dark_mode_desc">Переключиться на темную тему</string>
+    <string name="settings_notifications">Уведомления</string>
+    <string name="settings_notifications_desc">Получать уведомление по завершении генерации</string>
+    <string name="settings_auto_save">Автосохранение</string>
+    <string name="settings_auto_save_desc">Автоматически сохранять в галерею или показывать диалог сохранения</string>
+    <string name="settings_gallery_lock">Блокировка галереи</string>
+    <string name="settings_gallery_lock_desc">Защитить галерею ПИН-кодом</string>
+    <string name="settings_restricted_content">Ограниченный контент</string>
+    <string name="settings_restricted_content_desc">Включить контент для взрослых (Требуется проверка возраста)</string>
+    <string name="settings_more">Больше</string>
+    <string name="settings_more_desc">Запросить доступ к дополнительному контенту (Требования: Basic/Pro + Одобрение)</string>
+
+    <!-- Storage Section -->
+    <string name="settings_section_storage">Хранилище</string>
+    <string name="settings_clear_cache">Очистить кэш</string>
+    <string name="settings_clear_cache_desc">Освободить место</string>
+    <string name="settings_cache_cleared">Кэш очищен!</string>
+    <string name="settings_export_gallery">Экспорт галереи</string>
+    <string name="settings_export_gallery_locked">Экспорт галереи 🔒</string>
+    <string name="settings_export_gallery_desc">Сохранить все ваши изображения</string>
+    <string name="settings_export_gallery_premium">Премиум функция</string>
+    <string name="settings_upgrade_toast">Пожалуйста, обновитесь до Premium в Профиле</string>
+
+    <!-- About & Legal Section -->
+    <string name="settings_section_about">О нас и правовая информация</string>
+    <string name="settings_privacy_policy">Политика конфиденциальности</string>
+    <string name="settings_privacy_policy_desc">Просмотреть нашу политику конфиденциальности</string>
+    <string name="settings_terms_service">Условия обслуживания</string>
+    <string name="settings_terms_service_desc">Прочитать наши условия и положения</string>
+
+    <!-- Support Section -->
+    <string name="settings_section_support">Поддержка</string>
+    <string name="settings_help_support">Помощь и поддержка</string>
+    <string name="settings_help_support_desc">Связаться с нами по email</string>
+    <string name="settings_rate_app">Оценить приложение</string>
+    <string name="settings_rate_app_desc">Поделитесь отзывом в Play Store</string>
+    <string name="settings_app_version">Версия приложения</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="settings_clear_cache_title">Очистить кэш?</string>
+    <string name="settings_clear_cache_message">Это удалит все кэшированные изображения и временные файлы. Это действие нельзя отменить.</string>
+    <string name="settings_btn_clear">Очистить</string>
+    <string name="settings_btn_cancel">Отмена</string>
+
+    <string name="settings_export_dialog_title">Экспортировать все в галерею</string>
+    <string name="settings_export_warning_1">⚠️ Это переместит все сгенерированные изображения в основную галерею.</string>
+    <string name="settings_export_warning_2">• Все изображения в папке generated будут перемещены</string>
+    <string name="settings_export_warning_3">• Изображения будут удалены из их текущего местоположения</string>
+    <string name="settings_export_warning_4">• Это действие нельзя отменить</string>
+    <string name="settings_export_confirm">Продолжить экспорт?</string>
+    <string name="settings_btn_export_all">Экспортировать все</string>
+
+    <string name="settings_upgrade_required_title">Требуется обновление</string>
+    <string name="settings_upgrade_required_msg">Доступ к контенту \'Больше\' требует подписки Basic или Pro.</string>
+    <string name="settings_btn_ok">ОК</string>
+
+    <string name="settings_request_access_title">Запросить доступ</string>
+    <string name="settings_request_access_msg">Доступ к контенту \'Больше\' требует одобрения Админа. Вы хотите отправить запрос?</string>
+    <string name="settings_btn_send_request">Отправить запрос</string>
+    <string name="settings_request_sent">Запрос отправлен</string>
+    <string name="settings_request_pending">Запрос ожидает одобрения Админа</string>
+    <string name="settings_cannot_disable">Невозможно отключить. Свяжитесь с поддержкой для изменений.</string>
+
+    <string name="settings_pin_setup_title">Установить ПИН галереи</string>
+    <string name="settings_pin_setup_msg">Создайте 4-значный ПИН для защиты вашей галереи</string>
+    <string name="settings_pin_enter">Введите ПИН</string>
+    <string name="settings_pin_confirm">Подтвердите ПИН</string>
+    <string name="settings_pin_error">ПИН-коды не совпадают или неверны</string>
+    <string name="settings_btn_set_pin">Установить ПИН</string>
+
+    <string name="settings_export_empty">Нет изображений для экспорта</string>
+    <string name="settings_export_success">Успешно экспортировано %1$d изображений в галерею</string>
+    <string name="settings_export_partial">Экспортировано %1$d изображений в галерею (%2$d не удалось)</string>
+    <string name="settings_export_failed">Экспорт не удался: %1$s</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Профиль</string>
+    <string name="profile_guest">Гость</string>
+    <string name="profile_guest_account">Гостевой аккаунт</string>
+    <string name="profile_edit_name">Изменить имя</string>
+    <string name="profile_section_subscription">Подписка и использование</string>
+    <string name="profile_daily_generations">Дневные генерации</string>
+    <string name="profile_used_today">Использовано сегодня: %1$d</string>
+    <string name="profile_generations">Генерации: </string>
+    <string name="profile_chat_limit">Лимит чата: </string>
+    <string name="profile_expires">Истекает: %1$s</string>
+    <string name="profile_plan">План подписки</string>
+    <string name="profile_plan_desc">Управление подпиской</string>
+    <string name="profile_usage_stats">Статистика использования</string>
+    <string name="profile_usage_stats_desc">Просмотреть историю генераций</string>
+    <string name="profile_section_account">Действия с аккаунтом</string>
+    <string name="profile_link_account">Привязать аккаунт</string>
+    <string name="profile_link_account_desc">Свяжите с Google для сохранения данных</string>
+    <string name="profile_sign_out">Выйти</string>
+    <string name="profile_sign_out_desc">Выйти из аккаунта</string>
+    <string name="profile_delete_account">Удалить аккаунт</string>
+    <string name="profile_delete_account_desc">Навсегда удалить аккаунт и данные</string>
+    <string name="profile_dialog_edit_name">Изменить отображаемое имя</string>
+    <string name="profile_enter_name">Введите новое имя:</string>
+    <string name="profile_btn_save">Сохранить</string>
+    <string name="profile_dialog_delete_title">Удалить аккаунт?</string>
+    <string name="profile_delete_warning_list">Это навсегда удалит:</string>
+    <string name="profile_delete_item_1">• Ваш аккаунт и профиль</string>
+    <string name="profile_delete_item_2">• Все сгенерированные изображения</string>
+    <string name="profile_delete_item_3">• Статистику использования</string>
+    <string name="profile_delete_item_4">• Избранное и коллекции</string>
+    <string name="profile_delete_item_5">• Данные подписки</string>
+    <string name="profile_delete_warning_final">⚠️ Это действие нельзя отменить!</string>
+    <string name="profile_delete_instruction">Для продолжения отправьте запрос на удаление:</string>
+    <string name="profile_btn_submit_request">Отправить запрос</string>
+
+    <!-- Subscription Screen -->
+    <string name="subscription_title">Магазин подписок</string>
+    <string name="subscription_status_user">Статус пользователя</string>
+    <string name="subscription_status_pro">PRO</string>
+    <string name="subscription_status_basic">BASIC</string>
+    <string name="subscription_status_free">БЕСПЛАТНО</string>
+    <string name="subscription_limit_format">Лимит: %1$s/%2$s</string>
+    <string name="subscription_exp_format">Истекает: %1$s</string>
+    <string name="subscription_chat_format">Чат: %1$s</string>
+    <string name="subscription_loading_limits">Загрузка лимитов...</string>
+    <string name="subscription_choose_plan">Выберите план</string>
+    <string name="subscription_chat_addons">Дополнения к лимиту чата</string>
+
+    <string name="subscription_gacha_title">🎲 Гача</string>
+    <string name="subscription_gacha_desc">1-9 Лимит</string>
+    <string name="subscription_single_limit_title">💬 +1 Лимит</string>
+    <string name="subscription_single_limit_desc">Мгновенно</string>
+    <string name="subscription_toast_added_chat">Добавлен +1 лимит чата!</string>
+
+    <string name="subscription_gacha_result_jackpot">🎉 ДЖЕКПОТ! 🎉</string>
+    <string name="subscription_gacha_result_normal">Результат Гачи</string>
+    <string name="subscription_gacha_result_msg">Лимит чата добавлен!</string>
+    <string name="subscription_btn_awesome">Круто!</string>
+
+    <string name="subscription_upgrade_title">Обновить до %1$s?</string>
+    <string name="subscription_price_format">Цена: %1$s</string>
+    <string name="subscription_feature_ad_free">• Без рекламы</string>
+    <string name="subscription_btn_confirm">Подтвердить</string>
+    <string name="subscription_btn_buy">Купить</string>
+    <string name="subscription_current_plan">Текущий</string>
+
+
+    <!-- App Drawer -->
+    <string name="drawer_guest">Гость</string>
+    <string name="drawer_login_to_chat">Пожалуйста, войдите, чтобы получить доступ к чату</string>
+    <string name="drawer_current_language">Язык</string>
+    <string name="drawer_promo_title">События и Награды</string>
+    <string name="drawer_promo_desc">Следите за текущими событиями, обновлениями и получайте награды!</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">С возвращением</string>
+    <string name="login_subtitle">Создавайте потрясающий аниме арт с ИИ</string>
+    <string name="login_email_label">Email или имя пользователя</string>
+    <string name="login_email_placeholder">Введите ваш email</string>
+    <string name="login_password_label">Пароль</string>
+    <string name="login_password_placeholder">Введите ваш пароль</string>
+    <string name="login_btn_signin">Войти</string>
+    <string name="login_continue_google">Продолжить с Google</string>
+    <string name="login_continue_guest">Продолжить как Гость</string>
+    <string name="login_no_account">Нет аккаунта? </string>
+    <string name="login_signup_link">Зарегистрироваться</string>
+    <string name="login_or">или</string>
+    <string name="login_app_name">Draw AI</string>
+    <string name="login_logo_text">AI</string>
+
+    <!-- Sign Up Screen -->
+    <string name="signup_title">Создать аккаунт</string>
+    <string name="signup_subtitle">Присоединяйтесь к нам для создания невероятного аниме арта</string>
+    <string name="signup_fullname_label">Полное имя</string>
+    <string name="signup_fullname_placeholder">Введите ваше полное имя</string>
+    <string name="signup_email_label">Email</string>
+    <string name="signup_email_placeholder">Введите ваш email</string>
+    <string name="signup_password_label">Пароль</string>
+    <string name="signup_password_placeholder">Создайте пароль</string>
+    <string name="signup_confirm_password_label">Подтвердите пароль</string>
+    <string name="signup_confirm_password_placeholder">Введите пароль еще раз</string>
+    <string name="signup_btn_create">Создать аккаунт</string>
+    <string name="signup_google">Регистрация с Google</string>
+    <string name="signup_have_account">Уже есть аккаунт? </string>
+    <string name="signup_signin_link">Войти</string>
+    <string name="signup_terms">Регистрируясь, вы соглашаетесь с нашими Условиями использования и Политикой конфиденциальности</string>
+    <string name="signup_error_fullname">Пожалуйста, введите ваше полное имя</string>
+    <string name="signup_error_email">Пожалуйста, введите ваш email</string>
+    <string name="signup_error_email_invalid">Пожалуйста, введите корректный email</string>
+    <string name="signup_error_password">Пожалуйста, введите пароль</string>
+    <string name="signup_error_password_length">Пароль должен быть не менее 6 символов</string>
+    <string name="signup_error_password_match">Пароли не совпадают</string>
+
+    <!-- Onboarding Screen -->
+    <string name="onboarding_skip">Пропустить</string>
+    <string name="onboarding_next">Далее</string>
+    <string name="onboarding_get_started">Начать</string>
+    <string name="onboarding_page1_title">Добро пожаловать в AnimeDraw AI</string>
+    <string name="onboarding_page1_desc">Создавайте потрясающий аниме арт с помощью силы ИИ. Просто опишите, что вы хотите увидеть!</string>
+    <string name="onboarding_page2_title">Общайтесь с ИИ персонажами</string>
+    <string name="onboarding_page2_desc">Взаимодействуйте с уникальными ИИ личностями. Они могут помочь вам с идеями или просто пообщаться.</string>
+    <string name="onboarding_page3_title">Присоединяйтесь к сообществу</string>
+    <string name="onboarding_page3_desc">Делитесь своими творениями, вдохновляйтесь другими и поднимайтесь в таблице лидеров.</string>
+
+    <!-- Post Detail Screen -->
+    <string name="post_anonymous">Аноним</string>
+    <string name="post_downloaded_already">Уже скачано в этой сессии</string>
+    <string name="post_sharing">Публикация...</string>
+    <string name="post_prompt">Промт</string>
+    <string name="post_negative_prompt">Негативный промт</string>
+    <string name="post_workflow_model">Рабочий процесс / Модель</string>
+    <string name="post_unknown">Неизвестно</string>
+    <string name="post_report_title">Пожаловаться на контент</string>
+    <string name="post_report_desc">Почему вы жалуетесь на этот контент?</string>
+    <string name="post_report_reason">Причина</string>
+    <string name="post_report_success">Жалоба успешно отправлена</string>
+    <string name="post_report_failed">Не удалось отправить жалобу</string>
+    <string name="post_report_provide_reason">Пожалуйста, укажите причину</string>
+    <string name="post_report_submit">Отправить жалобу</string>
+    <string name="post_report_cancel">Отмена</string>
+    <string name="post_saved_gallery">Изображение сохранено в Галерею</string>
+    <string name="post_download_failed">Не удалось скачать изображение</string>
+    <string name="post_share">Поделиться</string>
+    <string name="post_content_desc_back">Назад</string>
+    <string name="post_content_desc_info">Инфо</string>
+    <string name="post_content_desc_like">Нравится</string>
+    <string name="post_content_desc_download">Скачать</string>
+
+    <!-- Gallery Pin Screen -->
+    <string name="pin_title">Галерея защищена</string>
+    <string name="pin_subtitle">Введите ваш 4-значный ПИН для доступа к галерее</string>
+    <string name="pin_label">Введите ПИН</string>
+    <string name="pin_error_too_many">Слишком много неудачных попыток. Неверный ПИН.</string>
+    <string name="pin_error_incorrect">Неверный ПИН. Попробуйте снова.</string>
+    <string name="pin_back">Назад</string>
+    <string name="pin_forgot_hint">Если вы забыли ПИН, вы можете отключить Блокировку Галереи в Настройках.</string>
+    <string name="pin_content_desc_lock">Блокировка Галереи</string>
+
+    <!-- Usage Statistics Screen -->
+    <string name="stats_title">Статистика использования</string>
+    <string name="stats_total_generations">Всего генераций</string>
+    <string name="stats_last_generation">Последняя: %1$s</string>
+    <string name="stats_no_generations">Пока нет генераций</string>
+    <string name="stats_total_saves">Всего сохранено</string>
+    <string name="stats_saves_desc">Изображения, сохраненные в галерею</string>
+    <string name="stats_total_favorites">Всего в избранном</string>
+    <string name="stats_favorites_desc">Рабочие процессы, отмеченные как избранные</string>
+    <string name="stats_member_since">Участник с</string>
+    <string name="stats_member_desc">Дата первой генерации</string>
+    <string name="stats_about_title">ℹ️ О статистике</string>
+    <string name="stats_about_desc">Ваша статистика использования надежно хранится в Firebase и синхронизируется на всех ваших устройствах. Эта статистика помогает отслеживать ваш творческий путь с Draw AI.</string>
+    <string name="stats_content_desc_back">Назад</string>
+
+    <!-- Summoning Screen -->
+    <string name="summon_deadly_sins">Смертные грехи</string>
+    <string name="summon_content_desc_character">Персонаж</string>
+
+    <!-- Category Detail Extras -->
+    <string name="category_content_desc_back">Назад</string>
+    <string name="category_content_desc_grid">Изменить сетку</string>
+    <string name="category_upgrade_title">Обновиться до Premium</string>
+    <string name="category_upgrade_desc">Разблокировать премиум рабочие процессы и функции</string>
+    <string name="category_upgrade_btn">Обновить сейчас</string>
+    <string name="category_upgrade_cancel">Отмена</string>
+    <!-- Gem Store & Daily Reward -->
+    <string name="gem_store_title">Магазин самоцветов</string>
+    <string name="daily_reward_title">Ежедневная награда</string>
+    <string name="daily_reward_description">Заберите свою ежедневную награду!</string>
+    <string name="daily_reward_claim">Забрать</string>
+    <string name="daily_reward_claimed">Получено</string>
+    <string name="daily_reward_day">День %1$d</string>
+    <string name="daily_reward_gems">%1$d самоцветов</string>
+    <string name="shop_item_candy">Сладкая конфета</string>
+    <string name="shop_item_coffee">Горячий кофе</string>
+    <string name="shop_item_rose">Красная роза</string>
+    <string name="shop_buy_button">Купить</string>
+    <string name="shop_insufficient_gems">Недостаточно самоцветов</string>
+    <string name="shop_purchase_success">Покупка успешна!</string>
+</resources>

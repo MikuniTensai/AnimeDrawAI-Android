@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draw AI</string>
+    
+    <!-- Sidebar Menu Items -->
+    <string name="menu_home">ホーム</string>
+    <string name="menu_vision">ビジョン</string>
+    <string name="menu_explore">探索</string>
+    <string name="menu_chat">チャット</string>
+    <string name="menu_gallery">ギャラリー</string>
+    <string name="menu_favorites">お気に入り</string>
+    <string name="menu_subscription">サブスクリプション</string>
+    <string name="menu_leaderboard">リーダーボード</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_events_updates">イベントと更新</string>
+    
+    <!-- Discovered Workflows -->
+    <string name="workflows_most_viewed">🔥 最も閲覧された</string>
+    <string name="workflows_newest">✨ 最新</string>
+    <string name="workflows_most_popular">⭐ 最も人気</string>
+    <string name="workflows_see_all">すべて見る →</string>
+    
+    <!-- Language Selector -->
+    <string name="language_selector_title">言語を選択</string>
+    <string name="current_language">日本語</string>
+    
+    <!-- HomeScreen -->
+    <string name="discover_workflows_title">ワークフローを発見</string>
+    <string name="discover_workflows_subtitle">ワークフローを選択して作成を開始</string>
+    <string name="search_workflows">ワークフローを検索</string>
+    <string name="search_placeholder">検索するには入力…</string>
+    
+    <!-- Workflow Sections -->
+    <string name="latest_additions">最新の追加</string>
+    <string name="community_favorites">コミュニティのお気に入り</string>
+    
+    <!-- Filter Chips -->
+    <string name="filter_all">すべて</string>
+    <string name="filter_favorites">お気に入り</string>
+    <string name="filter_anime">アニメ</string>
+    <string name="filter_general">一般</string>
+    <string name="filter_animal">動物</string>
+    <string name="filter_flower">花</string>
+    <string name="filter_food">食べ物</string>
+    <string name="filter_background">背景</string>
+    
+    <!-- Time Units -->
+    <string name="time_seconds">秒</string>
+    
+    <!-- Category Names -->
+    <string name="category_anime">アニメ</string>
+    <string name="category_general">一般</string>
+    <string name="category_animal">動物</string>
+    <string name="category_flower">花</string>
+    <string name="category_food">食べ物</string>
+    <string name="category_background">背景</string>
+    
+    <!-- CategoryDetailScreen -->
+    <string name="category_most_viewed_subtitle">閲覧数によるトップワークフロー</string>
+    <string name="category_newest_subtitle">コレクションへの最新の追加</string>
+    <string name="category_most_popular_subtitle">コミュニティのお気に入り</string>
+    <string name="category_browse_all">すべてのワークフローを閲覧</string>
+    <string name="search_in_category">このカテゴリで検索…</string>
+    <string name="workflows_count">%1$d ワークフロー</string>
+    
+    <!-- VisionScreen -->
+    <string name="vision_prompts_title">ビジョンプロンプト</string>
+    <string name="vision_prompts_subtitle">AIアート生成プロンプト</string>
+    <string name="vision_shuffle">シャッフル</string>
+    <string name="vision_failed_to_load">読み込みに失敗しました</string>
+    <string name="vision_tap_to_retry">タップして再試行</string>
+
+
+    <!-- Login Screen -->
+    <string name="login_title">お帰りなさい</string>
+    <string name="login_subtitle">AIで素晴らしいアニメアートを作成</string>
+    <string name="login_email_label">メールまたはユーザー名</string>
+    <string name="login_email_placeholder">メールアドレスを入力</string>
+    <string name="login_password_label">パスワード</string>
+    <string name="login_password_placeholder">パスワードを入力</string>
+    <string name="login_btn_signin">ログイン</string>
+    <string name="login_continue_google">Googleで続ける</string>
+    <string name="login_continue_guest">ゲストとして続ける</string>
+    <string name="login_no_account">アカウントをお持ちでないですか？ </string>
+    <string name="login_signup_link">登録</string>
+    <string name="login_or">または</string>
+    <string name="login_app_name">Draw AI</string>
+    <string name="login_logo_text">AI</string>
+
+    <!-- Sign Up Screen -->
+    <string name="signup_title">アカウント作成</string>
+    <string name="signup_subtitle">素晴らしいアニメアートを作成しよう</string>
+    <string name="signup_fullname_label">氏名</string>
+    <string name="signup_fullname_placeholder">氏名を入力</string>
+    <string name="signup_email_label">メールアドレス</string>
+    <string name="signup_email_placeholder">メールアドレスを入力</string>
+    <string name="signup_password_label">パスワード</string>
+    <string name="signup_password_placeholder">パスワードを作成</string>
+    <string name="signup_confirm_password_label">パスワード（確認）</string>
+    <string name="signup_confirm_password_placeholder">パスワードを再入力</string>
+    <string name="signup_btn_create">アカウント作成</string>
+    <string name="signup_google">Googleで登録</string>
+    <string name="signup_have_account">すでにアカウントをお持ちですか？ </string>
+    <string name="signup_signin_link">ログイン</string>
+    <string name="signup_terms">登録することで、利用規約とプライバシーポリシーに同意したことになります</string>
+    <string name="signup_error_fullname">氏名を入力してください</string>
+    <string name="signup_error_email">メールアドレスを入力してください</string>
+    <string name="signup_error_email_invalid">有効なメールアドレスを入力してください</string>
+    <string name="signup_error_password">パスワードを入力してください</string>
+    <string name="signup_error_password_length">パスワードは6文字以上である必要があります</string>
+    <string name="signup_error_password_match">パスワードが一致しません</string>
+
+    <!-- Onboarding Screen -->
+    <string name="onboarding_skip">スキップ</string>
+    <string name="onboarding_next">次へ</string>
+    <string name="onboarding_get_started">始める</string>
+    <string name="onboarding_page1_title">AnimeDraw AIへようこそ</string>
+    <string name="onboarding_page1_desc">AIの力で素晴らしいアニメアートを作成しましょう。見たいものを説明するだけです！</string>
+    <string name="onboarding_page2_title">AIキャラクターとチャット</string>
+    <string name="onboarding_page2_desc">ユニークなAIパーソナリティと対話。アイデアを出したり、楽しくおしゃべりしたりできます。</string>
+    <string name="onboarding_page3_title">コミュニティに参加</string>
+    <string name="onboarding_page3_desc">作品を共有し、他の人からインスピレーションを得て、リーダーボードを駆け上がりましょう。</string>
+
+    <!-- App Drawer -->
+    <string name="drawer_guest">ゲスト</string>
+    <string name="drawer_login_to_chat">チャットにアクセスするにはログインしてください</string>
+    <string name="drawer_current_language">言語</string>
+    <string name="drawer_promo_title">イベントと報酬</string>
+    <string name="drawer_promo_desc">開催中のイベントやアップデートをチェックして、報酬を受け取りましょう！</string>
+    <string name="vision_retry">再試行</string>
+    <string name="vision_no_visions">利用可能なビジョンがありません</string>
+    <string name="vision_next_page">次のページ</string>
+    <string name="vision_copy">コピー</string>
+    <string name="vision_avoid">回避</string>
+    <string name="vision_use">使用</string>
+    <string name="vision_copied">コピーしました！</string>
+    
+    <!-- GenerateScreen -->
+    <string name="generate_category">カテゴリ</string>
+    <string name="generate_describe_vision">ビジョンを説明</string>
+    <string name="generate_describe_subtitle">作成したいものを教えてください</string>
+    <string name="generate_prompt_placeholder">例：長い銀髪の美しいアニメの女の子、詳細な目、桜の背景、傑作品質</string>
+    <string name="generate_quick_suggestions">クイック提案</string>
+    <string name="generate_suggest_more">もっと提案 →</string>
+    <string name="generate_things_to_avoid">避けるべきこと</string>
+    <string name="generate_avoid_subtitle">オプション - 見たくないもの</string>
+    <string name="generate_avoid_placeholder">例：ぼやけた、低品質、悪い解剖学、醜い顔、歪んだ手</string>
+    <string name="generate_common_negatives">一般的なネガティブ</string>
+    <string name="generate_image">画像を生成</string>
+    
+    <!-- ExploreScreen -->
+    <string name="explore_title">探索</string>
+    <string name="explore_subtitle">コミュニティ作品</string>
+    <string name="explore_popular">🔥 人気</string>
+    <string name="explore_recent">⏰ 最新</string>
+    <string name="explore_trending">📈 トレンド</string>
+    <string name="explore_mine">👤 マイ</string>
+    <string name="explore_refresh">更新</string>
+    <string name="explore_no_posts">まだ投稿がありません</string>
+    <string name="explore_be_first">最初に共有しましょう！</string>
+    <string name="explore_error_oops">おっと！</string>
+    <string name="explore_retry">再試行</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet">インターネット接続がありません</string>
+    <string name="error_prompt_empty">プロンプトを入力してください</string>
+    <string name="error_user_not_authenticated">認証されていません。先にログインしてください。</string>
+    <string name="error_server_busy">サーバーが混雑しています。後でもう一度お試しください。</string>
+    <string name="error_process_timeout">処理に時間がかかりすぎました。よりシンプルなプロンプトをお試しください。</string>
+    <string name="error_connection_issue">接続の問題が発生しました。インターネットを確認してください。</string>
+    <string name="error_processing_failed">画像の処理に失敗しました。もう一度お試しください。</string>
+    <string name="error_title">エラー</string>
+    <string name="error_generic_message">画像の処理中にエラーが発生しました。もう一度お試しください。</string>
+    <string name="error_retry">再試行</string>
+    <string name="error_back">戻る</string>
+    
+    <!-- ChatScreen -->
+    <string name="chat_title">キャラクターチャット</string>
+    <string name="chat_select_character">💬 キャラクターを選択 ▼</string>
+    <string name="chat_menu">メニュー</string>
+    <string name="chat_new_chat">新しいチャット</string>
+    <string name="chat_clear_history">履歴をクリア</string>
+    <string name="chat_type_message">メッセージを入力...</string>
+    <string name="chat_send">送信</string>
+    <string name="chat_close">閉じる</string>
+    <string name="chat_start_conversation">会話を開始</string>
+    <string name="chat_ask_anything">何でも聞いてください！お手伝いします。</string>
+    <string name="chat_try_asking">試しに聞いてみて：</string>
+    <string name="chat_suggestion_1">何を手伝ってくれますか？</string>
+    <string name="chat_suggestion_2">面白い事実を教えて</string>
+    <string name="chat_suggestion_3">AIはどのように機能しますか？</string>
+    
+    <!-- CharacterListScreen -->
+    <string name="character_list_title">メッセージ</string>
+    <string name="character_list_search">検索</string>
+    <string name="character_list_new_character">新しいキャラクター</string>
+    <string name="character_list_retry">接続を再試行</string>
+    <string name="character_list_unknown_error">不明なエラー</string>
+    <string name="character_list_delete_title">キャラクターを削除？</string>
+    <string name="character_list_delete_message">このキャラクターを削除してもよろしいですか？はいの場合、キャラクターは削除されますが、キャラクター制限数は減少しません。</string>
+    <string name="character_list_delete">削除</string>
+    <string name="character_list_cancel">キャンセル</string>
+    <string name="character_list_empty_title">まだ会話がありません</string>
+    <string name="character_list_empty_subtitle">AIキャラクターとチャットを始めましょう！</string>
+    <string name="character_list_create_new">新しいキャラクターを作成</string>
+    
+    <!-- CharacterChatScreen -->
+    <string name="character_chat_go_back">戻る</string>
+    <string name="character_chat_character_not_found">キャラクターが見つかりません</string>
+    <string name="character_chat_start_chatting">%1$sとチャットを始めましょう！</string>
+    <string name="character_chat_deadly_sins">彼らは%1$dつの大罪を持っています</string>
+    <string name="character_chat_message_not_sent">メッセージが送信されませんでした</string>
+    <string name="character_chat_inappropriate">メッセージに不適切な言葉が含まれています。AIキャラクターに敬意を払ってください。</string>
+    <string name="character_chat_ok">OK</string>
+    <string name="character_chat_type_message_placeholder">メッセージを入力...</string>
+    <string name="character_chat_connection_error">接続エラー</string>
+    <string name="character_chat_sins">罪</string>
+    <string name="character_chat_back">戻る</string>
+    <string name="character_chat_close">閉じる</string>
+
+    <!-- Gallery Screen -->
+    <string name="gallery_title">ギャラリー</string>
+    <string name="gallery_subtitle_count">%1$d 枚の画像</string>
+    <string name="gallery_filter_all">すべて</string>
+    <string name="gallery_filter_favorites">お気に入り</string>
+    <string name="gallery_empty_title">画像がありません</string>
+    <string name="gallery_empty_subtitle">生成を開始して、ここで作品を確認しましょう</string>
+    <string name="gallery_generate_now">今すぐ生成</string>
+    <string name="gallery_msg_select_character">画像を選択してキャラクターを作成</string>
+    <string name="gallery_msg_limit_reached">キャラクター制限に達しました！</string>
+    <string name="gallery_content_desc_select_char">キャラクター選択</string>
+    <string name="gallery_content_desc_create_char">キャラクター作成</string>
+    <string name="gallery_report_title">画像を報告</string>
+    <string name="gallery_report_desc">この画像を報告する理由を説明してください：</string>
+    <string name="gallery_report_reason_label">報告理由</string>
+    <string name="gallery_report_reason_placeholder">問題を説明...</string>
+    <string name="gallery_report_button">報告</string>
+    <string name="gallery_cancel">キャンセル</string>
+    <string name="gallery_delete_title">画像を削除しますか？</string>
+    <string name="gallery_delete_message">この操作は取り消せません。画像は完全に削除されます。</string>
+    <string name="gallery_delete_button">削除</string>
+    <string name="gallery_share_premium_only">🔒 コミュニティ共有はBasicおよびProサブスクライバーのみ利用可能です</string>
+    <string name="gallery_share_duplicate">⚠️ この画像/プロンプトは既にコミュニティで共有されています。</string>
+    <string name="gallery_share_success">✅ コミュニティに共有しました！</string>
+    <string name="gallery_share_failed">共有に失敗しました：%1$s</string>
+    <string name="gallery_share_file_not_found">画像ファイルが見つかりません</string>
+    <string name="gallery_share_error">エラー：%1$s</string>
+    <string name="gallery_create_char_title">キャラクターを作成？</string>
+    <string name="gallery_create_char_message">この画像をあなただけのAIパートナーにします。</string>
+    <string name="gallery_create_char_warning">⚠️ キャラクターは1人しか選べません。後で変更することはできません。</string>
+    <string name="gallery_char_name_label">キャラクター名（任意）</string>
+    <string name="gallery_char_name_placeholder">ランダムな名前の場合は空欄</string>
+    <string name="gallery_select_language_title">言語を選択：</string>
+    <string name="gallery_select_gender_title">性別を選択：</string>
+    <string name="gallery_gender_male">男性 ♂️</string>
+    <string name="gallery_gender_female">女性 ♀️</string>
+    <string name="gallery_analyzing_personality">性格を分析中...</string>
+    <string name="gallery_summoning_soul">魂を召喚中...</string>
+    <string name="gallery_character_created">キャラクター作成完了！</string>
+    <string name="gallery_create_and_chat">作成してチャット</string>
+    <string name="gallery_guidelines_title">コミュニティガイドライン</string>
+    <string name="gallery_guidelines_intro">コミュニティで画像を共有する前に、以下にご注意ください：</string>
+    <string name="gallery_guideline_nsfw">🚫 不適切なコンテンツ/NSFW禁止</string>
+    <string name="gallery_guideline_violence">🚫 暴力やグロテスク禁止</string>
+    <string name="gallery_guideline_illegal">🚫 違法コンテンツ禁止</string>
+    <string name="gallery_guideline_hate">🚫 ヘイトスピーチや差別禁止</string>
+    <string name="gallery_guidelines_warning_title">⚠️ 警告：</string>
+    <string name="gallery_guidelines_warning_text">違反した場合、事前の通知なしにアカウントの永久停止および全コンテンツの削除が行われます！</string>
+    <string name="gallery_guidelines_agree">理解して同意します</string>
+    <string name="gallery_share_already_shared">⚠️ このプロンプトは既に共有されています！</string>
+    <string name="gallery_share_success_full">✅ コミュニティに共有されました！</string>
+    <string name="gallery_chat_button">💬 チャット</string>
+    <string name="gallery_your_character_badge">🌟 あなたのキャラクター</string>
+    
+    <!-- Tabs -->
+    <string name="character_chat_tab_relationship">関係</string>
+    <string name="character_chat_tab_status">ステータス</string>
+    <string name="character_chat_tab_profile">プロフィール</string>
+    <string name="character_chat_tab_stats">統計</string>
+    
+    <!-- Relationship Tab -->
+    <string name="character_chat_affection_points">好感度ポイント</string>
+    <string name="character_chat_max">最大 ❤️</string>
+    <string name="character_chat_ap_to">%1$d APで%2$sへ</string>
+    <string name="character_chat_soulmate_forever">永遠のソウルメイト 💍</string>
+    <string name="character_chat_confess_feelings">💌 告白する</string>
+    <string name="character_chat_propose_marriage">💍 プロポーズする</string>
+    
+    <!-- Status Tab -->
+    <string name="character_chat_current_mood">現在の気分</string>
+    <string name="character_chat_energy_level">エネルギーレベル</string>
+    <string name="character_chat_energy_high">高い</string>
+    <string name="character_chat_energy_normal">普通</string>
+    <string name="character_chat_energy_tired">疲れている</string>
+    
+    <!-- Profile Tab -->
+    <string name="character_chat_archetype">アーキタイプ</string>
+    <string name="character_chat_traits">特性</string>
+    <string name="character_chat_interests">興味</string>
+    <string name="character_chat_deadly_sins_title">大罪</string>
+    <string name="character_chat_sins_hidden">%1$dつの罪（非表示）</string>
+    
+    <!-- Stats Tab -->
+    <string name="character_chat_interaction_stats">インタラクション統計</string>
+    <string name="character_chat_total_messages">総メッセージ数</string>
+    <string name="character_chat_last_chat">最後のチャット</string>
+    <string name="character_chat_chat_frequency">チャット頻度</string>
+    <string name="character_chat_ghosting_record">ゴースティング記録</string>
+    <string name="character_chat_ghosted_times">このキャラクターを%1$d回ゴーストしました。</string>
+    
+    <!-- Favorites Screen -->
+    <string name="favorites_title">お気に入り</string>
+    <string name="favorites_saved_count">%1$d 件保存済み</string>
+    <string name="favorites_empty_title">お気に入りはまだありません</string>
+    <string name="favorites_empty_message">ワークフローをお気に入りに登録するとここに表示されます</string>
+    <string name="favorites_remove_content_desc">お気に入りから削除</string>
+    <string name="favorites_pro_badge">⭐ PRO</string>
+
+    <!-- Leaderboard Screen -->
+    <string name="leaderboard_title">ランキング</string>
+    <string name="leaderboard_tab_architect">設計士</string>
+    <string name="leaderboard_tab_romancer">ロマンサー</string>
+    <string name="leaderboard_tab_mvp">MVP</string>
+    <string name="leaderboard_tab_fame">殿堂入り</string>
+    <string name="leaderboard_tab_rising">ライジング</string>
+    <string name="leaderboard_filter_all_time">全期間</string>
+    <string name="leaderboard_filter_weekly">週間</string>
+    <string name="leaderboard_filter_monthly">月間</string>
+    <string name="leaderboard_architect_title">マスターアーキテクト</string>
+    <string name="leaderboard_architect_desc">多くの傑作を生み出す先見の明を持つ人々。</string>
+    <string name="leaderboard_metric_generations">生成数</string>
+    <string name="leaderboard_romancer_title">トップロマンサー</string>
+    <string name="leaderboard_romancer_desc">最も深い絆を持つユーザー。心のこもった交流で得た好感度。</string>
+    <string name="leaderboard_metric_affection">好感度ポイント</string>
+    <string name="leaderboard_mvp_title">コミュニティMVP</string>
+    <string name="leaderboard_mvp_desc">多くのプロンプト/作品を共有するコミュニティの柱。</string>
+    <string name="leaderboard_metric_shares">共有数</string>
+    <string name="leaderboard_fame_title">殿堂入り</string>
+    <string name="leaderboard_fame_desc">カテゴリ別に分類された伝説的なアートワーク。</string>
+    <string name="leaderboard_filter_most_liked">いいね順</string>
+    <string name="leaderboard_filter_most_downloaded">ダウンロード順</string>
+    <string name="leaderboard_metric_likes">いいね</string>
+    <string name="leaderboard_metric_downloads">ダウンロード</string>
+    <string name="leaderboard_rising_title">ライジングスター</string>
+    <string name="leaderboard_rising_desc">最近注目を集めている有望なクリエイター。</string>
+    <string name="leaderboard_metric_recent_likes">最近のいいね</string>
+    <string name="leaderboard_no_rankings">ランキングはまだありません</string>
+    <string name="leaderboard_error_prefix">エラー：%1$s</string>
+
+    <!-- News Screen (Events & Updates) -->
+    <string name="news_title">イベント＆アップデート</string>
+    <string name="news_badge_event">イベント</string>
+    <string name="news_badge_update">アップデート</string>
+    <string name="news_action_view_details">詳細を見る</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">設定</string>
+    <string name="settings_subtitle">体験をカスタマイズ</string>
+
+    <!-- Preferences Section -->
+    <string name="settings_section_preferences">環境設定</string>
+    <string name="settings_dark_mode">ダークモード</string>
+    <string name="settings_dark_mode_desc">ダークテーマに切り替え</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_notifications_desc">生成完了時に通知を受け取る</string>
+    <string name="settings_auto_save">自動保存</string>
+    <string name="settings_auto_save_desc">ギャラリーに自動保存するか保存ダイアログを表示</string>
+    <string name="settings_gallery_lock">ギャラリーロック</string>
+    <string name="settings_gallery_lock_desc">PINコードでギャラリーを保護</string>
+    <string name="settings_restricted_content">制限付きコンテンツ</string>
+    <string name="settings_restricted_content_desc">成人向けコンテンツを有効化（年齢確認が必要）</string>
+    <string name="settings_more">その他</string>
+    <string name="settings_more_desc">追加コンテンツへのアクセスをリクエスト（要：Basic/Pro + 承認）</string>
+
+    <!-- Storage Section -->
+    <string name="settings_section_storage">ストレージ</string>
+    <string name="settings_clear_cache">キャッシュを削除</string>
+    <string name="settings_clear_cache_desc">ストレージ容量を解放</string>
+    <string name="settings_cache_cleared">キャッシュを削除しました！</string>
+    <string name="settings_export_gallery">ギャラリーへエクスポート</string>
+    <string name="settings_export_gallery_locked">ギャラリーへエクスポート 🔒</string>
+    <string name="settings_export_gallery_desc">すべての画像を保存</string>
+    <string name="settings_export_gallery_premium">プレミアム機能</string>
+    <string name="settings_upgrade_toast">プロフィールでプレミアムにアップグレードしてください</string>
+
+    <!-- About & Legal Section -->
+    <string name="settings_section_about">詳細＆法的情報</string>
+    <string name="settings_privacy_policy">プライバシーポリシー</string>
+    <string name="settings_privacy_policy_desc">プライバシーポリシーを表示</string>
+    <string name="settings_terms_service">利用規約</string>
+    <string name="settings_terms_service_desc">利用規約を読む</string>
+
+    <!-- Support Section -->
+    <string name="settings_section_support">サポート</string>
+    <string name="settings_help_support">ヘルプ＆サポート</string>
+    <string name="settings_help_support_desc">メールでお問い合わせ</string>
+    <string name="settings_rate_app">アプリを評価</string>
+    <string name="settings_rate_app_desc">Playストアでフィードバックを共有</string>
+    <string name="settings_app_version">アプリバージョン</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="settings_clear_cache_title">キャッシュを削除しますか？</string>
+    <string name="settings_clear_cache_message">すべてのキャッシュされた画像と一時ファイルが削除されます。この操作は元に戻せません。</string>
+    <string name="settings_btn_clear">削除</string>
+    <string name="settings_btn_cancel">キャンセル</string>
+
+    <string name="settings_export_dialog_title">すべてギャラリーへエクスポート</string>
+    <string name="settings_export_warning_1">⚠️ これにより、生成されたすべての画像がメインギャラリーに移動されます。</string>
+    <string name="settings_export_warning_2">• generated フォルダ内のすべての画像が移動されます</string>
+    <string name="settings_export_warning_3">• 現在の場所から画像が削除されます</string>
+    <string name="settings_export_warning_4">• この操作は元に戻せません</string>
+    <string name="settings_export_confirm">エクスポートを続けますか？</string>
+    <string name="settings_btn_export_all">すべてエクスポート</string>
+
+    <string name="settings_upgrade_required_title">アップグレードが必要です</string>
+    <string name="settings_upgrade_required_msg">「その他」のコンテンツへのアクセスには、BasicまたはProサブスクリプションが必要です。</string>
+    <string name="settings_btn_ok">OK</string>
+
+    <string name="settings_request_access_title">アクセスをリクエスト</string>
+    <string name="settings_request_access_msg">「その他」のコンテンツへのアクセスには管理者の承認が必要です。リクエストを送信しますか？</string>
+    <string name="settings_btn_send_request">リクエスト送信</string>
+    <string name="settings_request_sent">リクエスト送信済み</string>
+    <string name="settings_request_pending">リクエスト承認待ち</string>
+    <string name="settings_cannot_disable">無効にできません。変更するにはサポートに連絡してください。</string>
+
+    <string name="settings_pin_setup_title">ギャラリーPIN設定</string>
+    <string name="settings_pin_setup_msg">ギャラリーを保護するために4桁のPINを作成してください</string>
+    <string name="settings_pin_enter">PINを入力</string>
+    <string name="settings_pin_confirm">PINを確認</string>
+    <string name="settings_pin_error">PINが一致しないか無効です</string>
+    <string name="settings_btn_set_pin">PINを設定</string>
+
+    <string name="settings_export_empty">エクスポートする画像がありません</string>
+    <string name="settings_export_success">全%1$d枚の画像をギャラリーにエクスポートしました</string>
+    <string name="settings_export_partial">%1$d枚の画像をギャラリーにエクスポートしました（%2$d枚失敗）</string>
+    <string name="settings_export_failed">エクスポート失敗：%1$s</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">プロフィール</string>
+    <string name="profile_guest">ゲスト</string>
+    <string name="profile_guest_account">ゲストアカウント</string>
+    <string name="profile_edit_name">名前を編集</string>
+    <string name="profile_section_subscription">サブスクリプション＆使用状況</string>
+    <string name="profile_daily_generations">今日の生成数</string>
+    <string name="profile_used_today">今日使用済み：%1$d</string>
+    <string name="profile_generations">生成数: </string>
+    <string name="profile_chat_limit">チャット制限: </string>
+    <string name="profile_expires">有効期限：%1$s</string>
+    <string name="profile_plan">サブスクリプションプラン</string>
+    <string name="profile_plan_desc">サブスクリプションを管理</string>
+    <string name="profile_usage_stats">使用統計</string>
+    <string name="profile_usage_stats_desc">生成履歴を表示</string>
+    <string name="profile_section_account">アカウント操作</string>
+    <string name="profile_link_account">アカウントをリンク</string>
+    <string name="profile_link_account_desc">Googleと連携してデータを保存</string>
+    <string name="profile_sign_out">ログアウト</string>
+    <string name="profile_sign_out_desc">アカウントからログアウト</string>
+    <string name="profile_delete_account">アカウント削除</string>
+    <string name="profile_delete_account_desc">アカウントとデータを完全に削除</string>
+    <string name="profile_dialog_edit_name">表示名を変更</string>
+    <string name="profile_enter_name">新しい表示名を入力：</string>
+    <string name="profile_btn_save">保存</string>
+    <string name="profile_dialog_delete_title">アカウントを削除しますか？</string>
+    <string name="profile_delete_warning_list">以下が完全に削除されます：</string>
+    <string name="profile_delete_item_1">• アカウントとプロフィール</string>
+    <string name="profile_delete_item_2">• すべての生成された画像</string>
+    <string name="profile_delete_item_3">• 使用統計</string>
+    <string name="profile_delete_item_4">• お気に入りとコレクション</string>
+    <string name="profile_delete_item_5">• サブスクリプションデータ</string>
+    <string name="profile_delete_warning_final">⚠️ この操作は元に戻せません！</string>
+    <string name="profile_delete_instruction">続行するには、削除リクエストを送信してください：</string>
+    <string name="profile_btn_submit_request">リクエスト送信</string>
+
+    <!-- Subscription Screen -->
+    <string name="subscription_title">サブスクリプションストア</string>
+    <string name="subscription_status_user">ステータスユーザー</string>
+    <string name="subscription_status_pro">PRO</string>
+    <string name="subscription_status_basic">BASIC</string>
+    <string name="subscription_status_free">FREE</string>
+    <string name="subscription_limit_format">制限：%1$s/%2$s</string>
+    <string name="subscription_exp_format">期限：%1$s</string>
+    <string name="subscription_chat_format">チャット：%1$s</string>
+    <string name="subscription_loading_limits">制限を読み込み中...</string>
+    <string name="subscription_choose_plan">プランを選択</string>
+    <string name="subscription_chat_addons">チャット制限アドオン</string>
+
+    <string name="subscription_gacha_title">🎲 ガチャ</string>
+    <string name="subscription_gacha_desc">1-9 制限</string>
+    <string name="subscription_single_limit_title">💬 +1 制限</string>
+    <string name="subscription_single_limit_desc">即時</string>
+    <string name="subscription_toast_added_chat">チャット制限が+1追加されました！</string>
+
+    <string name="subscription_gacha_result_jackpot">🎉 ジャックポット！ 🎉</string>
+    <string name="subscription_gacha_result_normal">ガチャ結果</string>
+    <string name="subscription_gacha_result_msg">チャット制限が追加されました！</string>
+    <string name="subscription_btn_awesome">すごい！</string>
+
+    <string name="subscription_upgrade_title">%1$sにアップグレード？</string>
+    <string name="subscription_price_format">価格：%1$s</string>
+    <string name="subscription_feature_ad_free">• 広告なし</string>
+    <string name="subscription_btn_confirm">確認</string>
+    <string name="subscription_btn_buy">購入</string>
+    <string name="subscription_current_plan">現在</string>
+    <!-- Gem Store & Daily Reward -->
+    <string name="gem_store_title">ジェムストア</string>
+    <string name="daily_reward_title">デイリーリワード</string>
+    <string name="daily_reward_description">毎日の報酬を受け取りましょう！</string>
+    <string name="daily_reward_claim">受け取る</string>
+    <string name="daily_reward_claimed">受け取り済み</string>
+    <string name="daily_reward_day">%1$d日目</string>
+    <string name="daily_reward_gems">%1$d ジェム</string>
+    <string name="shop_item_candy">甘いキャンディ</string>
+    <string name="shop_item_coffee">ホットコーヒー</string>
+    <string name="shop_item_rose">赤いバラ</string>
+    <string name="shop_buy_button">購入</string>
+    <string name="shop_insufficient_gems">ジェムが不足しています</string>
+    <string name="shop_purchase_success">購入成功！</string>
+</resources>

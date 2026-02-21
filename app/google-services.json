@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "961347264067",
+    "project_id": "drawai-mobile-app",
+    "storage_bucket": "drawai-mobile-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961347264067:android:eb212daabbe59378893ef6",
+        "android_client_info": {
+          "package_name": "com.doyouone.drawai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961347264067-7hldlr8amj8mdufsqp416ifpsn11et64.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doyouone.drawai",
+            "certificate_hash": "1b37819f1d323d5cf086ea6185b516401fd2df9e"
+          }
+        },
+        {
+          "client_id": "961347264067-7phi7ev90gcjldct7g6g3id6pg8a14mr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doyouone.drawai",
+            "certificate_hash": "43f185b1ca2bdfff0f8d95a611be432fb59cfc5d"
+          }
+        },
+        {
+          "client_id": "961347264067-leeepb0dqqjhafa76vg9e4k6103n3vdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doyouone.drawai",
+            "certificate_hash": "d596b471edb2ae32f01201b7e137880904fab655"
+          }
+        },
+        {
+          "client_id": "961347264067-um20qsgfllfnmceldt769cqkj59l9604.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doyouone.drawai",
+            "certificate_hash": "16ce1784efa67462d34adb05c999638150eb79f5"
+          }
+        },
+        {
+          "client_id": "961347264067-tes0t1kdn0m30352vb2pefuu2q1ca7b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcX02yhrjRV4oNVvspXZmnacJX6tjQw94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961347264067-tes0t1kdn0m30352vb2pefuu2q1ca7b5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

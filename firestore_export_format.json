@@ -1,0 +1,71 @@
+{
+  "__collections__": {
+    "visions": {
+      "vision_1": {
+        "vision": "She taking a puff from her pipe and blowing out heart-shaped smoke with a smile",
+        "avoid": "blur, error, low quality, bad anatomy",
+        "category": "character",
+        "tags": ["character", "smoking", "heart", "smile"],
+        "createdAt": {
+          "__datatype__": "timestamp",
+          "value": {
+            "_seconds": 1700000000,
+            "_nanoseconds": 0
+          }
+        }
+      },
+      "vision_2": {
+        "vision": "A mystical forest with glowing mushrooms and floating crystals under moonlight",
+        "avoid": "cartoon, simple, flat colors, low resolution",
+        "category": "landscape",
+        "tags": ["forest", "mystical", "mushrooms", "crystals", "moonlight"],
+        "createdAt": {
+          "__datatype__": "timestamp",
+          "value": {
+            "_seconds": 1700000001,
+            "_nanoseconds": 0
+          }
+        }
+      },
+      "vision_3": {
+        "vision": "Cyberpunk city skyline with neon lights reflecting on wet streets at night",
+        "avoid": "daytime, rural, natural, soft lighting",
+        "category": "cityscape",
+        "tags": ["cyberpunk", "city", "neon", "night", "wet streets"],
+        "createdAt": {
+          "__datatype__": "timestamp",
+          "value": {
+            "_seconds": 1700000002,
+            "_nanoseconds": 0
+          }
+        }
+      },
+      "vision_4": {
+        "vision": "Ancient temple ruins overgrown with bioluminescent plants and vines",
+        "avoid": "modern, clean, sterile, artificial lighting",
+        "category": "ruins",
+        "tags": ["temple", "ruins", "bioluminescent", "plants", "ancient"],
+        "createdAt": {
+          "__datatype__": "timestamp",
+          "value": {
+            "_seconds": 1700000003,
+            "_nanoseconds": 0
+          }
+        }
+      },
+      "vision_5": {
+        "vision": "Steampunk airship floating through clouds with brass gears and steam engines",
+        "avoid": "contemporary, plastic, digital, minimalist",
+        "category": "vehicle",
+        "tags": ["steampunk", "airship", "brass", "gears", "steam"],
+        "createdAt": {
+          "__datatype__": "timestamp",
+          "value": {
+            "_seconds": 1700000004,
+            "_nanoseconds": 0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draw AI</string>
+    
+    <!-- Content Moderation Messages -->
+    <string name="content_moderation_error">พรอมต์ที่คุณป้อนมีคำที่ไม่เหมาะสม กรุณาใช้คำอื่น</string>
+    <string name="content_moderation_error_indonesian">พรอมต์ที่คุณป้อนมีคำที่ไม่เหมาะสม กรุณาใช้คำอื่น</string>
+    <string name="content_moderation_title">คำเตือนเนื้อหา</string>
+    <string name="content_moderation_title_indonesian">คำเตือนเนื้อหา</string>
+    <string name="content_moderation_description">พรอมต์ของคุณมีคำที่ไม่อนุญาต กรุณาแก้ไขและลองอีกครั้ง</string>
+    <string name="content_moderation_description_indonesian">พรอมต์ของคุณมีคำที่ไม่อนุญาต กรุณาแก้ไขและลองอีกครั้ง</string>
+    <string name="content_moderation_positive_words">พรอมต์เชิงบวกประกอบด้วย: %1$s</string>
+    <string name="content_moderation_positive_words_indonesian">พรอมต์เชิงบวกประกอบด้วย: %1$s</string>
+    <string name="content_moderation_negative_words">พรอมต์เชิงลบประกอบด้วย: %1$s</string>
+    <string name="content_moderation_negative_words_indonesian">พรอมต์เชิงลบประกอบด้วย: %1$s</string>
+    <string name="content_moderation_okay">ตกลง เข้าใจแล้ว</string>
+    <string name="content_moderation_okay_indonesian">ตกลง เข้าใจแล้ว</string>
+    
+    <!-- Rating System Messages -->
+    <string name="rating_too_low_error">พรอมต์ของคุณมีคะแนน %1$d%% ซึ่งต่ำกว่าเกณฑ์ขั้นต่ำ 50%% กรุณาปรับปรุงพรอมต์ของคุณเพื่อให้ได้ผลลัพธ์ที่ดีขึ้น</string>
+    <string name="rating_too_low_error_indonesian">พรอมต์ของคุณมีคะแนน %1$d%% ซึ่งต่ำกว่าเกณฑ์ขั้นต่ำ 50%% กรุณาปรับปรุงพรอมต์ของคุณเพื่อให้ได้ผลลัพธ์ที่ดีขึ้น</string>
+
+    <!-- Server Maintenance -->
+    <string name="server_maintenance">ปรับปรุงเซิร์ฟเวอร์</string>
+    <string name="server_maintenance_description">เซิร์ฟเวอร์อยู่ในระหว่างการบำรุงรักษา กรุณารอสักครู่แล้วลองใหม่อีกครั้ง</string>
+    <string name="go_to_gallery">ไปที่แกลเลอรี</string>
+    
+    <!-- Sidebar Menu Items -->
+    <string name="menu_home">หน้าแรก</string>
+    <string name="menu_vision">วิชั่น</string>
+    <string name="menu_explore">สำรวจ</string>
+    <string name="menu_chat">แชท</string>
+    <string name="menu_gallery">แกลเลอรี</string>
+    <string name="menu_favorites">รายการโปรด</string>
+    <string name="menu_subscription">การสมัครสมาชิก</string>
+    <string name="menu_leaderboard">ลีดเดอร์บอร์ด</string>
+    <string name="menu_settings">ตั้งค่า</string>
+    <string name="menu_events_updates">กิจกรรม &amp; อัปเดต</string>
+    
+    <!-- Discovered Workflows -->
+    <string name="workflows_most_viewed">🔥 ยอดนิยม</string>
+    <string name="workflows_newest">✨ ใหม่ล่าสุด</string>
+    <string name="workflows_most_popular">⭐ เป็นที่นิยม</string>
+    <string name="workflows_see_all">ดูทั้งหมด →</string>
+    
+    <!-- Language Selector -->
+    <string name="language_selector_title">เลือกภาษา</string>
+    <string name="current_language">ไทย</string>
+    
+    <!-- HomeScreen -->
+    <string name="discover_workflows_title">ค้นพบเวิร์กโฟลว์</string>
+    <string name="discover_workflows_subtitle">เลือกเวิร์กโฟลว์เพื่อเริ่มสร้างสรรค์</string>
+    <string name="search_workflows">ค้นหาเวิร์กโฟลว์</string>
+    <string name="search_placeholder">พิมพ์เพื่อค้นหา…</string>
+    
+    <!-- Workflow Sections -->
+    <string name="latest_additions">เพิ่มล่าสุด</string>
+    <string name="community_favorites">รายการโปรดของชุมชน</string>
+    
+    <!-- Filter Chips -->
+    <string name="filter_all">ทั้งหมด</string>
+    <string name="filter_favorites">รายการโปรด</string>
+    <string name="filter_anime">อนิเมะ</string>
+    <string name="filter_general">ทั่วไป</string>
+    <string name="filter_animal">สัตว์</string>
+    <string name="filter_flower">ดอกไม้</string>
+    <string name="filter_food">อาหาร</string>
+    <string name="filter_background">พื้นหลัง</string>
+    
+    <!-- Time Units -->
+    <string name="time_seconds">วินาที</string>
+    
+    <!-- Category Names -->
+    <string name="category_anime">อนิเมะ</string>
+    <string name="category_general">ทั่วไป</string>
+    <string name="category_animal">สัตว์</string>
+    <string name="category_flower">ดอกไม้</string>
+    <string name="category_food">อาหาร</string>
+    <string name="category_background">พื้นหลัง</string>
+    
+    <!-- CategoryDetailScreen -->
+    <string name="category_most_viewed_subtitle">เวิร์กโฟลว์ยอดนิยมตามการเข้าชม</string>
+    <string name="category_newest_subtitle">เพิ่มล่าสุดในคอลเลกชันของเรา</string>
+    <string name="category_most_popular_subtitle">รายการโปรดของชุมชน</string>
+    <string name="category_browse_all">เรียกดูเวิร์กโฟลว์ทั้งหมด</string>
+    <string name="search_in_category">ค้นหาในหมวดหมู่นี้…</string>
+    <string name="workflows_count">%1$d เวิร์กโฟลว์</string>
+    
+    <!-- VisionScreen -->
+    <string name="vision_prompts_title">พรอมต์วิชั่น</string>
+    <string name="vision_prompts_subtitle">พรอมต์สร้างวิจิตรศิลป์ AI</string>
+    <string name="vision_shuffle">สุ่ม</string>
+    <string name="vision_failed_to_load">โหลดไม่สำเร็จ</string>
+    <string name="vision_tap_to_retry">แตะเพื่อลองใหม่</string>
+    <string name="vision_retry">ลองใหม่</string>
+    <string name="vision_no_visions">ไม่มีวิชั่น</string>
+    <string name="vision_next_page">หน้าถัดไป</string>
+    <string name="vision_copy">คัดลอก</string>
+    <string name="vision_avoid">หลีกเลี่ยง</string>
+    <string name="vision_use">ใช้</string>
+    <string name="vision_copied">คัดลอกแล้ว!</string>
+    
+    <!-- GenerateScreen -->
+    <string name="generate_category">หมวดหมู่</string>
+    <string name="generate_describe_vision">อธิบายวิชั่นของคุณ</string>
+    <string name="generate_describe_subtitle">บอกเราว่าคุณอยากสร้างอะไร</string>
+    <string name="generate_prompt_placeholder">เช่น สาวอนิเมะสวยผมเงินยาว ตาสวย ฉากหลังดอกซากุระ คุณภาพระดับมาสเตอร์พีซ</string>
+    <string name="generate_quick_suggestions">ข้อเสนอแนะด่วน</string>
+    <string name="generate_suggest_more">แนะนำเพิ่มเติม →</string>
+    <string name="generate_things_to_avoid">สิ่งที่ควรหลีกเลี่ยง</string>
+    <string name="generate_avoid_subtitle">ไม่บังคับ - สิ่งที่คุณไม่อยากเห็น</string>
+    <string name="generate_avoid_placeholder">เช่น เบลอ คุณภาพต่ำ สัดส่วนผิดเพี้ยน หน้าตาน่าเกลียด มือบิดเบี้ยว</string>
+    <string name="generate_common_negatives">เชิงลบทั่วไป</string>
+    <string name="generate_image">สร้างรูปภาพ</string>
+    
+    <!-- ExploreScreen -->
+    <string name="explore_title">สำรวจ</string>
+    <string name="explore_subtitle">ผลงานชุมชน</string>
+    <string name="explore_popular">🔥 ยอดนิยม</string>
+    <string name="explore_recent">⏰ ล่าสุด</string>
+    <string name="explore_trending">📈 มาแรง</string>
+    <string name="explore_mine">👤 ของฉัน</string>
+    <string name="explore_refresh">รีเฟรช</string>
+    <string name="explore_no_posts">ยังไม่มีโพสต์</string>
+    <string name="explore_be_first">เป็นคนแรกที่แบ่งปัน!</string>
+    <string name="explore_error_oops">อุ๊ปส์!</string>
+    <string name="explore_retry">ลองใหม่</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet">ไม่มีการเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="error_prompt_empty">พรอมต์ต้องไม่ว่างเปล่า</string>
+    <string name="error_user_not_authenticated">ผู้ใช้ยังไม่ได้ยืนยันตัวตน โปรดเข้าสู่ระบบก่อน</string>
+    <string name="error_server_busy">เซิร์ฟเวอร์ไม่ว่าง โปรดลองใหม่ในภายหลัง</string>
+    <string name="error_process_timeout">กระบวนการใช้เวลานานเกินไป ลองใช้พรอมต์ที่ง่ายขึ้น</string>
+    <string name="error_connection_issue">ปัญหาการเชื่อมต่อ ตรวจสอบอินเทอร์เน็ตของคุณ</string>
+    <string name="error_processing_failed">การประมวลผลรูปภาพล้มเหลว โปรดลองใหม่</string>
+    <string name="error_title">ข้อผิดพลาด</string>
+    <string name="error_generic_message">เกิดข้อผิดพลาดขณะประมวลผลรูปภาพ โปรดลองใหม่</string>
+    <string name="error_retry">ลองใหม่</string>
+    <string name="error_back">กลับ</string>
+    
+    <!-- ChatScreen -->
+    <string name="chat_title">แชทตัวละคร</string>
+    <string name="chat_select_character">💬 เลือกตัวละครของคุณ ▼</string>
+    <string name="chat_menu">เมนู</string>
+    <string name="chat_new_chat">แชทใหม่</string>
+    <string name="chat_clear_history">ล้างประวัติ</string>
+    <string name="chat_type_message">พิมพ์ข้อความ...</string>
+    <string name="chat_send">ส่ง</string>
+    <string name="chat_close">ปิด</string>
+    <string name="chat_start_conversation">เริ่มบทสนทนา</string>
+    <string name="chat_ask_anything">ถามอะไรก็ได้! ฉันพร้อมช่วย</string>
+    <string name="chat_try_asking">ลองถาม:</string>
+    <string name="chat_suggestion_1">คุณช่วยอะไรฉันได้บ้าง?</string>
+    <string name="chat_suggestion_2">เล่าเรื่องสนุกๆ ให้ฟังหน่อย</string>
+    <string name="chat_suggestion_3">AI ทำงานอย่างไร?</string>
+    
+    <!-- CharacterListScreen -->
+    <string name="character_list_title">ข้อความ</string>
+    <string name="character_list_search">ค้นหา</string>
+    <string name="character_list_new_character">ตัวละครใหม่</string>
+    <string name="character_list_retry">ลองเชื่อมต่อใหม่</string>
+    <string name="character_list_unknown_error">ข้อผิดพลาดที่ไม่รู้จัก</string>
+    <string name="character_list_delete_title">ลบตัวละคร?</string>
+    <string name="character_list_delete_message">คุณแน่ใจหรือไม่ที่จะลบตัวละครนี้? ถ้าใช่ ตัวละครจะถูกลบ แต่จำนวนจำกัดตัวละครของคุณจะไม่ลดลง</string>
+    <string name="character_list_delete">ลบ</string>
+    <string name="character_list_cancel">ยกเลิก</string>
+    <string name="character_list_empty_title">ยังไม่มีบทสนทนา</string>
+    <string name="character_list_empty_subtitle">เริ่มแชทกับตัวละคร AI ของคุณ!</string>
+    <string name="character_list_create_new">สร้างตัวละครใหม่</string>
+    
+    <!-- CharacterChatScreen -->
+    <string name="character_chat_go_back">ย้อนกลับ</string>
+    <string name="character_chat_character_not_found">ไม่พบตัวละคร</string>
+    <string name="character_chat_start_chatting">เริ่มแชทกับ %1$s!</string>
+    <string name="character_chat_deadly_sins">พวกเขามี %1$d บาป</string>
+    <string name="character_chat_message_not_sent">ส่งข้อความไม่สำเร็จ</string>
+    <string name="character_chat_inappropriate">ข้อความของคุณมีภาษาที่ไม่เหมาะสม โปรดให้เกียรติตัวละคร AI</string>
+    <string name="character_chat_ok">ตกลง</string>
+    <string name="character_chat_type_message_placeholder">พิมพ์ข้อความ...</string>
+    <string name="character_chat_connection_error">ข้อผิดพลาดในการเชื่อมต่อ</string>
+    <string name="character_chat_sins">บาป</string>
+    <string name="character_chat_back">กลับ</string>
+    <string name="character_chat_close">ปิด</string>
+
+    <!-- Gallery Screen -->
+    <string name="gallery_title">แกลเลอรี</string>
+    <string name="gallery_subtitle_count">%1$d รูปภาพ</string>
+    <string name="gallery_filter_all">ทั้งหมด</string>
+    <string name="gallery_filter_favorites">รายการโปรด</string>
+    <string name="gallery_empty_title">ยังไม่มีรูปภาพ</string>
+    <string name="gallery_empty_subtitle">เริ่มสร้างเพื่อดูผลงานของคุณที่นี่</string>
+    <string name="gallery_generate_now">สร้างเลย</string>
+    <string name="gallery_msg_select_character">เลือกรูปภาพเพื่อสร้างตัวละครของคุณ</string>
+    <string name="gallery_msg_limit_reached">ถึงขีดจำกัดตัวละครแล้ว!</string>
+    <string name="gallery_content_desc_select_char">เลือกตัวละคร</string>
+    <string name="gallery_content_desc_create_char">สร้างตัวละคร</string>
+    <string name="gallery_report_title">รายงานรูปภาพ</string>
+    <string name="gallery_report_desc">โปรดอธิบายเหตุผลที่คุณรายงานรูปภาพนี้:</string>
+    <string name="gallery_report_reason_label">เหตุผลการรายงาน</string>
+    <string name="gallery_report_reason_placeholder">อธิบายปัญหา...</string>
+    <string name="gallery_report_button">รายงาน</string>
+    <string name="gallery_cancel">ยกเลิก</string>
+    <string name="gallery_delete_title">ลบรูปภาพ?</string>
+    <string name="gallery_delete_message">การกระทำนี้ไม่สามารถย้อนกลับได้ รูปภาพจะถูกลบอย่างถาวร</string>
+    <string name="gallery_delete_button">ลบ</string>
+    <string name="gallery_share_premium_only">🔒 การแบ่งปันสู่ชุมชนมีให้สำหรับสมาชิก Basic และ Pro</string>
+    <string name="gallery_share_duplicate">⚠️ รูปภาพ/พรอมต์นี้ถูกแบ่งปันสู่ชุมชนแล้ว</string>
+    <string name="gallery_share_success">✅ แบ่งปันสู่ชุมชนสำเร็จ!</string>
+    <string name="gallery_share_failed">การแบ่งปันล้มเหลว: %1$s</string>
+    <string name="gallery_share_file_not_found">ไม่พบไฟล์รูปภาพ</string>
+    <string name="gallery_share_error">ข้อผิดพลาด: %1$s</string>
+    <string name="gallery_create_char_title">สร้างตัวละคร?</string>
+    <string name="gallery_create_char_message">สิ่งนี้จะเปลี่ยนรูปภาพนี้ให้เป็นเพื่อน AI ที่ไม่เหมือนใครของคุณ</string>
+    <string name="gallery_create_char_warning">⚠️ คุณสามารถเลือกได้เพียง หนึ่ง ตัวละครเท่านั้น ไม่สามารถเปลี่ยนได้ในภายหลัง</string>
+    <string name="gallery_char_name_label">ชื่อตัวละคร (ไม่บังคับ)</string>
+    <string name="gallery_char_name_placeholder">เว้นว่างไว้สำหรับชื่อแบบสุ่ม</string>
+    <string name="gallery_select_language_title">เลือกภาษา:</string>
+    <string name="gallery_select_gender_title">เลือกเพศ:</string>
+    <string name="gallery_gender_male">ชาย ♂️</string>
+    <string name="gallery_gender_female">หญิง ♀️</string>
+    <string name="gallery_analyzing_personality">กำลัววิเคราะห์บุคลิกภาพ...</string>
+    <string name="gallery_summoning_soul">กำลังเรียกวิญญาณ...</string>
+    <string name="gallery_character_created">สร้างตัวละครแล้ว!</string>
+    <string name="gallery_create_and_chat">สร้าง &amp; แชท</string>
+    <string name="gallery_guidelines_title">แนวทางชุมชน</string>
+    <string name="gallery_guidelines_intro">ก่อนแบ่งปันรูปภาพสู่ชุมชน โปรดทราบ:</string>
+    <string name="gallery_guideline_nsfw">🚫 ห้ามเนื้อหาที่ไม่เหมาะสม/NSFW</string>
+    <string name="gallery_guideline_violence">🚫 ห้ามความรุนแรงหรือเลือดสาด</string>
+    <string name="gallery_guideline_illegal">🚫 ห้ามเนื้อหาผิดกฎหมาย</string>
+    <string name="gallery_guideline_hate">🚫 ห้ามคำพูดสร้างความเกลียดชังหรือการเลือกปฏิบัติ</string>
+    <string name="gallery_guidelines_warning_title">⚠️ คําเตือน:</string>
+    <string name="gallery_guidelines_warning_text">การละเมิดจะส่งผลให้บัญชีถูกแบนถาวรและลบเนื้อหาทั้งหมดโดยไม่มีการแจ้งล่วงหน้า!</string>
+    <string name="gallery_guidelines_agree">ฉันเข้าใจ &amp; ยอมรับ</string>
+    <string name="gallery_share_already_shared">⚠️ พรอมต์นี้ถูกแบ่งปันแล้ว!</string>
+    <string name="gallery_share_success_full">✅ แบ่งปันสู่ชุมชนสำเร็จ!</string>
+    <string name="gallery_chat_button">💬 แชท</string>
+    <string name="gallery_your_character_badge">🌟 ตัวละครของคุณ</string>
+    
+    <!-- Tabs -->
+    <string name="character_chat_tab_relationship">ความสัมพันธ์</string>
+    <string name="character_chat_tab_status">สถานะ</string>
+    <string name="character_chat_tab_profile">โปรไฟล์</string>
+    <string name="character_chat_tab_stats">สถิติ</string>
+    
+    <!-- Relationship Tab -->
+    <string name="character_chat_affection_points">คะแนนความรัก</string>
+    <string name="character_chat_max">สูงสุด ❤️</string>
+    <string name="character_chat_ap_to">%1$d AP ถึง %2$s</string>
+    <string name="character_chat_soulmate_forever">คู่แท้ชั่วนิรันดร์ 💍</string>
+    <string name="character_chat_confess_feelings">💌 สารภาพความรู้สึก</string>
+    <string name="character_chat_propose_marriage">💍 ขอแต่งงาน</string>
+    
+    <!-- Status Tab -->
+    <string name="character_chat_current_mood">อารมณ์ปัจจุบัน</string>
+    <string name="character_chat_energy_level">ระดับพลังงาน</string>
+    <string name="character_chat_energy_high">สูง</string>
+    <string name="character_chat_energy_normal">ปกติ</string>
+    <string name="character_chat_energy_tired">เหนื่อย</string>
+    
+    <!-- Profile Tab -->
+    <string name="character_chat_archetype">ต้นแบบ</string>
+    <string name="character_chat_traits">ลักษณะนิสัย</string>
+    <string name="character_chat_interests">ความสนใจ</string>
+    <string name="character_chat_deadly_sins_title">บาป 7 ประการ</string>
+    <string name="character_chat_sins_hidden">%1$d บาป (ซ่อนอยู่)</string>
+    
+    <!-- Stats Tab -->
+    <string name="character_chat_interaction_stats">สถิติการโต้ตอบ</string>
+    <string name="character_chat_total_messages">ข้อความทั้งหมด</string>
+    <string name="character_chat_last_chat">แชทล่าสุด</string>
+    <string name="character_chat_chat_frequency">ความถี่ในการแชท</string>
+    <string name="character_chat_ghosting_record">ประวัติการเท (Ghosting)</string>
+    <string name="character_chat_ghosted_times">คุณเทตัวละครนี้ %1$d ครั้ง</string>
+    
+    <!-- Favorites Screen -->
+    <string name="favorites_title">รายการโปรด</string>
+    <string name="favorites_saved_count">%1$d บันทึกแล้ว</string>
+    <string name="favorites_empty_title">ยังไม่มีรายการโปรด</string>
+    <string name="favorites_empty_message">กดหัวใจให้เวิร์กโฟลว์เพื่อดูที่นี่</string>
+    <string name="favorites_remove_content_desc">ลบจากรายการโปรด</string>
+    <string name="favorites_pro_badge">⭐ PRO</string>
+
+    <!-- Leaderboard Screen -->
+    <string name="leaderboard_title">ลีดเดอร์บอร์ด</string>
+    <string name="leaderboard_tab_architect">สถาปนิก</string>
+    <string name="leaderboard_tab_romancer">นักรัก</string>
+    <string name="leaderboard_tab_mvp">MVP</string>
+    <string name="leaderboard_tab_fame">หอเกียรติยศ</string>
+    <string name="leaderboard_tab_rising">ดาวรุ่ง</string>
+    <string name="leaderboard_filter_all_time">ตลอดกาล</string>
+    <string name="leaderboard_filter_weekly">รายสัปดาห์</string>
+    <string name="leaderboard_filter_monthly">รายเดือน</string>
+    <string name="leaderboard_architect_title">มาสเตอร์สถาปนิก</string>
+    <string name="leaderboard_architect_desc">ผู้มีวิสัยทัศน์ที่สร้างสรรค์ผลงานชิ้นเอกมากที่สุด</string>
+    <string name="leaderboard_metric_generations">การสร้าง</string>
+    <string name="leaderboard_romancer_title">สุดยอดนักรัก</string>
+    <string name="leaderboard_romancer_desc">ผู้ใช้ที่มีความผูกพันลึกซึ้งที่สุด คะแนนความรักที่ได้จากปฏิสัมพันธ์ที่จริงใจ</string>
+    <string name="leaderboard_metric_affection">คะแนนความรัก</string>
+    <string name="leaderboard_mvp_title">MVP ชุมชน</string>
+    <string name="leaderboard_mvp_desc">เสาหลักของชุมชนของเราที่แบ่งปันพรอมต์/ผลงานสร้างสรรค์มากที่สุด</string>
+    <string name="leaderboard_metric_shares">แบ่งปัน</string>
+    <string name="leaderboard_fame_title">หอเกียรติยศ</string>
+    <string name="leaderboard_fame_desc">งานศิลปะระดับตำนานที่จำแนกตามหมวดหมู่</string>
+    <string name="leaderboard_filter_most_liked">ถูกใจมากที่สุด</string>
+    <string name="leaderboard_filter_most_downloaded">ดาวน์โหลดมากที่สุด</string>
+    <string name="leaderboard_metric_likes">ถูกใจ</string>
+    <string name="leaderboard_metric_downloads">ดาวน์โหลด</string>
+    <string name="leaderboard_rising_title">ดาวรุ่ง</string>
+    <string name="leaderboard_rising_desc">ครีเอเตอร์หน้าใหม่ที่กำลังได้รับความนิยม</string>
+    <string name="leaderboard_metric_recent_likes">ถูกใจล่าสุด</string>
+    <string name="leaderboard_no_rankings">ยังไม่มีการจัดอันดับ</string>
+    <string name="leaderboard_error_prefix">ข้อผิดพลาด: %1$s</string>
+
+    <!-- News Screen (Events & Updates) -->
+    <string name="news_title">กิจกรรม &amp; อัปเดต</string>
+    <string name="news_badge_event">กิจกรรม</string>
+    <string name="news_badge_update">อัปเดต</string>
+    <string name="news_action_view_details">ดูรายละเอียด</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">การตั้งค่า</string>
+    <string name="settings_subtitle">ปรับแต่งประสบการณ์ของคุณ</string>
+
+    <!-- Preferences Section -->
+    <string name="settings_section_preferences">การตั้งค่า</string>
+    <string name="settings_dark_mode">โหมดมืด</string>
+    <string name="settings_dark_mode_desc">เปลี่ยนเป็นธีมมืด</string>
+    <string name="settings_notifications">การแจ้งเตือน</string>
+    <string name="settings_notifications_desc">รับการแจ้งเตือนเมื่อการสร้างเสร็จสมบูรณ์</string>
+    <string name="settings_auto_save">บันทึกอัตโนมัติ</string>
+    <string name="settings_auto_save_desc">บันทึกอัตโนมัติไปยังแกลเลอรีหรือแสดงกล่องโต้ตอบบันทึก</string>
+    <string name="settings_gallery_lock">ล็อคแกลเลอรี</string>
+    <string name="settings_gallery_lock_desc">ปกป้องแกลเลอรีด้วยรหัส PIN</string>
+    <string name="settings_restricted_content">เนื้อหาที่ถูกจำกัด</string>
+    <string name="settings_restricted_content_desc">เปิดใช้งานเนื้อหาสำหรับผู้ใหญ่ (ต้องยืนยันอายุ)</string>
+    <string name="settings_more">เพิ่มเติม</string>
+    <string name="settings_more_desc">ขอเข้าถึงเนื้อหาเพิ่มเติม (เงื่อนไข: Basic/Pro + การอนุมัติ)</string>
+
+    <!-- Storage Section -->
+    <string name="settings_section_storage">ที่เก็บข้อมูล</string>
+    <string name="settings_clear_cache">ล้างแคช</string>
+    <string name="settings_clear_cache_desc">เพิ่มพื้นที่ว่าง</string>
+    <string name="settings_cache_cleared">ล้างแคชแล้ว!</string>
+    <string name="settings_export_gallery">ส่งออกแกลเลอรี</string>
+    <string name="settings_export_gallery_locked">ส่งออกแกลเลอรี 🔒</string>
+    <string name="settings_export_gallery_desc">บันทึกรูปภาพทั้งหมดของคุณ</string>
+    <string name="settings_export_gallery_premium">ฟีเจอร์พรีเมียม</string>
+    <string name="settings_upgrade_toast">กรุณาอัปเกรดเป็นพรีเมียมในโปรไฟล์</string>
+
+    <!-- About & Legal Section -->
+    <string name="settings_section_about">เกี่ยวกับ &amp; กฎหมาย</string>
+    <string name="settings_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="settings_privacy_policy_desc">ดูนโยบายความเป็นส่วนตัวของเรา</string>
+    <string name="settings_terms_service">เงื่อนไขการให้บริการ</string>
+    <string name="settings_terms_service_desc">อ่านข้อกำหนดและเงื่อนไขของเรา</string>
+
+    <!-- Support Section -->
+    <string name="settings_section_support">สนับสนุน</string>
+    <string name="settings_help_support">ช่วยเหลือ &amp; สนับสนุน</string>
+    <string name="settings_help_support_desc">ติดต่อเราทางอีเมล</string>
+    <string name="settings_rate_app">ให้คะแนนแอป</string>
+    <string name="settings_rate_app_desc">แบ่งปันความคิดเห็นของคุณบน Play Store</string>
+    <string name="settings_app_version">เวอร์ชันแอป</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="settings_clear_cache_title">ล้างแคช?</string>
+    <string name="settings_clear_cache_message">สิ่งนี้จะล้างรูปภาพที่แคชและไฟล์ชั่วคราวทั้งหมด การดำเนินการนี้ไม่สามารถย้อนกลับได้</string>
+    <string name="settings_btn_clear">ล้าง</string>
+    <string name="settings_btn_cancel">ยกเลิก</string>
+
+    <string name="settings_export_dialog_title">ส่งออกทั้งหมดไปแกลเลอรี</string>
+    <string name="settings_export_warning_1">⚠️ นี่จะย้ายรูปภาพที่สร้างทั้งหมดไปยังแกลเลอรีหลัก</string>
+    <string name="settings_export_warning_2">• รูปภาพในโฟลเดอร์ที่สร้างจะถูกย้าย</string>
+    <string name="settings_export_warning_3">• รูปภาพจะถูกลบจากตำแหน่งปัจจุบัน</string>
+    <string name="settings_export_warning_4">• การดำเนินการนี้ไม่สามารถย้อนกลับได้</string>
+    <string name="settings_export_confirm">ดำเนินการส่งออกต่อ?</string>
+    <string name="settings_btn_export_all">ส่งออกทั้งหมด</string>
+
+    <string name="settings_upgrade_required_title">จำเป็นต้องอัปเกรด</string>
+    <string name="settings_upgrade_required_msg">การเข้าถึงเนื้อหา \'เพิ่มเติม\' ต้องสมัครสมาชิก Basic หรือ Pro</string>
+    <string name="settings_btn_ok">ตกลง</string>
+
+    <string name="settings_request_access_title">ขอสิทธิ์เข้าถึง</string>
+    <string name="settings_request_access_msg">การเข้าถึงเนื้อหา \'เพิ่มเติม\' ต้องได้รับการอนุมัติจากผู้ดูแลระบบ คุณต้องการส่งคำขอหรือไม่?</string>
+    <string name="settings_btn_send_request">ส่งคำขอ</string>
+    <string name="settings_request_sent">ส่งคำขอแล้ว</string>
+    <string name="settings_request_pending">คำขอรอการอนุมัติ</string>
+    <string name="settings_cannot_disable">ไม่สามารถปิดการใช้งานได้ ติดต่อฝ่ายสนับสนุนเพื่อเปลี่ยนแปลง</string>
+
+    <string name="settings_pin_setup_title">ตั้งค่า PIN แกลเลอรี</string>
+    <string name="settings_pin_setup_msg">สร้าง PIN 4 หลักเพื่อปกป้องแกลเลอรีของคุณ</string>
+    <string name="settings_pin_enter">ป้อน PIN</string>
+    <string name="settings_pin_confirm">ยืนยัน PIN</string>
+    <string name="settings_pin_error">PIN ไม่ตรงกันหรือไม่ถูกต้อง</string>
+    <string name="settings_btn_set_pin">ตั้งค่า PIN</string>
+
+    <string name="settings_export_empty">ไม่มีรูปภาพที่จะส่งออก</string>
+    <string name="settings_export_success">ส่งออก %1$d รูปภาพไปยังแกลเลอรีสําเร็จ</string>
+    <string name="settings_export_partial">ส่งออก %1$d รูปภาพไปยังแกลเลอรี (%2$d ล้มเหลว)</string>
+    <string name="settings_export_failed">การส่งออกล้มเหลว: %1$s</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">โปรไฟล์</string>
+    <string name="profile_guest">ผู้เยี่ยมชม</string>
+    <string name="profile_guest_account">บัญชีผู้เยี่ยมชม</string>
+    <string name="profile_edit_name">แก้ไขชื่อ</string>
+    <string name="profile_section_subscription">การสมัครสมาชิก &amp; การใช้งาน</string>
+    <string name="profile_daily_generations">การสร้างรายวัน</string>
+    <string name="profile_used_today">ใช้ไปวันนี้: %1$d</string>
+    <string name="profile_generations">การสร้าง: </string>
+    <string name="profile_chat_limit">ขีดจำกัดแชท: </string>
+    <string name="profile_expires">หมดอายุ: %1$s</string>
+    <string name="profile_plan">แพ็กเกจสมัครสมาชิก</string>
+    <string name="profile_plan_desc">จัดการการสมัครสมาชิกของคุณ</string>
+    <string name="profile_usage_stats">สถิติการใช้งาน</string>
+    <string name="profile_usage_stats_desc">ดูประวัติการสร้างของคุณ</string>
+    <string name="profile_section_account">การดำเนินการบัญชี</string>
+    <string name="profile_link_account">เชื่อมต่อบัญชี</string>
+    <string name="profile_link_account_desc">เชื่อมต่อกับ Google เพื่อบันทึกข้อมูลของคุณ</string>
+    <string name="profile_sign_out">ออกจากระบบ</string>
+    <string name="profile_sign_out_desc">ออกจากระบบจากบัญชีของคุณ</string>
+    <string name="profile_delete_account">ลบบัญชี</string>
+    <string name="profile_delete_account_desc">ลบบัญชีและข้อมูลอย่างถาวร</string>
+    <string name="profile_dialog_edit_name">เปลี่ยนชื่อที่แสดง</string>
+    <string name="profile_enter_name">ใส่ชื่อใหม่ของคุณ:</string>
+    <string name="profile_btn_save">บันทึก</string>
+    <string name="profile_dialog_delete_title">ลบบัญชี?</string>
+    <string name="profile_delete_warning_list">สิ่งนี้จะลบอย่างถาวร:</string>
+    <string name="profile_delete_item_1">• บัญชีและโปรไฟล์ของคุณ</string>
+    <string name="profile_delete_item_2">• รูปภาพที่สร้างทั้งหมด</string>
+    <string name="profile_delete_item_3">• สถิติการใช้งาน</string>
+    <string name="profile_delete_item_4">• รายการโปรดและคอลเล็กชัน</string>
+    <string name="profile_delete_item_5">• ข้อมูลการสมัครสมาชิก</string>
+    <string name="profile_delete_warning_final">⚠️ การดําเนินการนี้ไม่สามารถยกเลิกได้!</string>
+    <string name="profile_delete_instruction">เพื่อดําเนินการต่อ โปรดส่งคํารขอลบ:</string>
+    <string name="profile_btn_submit_request">ส่งคํารขอ</string>
+
+    <!-- Subscription Screen -->
+    <string name="subscription_title">ร้านค้าสมัครสมาชิก</string>
+    <string name="subscription_status_user">สถานะผู้ใช้</string>
+    <string name="subscription_status_pro">PRO</string>
+    <string name="subscription_status_basic">BASIC</string>
+    <string name="subscription_status_free">FREE</string>
+    <string name="subscription_limit_format">ขีดจำกัด: %1$s/%2$s</string>
+    <string name="subscription_exp_format">หมด: %1$s</string>
+    <string name="subscription_chat_format">แชท: %1$s</string>
+    <string name="subscription_loading_limits">กําลังโหลดขีดจำกัด...</string>
+    <string name="subscription_choose_plan">เลือกแพ็กเกจ</string>
+    <string name="subscription_chat_addons">ส่วนเสริมจำกัดแชท</string>
+
+    <string name="subscription_gacha_title">🎲 กาชา</string>
+    <string name="subscription_gacha_desc">1-9 ขีดจำกัด</string>
+    <string name="subscription_single_limit_title">💬 +1 ขีดจำกัด</string>
+    <string name="subscription_single_limit_desc">ทันที</string>
+    <string name="subscription_toast_added_chat">เพิ่ม +1 ขีดจำกัดแชท!</string>
+
+    <string name="subscription_gacha_result_jackpot">🎉 แจ็คพอต! 🎉</string>
+    <string name="subscription_gacha_result_normal">ผลกาชา</string>
+    <string name="subscription_gacha_result_msg">เพิ่มขีดจำกัดแชท!</string>
+    <string name="subscription_btn_awesome">ยอดเยี่ยม!</string>
+
+    <string name="subscription_upgrade_title">อัปเกรดเป็น %1$s?</string>
+    <string name="subscription_price_format">ราคา: %1$s</string>
+    <string name="subscription_feature_ad_free">• ปลอดโฆษณา</string>
+    <string name="subscription_btn_confirm">ยืนยัน</string>
+    <string name="subscription_btn_buy">ซื้อ</string>
+    <string name="subscription_current_plan">ปัจจุบัน</string>
+
+
+    <!-- App Drawer -->
+    <string name="drawer_guest">แขก</string>
+    <string name="drawer_login_to_chat">กรุณาเข้าสู่ระบบเพื่อใช้งานแชท</string>
+    <string name="drawer_current_language">ภาษา</string>
+    <string name="drawer_promo_title">กิจกรรมและรางวัล</string>
+    <string name="drawer_promo_desc">ตรวจสอบกิจกรรมที่กำลังดำเนินการ การอัปเดต และรับรางวัลของคุณ!</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">ยินดีต้อนรับกลับ</string>
+    <string name="login_subtitle">สร้างงานศิลปะอนิเมะที่น่าทึ่งด้วย AI</string>
+    <string name="login_email_label">อีเมลหรือชื่อผู้ใช้</string>
+    <string name="login_email_placeholder">ใส่อีเมลของคุณ</string>
+    <string name="login_password_label">รหัสผ่าน</string>
+    <string name="login_password_placeholder">ใส่รหัสผ่านของคุณ</string>
+    <string name="login_btn_signin">เข้าสู่ระบบ</string>
+    <string name="login_continue_google">ดำเนินการต่อด้วย Google</string>
+    <string name="login_continue_guest">ดำเนินการต่อในฐานะผู้เยี่ยมชม</string>
+    <string name="login_no_account">ยังไม่มีบัญชีใช่ไหม? </string>
+    <string name="login_signup_link">ลงทะเบียน</string>
+    <string name="login_or">หรือ</string>
+    <string name="login_app_name">Draw AI</string>
+    <string name="login_logo_text">AI</string>
+
+    <!-- Sign Up Screen -->
+    <string name="signup_title">สร้างบัญชี</string>
+    <string name="signup_subtitle">เข้าร่วมกับเราเพื่อสร้างงานศิลปะอนิเมะที่น่าทึ่ง</string>
+    <string name="signup_fullname_label">ชื่อเต็ม</string>
+    <string name="signup_fullname_placeholder">ใส่ชื่อเต็มของคุณ</string>
+    <string name="signup_email_label">อีเมล</string>
+    <string name="signup_email_placeholder">ใส่อีเมลของคุณ</string>
+    <string name="signup_password_label">รหัสผ่าน</string>
+    <string name="signup_password_placeholder">สร้างรหัสผ่าน</string>
+    <string name="signup_confirm_password_label">ยืนยันรหัสผ่าน</string>
+    <string name="signup_confirm_password_placeholder">ใส่รหัสผ่านอีกครั้ง</string>
+    <string name="signup_btn_create">สร้างบัญชี</string>
+    <string name="signup_google">ลงทะเบียนด้วย Google</string>
+    <string name="signup_have_account">มีบัญชีอยู่แล้วใช่ไหม? </string>
+    <string name="signup_signin_link">เข้าสู่ระบบ</string>
+    <string name="signup_terms">โดยการลงทะเบียน คุณยอมรับเงื่อนไขการให้บริการและนโยบายความเป็นส่วนตัวของเรา</string>
+    <string name="signup_error_fullname">กรุณาใส่ชื่อเต็มของคุณ</string>
+    <string name="signup_error_email">กรุณาใส่อีเมลของคุณ</string>
+    <string name="signup_error_email_invalid">กรุณาใส่อีเมลที่ถูกต้อง</string>
+    <string name="signup_error_password">กรุณาใส่รหัสผ่าน</string>
+    <string name="signup_error_password_length">รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร</string>
+    <string name="signup_error_password_match">รหัสผ่านไม่ตรงกัน</string>
+
+    <!-- Onboarding Screen -->
+    <string name="onboarding_skip">ข้าม</string>
+    <string name="onboarding_next">ต่อไป</string>
+    <string name="onboarding_get_started">เริ่มเลย</string>
+    <string name="onboarding_page1_title">ยินดีต้อนรับสู่ AnimeDraw AI</string>
+    <string name="onboarding_page1_desc">สร้างงานศิลปะอนิเมะที่น่าทึ่งด้วยพลังของ AI เพียงอธิบายสิ่งที่คุณต้องการเห็น!</string>
+    <string name="onboarding_page2_title">แชทกับตัวละคร AI</string>
+    <string name="onboarding_page2_desc">โต้ตอบกับบุคลิกภาพ AI ที่ไม่เหมือนใคร พวกเขาสามารถช่วยคุณสร้างไอเดียหรือเพียงแค่คุยเล่นสนุกๆ</string>
+    <string name="onboarding_page3_title">เข้าร่วมชุมชน</string>
+    <string name="onboarding_page3_desc">แบ่งปันผลงานสร้างสรรค์ของคุณ รับแรงบันดาลใจจากผู้อื่น และไต่อันดับลีดเดอร์บอร์ด</string>
+
+    <!-- Post Detail Screen -->
+    <string name="post_anonymous">ไม่ระบุชื่อ</string>
+    <string name="post_downloaded_already">ดาวน์โหลดแล้วในเซสชั่นนี้</string>
+    <string name="post_sharing">กำลังแบ่งปัน...</string>
+    <string name="post_prompt">พรอมต์</string>
+    <string name="post_negative_prompt">พรอมต์เชิงลบ</string>
+    <string name="post_workflow_model">เวิร์กโฟลว์ / โมเดล</string>
+    <string name="post_unknown">ไม่ทราบ</string>
+    <string name="post_report_title">รายงานเนื้อหา</string>
+    <string name="post_report_desc">ทำไมคุณถึงรายงานเนื้อหานี้?</string>
+    <string name="post_report_reason">เหตุผล</string>
+    <string name="post_report_success">ส่งรายงานสำเร็จ</string>
+    <string name="post_report_failed">ส่งรายงานล้มเหลว</string>
+    <string name="post_report_provide_reason">โปรดระบุเหตุผล</string>
+    <string name="post_report_submit">ส่งรายงาน</string>
+    <string name="post_report_cancel">ยกเลิก</string>
+    <string name="post_saved_gallery">บันทึกรูปภาพไปที่แกลเลอรี</string>
+    <string name="post_download_failed">ดาวน์โหลดรูปภาพล้มเหลว</string>
+    <string name="post_share">แบ่งปัน</string>
+    <string name="post_content_desc_back">กลับ</string>
+    <string name="post_content_desc_info">ข้อมูล</string>
+    <string name="post_content_desc_like">ถูกใจ</string>
+    <string name="post_content_desc_download">ดาวน์โหลด</string>
+
+    <!-- Gallery Pin Screen -->
+    <string name="pin_title">แกลเลอรีถูกป้องกัน</string>
+    <string name="pin_subtitle">ป้อน PIN 4 หลักของคุณเพื่อเข้าถึงแกลเลอรี</string>
+    <string name="pin_label">ป้อน PIN</string>
+    <string name="pin_error_too_many">พยายามล้มเหลวมากเกินไป PIN ไม่ถูกต้อง</string>
+    <string name="pin_error_incorrect">PIN ไม่ถูกต้อง ลองอีกครั้ง</string>
+    <string name="pin_back">กลับ</string>
+    <string name="pin_forgot_hint">หากคุณลืม PIN คุณสามารถปิดใช้งานการล็อคแกลเลอรีได้ในการตั้งค่า</string>
+    <string name="pin_content_desc_lock">ล็อคแกลเลอรี</string>
+
+    <!-- Usage Statistics Screen -->
+    <string name="stats_title">สถิติการใช้งาน</string>
+    <string name="stats_total_generations">การสร้างทั้งหมด</string>
+    <string name="stats_last_generation">ล่าสุด: %1$s</string>
+    <string name="stats_no_generations">ยังไม่มีการสร้าง</string>
+    <string name="stats_total_saves">บันทึกทั้งหมด</string>
+    <string name="stats_saves_desc">รูปภาพที่บันทึกไปยังแกลเลอรี</string>
+    <string name="stats_total_favorites">รายการโปรดทั้งหมด</string>
+    <string name="stats_favorites_desc">เวิร์กโฟลว์ที่ถูกทำเครื่องหมายเป็นรายการโปรด</string>
+    <string name="stats_member_since">สมาชิกตั้งแต่</string>
+    <string name="stats_member_desc">วันที่สร้างครั้งแรก</string>
+    <string name="stats_about_title">ℹ️ เกี่ยวกับสถิติ</string>
+    <string name="stats_about_desc">สถิติการใช้งานของคุณถูกจัดเก็บอย่างปลอดภัยใน Firebase และซิงค์ข้ามอุปกรณ์ทั้งหมดของคุณ สถิติเหล่านี้ช่วยให้คุณติดตามเส้นทางสร้างสรรค์ของคุณกับ Draw AI</string>
+    <string name="stats_content_desc_back">กลับ</string>
+
+    <!-- Summoning Screen -->
+    <string name="summon_deadly_sins">บาป 7 ประการ</string>
+    <string name="summon_content_desc_character">ตัวละคร</string>
+
+    <!-- Category Detail Extras -->
+    <string name="category_content_desc_back">กลับ</string>
+    <string name="category_content_desc_grid">เปลี่ยนตาราง</string>
+    <string name="category_upgrade_title">อัปเกรดเป็นพรีเมียม</string>
+    <string name="category_upgrade_desc">ปลดล็อคเวิร์กโฟลว์และฟีเจอร์พรีเมียม</string>
+    <string name="category_upgrade_btn">อัปเกรดเลย</string>
+    <string name="category_upgrade_cancel">ยกเลิก</string>
+    <!-- Gem Store & Daily Reward -->
+    <string name="gem_store_title">ร้านค้าอัญมณี</string>
+    <string name="daily_reward_title">รางวัลประจำวัน</string>
+    <string name="daily_reward_description">รับรางวัลประจำวันของคุณ!</string>
+    <string name="daily_reward_claim">รับ</string>
+    <string name="daily_reward_claimed">รับแล้ว</string>
+    <string name="daily_reward_day">วันที่ %1$d</string>
+    <string name="daily_reward_gems">%1$d อัญมณี</string>
+    <string name="shop_item_candy">ลูกอมหวาน</string>
+    <string name="shop_item_coffee">กาแฟร้อน</string>
+    <string name="shop_item_rose">กุหลาบแดง</string>
+    <string name="shop_buy_button">ซื้อ</string>
+    <string name="shop_insufficient_gems">อัญมณีไม่เพียงพอ</string>
+    <string name="shop_purchase_success">การซื้อสำเร็จ!</string>
+</resources>

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draw AI</string>
+    
+    <!-- Content Moderation Messages -->
+    <string name="content_moderation_error">Prompt yang Anda masukkan mengandung kata-kata yang tidak pantas. Harap gunakan kata-kata lain.</string>
+    <string name="content_moderation_error_indonesian">Prompt Anda mengandung kata-kata yang tidak pantas. Harap gunakan kata-kata yang lebih sopan.</string>
+    <string name="content_moderation_title">Peringatan Konten</string>
+    <string name="content_moderation_title_indonesian">Peringatan Konten</string>
+    <string name="content_moderation_description">Prompt Anda mengandung kata-kata yang tidak diizinkan. Silakan ubah prompt Anda dan coba lagi.</string>
+    <string name="content_moderation_description_indonesian">Prompt Anda mengandung kata-kata yang tidak diizinkan. Silakan ubah prompt Anda dan coba lagi.</string>
+    <string name="content_moderation_positive_words">Prompt positif mengandung: %1$s</string>
+    <string name="content_moderation_positive_words_indonesian">Prompt positif mengandung: %1$s</string>
+    <string name="content_moderation_negative_words">Prompt negatif mengandung: %1$s</string>
+    <string name="content_moderation_negative_words_indonesian">Prompt negatif mengandung: %1$s</string>
+    <string name="content_moderation_okay">OK, Saya Mengerti</string>
+    <string name="content_moderation_okay_indonesian">OK, Saya Mengerti</string>
+    
+    <!-- Sidebar Menu Items -->
+    <string name="menu_home">Beranda</string>
+    <string name="menu_vision">Visi</string>
+    <string name="menu_explore">Jelajahi</string>
+    <string name="menu_chat">Obrolan</string>
+    <string name="menu_gallery">Galeri</string>
+    <string name="menu_favorites">Favorit</string>
+    <string name="menu_subscription">Langganan</string>
+    <string name="menu_leaderboard">Papan Peringkat</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="menu_events_updates">Acara &amp; Pembaruan</string>
+    
+    <!-- Discovered Workflows -->
+    <string name="workflows_most_viewed">🔥 Paling Banyak Dilihat</string>
+    <string name="workflows_newest">✨ Terbaru</string>
+    <string name="workflows_most_popular">⭐ Paling Populer</string>
+    <string name="workflows_see_all">Lihat Semua →</string>
+    
+    <!-- Language Selector -->
+    <string name="language_selector_title">Pilih Bahasa</string>
+    <string name="current_language">Bahasa Indonesia</string>
+    
+    <!-- HomeScreen -->
+    <string name="discover_workflows_title">Temukan Alur Kerja</string>
+    <string name="discover_workflows_subtitle">Pilih alur kerja untuk mulai berkreasi</string>
+    <string name="search_workflows">Cari alur kerja</string>
+    <string name="search_placeholder">Ketik untuk mencari…</string>
+    
+    <!-- Workflow Sections -->
+    <string name="latest_additions">Tambahan terbaru</string>
+    <string name="community_favorites">Favorit komunitas</string>
+    
+    <!-- Filter Chips -->
+    <string name="filter_all">Semua</string>
+    <string name="filter_favorites">Favorit</string>
+    <string name="filter_anime">Anime</string>
+    <string name="filter_general">Umum</string>
+    <string name="filter_animal">Hewan</string>
+    <string name="filter_flower">Bunga</string>
+    <string name="filter_food">Makanan</string>
+    <string name="filter_background">Latar Belakang</string>
+    
+    <!-- Time Units -->
+    <string name="time_seconds">detik</string>
+    
+    <!-- Category Names -->
+    <string name="category_anime">Anime</string>
+    <string name="category_general">Umum</string>
+    <string name="category_animal">Hewan</string>
+    <string name="category_flower">Bunga</string>
+    <string name="category_food">Makanan</string>
+    <string name="category_background">Latar Belakang</string>
+    
+    <!-- CategoryDetailScreen -->
+    <string name="category_most_viewed_subtitle">Alur kerja teratas berdasarkan tampilan</string>
+    <string name="category_newest_subtitle">Tambahan terbaru ke koleksi kami</string>
+    <string name="category_most_popular_subtitle">Favorit komunitas</string>
+    <string name="category_browse_all">Jelajahi semua alur kerja</string>
+    <string name="search_in_category">Cari di kategori ini…</string>
+    <string name="workflows_count">%1$d alur kerja</string>
+    
+    <!-- VisionScreen -->
+    <string name="vision_prompts_title">Prompt Visi</string>
+    <string name="vision_prompts_subtitle">Prompt Generasi Seni AI</string>
+    <string name="vision_shuffle">Acak</string>
+    <string name="vision_failed_to_load">Gagal memuat</string>
+    <string name="vision_tap_to_retry">Ketuk untuk mencoba lagi</string>
+    <string name="vision_retry">Coba Lagi</string>
+    <string name="vision_no_visions">Tidak ada visi tersedia</string>
+    <string name="vision_next_page">Halaman Berikutnya</string>
+    <string name="vision_copy">Salin</string>
+    <string name="vision_avoid">Hindari</string>
+    <string name="vision_use">Gunakan</string>
+    <string name="vision_copied">Tersalin!</string>
+    
+    <!-- GenerateScreen -->
+    <string name="generate_category">Kategori</string>
+    <string name="generate_describe_vision">Deskripsikan Visi Anda</string>
+    <string name="generate_describe_subtitle">Beritahu kami apa yang ingin Anda buat</string>
+    <string name="generate_prompt_placeholder">mis., gadis anime cantik dengan rambut perak panjang, mata detail, latar belakang bunga sakura, kualitas masterpiece</string>
+    <string name="generate_quick_suggestions">Saran cepat</string>
+    <string name="generate_suggest_more">Saran Lebih Banyak →</string>
+    <string name="generate_things_to_avoid">Hal yang Harus Dihindari</string>
+    <string name="generate_avoid_subtitle">Opsional - Apa yang tidak ingin Anda lihat</string>
+    <string name="generate_avoid_placeholder">mis., buram, kualitas rendah, anatomi buruk, wajah jelek, tangan terdistorsi</string>
+    <string name="generate_common_negatives">Negatif umum</string>
+    <string name="generate_image">Buat Gambar</string>
+    
+    <!-- ExploreScreen -->
+    <string name="explore_title">Jelajahi</string>
+    <string name="explore_subtitle">Kreasi Komunitas</string>
+    <string name="explore_popular">🔥 Populer</string>
+    <string name="explore_recent">⏰ Terbaru</string>
+    <string name="explore_trending">📈 Trending</string>
+    <string name="explore_mine">👤 Milik Saya</string>
+    <string name="explore_refresh">Muat Ulang</string>
+    <string name="explore_no_posts">Belum ada postingan</string>
+    <string name="explore_be_first">Jadilah yang pertama berbagi!</string>
+    <string name="explore_error_oops">Ups!</string>
+    <string name="explore_retry">Coba Lagi</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet">Tidak ada koneksi internet</string>
+    <string name="error_prompt_empty">Prompt tidak boleh kosong</string>
+    <string name="error_user_not_authenticated">Pengguna belum terautentikasi. Silakan login terlebih dahulu.</string>
+    <string name="error_server_busy">Server sedang sibuk. Silakan coba lagi nanti.</string>
+    <string name="error_process_timeout">Proses terlalu lama. Silakan coba prompt yang lebih sederhana.</string>
+    <string name="error_connection_issue">Masalah koneksi. Silakan periksa internet Anda.</string>
+    <string name="error_processing_failed">Gagal memproses gambar. Silakan coba lagi.</string>
+    <string name="error_title">Kesalahan</string>
+    <string name="error_generic_message">Terjadi kesalahan saat memproses gambar. Silakan coba lagi.</string>
+    <string name="error_retry">Coba Lagi</string>
+    <string name="error_back">Kembali</string>
+    
+    <!-- ChatScreen -->
+    <string name="chat_title">Chat Karakter</string>
+    <string name="chat_select_character">💬 Pilih karakter Anda ▼</string>
+    <string name="chat_menu">Menu</string>
+    <string name="chat_new_chat">Chat Baru</string>
+    <string name="chat_clear_history">Hapus Riwayat</string>
+    <string name="chat_type_message">Ketik pesan...</string>
+    <string name="chat_send">Kirim</string>
+    <string name="chat_close">Tutup</string>
+    <string name="chat_start_conversation">Mulai Percakapan</string>
+    <string name="chat_ask_anything">Tanya apa saja! Saya siap membantu.</string>
+    <string name="chat_try_asking">Coba tanya:</string>
+    <string name="chat_suggestion_1">Apa yang bisa kamu bantu?</string>
+    <string name="chat_suggestion_2">Ceritakan fakta menarik</string>
+    <string name="chat_suggestion_3">Bagaimana AI bekerja?</string>
+    
+    <!-- CharacterListScreen -->
+    <string name="character_list_title">Pesan</string>
+    <string name="character_list_search">Cari</string>
+    <string name="character_list_new_character">Karakter Baru</string>
+    <string name="character_list_retry">Coba Koneksi Lagi</string>
+    <string name="character_list_unknown_error">Kesalahan tidak diketahui</string>
+    <string name="character_list_delete_title">Hapus Karakter?</string>
+    <string name="character_list_delete_message">Apakah Anda yakin ingin menghapus karakter ini? Jika ya, karakter akan dihapus, tetapi batas jumlah karakter Anda TIDAK akan berkurang.</string>
+    <string name="character_list_delete">Hapus</string>
+    <string name="character_list_cancel">Batal</string>
+    <string name="character_list_empty_title">Belum Ada Percakapan</string>
+    <string name="character_list_empty_subtitle">Mulai ngobrol dengan karakter AI Anda!</string>
+    <string name="character_list_create_new">Buat Karakter Baru</string>
+    
+    <!-- CharacterChatScreen -->
+    <string name="character_chat_go_back">Kembali</string>
+    <string name="character_chat_character_not_found">Karakter tidak ditemukan</string>
+    <string name="character_chat_start_chatting">Mulai ngobrol dengan %1$s!</string>
+    <string name="character_chat_deadly_sins">Mereka punya %1$d dosa mematikan</string>
+    <string name="character_chat_message_not_sent">Pesan Tidak Terkirim</string>
+    <string name="character_chat_inappropriate">Pesan Anda mengandung bahasa yang tidak pantas. Harap bersikap hormat kepada karakter AI.</string>
+    <string name="character_chat_ok">OK</string>
+    <string name="character_chat_type_message_placeholder">Ketik pesan...</string>
+    <string name="character_chat_connection_error">Kesalahan Koneksi</string>
+    <string name="character_chat_sins">dosa</string>
+    <string name="character_chat_back">Kembali</string>
+    <string name="character_chat_close">Tutup</string>
+
+    <!-- Gallery Screen -->
+    <string name="gallery_title">Galeri</string>
+    <string name="gallery_subtitle_count">%1$d gambar</string>
+    <string name="gallery_filter_all">Semua</string>
+    <string name="gallery_filter_favorites">Favorit</string>
+    <string name="gallery_empty_title">Belum ada gambar</string>
+    <string name="gallery_empty_subtitle">Mulai buat gambar untuk melihat karya Anda di sini</string>
+    <string name="gallery_generate_now">Buat Sekarang</string>
+    <string name="gallery_msg_select_character">Pilih gambar untuk membuat karakter Anda</string>
+    <string name="gallery_msg_limit_reached">Batas karakter tercapai!</string>
+    <string name="gallery_content_desc_select_char">Pilih Karakter</string>
+    <string name="gallery_content_desc_create_char">Buat Karakter</string>
+    <string name="gallery_report_title">Laporkan Gambar</string>
+    <string name="gallery_report_desc">Jelaskan mengapa Anda melaporkan gambar ini:</string>
+    <string name="gallery_report_reason_label">Alasan melapor</string>
+    <string name="gallery_report_reason_placeholder">Jelaskan masalahnya...</string>
+    <string name="gallery_report_button">Lapor</string>
+    <string name="gallery_cancel">Batal</string>
+    <string name="gallery_delete_title">Hapus Gambar?</string>
+    <string name="gallery_delete_message">Tindakan ini tidak dapat dibatalkan. Gambar akan dihapus secara permanen.</string>
+    <string name="gallery_delete_button">Hapus</string>
+    <string name="gallery_share_premium_only">🔒 Berbagi ke komunitas tersedia untuk pelanggan Basic dan Pro</string>
+    <string name="gallery_share_duplicate">⚠️ Gambar/prompt ini sudah dibagikan ke komunitas.</string>
+    <string name="gallery_share_success">✅ Berhasil dibagikan ke Komunitas!</string>
+    <string name="gallery_share_failed">Gagal membagikan: %1$s</string>
+    <string name="gallery_share_file_not_found">File gambar tidak ditemukan</string>
+    <string name="gallery_share_error">Error: %1$s</string>
+    <string name="gallery_create_char_title">Buat Karakter?</string>
+    <string name="gallery_create_char_message">Ini akan mengubah gambar ini menjadi teman AI unik Anda.</string>
+    <string name="gallery_create_char_warning">⚠️ Anda hanya dapat memilih SATU karakter. Ini tidak dapat diubah nanti.</string>
+    <string name="gallery_char_name_label">Nama Karakter (Opsional)</string>
+    <string name="gallery_char_name_placeholder">Biarkan kosong untuk nama acak</string>
+    <string name="gallery_select_language_title">Pilih Bahasa:</string>
+    <string name="gallery_select_gender_title">Pilih Gender:</string>
+    <string name="gallery_gender_male">Pria ♂️</string>
+    <string name="gallery_gender_female">Wanita ♀️</string>
+    <string name="gallery_analyzing_personality">Menganalisis kepribadian...</string>
+    <string name="gallery_summoning_soul">Memanggil jiwa...</string>
+    <string name="gallery_character_created">Karakter dibuat!</string>
+    <string name="gallery_create_and_chat">Buat &amp; Chat</string>
+    <string name="gallery_guidelines_title">Pedoman Komunitas</string>
+    <string name="gallery_guidelines_intro">Sebelum membagikan gambar ke komunitas, harap perhatikan:</string>
+    <string name="gallery_guideline_nsfw">🚫 Tidak ada konten tidak pantas/NSFW</string>
+    <string name="gallery_guideline_violence">🚫 Tidak ada kekerasan atau sadis</string>
+    <string name="gallery_guideline_illegal">🚫 Tidak ada konten ilegal</string>
+    <string name="gallery_guideline_hate">🚫 Tidak ada ujaran kebencian atau diskriminasi</string>
+    <string name="gallery_guidelines_warning_title">⚠️ PERINGATAN:</string>
+    <string name="gallery_guidelines_warning_text">Pelanggaran akan mengakibatkan AKUN DIBANNED PERMANEN dan SEMUA KONTEN DIHAPUS tanpa pemberitahuan sebelumnya!</string>
+    <string name="gallery_guidelines_agree">Saya Mengerti &amp; Setuju</string>
+    <string name="gallery_share_already_shared">⚠️ Prompt ini sudah dibagikan!</string>
+    <string name="gallery_share_success_full">✅ Berhasil dibagikan ke Komunitas!</string>
+    <string name="gallery_chat_button">💬 Chat</string>
+    <string name="gallery_your_character_badge">🌟 Karakter Anda</string>
+    
+    <!-- Tabs -->
+    <string name="character_chat_tab_relationship">Hubungan</string>
+    <string name="character_chat_tab_status">Status</string>
+    <string name="character_chat_tab_profile">Profil</string>
+    <string name="character_chat_tab_stats">Statistik</string>
+    
+    <!-- Relationship Tab -->
+    <string name="character_chat_affection_points">Poin Kasih Sayang</string>
+    <string name="character_chat_max">MAKS ❤️</string>
+    <string name="character_chat_ap_to">%1$d AP ke %2$s</string>
+    <string name="character_chat_soulmate_forever">Belahan Jiwa Selamanya 💍</string>
+    <string name="character_chat_confess_feelings">💌 Ungkapkan Perasaan</string>
+    <string name="character_chat_propose_marriage">💍 Lamar Menikah</string>
+    
+    <!-- Status Tab -->
+    <string name="character_chat_current_mood">Suasana Hati Saat Ini</string>
+    <string name="character_chat_energy_level">Level Energi</string>
+    <string name="character_chat_energy_high">Tinggi</string>
+    <string name="character_chat_energy_normal">Normal</string>
+    <string name="character_chat_energy_tired">Lelah</string>
+    
+    <!-- Profile Tab -->
+    <string name="character_chat_archetype">Arketipe</string>
+    <string name="character_chat_traits">Sifat</string>
+    <string name="character_chat_interests">Minat</string>
+    <string name="character_chat_deadly_sins_title">Dosa Mematikan</string>
+    <string name="character_chat_sins_hidden">%1$d Dosa (Tersembunyi)</string>
+    
+    <!-- Stats Tab -->
+    <string name="character_chat_interaction_stats">Statistik Interaksi</string>
+    <string name="character_chat_total_messages">Total Pesan</string>
+    <string name="character_chat_last_chat">Chat Terakhir</string>
+    <string name="character_chat_chat_frequency">Frekuensi Chat</string>
+    <string name="character_chat_ghosting_record">Catatan Ghosting</string>
+    <string name="character_chat_ghosted_times">Anda telah meng-ghost karakter ini %1$d kali.</string>
+    
+    <!-- Favorites Screen -->
+    <string name="favorites_title">Favorit</string>
+    <string name="favorites_saved_count">%1$d disimpan</string>
+    <string name="favorites_empty_title">Belum ada favorit</string>
+    <string name="favorites_empty_message">Tandai alur kerja sebagai favorit untuk melihatnya di sini</string>
+    <string name="favorites_remove_content_desc">Hapus dari favorit</string>
+    <string name="favorites_pro_badge">⭐ PRO</string>
+
+    <!-- Leaderboard Screen -->
+    <string name="leaderboard_title">Peringkat</string>
+    <string name="leaderboard_tab_architect">Arsitek</string>
+    <string name="leaderboard_tab_romancer">Romancer</string>
+    <string name="leaderboard_tab_mvp">MVP</string>
+    <string name="leaderboard_tab_fame">Hall of Fame</string>
+    <string name="leaderboard_tab_rising">Bintang Baru</string>
+    <string name="leaderboard_filter_all_time">Sepanjang Masa</string>
+    <string name="leaderboard_filter_weekly">Mingguan</string>
+    <string name="leaderboard_filter_monthly">Bulanan</string>
+    <string name="leaderboard_architect_title">Master Arsitek</string>
+    <string name="leaderboard_architect_desc">Para visioner yang menghasilkan karya agung terbanyak.</string>
+    <string name="leaderboard_metric_generations">Generasi</string>
+    <string name="leaderboard_romancer_title">Romancer Teratas</string>
+    <string name="leaderboard_romancer_desc">Pengguna dengan ikatan terdalam. Poin kasih sayang diperoleh melalui interaksi yang tulus.</string>
+    <string name="leaderboard_metric_affection">Poin Kasih Sayang</string>
+    <string name="leaderboard_mvp_title">MVP Komunitas</string>
+    <string name="leaderboard_mvp_desc">Pilar komunitas kami yang paling banyak membagikan prompt/kreasi.</string>
+    <string name="leaderboard_metric_shares">Bagikan</string>
+    <string name="leaderboard_fame_title">Hall of Fame</string>
+    <string name="leaderboard_fame_desc">Karya seni legendaris diklasifikasikan berdasarkan kategori.</string>
+    <string name="leaderboard_filter_most_liked">Paling Disukai</string>
+    <string name="leaderboard_filter_most_downloaded">Paling Banyak Diunduh</string>
+    <string name="leaderboard_metric_likes">Suka</string>
+    <string name="leaderboard_metric_downloads">Unduhan</string>
+    <string name="leaderboard_rising_title">Bintang Baru</string>
+    <string name="leaderboard_rising_desc">Kreator baru yang mendapatkan perhatian akhir-akhir ini.</string>
+    <string name="leaderboard_metric_recent_likes">Suka Terbaru</string>
+    <string name="leaderboard_no_rankings">Belum ada peringkat</string>
+    <string name="leaderboard_error_prefix">Error: %1$s</string>
+
+    <!-- News Screen (Events & Updates) -->
+    <string name="news_title">Event &amp; Pembaruan</string>
+    <string name="news_badge_event">EVENT</string>
+    <string name="news_badge_update">UPDATE</string>
+    <string name="news_action_view_details">Lihat Detail</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_subtitle">Sesuaikan pengalaman Anda</string>
+
+    <!-- Preferences Section -->
+    <string name="settings_section_preferences">Preferensi</string>
+    <string name="settings_dark_mode">Mode Gelap</string>
+    <string name="settings_dark_mode_desc">Ganti ke tema gelap</string>
+    <string name="settings_notifications">Notifikasi</string>
+    <string name="settings_notifications_desc">Dapatkan notifikasi saat pembuatan selesai</string>
+    <string name="settings_auto_save">Simpan Otomatis</string>
+    <string name="settings_auto_save_desc">Simpan otomatis ke galeri atau tampilkan dialog simpan</string>
+    <string name="settings_gallery_lock">Kunci Galeri</string>
+    <string name="settings_gallery_lock_desc">Lindungi galeri dengan kode PIN</string>
+    <string name="settings_restricted_content">Konten Terbatas</string>
+    <string name="settings_restricted_content_desc">Aktifkan konten dewasa (Perlu verifikasi umur)</string>
+    <string name="settings_more">Lainnya</string>
+    <string name="settings_more_desc">Minta akses ke konten tambahan (Syarat: Basic/Pro + Persetujuan)</string>
+
+    <!-- Storage Section -->
+    <string name="settings_section_storage">Penyimpanan</string>
+    <string name="settings_clear_cache">Hapus Cache</string>
+    <string name="settings_clear_cache_desc">Kosongkan ruang penyimpanan</string>
+    <string name="settings_cache_cleared">Cache dihapus!</string>
+    <string name="settings_export_gallery">Ekspor Galeri</string>
+    <string name="settings_export_gallery_locked">Ekspor Galeri 🔒</string>
+    <string name="settings_export_gallery_desc">Simpan semua gambar Anda</string>
+    <string name="settings_export_gallery_premium">Fitur Premium</string>
+    <string name="settings_upgrade_toast">Silakan upgrade ke Premium di Profil</string>
+
+    <!-- About & Legal Section -->
+    <string name="settings_section_about">Tentang &amp; Hukum</string>
+    <string name="settings_privacy_policy">Kebijakan Privasi</string>
+    <string name="settings_privacy_policy_desc">Lihat kebijakan privasi kami</string>
+    <string name="settings_terms_service">Ketentuan Layanan</string>
+    <string name="settings_terms_service_desc">Baca syarat dan ketentuan kami</string>
+
+    <!-- Support Section -->
+    <string name="settings_section_support">Dukungan</string>
+    <string name="settings_help_support">Bantuan &amp; Dukungan</string>
+    <string name="settings_help_support_desc">Hubungi kami melalui email</string>
+    <string name="settings_rate_app">Nilai Aplikasi</string>
+    <string name="settings_rate_app_desc">Bagikan tanggapan Anda di Play Store</string>
+    <string name="settings_app_version">Versi Aplikasi</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="settings_clear_cache_title">Hapus Cache?</string>
+    <string name="settings_clear_cache_message">Ini akan menghapus semua gambar cache dan file sementara. Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="settings_btn_clear">Hapus</string>
+    <string name="settings_btn_cancel">Batal</string>
+
+    <string name="settings_export_dialog_title">Ekspor Semua ke Galeri</string>
+    <string name="settings_export_warning_1">⚠️ Ini akan memindahkan semua gambar yang dibuat ke galeri utama.</string>
+    <string name="settings_export_warning_2">• Semua gambar di folder generated akan dipindahkan</string>
+    <string name="settings_export_warning_3">• Gambar akan dihapus dari lokasi saat ini</string>
+    <string name="settings_export_warning_4">• Tindakan ini tidak dapat dibatalkan</string>
+    <string name="settings_export_confirm">Lanjutkan ekspor?</string>
+    <string name="settings_btn_export_all">Ekspor Semua</string>
+
+    <string name="settings_upgrade_required_title">Perlu Upgrade</string>
+    <string name="settings_upgrade_required_msg">Akses ke konten \'Lainnya\' memerlukan langganan Basic atau Pro.</string>
+    <string name="settings_btn_ok">OK</string>
+
+    <string name="settings_request_access_title">Minta Akses</string>
+    <string name="settings_request_access_msg">Akses ke konten \'Lainnya\' memerlukan persetujuan Admin. Apakah Anda ingin mengirim permintaan?</string>
+    <string name="settings_btn_send_request">Kirim Permintaan</string>
+    <string name="settings_request_sent">Permintaan Terkirim</string>
+    <string name="settings_request_pending">Permintaan Menunggu Persetujuan Admin</string>
+    <string name="settings_cannot_disable">Tidak dapat dinonaktifkan. Hubungi dukungan untuk mengubah.</string>
+
+    <string name="settings_pin_setup_title">Atur PIN Galeri</string>
+    <string name="settings_pin_setup_msg">Buat 4 digit PIN untuk melindungi galeri Anda</string>
+    <string name="settings_pin_enter">Masukkan PIN</string>
+    <string name="settings_pin_confirm">Konfirmasi PIN</string>
+    <string name="settings_pin_error">PIN tidak cocok atau tidak valid</string>
+    <string name="settings_btn_set_pin">Atur PIN</string>
+
+    <string name="settings_export_empty">Tidak ada gambar untuk diekspor</string>
+    <string name="settings_export_success">Berhasil mengekspor semua %1$d gambar ke galeri</string>
+    <string name="settings_export_partial">Mengekspor %1$d gambar ke galeri (%2$d gagal)</string>
+    <string name="settings_export_failed">Ekspor gagal: %1$s</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Profil</string>
+    <string name="profile_guest">Tamu</string>
+    <string name="profile_guest_account">Akun Tamu</string>
+    <string name="profile_edit_name">Ubah Nama</string>
+    <string name="profile_section_subscription">Langganan &amp; Penggunaan</string>
+    <string name="profile_daily_generations">Generasi Harian</string>
+    <string name="profile_used_today">Terpakai hari ini: %1$d</string>
+    <string name="profile_generations">Generasi: </string>
+    <string name="profile_chat_limit">Batas Obrolan: </string>
+    <string name="profile_expires">Berakhir: %1$s</string>
+    <string name="profile_plan">Paket Langganan</string>
+    <string name="profile_plan_desc">Kelola langganan Anda</string>
+    <string name="profile_usage_stats">Statistik Penggunaan</string>
+    <string name="profile_usage_stats_desc">Lihat riwayat generasi Anda</string>
+    <string name="profile_section_account">Tindakan Akun</string>
+    <string name="profile_link_account">Hubungkan Akun</string>
+    <string name="profile_link_account_desc">Hubungkan Google untuk simpan data</string>
+    <string name="profile_sign_out">Keluar</string>
+    <string name="profile_sign_out_desc">Keluar dari akun Anda</string>
+    <string name="profile_delete_account">Hapus Akun</string>
+    <string name="profile_delete_account_desc">Hapus akun dan data secara permanen</string>
+    <string name="profile_dialog_edit_name">Ubah Nama Tampilan</string>
+    <string name="profile_enter_name">Masukkan nama baru:</string>
+    <string name="profile_btn_save">Simpan</string>
+    <string name="profile_dialog_delete_title">Hapus Akun?</string>
+    <string name="profile_delete_warning_list">Ini akan menghapus secara permanen:</string>
+    <string name="profile_delete_item_1">• Akun dan profil Anda</string>
+    <string name="profile_delete_item_2">• Semua gambar yang dibuat</string>
+    <string name="profile_delete_item_3">• Statistik penggunaan</string>
+    <string name="profile_delete_item_4">• Favorit dan koleksi</string>
+    <string name="profile_delete_item_5">• Data langganan</string>
+    <string name="profile_delete_warning_final">⚠️ Tindakan ini tidak dapat dibatalkan!</string>
+    <string name="profile_delete_instruction">Untuk melanjutkan, silakan kirim permintaan penghapusan:</string>
+    <string name="profile_btn_submit_request">Kirim Permintaan</string>
+
+    <!-- Subscription Screen -->
+    <string name="subscription_title">Toko Langganan</string>
+    <string name="subscription_status_user">Status Pengguna</string>
+    <string name="subscription_status_pro">PRO</string>
+    <string name="subscription_status_basic">BASIC</string>
+    <string name="subscription_status_free">GRATIS</string>
+    <string name="subscription_limit_format">Batas: %1$s/%2$s</string>
+    <string name="subscription_exp_format">Exp: %1$s</string>
+    <string name="subscription_chat_format">Chat: %1$s</string>
+    <string name="subscription_loading_limits">Memuat batas...</string>
+    <string name="subscription_choose_plan">Pilih Paket</string>
+    <string name="subscription_chat_addons">Tambahan Batas Chat</string>
+
+    <string name="subscription_gacha_title">🎲 Gacha</string>
+    <string name="subscription_gacha_desc">1-9 Batas</string>
+    <string name="subscription_single_limit_title">💬 +1 Batas</string>
+    <string name="subscription_single_limit_desc">Instan</string>
+    <string name="subscription_toast_added_chat">Menambahkan +1 Batas Obrolan!</string>
+
+    <string name="subscription_gacha_result_jackpot">🎉 JACKPOT! 🎉</string>
+    <string name="subscription_gacha_result_normal">Hasil Gacha</string>
+    <string name="subscription_gacha_result_msg">Batas Obrolan Ditambahkan!</string>
+    <string name="subscription_btn_awesome">Luar Biasa!</string>
+
+    <string name="subscription_upgrade_title">Tingkatkan ke %1$s?</string>
+    <string name="subscription_price_format">Harga: %1$s</string>
+    <string name="subscription_feature_ad_free">• Bebas Iklan</string>
+    <string name="subscription_btn_confirm">Konfirmasi</string>
+    <string name="subscription_btn_buy">Beli</string>
+    <string name="subscription_current_plan">Saat Ini</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Selamat Datang Kembali</string>
+    <string name="login_subtitle">Buat karya seni anime memukau dengan AI</string>
+    <string name="login_email_label">Email atau Username</string>
+    <string name="login_email_placeholder">Masukkan email Anda</string>
+    <string name="login_password_label">Kata Sandi</string>
+    <string name="login_password_placeholder">Masukkan kata sandi Anda</string>
+    <string name="login_btn_signin">Masuk</string>
+    <string name="login_continue_google">Lanjutkan dengan Google</string>
+    <string name="login_continue_guest">Lanjutkan sebagai Tamu</string>
+    <string name="login_no_account">Belum punya akun? </string>
+    <string name="login_signup_link">Daftar</string>
+    <string name="login_or">atau</string>
+    <string name="login_app_name">Draw AI</string>
+    <string name="login_logo_text">AI</string>
+
+    <!-- App Drawer -->
+    <string name="drawer_guest">Tamu</string>
+    <string name="drawer_login_to_chat">Silakan login untuk mengakses Chat</string>
+    <string name="drawer_current_language">Bahasa</string>
+    <string name="drawer_promo_title">Event &amp; Hadiah</string>
+    <string name="drawer_promo_desc">Cek event berlangsung, update terbaru, dan klaim hadiahmu!</string>
+
+    <!-- Tutorial Showcase -->
+    <string name="tutorial_step1_title">Langkah 1: Pilih Workflow</string>
+    <string name="tutorial_step1_desc">Klik kartu workflow mana saja untuk mulai membuat.</string>
+    <string name="tutorial_step2_title">Langkah 2: Masukkan Visi Anda</string>
+    <string name="tutorial_step2_desc">Ketik visi Anda di kotak prompt untuk memandu AI.</string>
+    <string name="tutorial_step3_title">Langkah 3: Klik Generate</string>
+    <string name="tutorial_step3_desc">Scroll ke bawah dan ketuk tombol Generate untuk melihat keajaibannya!</string>
+    <string name="tutorial_btn_next">OK</string>
+    <string name="tutorial_btn_finish">Mengerti!</string>
+
+    <!-- Sign Up Screen -->
+    <string name="signup_title">Buat Akun</string>
+    <string name="signup_subtitle">Bergabunglah untuk membuat karya anime luar biasa</string>
+    <string name="signup_fullname_label">Nama Lengkap</string>
+    <string name="signup_fullname_placeholder">Masukkan nama lengkap Anda</string>
+    <string name="signup_email_label">Email</string>
+    <string name="signup_email_placeholder">Masukkan email Anda</string>
+    <string name="signup_password_label">Kata Sandi</string>
+    <string name="signup_password_placeholder">Buat kata sandi</string>
+    <string name="signup_confirm_password_label">Konfirmasi Kata Sandi</string>
+    <string name="signup_confirm_password_placeholder">Masukkan ulang kata sandi</string>
+    <string name="signup_btn_create">Buat Akun</string>
+    <string name="signup_google">Daftar dengan Google</string>
+    <string name="signup_have_account">Sudah punya akun? </string>
+    <string name="signup_signin_link">Masuk</string>
+    <string name="signup_terms">Dengan mendaftar, Anda menyetujui Ketentuan Layanan dan Kebijakan Privasi kami</string>
+    <string name="signup_error_fullname">Silakan masukkan nama lengkap Anda</string>
+    <string name="signup_error_email">Silakan masukkan email Anda</string>
+    <string name="signup_error_email_invalid">Silakan masukkan email yang valid</string>
+    <string name="signup_error_password">Silakan masukkan kata sandi</string>
+    <string name="signup_error_password_length">Kata sandi minimal 6 karakter</string>
+    <string name="signup_error_password_match">Kata sandi tidak cocok</string>
+
+    <!-- Onboarding Screen -->
+    <string name="onboarding_skip">Lewati</string>
+    <string name="onboarding_next">Lanjut</string>
+    <string name="onboarding_get_started">Mulai Sekarang</string>
+    <string name="onboarding_page1_title">Selamat Datang di AnimeDraw AI</string>
+    <string name="onboarding_page1_desc">Buat karya seni anime yang menakjubkan dengan kekuatan AI. Cukup jelaskan apa yang ingin Anda lihat!</string>
+    <string name="onboarding_page2_title">Mengobrol dengan Karakter AI</string>
+    <string name="onboarding_page2_desc">Berinteraksi dengan kepribadian AI yang unik. Mereka dapat membantu Anda menghasilkan ide atau sekadar mengobrol santai.</string>
+    <string name="onboarding_page3_title">Bergabung dengan Komunitas</string>
+    <string name="onboarding_page3_desc">Bagikan kreasi Anda, dapatkan inspirasi dari orang lain, dan naiki papan peringkat.</string>
+
+    <!-- Post Detail Screen -->
+    <string name="post_anonymous">Anonim</string>
+    <string name="post_downloaded_already">Sudah diunduh dalam sesi ini</string>
+    <string name="post_sharing">Membagikan...</string>
+    <string name="post_prompt">Prompt</string>
+    <string name="post_negative_prompt">Negative Prompt</string>
+    <string name="post_workflow_model">Workflow / Model</string>
+    <string name="post_unknown">Tidak Diketahui</string>
+    <string name="post_report_title">Laporkan Konten</string>
+    <string name="post_report_desc">Mengapa Anda melaporkan konten ini?</string>
+    <string name="post_report_reason">Alasan</string>
+    <string name="post_report_success">Laporan berhasil dikirim</string>
+    <string name="post_report_failed">Gagal mengirim laporan</string>
+    <string name="post_report_provide_reason">Mohon berikan alasannya</string>
+    <string name="post_report_submit">Kirim Laporan</string>
+    <string name="post_report_cancel">Batal</string>
+    <string name="post_saved_gallery">Gambar disimpan ke Galeri</string>
+    <string name="post_download_failed">Gagal mengunduh gambar</string>
+    <string name="post_share">Bagikan</string>
+    <string name="post_content_desc_back">Kembali</string>
+    <string name="post_content_desc_info">Info</string>
+    <string name="post_content_desc_like">Suka</string>
+    <string name="post_content_desc_download">Unduh</string>
+
+    <!-- Gallery Pin Screen -->
+    <string name="pin_title">Galeri Terlindungi</string>
+    <string name="pin_subtitle">Masukkan PIN 4 digit Anda untuk mengakses galeri</string>
+    <string name="pin_label">Masukkan PIN</string>
+    <string name="pin_error_too_many">Terlalu banyak percobaan gagal. PIN salah.</string>
+    <string name="pin_error_incorrect">PIN salah. Coba lagi.</string>
+    <string name="pin_back">Kembali</string>
+    <string name="pin_forgot_hint">Jika Anda lupa PIN, Anda dapat menonaktifkan Kunci Galeri di Pengaturan.</string>
+    <string name="pin_content_desc_lock">Kunci Galeri</string>
+
+    <!-- Usage Statistics Screen -->
+    <string name="stats_title">Statistik Penggunaan</string>
+    <string name="stats_total_generations">Total Generasi</string>
+    <string name="stats_last_generation">Terakhir: %1$s</string>
+    <string name="stats_no_generations">Belum ada generasi</string>
+    <string name="stats_total_saves">Total Disimpan</string>
+    <string name="stats_saves_desc">Gambar disimpan ke galeri</string>
+    <string name="stats_total_favorites">Total Favorit</string>
+    <string name="stats_favorites_desc">Workflow ditandai sebagai favorit</string>
+    <string name="stats_member_since">Anggota Sejak</string>
+    <string name="stats_member_desc">Tanggal generasi pertama</string>
+    <string name="stats_about_title">ℹ️ Tentang Statistik</string>
+    <string name="stats_about_desc">Statistik penggunaan Anda disimpan dengan aman di Firebase dan disinkronkan di semua perangkat Anda. Statistik ini membantu Anda melacak perjalanan kreatif Anda dengan Draw AI.</string>
+    <string name="stats_content_desc_back">Kembali</string>
+
+    <!-- Summoning Screen -->
+    <string name="summon_deadly_sins">Dosa Mematikan</string>
+    <string name="summon_content_desc_character">Karakter</string>
+
+    <!-- Category Detail Extras -->
+    <string name="category_content_desc_back">Kembali</string>
+    <string name="category_content_desc_grid">Ubah Grid</string>
+    <string name="category_upgrade_title">Tingkatkan ke Premium</string>
+    <string name="category_upgrade_desc">Buka workflow dan fitur premium</string>
+    <string name="category_upgrade_btn">Tingkatkan Sekarang</string>
+    <string name="category_upgrade_cancel">Batal</string>
+
+    <!-- Gem Store & Daily Reward -->
+    <string name="gem_store_title">Toko Permata</string>
+    <string name="daily_reward_title">Hadiah Harian</string>
+    <string name="daily_reward_description">Klaim hadiah harian Anda!</string>
+    <string name="daily_reward_claim">Klaim</string>
+    <string name="daily_reward_claimed">Diklaim</string>
+    <string name="daily_reward_day">Hari %1$d</string>
+    <string name="daily_reward_gems">%1$d Permata</string>
+    <string name="shop_item_candy">Permen Manis</string>
+    <string name="shop_item_coffee">Kopi Panas</string>
+    <string name="shop_item_rose">Mawar Merah</string>
+    <string name="shop_buy_button">Beli</string>
+    <string name="shop_insufficient_gems">Permata tidak cukup</string>
+    <string name="shop_purchase_success">Pembelian berhasil!</string>
+</resources>

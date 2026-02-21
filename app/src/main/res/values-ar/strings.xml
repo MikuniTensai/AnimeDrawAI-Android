@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draw AI</string>
+    
+    <!-- Content Moderation Messages -->
+    <string name="content_moderation_error">يحتوي النص الذي أدخلته على كلمات غير لائقة. يرجى استخدام كلمات أخرى.</string>
+    <string name="content_moderation_error_indonesian">يحتوي النص الذي أدخلته على كلمات غير لائقة. يرجى استخدام كلمات أخرى.</string>
+    <string name="content_moderation_title">تحذير المحتوى</string>
+    <string name="content_moderation_title_indonesian">تحذير المحتوى</string>
+    <string name="content_moderation_description">يحتوي النص الخاص بك على كلمات غير مسموح بها. يرجى تعديل النص والمحاولة مرة أخرى.</string>
+    <string name="content_moderation_description_indonesian">يحتوي النص الخاص بك على كلمات غير مسموح بها. يرجى تعديل النص والمحاولة مرة أخرى.</string>
+    <string name="content_moderation_positive_words">يحتوي النص الإيجابي على: %1$s</string>
+    <string name="content_moderation_positive_words_indonesian">يحتوي النص الإيجابي على: %1$s</string>
+    <string name="content_moderation_negative_words">يحتوي النص السلبي على: %1$s</string>
+    <string name="content_moderation_negative_words_indonesian">يحتوي النص السلبي على: %1$s</string>
+    <string name="content_moderation_okay">حسناً، فهمت</string>
+    <string name="content_moderation_okay_indonesian">حسناً، فهمت</string>
+    
+    <!-- Rating System Messages -->
+    <string name="rating_too_low_error">تقييم النص الخاص بك هو %1$d%% وهو أقل من الحد الأدنى المطلوب 50%%. يرجى تحسين النص للحصول على نتائج أفضل.</string>
+    <string name="rating_too_low_error_indonesian">تقييم النص الخاص بك هو %1$d%% وهو أقل من الحد الأدنى المطلوب 50%%. يرجى تحسين النص للحصول على نتائج أفضل.</string>
+
+    <!-- Server Maintenance -->
+    <string name="server_maintenance">صيانة الخادم</string>
+    <string name="server_maintenance_description">الخادم يخضع للصيانة حالياً. يرجى الانتظار قليلاً والمحاولة مرة أخرى.</string>
+    <string name="go_to_gallery">اذهب إلى المعرض</string>
+    
+    <!-- Sidebar Menu Items -->
+    <string name="menu_home">الرئيسية</string>
+    <string name="menu_vision">رؤية</string>
+    <string name="menu_explore">اكتشف</string>
+    <string name="menu_chat">دردشة</string>
+    <string name="menu_gallery">المعرض</string>
+    <string name="menu_favorites">المفضلة</string>
+    <string name="menu_subscription">الاشتراك</string>
+    <string name="menu_leaderboard">لوحة الصدارة</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="menu_events_updates">الأحداث والتحديثات</string>
+    
+    <!-- Discovered Workflows -->
+    <string name="workflows_most_viewed">🔥 الأكثر مشاهدة</string>
+    <string name="workflows_newest">✨ الأحدث</string>
+    <string name="workflows_most_popular">⭐ الأكثر تفضيلاً</string>
+    <string name="workflows_see_all">شاهد الكل →</string>
+    
+    <!-- Language Selector -->
+    <string name="language_selector_title">اختر اللغة</string>
+    <string name="current_language">العربية</string>
+    
+    <!-- HomeScreen -->
+    <string name="discover_workflows_title">اكتشف التصاميم</string>
+    <string name="discover_workflows_subtitle">اختر تصميماً للبدء في الإبداع</string>
+    <string name="search_workflows">بحث عن تصاميم</string>
+    <string name="search_placeholder">اكتب للبحث...</string>
+    
+    <!-- Workflow Sections -->
+    <string name="latest_additions">أحدث الإضافات</string>
+    <string name="community_favorites">المفضل لدى المجتمع</string>
+    
+    <!-- Filter Chips -->
+    <string name="filter_all">الكل</string>
+    <string name="filter_favorites">المفضلة</string>
+    <string name="filter_anime">أنيمي</string>
+    <string name="filter_general">عام</string>
+    <string name="filter_animal">حيوان</string>
+    <string name="filter_flower">زهرة</string>
+    <string name="filter_food">طعام</string>
+    <string name="filter_background">خلفية</string>
+    
+    <!-- Time Units -->
+    <string name="time_seconds">ثواني</string>
+    
+    <!-- Category Names -->
+    <string name="category_anime">أنيمي</string>
+    <string name="category_general">عام</string>
+    <string name="category_animal">حيوان</string>
+    <string name="category_flower">زهرة</string>
+    <string name="category_food">طعام</string>
+    <string name="category_background">خلفية</string>
+    
+    <!-- CategoryDetailScreen -->
+    <string name="category_most_viewed_subtitle">أفضل التصاميم حسب المشاهدات</string>
+    <string name="category_newest_subtitle">آخر الإضافات لمجموعتنا</string>
+    <string name="category_most_popular_subtitle">المفضل لدى المجتمع</string>
+    <string name="category_browse_all">تصفح كل التصاميم</string>
+    <string name="search_in_category">بحث في هذه الفئة...</string>
+    <string name="workflows_count">%1$d تصميم</string>
+    
+    <!-- VisionScreen -->
+    <string name="vision_prompts_title">أفكار فنية</string>
+    <string name="vision_prompts_subtitle">نصوص لتوليد فن بالذكاء الاصطناعي</string>
+    <string name="vision_shuffle">خلط</string>
+    <string name="vision_failed_to_load">فشل التحميل</string>
+    <string name="vision_tap_to_retry">انقر للمحاولة مرة أخرى</string>
+    <string name="vision_retry">إعادة المحاولة</string>
+    <string name="vision_no_visions">لا توجد أفكار متاحة</string>
+    <string name="vision_next_page">الصفحة التالية</string>
+    <string name="vision_copy">نسخ</string>
+    <string name="vision_avoid">تجنب</string>
+    <string name="vision_use">استخدم</string>
+    <string name="vision_copied">تم النسخ!</string>
+    
+    <!-- GenerateScreen -->
+    <string name="generate_category">الفئة</string>
+    <string name="generate_describe_vision">صف رؤيتك</string>
+    <string name="generate_describe_subtitle">أخبرنا بما تريد إنشاءه</string>
+    <string name="generate_prompt_placeholder">مثال: فتاة أنيمي جميلة بشعر فضي طويل، عيون مفصلة، خلفية أزهار الكرز، جودة فائقة</string>
+    <string name="generate_quick_suggestions">اقتراحات سريعة</string>
+    <string name="generate_suggest_more">اقترح المزيد →</string>
+    <string name="generate_things_to_avoid">أشياء يجب تجنبها</string>
+    <string name="generate_avoid_subtitle">اختياري - ما لا تريد رؤيته</string>
+    <string name="generate_avoid_placeholder">مثال: ضبابي، جودة منخفضة، تشريح سيء، وجه قبيح، أيادي مشوهة</string>
+    <string name="generate_common_negatives">سلبيات شائعة</string>
+    <string name="generate_image">إنشاء صورة</string>
+    
+    <!-- ExploreScreen -->
+    <string name="explore_title">اكتشف</string>
+    <string name="explore_subtitle">إبداعات المجتمع</string>
+    <string name="explore_popular">🔥 شائع</string>
+    <string name="explore_recent">⏰ حديث</string>
+    <string name="explore_trending">📈 رائج</string>
+    <string name="explore_mine">👤 الخاص بي</string>
+    <string name="explore_refresh">تحديث</string>
+    <string name="explore_no_posts">لا توجد مشاركات بعد</string>
+    <string name="explore_be_first">كن أول من يشارك!</string>
+    <string name="explore_error_oops">عذراً!</string>
+    <string name="explore_retry">إعادة المحاولة</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="error_prompt_empty">لا يمكن أن يكون النص فارغًا</string>
+    <string name="error_user_not_authenticated">المستخدم غير موثق. يرجى تسجيل الدخول أولاً.</string>
+    <string name="error_server_busy">الخادم مشغول. يرجى المحاولة مرة أخرى لاحقًا.</string>
+    <string name="error_process_timeout">استغرقت العملية وقتًا طويلاً. يرجى تجربة نص أبسط.</string>
+    <string name="error_connection_issue">مشكلة في الاتصال. يرجى التحقق من الإنترنت.</string>
+    <string name="error_processing_failed">فشل في معالجة الصورة. يرجى المحاولة مرة أخرى.</string>
+    <string name="error_title">خطأ</string>
+    <string name="error_generic_message">حدث خطأ أثناء معالجة الصورة. يرجى المحاولة مرة أخرى.</string>
+    <string name="error_retry">أعد المحاولة</string>
+    <string name="error_back">رجوع</string>
+    
+    <!-- ChatScreen -->
+    <string name="chat_title">دردشة الشخصيات</string>
+    <string name="chat_select_character">💬 اختر شخصيتك ▼</string>
+    <string name="chat_menu">القائمة</string>
+    <string name="chat_new_chat">دردشة جديدة</string>
+    <string name="chat_clear_history">مسح السجل</string>
+    <string name="chat_type_message">اكتب رسالة...</string>
+    <string name="chat_send">إرسال</string>
+    <string name="chat_close">إغلاق</string>
+    <string name="chat_start_conversation">ابدأ محادثة</string>
+    <string name="chat_ask_anything">اسألني أي شيء! أنا هنا للمساعدة.</string>
+    <string name="chat_try_asking">جرب أن تسأل:</string>
+    <string name="chat_suggestion_1">بماذا يمكنك مساعدتي؟</string>
+    <string name="chat_suggestion_2">أخبرني بحقيقة ممتعة</string>
+    <string name="chat_suggestion_3">كيف يعمل الذكاء الاصطناعي؟</string>
+    
+    <!-- CharacterListScreen -->
+    <string name="character_list_title">الرسائل</string>
+    <string name="character_list_search">بحث</string>
+    <string name="character_list_new_character">شخصية جديدة</string>
+    <string name="character_list_retry">إعادة الاتصال</string>
+    <string name="character_list_unknown_error">خطأ غير معروف</string>
+    <string name="character_list_delete_title">حذف الشخصية؟</string>
+    <string name="character_list_delete_message">هل أنت متأكد من رغبتك في حذف هذه الشخصية؟ إذا نعم، سيتم حذف الشخصية، لكن حد الشخصيات الخاص بك لن ينقص.</string>
+    <string name="character_list_delete">حذف</string>
+    <string name="character_list_cancel">إلغاء</string>
+    <string name="character_list_empty_title">لا توجد محادثات بعد</string>
+    <string name="character_list_empty_subtitle">ابدأ الدردشة مع شخصيات الذكاء الاصطناعي الخاصة بك!</string>
+    <string name="character_list_create_new">إنشاء شخصية جديدة</string>
+    
+    <!-- CharacterChatScreen -->
+    <string name="character_chat_go_back">رجوع</string>
+    <string name="character_chat_character_not_found">الشخصية غير موجودة</string>
+    <string name="character_chat_start_chatting">ابدأ الدردشة مع %1$s!</string>
+    <string name="character_chat_deadly_sins">لديهم %1$d خطايا مميتة</string>
+    <string name="character_chat_message_not_sent">لم يتم إرسال الرسالة</string>
+    <string name="character_chat_inappropriate">رسالتك تحتوي على لغة غير لائقة. يرجى احترام شخصيات الذكاء الاصطناعي.</string>
+    <string name="character_chat_ok">موافق</string>
+    <string name="character_chat_type_message_placeholder">اكتب رسالة...</string>
+    <string name="character_chat_connection_error">خطأ في الاتصال</string>
+    <string name="character_chat_sins">خطايا</string>
+    <string name="character_chat_back">رجوع</string>
+    <string name="character_chat_close">إغلاق</string>
+
+    <!-- Gallery Screen -->
+    <string name="gallery_title">المعرض</string>
+    <string name="gallery_subtitle_count">%1$d صورة</string>
+    <string name="gallery_filter_all">الكل</string>
+    <string name="gallery_filter_favorites">المفضلة</string>
+    <string name="gallery_empty_title">لا توجد صور بعد</string>
+    <string name="gallery_empty_subtitle">ابدأ في الإنشاء لترَ إبداعاتك هنا</string>
+    <string name="gallery_generate_now">أنشئ الآن</string>
+    <string name="gallery_msg_select_character">اختر صورة لإنشاء شخصيتك</string>
+    <string name="gallery_msg_limit_reached">تم الوصول إلى حد الشخصيات!</string>
+    <string name="gallery_content_desc_select_char">اختر شخصية</string>
+    <string name="gallery_content_desc_create_char">أنشئ شخصية</string>
+    <string name="gallery_report_title">الإبلاغ عن صورة</string>
+    <string name="gallery_report_desc">يرجى وصف سبب إبلاغك عن هذه الصورة:</string>
+    <string name="gallery_report_reason_label">سبب الإبلاغ</string>
+    <string name="gallery_report_reason_placeholder">صف المشكلة...</string>
+    <string name="gallery_report_button">إبلاغ</string>
+    <string name="gallery_cancel">إلغاء</string>
+    <string name="gallery_delete_title">حذف الصورة؟</string>
+    <string name="gallery_delete_message">لا يمكن التراجع عن هذا الإجراء. سيتم حذف الصورة نهائياً.</string>
+    <string name="gallery_delete_button">حذف</string>
+    <string name="gallery_share_premium_only">🔒 المشاركة مع المجتمع متاحة لمشتركي Basic و Pro</string>
+    <string name="gallery_share_duplicate">⚠️ هذه الصورة/النص قد تمت مشاركته مع المجتمع بالفعل.</string>
+    <string name="gallery_share_success">✅ تمت المشاركة مع المجتمع بنجاح!</string>
+    <string name="gallery_share_failed">فشل المشاركة: %1$s</string>
+    <string name="gallery_share_file_not_found">لم يتم العثور على ملف الصورة</string>
+    <string name="gallery_share_error">خطأ: %1$s</string>
+    <string name="gallery_create_char_title">إنشاء شخصية؟</string>
+    <string name="gallery_create_char_message">سيؤدي هذا إلى تحويل هذه الصورة إلى رفيق الذكاء الاصطناعي الفريد الخاص بك.</string>
+    <string name="gallery_create_char_warning">⚠️ يمكنك اختيار شخصية واحدة فقط. لا يمكن تغيير هذا لاحقاً.</string>
+    <string name="gallery_char_name_label">اسم الشخصية (اختياري)</string>
+    <string name="gallery_char_name_placeholder">اتركه فارغاً للحصول على اسم عشوائي</string>
+    <string name="gallery_select_language_title">اختر اللغة:</string>
+    <string name="gallery_select_gender_title">اختر الجنس:</string>
+    <string name="gallery_gender_male">ذكر ♂️</string>
+    <string name="gallery_gender_female">أنثى ♀️</string>
+    <string name="gallery_analyzing_personality">جارٍ تحليل الشخصية...</string>
+    <string name="gallery_summoning_soul">جارٍ استدعاء الروح...</string>
+    <string name="gallery_character_created">تم إنشاء الشخصية!</string>
+    <string name="gallery_create_and_chat">إنشاء ودردشة</string>
+    <string name="gallery_guidelines_title">إرشادات المجتمع</string>
+    <string name="gallery_guidelines_intro">قبل مشاركة الصور مع المجتمع، يرجى ملاحظة:</string>
+    <string name="gallery_guideline_nsfw">🚫 يمنع المحتوى غير اللائق/الإباحي</string>
+    <string name="gallery_guideline_violence">🚫 يمنع العنف أو المشاهد الدموية</string>
+    <string name="gallery_guideline_illegal">🚫 يمنع المحتوى غير القانوني</string>
+    <string name="gallery_guideline_hate">🚫 يمنع خطاب الكراهية أو التمييز</string>
+    <string name="gallery_guidelines_warning_title">⚠️ تحذير:</string>
+    <string name="gallery_guidelines_warning_text">ستؤدي الانتهاكات إلى حظر دائم للحساب وحذف جميع المحتويات دون إشعار مسبق!</string>
+    <string name="gallery_guidelines_agree">أفهم وأوافق</string>
+    <string name="gallery_share_already_shared">⚠️ تمت مشاركة هذا النص بالفعل!</string>
+    <string name="gallery_share_success_full">✅ تمت المشاركة مع المجتمع بنجاح!</string>
+    <string name="gallery_chat_button">💬 دردشة</string>
+    <string name="gallery_your_character_badge">🌟 شخصيتك</string>
+    
+    <!-- Tabs -->
+    <string name="character_chat_tab_relationship">العلاقة</string>
+    <string name="character_chat_tab_status">الحالة</string>
+    <string name="character_chat_tab_profile">الملف الشخصي</string>
+    <string name="character_chat_tab_stats">الإحصائيات</string>
+    
+    <!-- Relationship Tab -->
+    <string name="character_chat_affection_points">نقاط المودة</string>
+    <string name="character_chat_max">أقصى حد ❤️</string>
+    <string name="character_chat_ap_to">%1$d نقطة مودة لـ %2$s</string>
+    <string name="character_chat_soulmate_forever">تؤام الروح للأبد 💍</string>
+    <string name="character_chat_confess_feelings">💌 اعترف بمشاعرك</string>
+    <string name="character_chat_propose_marriage">💍 طلب الزواج</string>
+    
+    <!-- Status Tab -->
+    <string name="character_chat_current_mood">المزاج الحالي</string>
+    <string name="character_chat_energy_level">مستوى الطاقة</string>
+    <string name="character_chat_energy_high">عالٍ</string>
+    <string name="character_chat_energy_normal">طبيعي</string>
+    <string name="character_chat_energy_tired">متعب</string>
+    
+    <!-- Profile Tab -->
+    <string name="character_chat_archetype">النمط الأصلي</string>
+    <string name="character_chat_traits">السمات</string>
+    <string name="character_chat_interests">الاهتمامات</string>
+    <string name="character_chat_deadly_sins_title">الخطايا السبع المميتة</string>
+    <string name="character_chat_sins_hidden">%1$d خطايا (مخفية)</string>
+    
+    <!-- Stats Tab -->
+    <string name="character_chat_interaction_stats">إحصائيات التفاعل</string>
+    <string name="character_chat_total_messages">إجمالي الرسائل</string>
+    <string name="character_chat_last_chat">آخر محادثة</string>
+    <string name="character_chat_chat_frequency">تكرار الدردشة</string>
+    <string name="character_chat_ghosting_record">سجل التجاهل</string>
+    <string name="character_chat_ghosted_times">لقد تجاهلت هذه الشخصية %1$d مرة.</string>
+    
+    <!-- Favorites Screen -->
+    <string name="favorites_title">المفضلة</string>
+    <string name="favorites_saved_count">%1$d محفوظ</string>
+    <string name="favorites_empty_title">لا توجد مفضلة بعد</string>
+    <string name="favorites_empty_message">حدد التصاميم كمفضلة لتراها هنا</string>
+    <string name="favorites_remove_content_desc">إزالة من المفضلة</string>
+    <string name="favorites_pro_badge">⭐ PRO</string>
+
+    <!-- Leaderboard Screen -->
+    <string name="leaderboard_title">لوحة الصدارة</string>
+    <string name="leaderboard_tab_architect">مهندس</string>
+    <string name="leaderboard_tab_romancer">رومانسي</string>
+    <string name="leaderboard_tab_mvp">أفضل لاعب</string>
+    <string name="leaderboard_tab_fame">قاعة المشاهير</string>
+    <string name="leaderboard_tab_rising">صاعد</string>
+    <string name="leaderboard_filter_all_time">كل الوقت</string>
+    <string name="leaderboard_filter_weekly">أسبوعي</string>
+    <string name="leaderboard_filter_monthly">شهري</string>
+    <string name="leaderboard_architect_title">كبير المهندسين</string>
+    <string name="leaderboard_architect_desc">المبدعون الذين يولدون أكبر عدد من التحف الفنية.</string>
+    <string name="leaderboard_metric_generations">توليد</string>
+    <string name="leaderboard_romancer_title">كبار الرومانسيين</string>
+    <string name="leaderboard_romancer_desc">المستخدمون ذوو الروابط الأعمق. نقاط المودة المكتسبة من خلال التفاعلات القلبية.</string>
+    <string name="leaderboard_metric_affection">نقاط المودة</string>
+    <string name="leaderboard_mvp_title">أفضل لاعبي المجتمع</string>
+    <string name="leaderboard_mvp_desc">أعمدة مجتمعنا الذين يشاركون أكبر عدد من النصوص/الإبداعات.</string>
+    <string name="leaderboard_metric_shares">مشاركات</string>
+    <string name="leaderboard_fame_title">قاعة المشاهير</string>
+    <string name="leaderboard_fame_desc">أعمال فنية أسطورية مصنفة حسب الفئة.</string>
+    <string name="leaderboard_filter_most_liked">الأكثر إعجاباً</string>
+    <string name="leaderboard_filter_most_downloaded">الأكثر تحميلاً</string>
+    <string name="leaderboard_metric_likes">إعجابات</string>
+    <string name="leaderboard_metric_downloads">تنزيلات</string>
+    <string name="leaderboard_rising_title">نجوم صاعدون</string>
+    <string name="leaderboard_rising_desc">مبدعون صاعدون يكتسبون زخماً مؤخراً.</string>
+    <string name="leaderboard_metric_recent_likes">إعجابات حديثة</string>
+    <string name="leaderboard_no_rankings">لا يوجد تصنيفات بعد</string>
+    <string name="leaderboard_error_prefix">خطأ: %1$s</string>
+
+    <!-- News Screen (Events & Updates) -->
+    <string name="news_title">الأحداث والتحديثات</string>
+    <string name="news_badge_event">حدث</string>
+    <string name="news_badge_update">تحديث</string>
+    <string name="news_action_view_details">عرض التفاصيل</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_subtitle">خصص تجربتك</string>
+
+    <!-- Preferences Section -->
+    <string name="settings_section_preferences">التفضيلات</string>
+    <string name="settings_dark_mode">الوضع الداكن</string>
+    <string name="settings_dark_mode_desc">التبديل إلى السمة الداكنة</string>
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="settings_notifications_desc">تلقي إشعار عند اكتمال التوليد</string>
+    <string name="settings_auto_save">حفظ تلقائي</string>
+    <string name="settings_auto_save_desc">حفظ تلقائي في المعرض أو إظهار مربع حوار الحفظ</string>
+    <string name="settings_gallery_lock">قفل المعرض</string>
+    <string name="settings_gallery_lock_desc">حماية المعرض برمز PIN</string>
+    <string name="settings_restricted_content">محتوى مقيد</string>
+    <string name="settings_restricted_content_desc">تمكين محتوى للبالغين (يتطلب التحقق من العمر)</string>
+    <string name="settings_more">المزيد</string>
+    <string name="settings_more_desc">طلب الوصول إلى محتوى إضافي (المتطلبات: Basic/Pro + موافقة)</string>
+
+    <!-- Storage Section -->
+    <string name="settings_section_storage">التخزين</string>
+    <string name="settings_clear_cache">مسح ذاكرة التخزين المؤقت</string>
+    <string name="settings_clear_cache_desc">تحرير مساحة التخزين</string>
+    <string name="settings_cache_cleared">تم مسح ذاكرة التخزين المؤقت!</string>
+    <string name="settings_export_gallery">تصدير المعرض</string>
+    <string name="settings_export_gallery_locked">تصدير المعرض 🔒</string>
+    <string name="settings_export_gallery_desc">حفظ جميع صورك</string>
+    <string name="settings_export_gallery_premium">ميزة مميزة</string>
+    <string name="settings_upgrade_toast">يرجى الترقية إلى Premium من الملف الشخصي</string>
+
+    <!-- About & Legal Section -->
+    <string name="settings_section_about">حول وقانوني</string>
+    <string name="settings_privacy_policy">سياسة الخصوصية</string>
+    <string name="settings_privacy_policy_desc">عرض سياسة الخصوصية الخاصة بنا</string>
+    <string name="settings_terms_service">شروط الخدمة</string>
+    <string name="settings_terms_service_desc">اقرأ الشروط والأحكام الخاصة بنا</string>
+
+    <!-- Support Section -->
+    <string name="settings_section_support">الدعم</string>
+    <string name="settings_help_support">المساعدة والدعم</string>
+    <string name="settings_help_support_desc">اتصل بنا عبر البريد الإلكتروني</string>
+    <string name="settings_rate_app">قيم التطبيق</string>
+    <string name="settings_rate_app_desc">شارك ملاحظاتك على متجر Play</string>
+    <string name="settings_app_version">إصدار التطبيق</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="settings_clear_cache_title">مسح ذاكرة التخزين المؤقت؟</string>
+    <string name="settings_clear_cache_message">سيؤدي هذا إلى مسح جميع الصور المخزنة مؤقتاً والملفات المؤقتة. لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="settings_btn_clear">مسح</string>
+    <string name="settings_btn_cancel">إلغاء</string>
+
+    <string name="settings_export_dialog_title">تصدير الكل إلى المعرض</string>
+    <string name="settings_export_warning_1">⚠️ سيؤدي هذا إلى نقل جميع الصور المولدة إلى معرض الصور الرئيسي.</string>
+    <string name="settings_export_warning_2">• سيتم نقل جميع الصور في المجلد المولد</string>
+    <string name="settings_export_warning_3">• سيتم حذف الصور من موقعها الحالي</string>
+    <string name="settings_export_warning_4">• لا يمكن التراجع عن هذا الإجراء</string>
+    <string name="settings_export_confirm">متابعة التصدير؟</string>
+    <string name="settings_btn_export_all">تصدير الكل</string>
+
+    <string name="settings_upgrade_required_title">الترقية مطلوبة</string>
+    <string name="settings_upgrade_required_msg">يتطلب الوصول إلى محتوى "المزيد" اشتراك Basic أو Pro.</string>
+    <string name="settings_btn_ok">موافق</string>
+
+    <string name="settings_request_access_title">طلب الوصول</string>
+    <string name="settings_request_access_msg">يتطلب الوصول إلى محتوى "المزيد" موافقة المسؤول. هل تريد إرسال طلب؟</string>
+    <string name="settings_btn_send_request">إرسال طلب</string>
+    <string name="settings_request_sent">تم إرسال الطلب</string>
+    <string name="settings_request_pending">الطلب بانتظار موافقة المسؤول</string>
+    <string name="settings_cannot_disable">لا يمكن تعطيله. اتصل بالدعم للتغيير.</string>
+
+    <string name="settings_pin_setup_title">تعيين PIN للمعرض</string>
+    <string name="settings_pin_setup_msg">أنشئ رمز PIN من 4 أرقام لحماية معرض الصور الخاص بك</string>
+    <string name="settings_pin_enter">أدخل PIN</string>
+    <string name="settings_pin_confirm">تأكيد PIN</string>
+    <string name="settings_pin_error">رموز PIN غير متطابقة أو غير صالحة</string>
+    <string name="settings_btn_set_pin">تعيين PIN</string>
+
+    <string name="settings_export_empty">لا توجد صور للتصدير</string>
+    <string name="settings_export_success">تم تصدير %1$d صورة بنجاح إلى المعرض</string>
+    <string name="settings_export_partial">تم تصدير %1$d صورة إلى المعرض (فشل %2$d)</string>
+    <string name="settings_export_failed">فشل التصدير: %1$s</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">الملف الشخصي</string>
+    <string name="profile_guest">ضيف</string>
+    <string name="profile_guest_account">حساب ضيف</string>
+    <string name="profile_edit_name">تغيير الاسم</string>
+    <string name="profile_section_subscription">الاشتراك والاستخدام</string>
+    <string name="profile_daily_generations">التواليد اليومية</string>
+    <string name="profile_used_today">المستخدم اليوم: %1$d</string>
+    <string name="profile_generations">التواليد: </string>
+    <string name="profile_chat_limit">حد الدردشة: </string>
+    <string name="profile_expires">ينتهي في: %1$s</string>
+    <string name="profile_plan">خطة الاشتراك</string>
+    <string name="profile_plan_desc">إدارة اشتراكك</string>
+    <string name="profile_usage_stats">إحصائيات الاستخدام</string>
+    <string name="profile_usage_stats_desc">عرض سجل التوليد الخاص بك</string>
+    <string name="profile_section_account">إجراءات الحساب</string>
+    <string name="profile_link_account">ربط الحساب</string>
+    <string name="profile_link_account_desc">اربط مع Google لحفظ بياناتك</string>
+    <string name="profile_sign_out">تسجيل الخروج</string>
+    <string name="profile_sign_out_desc">سجل الخروج من حسابك</string>
+    <string name="profile_delete_account">حذف الحساب</string>
+    <string name="profile_delete_account_desc">حذف حسابك وبياناتك نهائياً</string>
+    <string name="profile_dialog_edit_name">تغيير اسم العرض</string>
+    <string name="profile_enter_name">أدخل اسمك الجديد:</string>
+    <string name="profile_btn_save">حفظ</string>
+    <string name="profile_dialog_delete_title">حذف الحساب؟</string>
+    <string name="profile_delete_warning_list">سيتم حذف ما يلي نهائياً:</string>
+    <string name="profile_delete_item_1">• حسابك وملفك الشخصي</string>
+    <string name="profile_delete_item_2">• جميع الصور المولدة</string>
+    <string name="profile_delete_item_3">• إحصائيات الاستخدام</string>
+    <string name="profile_delete_item_4">• المفضلة والمجموعات</string>
+    <string name="profile_delete_item_5">• بيانات الاشتراك</string>
+    <string name="profile_delete_warning_final">⚠️ لا يمكن التراجع عن هذا الإجراء!</string>
+    <string name="profile_delete_instruction">للمتابعة، يرجى إرسال طلب حذف:</string>
+    <string name="profile_btn_submit_request">إرسال طلب</string>
+
+    <!-- Subscription Screen -->
+    <string name="subscription_title">متجر الاشتراكات</string>
+    <string name="subscription_status_user">حالة المستخدم</string>
+    <string name="subscription_status_pro">احترافي</string>
+    <string name="subscription_status_basic">أساسي</string>
+    <string name="subscription_status_free">مجاني</string>
+    <string name="subscription_limit_format">الحد: %1$s/%2$s</string>
+    <string name="subscription_exp_format">ينتهي: %1$s</string>
+    <string name="subscription_chat_format">دردشة: %1$s</string>
+    <string name="subscription_loading_limits">جارٍ تحميل الحدود...</string>
+    <string name="subscription_choose_plan">اختر الخطة</string>
+    <string name="subscription_chat_addons">إضافات حد الدردشة</string>
+
+    <string name="subscription_gacha_title">🎲 الحظ</string>
+    <string name="subscription_gacha_desc">1-9 حد</string>
+    <string name="subscription_single_limit_title">💬 +1 حد</string>
+    <string name="subscription_single_limit_desc">فوري</string>
+    <string name="subscription_toast_added_chat">تمت إضافة +1 حد للدردشة!</string>
+
+    <string name="subscription_gacha_result_jackpot">🎉 الجائزة الكبرى! 🎉</string>
+    <string name="subscription_gacha_result_normal">نتيجة الحظ</string>
+    <string name="subscription_gacha_result_msg">تمت إضافة حد للدردشة!</string>
+    <string name="subscription_btn_awesome">رائع!</string>
+
+    <string name="subscription_upgrade_title">الترقية إلى %1$s؟</string>
+    <string name="subscription_price_format">السعر: %1$s</string>
+    <string name="subscription_feature_ad_free">• خالٍ من الإعلانات</string>
+    <string name="subscription_btn_confirm">تأكيد</string>
+    <string name="subscription_btn_buy">شراء</string>
+    <string name="subscription_current_plan">الحالي</string>
+
+
+    <!-- App Drawer -->
+    <string name="drawer_guest">ضيف</string>
+    <string name="drawer_login_to_chat">يرجى تسجيل الدخول للوصول إلى الدردشة</string>
+    <string name="drawer_current_language">اللغة</string>
+    <string name="drawer_promo_title">الفعاليات والمكافآت</string>
+    <string name="drawer_promo_desc">تحقق من الفعاليات الجارية والتحديثات واطلب مكافآتك!</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">مرحباً بعودتك</string>
+    <string name="login_subtitle">أنشئ فن أنيمي مذهلاً باستخدام الذكاء الاصطناعي</string>
+    <string name="login_email_label">البريد الإلكتروني أو اسم المستخدم</string>
+    <string name="login_email_placeholder">أدخل بريدك الإلكتروني</string>
+    <string name="login_password_label">كلمة المرور</string>
+    <string name="login_password_placeholder">أدخل كلمة المرور الخاصة بك</string>
+    <string name="login_btn_signin">تسجيل الدخول</string>
+    <string name="login_continue_google">تابع باستخدام Google</string>
+    <string name="login_continue_guest">تابع كضيف</string>
+    <string name="login_no_account">ليس لديك حساب؟ </string>
+    <string name="login_signup_link">اشتراك</string>
+    <string name="login_or">أو</string>
+    <string name="login_app_name">Draw AI</string>
+    <string name="login_logo_text">AI</string>
+
+    <!-- Sign Up Screen -->
+    <string name="signup_title">إنشاء حساب</string>
+    <string name="signup_subtitle">انضم إلينا لإنشاء فن أنيمي رائع</string>
+    <string name="signup_fullname_label">الاسم الكامل</string>
+    <string name="signup_fullname_placeholder">أدخل اسمك الكامل</string>
+    <string name="signup_email_label">البريد الإلكتروني</string>
+    <string name="signup_email_placeholder">أدخل بريدك الإلكتروني</string>
+    <string name="signup_password_label">كلمة المرور</string>
+    <string name="signup_password_placeholder">أنشئ كلمة مرور</string>
+    <string name="signup_confirm_password_label">تأكيد كلمة المرور</string>
+    <string name="signup_confirm_password_placeholder">أعد إدخال كلمة المرور</string>
+    <string name="signup_btn_create">إنشاء حساب</string>
+    <string name="signup_google">اشتراك باستخدام Google</string>
+    <string name="signup_have_account">لديك حساب بالفعل؟ </string>
+    <string name="signup_signin_link">تسجيل الدخول</string>
+    <string name="signup_terms">عن طريق الاشتراك، فإنك توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا</string>
+    <string name="signup_error_fullname">يرجى إدخال اسمك الكامل</string>
+    <string name="signup_error_email">يرجى إدخال بريدك الإلكتروني</string>
+    <string name="signup_error_email_invalid">يرجى إدخال بريد إلكتروني صالح</string>
+    <string name="signup_error_password">يرجى إدخال كلمة المرور</string>
+    <string name="signup_error_password_length">يجب أن تتكون كلمة المرور من 6 أحرف على الأقل</string>
+    <string name="signup_error_password_match">كلمات المرور غير متطابقة</string>
+
+    <!-- Onboarding Screen -->
+    <string name="onboarding_skip">تخطي</string>
+    <string name="onboarding_next">التالي</string>
+    <string name="onboarding_get_started">ابدأ</string>
+    <string name="onboarding_page1_title">مرحباً بك في AnimeDraw AI</string>
+    <string name="onboarding_page1_desc">أنشئ فن أنيمي مذهلاً بقوة الذكاء الاصطناعي. فقط صف ما تريد رؤيته!</string>
+    <string name="onboarding_page2_title">دردش مع شخصيات الذكاء الاصطناعي</string>
+    <string name="onboarding_page2_desc">تفاعل مع شخصيات فريدة تعمل بالذكاء الاصطناعي. يمكنهم مساعدتك في توليد الأفكار أو مجرد الدردشة الممتعة.</string>
+    <string name="onboarding_page3_title">انضم للمجتمع</string>
+    <string name="onboarding_page3_desc">شارك إبداعاتك، واستلهم من الآخرين، وتسلق قوائم الصدارة.</string>
+
+    <!-- Post Detail Screen -->
+    <string name="post_anonymous">مجهول</string>
+    <string name="post_downloaded_already">تم التنزيل بالفعل في هذه الجلسة</string>
+    <string name="post_sharing">جاري المشاركة...</string>
+    <string name="post_prompt">النص</string>
+    <string name="post_negative_prompt">النص السلبي</string>
+    <string name="post_workflow_model">سير العمل / النموذج</string>
+    <string name="post_unknown">غير معروف</string>
+    <string name="post_report_title">إبلاغ عن محتوى</string>
+    <string name="post_report_desc">لماذا تبلغ عن هذا المحتوى؟</string>
+    <string name="post_report_reason">السبب</string>
+    <string name="post_report_success">تم إرسال التقرير بنجاح</string>
+    <string name="post_report_failed">فشل إرسال التقرير</string>
+    <string name="post_report_provide_reason">يرجى تقديم سبب</string>
+    <string name="post_report_submit">إرسال تقرير</string>
+    <string name="post_report_cancel">إلغاء</string>
+    <string name="post_saved_gallery">تم حفظ الصورة في المعرض</string>
+    <string name="post_download_failed">فشل تنزيل الصورة</string>
+    <string name="post_share">مشاركة</string>
+    <string name="post_content_desc_back">رجوع</string>
+    <string name="post_content_desc_info">معلومات</string>
+    <string name="post_content_desc_like">أعجبني</string>
+    <string name="post_content_desc_download">تنزيل</string>
+
+    <!-- Gallery Pin Screen -->
+    <string name="pin_title">المعرض محمي</string>
+    <string name="pin_subtitle">أدخل رمز PIN المكون من 4 أرقام للوصول إلى المعرض</string>
+    <string name="pin_label">أدخل PIN</string>
+    <string name="pin_error_too_many">عدد كبير جداً من المحاولات الفاشلة. رمز PIN غير صحيح.</string>
+    <string name="pin_error_incorrect">رمز PIN غير صحيح. حاول مرة أخرى.</string>
+    <string name="pin_back">رجوع</string>
+    <string name="pin_forgot_hint">إذا نسيت رمز PIN، يمكنك تعطيل قفل المعرض في الإعدادات.</string>
+    <string name="pin_content_desc_lock">قفل المعرض</string>
+
+    <!-- Usage Statistics Screen -->
+    <string name="stats_title">إحصائيات الاستخدام</string>
+    <string name="stats_total_generations">إجمالي التواليد</string>
+    <string name="stats_last_generation">آخر: %1$s</string>
+    <string name="stats_no_generations">لا توجد تواليد بعد</string>
+    <string name="stats_total_saves">إجمالي المحفوظات</string>
+    <string name="stats_saves_desc">الصور المحفوظة في المعرض</string>
+    <string name="stats_total_favorites">إجمالي المفضلة</string>
+    <string name="stats_favorites_desc">التصاميم التي تم تحديدها كمفضلة</string>
+    <string name="stats_member_since">عضو منذ</string>
+    <string name="stats_member_desc">تاريخ التوليد الأول</string>
+    <string name="stats_about_title">ℹ️ حول الإحصائيات</string>
+    <string name="stats_about_desc">يتم تخزين إحصائيات الاستخدام الخاصة بك بشكل آمن في Firebase ومزامنتها عبر جميع أجهزتك. تساعدك هذه الإحصائيات على تتبع رحلتك الإبداعية مع Draw AI.</string>
+    <string name="stats_content_desc_back">رجوع</string>
+
+    <!-- Summoning Screen -->
+    <string name="summon_deadly_sins">الخطايا السبع المميتة</string>
+    <string name="summon_content_desc_character">شخصية</string>
+
+    <!-- Category Detail Extras -->
+    <string name="category_content_desc_back">رجوع</string>
+    <string name="category_content_desc_grid">تغيير الشبكة</string>
+    <string name="category_upgrade_title">الترقية إلى Premium</string>
+    <string name="category_upgrade_desc">فتح التصاميم والميزات المميزة</string>
+    <string name="category_upgrade_btn">الترقية الآن</string>
+    <string name="category_upgrade_cancel">إلغاء</string>
+
+    <!-- Gem Store & Daily Reward -->
+    <string name="gem_store_title">متجر الجواهر</string>
+    <string name="daily_reward_title">المكافأة اليومية</string>
+    <string name="daily_reward_description">احصل على مكافأتك اليومية!</string>
+    <string name="daily_reward_claim">احصل</string>
+    <string name="daily_reward_claimed">تم الحصول</string>
+    <string name="daily_reward_day">اليوم %1$d</string>
+    <string name="daily_reward_gems">%1$d جوهرة</string>
+    <string name="shop_item_candy">حلوى لذيذة</string>
+    <string name="shop_item_coffee">قهوة ساخنة</string>
+    <string name="shop_item_rose">وردة حمراء</string>
+    <string name="shop_buy_button">شراء</string>
+    <string name="shop_insufficient_gems">جواهر غير كافية</string>
+    <string name="shop_purchase_success">تم الشراء بنجاح!</string>
+</resources>
+

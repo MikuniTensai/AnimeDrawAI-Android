@@ -1,0 +1,55 @@
+KONSEP PENGEMBANGAN MENU EXPLORE (COMMUNITY)
+===========================================
+
+TUJUAN:
+Meningkatkan interaksi user di menu Explore tanpa membebani server/admin dengan moderasi konten teks yang berat, serta menjadikan Explore sebagai sumber inspirasi (Utility).
+
+1. ANALISIS FITUR CHAT (KOMENTAR) PADA GAMBAR
+---------------------------------------------
+Pertanyaan: "Perlukah fitur chat di setiap gambar?"
+Jawaban: TIDAK DISARANKAN untuk fase sekarang.
+
+Alasan:
+- Risiko Moderasi: Play Store sangat ketat soal User Generated Content. Jika ada user memaki/bully di komentar dan tidak dihapus, App bisa di-suspend.
+- Cost: Menyimpan teks komentar real-time memakan resource database.
+
+SOLUSI PENGGANTI: "REACTION STICKER"
+- User berinteraksi menggunakan Emoji/Stiker preset.
+- Opsi: 🔥 (Keren), ❤️ (Love), 😲 (Kaget/Detail), 🎓 (Inspiratif).
+- Aman, cepat, dan tetap seru.
+
+2. IDE FITUR BARU (KILLER FEATURES)
+-----------------------------------
+
+A. "REMIX" / "TRY THIS STYLE" BUTTON
+   Fitur paling berguna untuk aplikasi AI Gen.
+   - Mekanisme: Tombol "Use Prompt" di bawah gambar orang lain.
+   - Fungsi: Meng-copy Prompt, Negative Prompt, dan Model/Workflow ke menu Generate user.
+   - Efek: User pemula tidak bingung mau nulis apa. Mereka belajar dari "meniru" karya master di Explore.
+   *NOTE: User pengupload bisa set "Lock Prompt" jika tidak mau ditiru.*
+
+B. "PROMPT INSPECTOR" (Click to Reveal)
+   - Menampilkan detail teknis: Prompt, Seed, Sampler, CFG Scale.
+   - Berguna bagi user yang ingin belajar teknik prompting ("Study Mode").
+
+C. WEEKLY CHALLENGE TAB
+   - Tab khusus di Explore untuk event mingguan.
+   - Contoh: "Tema: Steampunk Indonesia".
+   - User submit karya ke tab ini.
+   - Pemenang (Like terbanyak) mendapatkan "1 Day Pass Reward".
+   - Tujuan: Menjaga user tetap aktif setiap minggu menunggu tema baru.
+
+D. ARTIST FOLLOW SYSTEM
+   - Tombol "Follow" di sebelah nama user.
+   - Tab "Following" di Explore: Hanya menampilkan karya dari user yang diikuti.
+   - Notifikasi: "MasterArt123 baru saja upload gambar baru".
+
+3. KESIMPULAN STRATEGI
+----------------------
+Transformasi Explore:
+Dari "Tempat Pamer Gambar" (Pasif) -> Menjadi "Komunitas Belajar & Remix" (Aktif).
+
+Prioritas Pengembangan:
+1. Remix Button (High Value)
+2. Reaction System (Safe Social)
+3. Challenge System (Retention)

@@ -1,0 +1,59 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // ===== COMMUNITY FEATURES =====
+    
+    // Community shared images - public read, owner write
+    match /community/{userId}/{imageId} {
+      allow read: if true; // Anyone can view community images
+      allow write: if request.auth != null 
+                   && request.auth.uid == userId
+                   && request.resource.size < 5 * 1024 * 1024; // Max 5MB
+      allow delete: if request.auth != null 
+                    && request.auth.uid == userId;
+    }
+    
+    // User profile avatars - public read, owner write
+    match /avatars/{userId} {
+      allow read: if true; // Public avatars
+      allow write: if request.auth != null 
+                   && request.auth.uid == userId
+                   && request.resource.size < 2 * 1024 * 1024; // Max 2MB
+      allow delete: if request.auth != null 
+                    && request.auth.uid == userId;
+    }
+    
+    // Character images - public read, owner write
+    match /characters/{imageId} {
+      allow read: if true;
+      allow write: if request.auth != null 
+                   && request.resource.size < 5 * 1024 * 1024; // Max 5MB
+      allow delete: if request.auth != null;
+    }
+    
+    // ===== LEGACY/PRIVATE STORAGE =====
+    
+    // Private generated images (local gallery only)
+    match /generated_images/{userId}/{imageName} {
+      allow read, write, delete: if request.auth != null 
+                                  && request.auth.uid == userId
+                                  && request.resource.size < 10 * 1024 * 1024;
+    }
+    
+    // Temporary uploads for image processing
+    match /temp/{userId}/{imageId} {
+      allow read, write, delete: if request.auth != null 
+                                  && request.auth.uid == userId
+                                  && request.resource.size < 10 * 1024 * 1024;
+    }
+    
+    // ===== MODERATION =====
+    
+    // Reported content - read access for moderation
+    match /reported/{imageId} {
+      allow read: if request.auth != null;
+      allow write: if false; // System/admin only via backend
+    }
+  }
+}

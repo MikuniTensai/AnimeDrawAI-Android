@@ -1,0 +1,104 @@
+
+# Konsep Fitur: AI Character Selfie (Permintaan Foto Saat Chat)
+
+Fitur ini memungkinkan pengguna untuk meminta foto "selfie" atau situasi tertentu dari karakter AI saat sedang chatting. Sistem akan secara cerdas menggabungkan konteks percakapan terakhir dengan deskripsi fisik asli karakter untuk menghasilkan gambar baru yang relevan namun tetap konsisten secara visual.
+
+## 1. Alur Pengguna (User Flow)
+
+1. **User berada di layar Chat (`CharacterChatScreen`)**.
+2. **User menekan tombol "Kamera/Minta Foto"** di sebelah kolom input pesan.
+3. Muncul dialog atau input kecil:
+   - **Opsi A (Otomatis/Context-Aware):** "Kirim foto sesuai chat terakhir".
+   - **Opsi B (Custom):** User mengetik spesifik apa yang ingin dilihat (contoh: "Coba pakai kimono"). (pertahankan vision dan avoid terakhir agar konsisten)
+4. **Sistem memproses permintaan:**
+   - Mengambil *Base Prompt* karakter (deskripsi fisik).
+   - Mengambil *Context* (chat terakhir atau input user).
+   - Menggabungkan keduanya menjadi *New Prompt*.
+5. **UI menampilkan indikator "Sedang mengirim foto..."** (mirip typing indicator tapi khusus).
+6. **Gambar muncul dalam bubble chat** sebagai pesan dari karakter.
+7. User bisa klik gambar untuk melihat full-screen atau menyimpannya ke Galeri.
+
+---
+
+## 2. Logika Teknis & Prompt Engineering
+
+Inti dari fitur ini adalah bagaimana kita memanipulasi prompt agar karakter tetap mirip tapi melakukan hal yang berbeda.
+
+### A. Struktur Prompt Dinamis
+Formula yang akan digunakan di backend/frontend untuk generate gambar baru:
+
+```
+[CONTEXT_ACTION_SCENE] + [CHARACTER_BASE_APPEARANCE] + [STYLE_MODIFIERS]
+```
+
+*   **CONTEXT_ACTION_SCENE:** Diambil dari chat terakhir atau request user.
+    *   *Contoh:* "cooking in the kitchen, apron", "wearing a summer dress at the beach", "study hard in library".
+*   **CHARACTER_BASE_APPEARANCE:** Diambil dari field `character.prompt` yang tersimpan di database. Kita perlu mengambil bagian deskripsi fisiknya saja.
+    *   *Contoh:* "1girl, silver hair, long hair, blue eyes, anime style".
+*   **STYLE_MODIFIERS:** "selfie angle, looking at viewer, masterpiece, high quality".
+
+### B. Skenario Penggunaan
+
+**Skenario 1: Konteks Otomatis (Smart Context)**
+*   **User:** "Kamu lagi apa sekarang?"
+*   **AI:** "Aku sedang belajar masak nasi goreng nih."
+*   **User:** [Klik Tombol Minta Foto] -> "Kirim pap dong"
+*   **Sistem:**
+    1.  Mendeteksi keyword aktivitas dari pesan terakhir AI: "masak" / "cooking".
+    2.  Prompt Baru: `(cooking in kitchen, holding spatula:1.2), [CHARACTER_APPEARANCE], selfie shot`
+    3.  Hasil: Foto karakter sedang masak.
+
+**Skenario 2: Permintaan Spesifik (Custom Request)**
+*   **User:** "Kamu pasti cantik kalau pakai baju pesta."
+*   **User:** [Input Custom] "Pakai baju pesta malam"
+*   **Sistem:**
+    1.  Input User: "wearing elegant night party dress".
+    2.  Prompt Baru: `(wearing elegant night party dress:1.3), [CHARACTER_APPEARANCE]`
+    3.  Hasil: Karakter dengan baju pesta.
+
+---
+
+## 3. Implementasi di Android
+
+### A. Perubahan UI (`CharacterChatScreen.kt`)
+1.  **Icon Kamera:** Tambahkan `IconButton` (ikon kamera) di dalam `Row` input pesan (sebelah kiri text field atau tombol kirim).
+2.  **Bubble Chat Gambar:** Buat tipe `Message` baru atau properti `imageUrl` di `CharacterMessage` agar `LazyColumn` bisa merender gambar, bukan cuma teks.
+    *   Jika `imageUrl` tidak null, tampilkan `AsyncImage` dengan corner radius.
+
+### B. Perubahan Data Model (`Character.kt`)
+Perlu update `CharacterMessage` untuk mendukung lampiran gambar:
+
+```kotlin
+data class CharacterMessage(
+    // ... properti lama ...
+    val attachmentUrl: String? = null, // URL gambar hasil generate
+    val attachmentType: String? = null // "image", "audio", dll
+)
+```
+
+### C. Backend/API Requirement
+Kita memerlukan endpoint baru atau modifikasi endpoint chat yang ada.
+
+*   **Endpoint:** `POST /api/chat/request-photo`
+*   **Body:**
+    ```json
+    {
+      "characterId": "xyz123",
+      "context": "cooking in kitchen", // Opsional, jika kosong ambil dari last message
+      "prompt_override": "wearing kimono" // Opsional, validasi konten tetap jalan
+    }
+    ```
+
+---
+
+## 4. Limitasi & Catatan Penting (Disadarkan ke User)
+
+1.  **Konsistensi Wajah:** Tanpa teknologi *LoRA* atau *Face Training* khusus per user, wajah karakter mungkin akan sedikit berbeda (sekitar 80-90% mirip) karena seed random, tetapi gaya rambut dan warna mata akan tetap sama karena kita menggunakan prompt asli.
+2.  **Biaya Server:** Generasi gambar memakan biaya GPU lebih mahal daripada teks chat.
+    *   *Saran:* Batasi fitur ini. Misalnya, **hanya untuk user PRO** atau menggunakan **sistem Tiket/Energy** (misal: 1 Foto = 5 Energi).
+
+## 5. Rencana Eksekusi Bertahap
+
+1.  **Fase 1 (MVP):** Tombol Request Foto dengan input manual ("Mau liat kamu ngapain?"). Generate menggunakan workflow `txt2img` standar.
+2.  **Fase 2 (Smart):** Analisis chat terakhir menggunakan LLM ringan untuk auto-extract prompt ("Oh, dia lagi masak, buat prompt masak").
+3.  **Fase 3 (Gallery):** Foto yang dikirim di chat otomatis tersimpan di "Galeri Kenangan" profile karakter tersebut.
